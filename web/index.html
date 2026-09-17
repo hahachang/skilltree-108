@@ -184,6 +184,15 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
 .tip .pre b{font-family:var(--mono);color:var(--muted);font-weight:500}
 /* 泡泡總覽：不畫連線也不放技能名稱，779 個標籤只會糊成一片 */
 .bubble{stroke-width:1.6;cursor:pointer;vector-effect:non-scaling-stroke}
+.bubble.faded{opacity:.12}
+.bubble.sel{stroke-width:3.2}
+.gradebar{display:flex;gap:5px;flex-wrap:wrap;align-items:center;margin:-2px 0 12px}
+.gradebar .lab{font-size:11.5px;color:var(--faint);margin-right:2px}
+.gr{padding:5px 11px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface);font-size:12px;color:var(--muted);
+  font-variant-numeric:tabular-nums}
+.gr[aria-pressed="true"]{background:var(--accent-soft);border-color:transparent;
+  color:var(--accent);font-weight:600}
 .bubble[data-state="locked"]{stroke-opacity:.45}
 .bubble[data-state="open"]{stroke-width:2.6}
 .bublabel{font-family:var(--sans);font-size:11px;font-weight:600;fill:var(--muted);
@@ -349,7 +358,7 @@ ul.about b{color:var(--ink);font-weight:600}
   var IX = {};       // 領域 -> 索引（節點表、前置、後續、關聯、版面）
   var state = { domain: "math", q: "", panel: null, learned: new Set(),
                 hidden: {}, zoom: 1, focus: null, baseGrade: 4, colorBy: "subject",
-                chainOnly: true };
+                chainOnly: true, gradeSel: null };
   // 泡泡總覽在小螢幕是更好的起點：一眼看完全貌，再點進去看路徑。
   // 大螢幕直接顯示技能樹，因為橫向空間夠。
   state.view = NARROW ? "bubble" : "graph";
@@ -472,6 +481,28 @@ ul.about b{color:var(--ink);font-weight:600}
     return crossBlocked(n).length ? "locked" : "open";
   }
   var NAT_BADGE = { "Ⅱ": "Ⅱ", "Ⅲ": "Ⅲ", "Ⅳ": "Ⅳ", "Ⅴc": "必", "Ⅴa": "選" };
+  // 自然科綁學習階段（每階涵蓋 2–3 個年級，課綱刻意不綁單一年級），
+  // 數學綁年級。兩者不能共用同一組按鈕。
+  var NAT_STAGES = [
+    ["Ⅱ", "中年級", "國小 3–4 年級"], ["Ⅲ", "高年級", "國小 5–6 年級"],
+    ["Ⅳ", "國中", "7–9 年級"], ["Ⅴc", "高中必修", "10–12 年級必修"],
+    ["Ⅴa", "高中選修", "加深加廣選修"]
+  ];
+  function gradeOptions(dom) {
+    if (dom === "natural") {
+      return NAT_STAGES.map(function (r) {
+        return { val: r[0], label: r[1], title: r[2] };
+      });
+    }
+    var seen = {};
+    G[dom].nodes.forEach(function (n) { seen[n.grade] = true; });
+    return Object.keys(seen).map(Number).sort(function (a, b) { return a - b; })
+      .map(function (g) { return { val: g, label: g + "年級", title: g + " 年級" }; });
+  }
+  function matchesGrade(n) {
+    if (state.gradeSel === null) return true;
+    return n.domain === "natural" ? n.stage === state.gradeSel : n.grade === state.gradeSel;
+  }
   function badgeOf(n) {
     return n.domain === "math" ? String(n.grade) : (NAT_BADGE[n.stage] || "");
   }
@@ -698,7 +729,9 @@ ul.about b{color:var(--ink);font-weight:600}
       var fill = kind === "manual" ? "var(--lit-ring)"
         : kind === "base" ? "var(--t-" + groupKey(n) + ")"
         : "none";
-      svg += '<circle class="bubble" data-mid="' + esc(n.id) + '" data-state="' + st +
+      var gsel = state.gradeSel !== null;
+      var cls = "bubble" + (gsel ? (matchesGrade(n) ? " sel" : " faded") : "");
+      svg += '<circle class="' + cls + '" data-mid="' + esc(n.id) + '" data-state="' + st +
         '" data-done="' + (kind || "") + '" cx="' + p.x.toFixed(1) + '" cy="' +
         p.y.toFixed(1) + '" r="' + p.r.toFixed(1) + '" fill="' + fill +
         '" stroke="var(--t-' + groupKey(n) + ')"></circle>';
@@ -846,6 +879,18 @@ ul.about b{color:var(--ink);font-weight:600}
           '<b>點任一顆泡泡就以它為中心展開技能樹</b>。長按（或滑鼠停留）可先看它是什麼。</p>'
         : '點任一個節點會把它的整條前置鏈與後續鏈連同線條一起打亮，其餘淡出。</p>') +
       '<div class="hints">' + hints + codeHelp + "</div></details>" +
+      (bubbleView
+        ? '<div class="gradebar"><span class="lab">' +
+          (dom === "natural" ? "學習階段" : "年級") + "</span>" +
+          gradeOptions(dom).map(function (o) {
+            return '<button class="gr" data-grade="' + esc(String(o.val)) +
+              '" aria-pressed="' + (state.gradeSel === o.val) + '" title="' +
+              esc(o.title) + '">' + esc(o.label) + "</button>";
+          }).join("") +
+          (state.gradeSel !== null
+            ? '<button class="gr" data-grade="" aria-pressed="false">清除</button>' : "") +
+          "</div>"
+        : "") +
       '<div class="map-bar"><div class="legend">' + legend + "</div>" + viewSwitch +
       (bubbleView ? "" : modeSwitch) + colorSwitch +
       '<div class="zoom"><button id="zo" aria-label="縮小">−</button>' +
@@ -1338,6 +1383,7 @@ ul.about b{color:var(--ink);font-weight:600}
     if (t.id === "tab-math" || t.id === "tab-natural") {
       state.domain = t.id === "tab-math" ? "math" : "natural";
       state.panel = null; state.focus = null; state.q = "";
+      state.gradeSel = null;      // 兩個領域的年級值域不同，不能沿用
       document.getElementById("q").value = ""; return render();
     }
     if (t.id === "btn-about") {
@@ -1369,6 +1415,13 @@ ul.about b{color:var(--ink);font-weight:600}
         centerOn(list.reduce(function (a, b) { return a.d <= b.d ? a : b; }).id);
       }
       return;
+    }
+    if (t.dataset.grade !== undefined) {
+      var gv = t.dataset.grade;
+      var next = gv === "" ? null
+        : (state.domain === "natural" ? gv : parseInt(gv, 10));
+      state.gradeSel = (state.gradeSel === next) ? null : next;   // 再點一次取消
+      return render();
     }
     if (t.id === "vw-bubble" || t.id === "vw-graph") {
       state.view = t.id === "vw-bubble" ? "bubble" : "graph";
