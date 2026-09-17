@@ -125,6 +125,7 @@ details.guide[open] summary{margin-bottom:8px}
 
 /* ---------- 技能地圖（數學：依賴圖分層） ---------- */
 .map-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.map-bar .seg button{padding:7px 12px;font-size:13px}
 .legend{display:flex;gap:4px;flex-wrap:wrap;margin-right:auto}
 .lg{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;
   border:1px solid var(--line);background:var(--surface);font-size:12px;color:var(--muted)}
@@ -358,6 +359,10 @@ ul.about b{color:var(--ink);font-weight:600}
   var state = { domain: "math", q: "", panel: null, learned: new Set(),
                 hidden: {}, zoom: 1, focus: null, baseGrade: 4, colorBy: "subject",
                 chainOnly: true };
+  try {
+    var mk = localStorage.getItem(MODE_KEY);
+    if (mk !== null) state.chainOnly = mk === "1";
+  } catch (e) { /* 無痕視窗：用預設值 */ }
 
   // 節點依「科目」或「跨科概念」分色。數學沒有科別，一律用主題。
   function groupsOf(dom) {
@@ -570,6 +575,7 @@ ul.about b{color:var(--ink);font-weight:600}
   }
 
   /* ---------- 地圖 ---------- */
+  var MODE_KEY = "skilltree.chainonly";
   var GUIDE_KEY = "skilltree.guide.open";
   function guideOpen() {
     try { return localStorage.getItem(GUIDE_KEY) === "1"; } catch (e) { return false; }
@@ -646,6 +652,13 @@ ul.about b{color:var(--ink);font-weight:600}
         '">科目</button><button id="cb-topic" aria-pressed="' +
         (state.colorBy !== "subject") + '">跨科概念</button></div>'
       : "";
+    // 點節點時的兩種檢視。原本藏在地圖下方的說明列裡，地圖佔滿螢幕後
+    // 那行幾乎看不到，提升成工具列上的正式控制項並記住選擇。
+    var modeSwitch = '<div class="seg" role="group" aria-label="點選節點時的檢視方式">' +
+      '<button id="md-chain" aria-pressed="' + state.chainOnly +
+      '" title="只畫出這個節點的前置鏈與後續鏈，其餘移除">只看這條鏈</button>' +
+      '<button id="md-map" aria-pressed="' + !state.chainOnly +
+      '" title="保留整張圖，把這條鏈打亮、其餘淡出">整張圖高亮</button></div>';
 
     // 視覺編碼的說明用小圖比文字省版面：四種通道講成文字會佔掉整個開場。
     var ring = 'fill="none" stroke="var(--faint)" stroke-width="1.6"';
@@ -690,7 +703,7 @@ ul.about b{color:var(--ink);font-weight:600}
       (state.baseGrade > 0 ? '（含 1–' + state.baseGrade + ' 年級基準）' : "") + "。" +
       '點任一個節點會把它的整條前置鏈與後續鏈連同線條一起打亮，其餘淡出。</p>' +
       '<div class="hints">' + hints + codeHelp + "</div></details>" +
-      '<div class="map-bar"><div class="legend">' + legend + "</div>" + colorSwitch +
+      '<div class="map-bar"><div class="legend">' + legend + "</div>" + modeSwitch + colorSwitch +
       '<div class="zoom"><button id="zo" aria-label="縮小">−</button>' +
       '<button id="zf" aria-label="還原" style="width:auto;padding:0 12px;font-size:13px">適中</button>' +
       '<button id="zi" aria-label="放大">＋</button></div></div>' +
@@ -700,8 +713,6 @@ ul.about b{color:var(--ink);font-weight:600}
       (state.focus
         ? '<p class="note">正在看 <b>' + esc(ix.nodes[state.focus].name) + '</b> 的依賴鏈，' +
           '共 <b>' + Object.keys(keep).length + '</b> 個技能。' +
-          '<button class="back" id="chaintoggle">' +
-          (state.chainOnly ? "在整張圖上看" : "只看這條鏈") + "</button>　" +
           '<button class="back" id="clearfocus">清除聚焦</button></p>'
         : "");
     applyZoom();
@@ -1134,11 +1145,13 @@ ul.about b{color:var(--ink);font-weight:600}
       }
       return;
     }
-    if (t.id === "chaintoggle") {
-      state.chainOnly = !state.chainOnly;
+    if (t.id === "md-chain" || t.id === "md-map") {
+      state.chainOnly = t.id === "md-chain";
+      try { localStorage.setItem(MODE_KEY, state.chainOnly ? "1" : "0"); }
+      catch (e) { /* 略過 */ }
       var cur = state.focus;
       render();
-      return openNode(cur);
+      return cur ? openNode(cur) : undefined;
     }
     if (t.id === "clearfocus") { state.focus = null; return render(); }
     if (t.dataset.xgoto) {
