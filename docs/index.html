@@ -342,9 +342,18 @@ ul.about b{color:var(--ink);font-weight:600}
   var KEY = "skilltree.progress.v1";
   var BASE_KEY = "skilltree.basegrade.v1";
   var DOMAINS = { math: "數學", natural: "自然科學" };
-  var NARROW = window.matchMedia("(max-width:560px)").matches;
+  // 不偵測「是什麼裝置」，而是偵測真正影響操作的兩件事：有多少橫向空間、
+  // 以及能不能懸停。UA 判型號太脆弱（iPad 會謊報成 Mac），也問錯了問題。
+  function isNarrow() { return window.matchMedia("(max-width:560px)").matches; }
+  var NARROW = isNarrow();
   // 手機螢幕塞不下 78px 的欄寬，縮到 62px 一個畫面能多看兩欄
-  var SP = NARROW ? 62 : 78, LH = NARROW ? 84 : 96, RAD = 15;
+  var SP, LH, PER_LINE, RAD = 15;
+  function applyMetrics() {
+    SP = NARROW ? 62 : 78;
+    LH = NARROW ? 84 : 96;
+    PER_LINE = NARROW ? 6 : 7;   // 每行字數要配合欄寬，否則標籤會撞到鄰居
+  }
+  applyMetrics();
 
   var main = document.getElementById("main");
   var topEl = document.getElementById("top");
@@ -481,7 +490,6 @@ ul.about b{color:var(--ink);font-weight:600}
   }
   // 技能名稱折成兩行。自然科名稱中位數 11 字，只給一行會截掉 78%。
   // 每行字數要配合欄寬，否則會橫向撞到鄰居的名稱。
-  var PER_LINE = NARROW ? 6 : 7;
   function nameLines(name) {
     var k = PER_LINE;
     if (name.length <= k) return [name];
@@ -1208,6 +1216,21 @@ ul.about b{color:var(--ink);font-weight:600}
     }
   });
   window.addEventListener("resize", function () {
+    // 轉螢幕或縮視窗時，欄寬／層高／每行字數都要跟著重算——
+    // 這些值原本只在載入時算一次，直放載入後轉橫放會停在直放的版面。
+    var n = isNarrow();
+    if (n !== NARROW) {
+      NARROW = n;
+      applyMetrics();
+      Object.keys(IX).forEach(function (d) {
+        IX[d].chain = null;
+        IX[d].layout = layout(d);
+      });
+      var cur = state.focus;
+      render();
+      if (cur) openNode(cur);
+      return;
+    }
     fitMapHeight();
     updateEdgeMarks();
   });
