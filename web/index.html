@@ -1045,20 +1045,24 @@ ul.about b{color:var(--ink);font-weight:600}
       (pre.length ? '<div class="pre">前置：<b>' + esc(pre.join("、")) + "</b></div>"
         : '<div class="pre">起點技能，不需要任何前置</div>');
   }
-  function showTip(node, ev) {
+  function showTip(node, ev, above) {
     var n = IX[state.domain].nodes[node.dataset.mid];
     if (!n) return;
+    var cx = ev.clientX, cy = ev.clientY;
+    if (typeof cx !== "number" || typeof cy !== "number") return;   // 沒有有效座標就不顯示
     if (tip.dataset.for !== n.uid) {
       tip.innerHTML = tipFor(n);
       tip.dataset.for = n.uid;
     }
     tip.hidden = false;
     var pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
-    var x = ev.clientX + pad, y = ev.clientY + pad;
-    if (x + w > window.innerWidth - 8) x = ev.clientX - w - pad;
-    if (y + h > window.innerHeight - 8) y = Math.max(8, ev.clientY - h - pad);
-    tip.style.left = Math.max(8, x) + "px";
-    tip.style.top = y + "px";
+    // 長按時手指壓在節點上，卡片要放在手指上方，否則會被自己的手遮住
+    var x = cx + pad, y = above ? cy - h - 24 : cy + pad;
+    if (x + w > window.innerWidth - 8) x = cx - w - pad;
+    if (above && y < 8) y = cy + 28;                                 // 上方放不下就改放下方
+    if (!above && y + h > window.innerHeight - 8) y = Math.max(8, cy - h - pad);
+    tip.style.left = Math.max(8, Math.min(x, window.innerWidth - w - 8)) + "px";
+    tip.style.top = Math.max(8, Math.min(y, window.innerHeight - h - 8)) + "px";
   }
   function hideTip() { tip.hidden = true; tip.dataset.for = ""; }
 
@@ -1082,12 +1086,13 @@ ul.about b{color:var(--ink);font-weight:600}
     if (ev.pointerType === "mouse") return;
     var node = ev.target.closest ? ev.target.closest("g.node") : null;
     if (!node) return;
-    lpStart = { x: ev.clientX, y: ev.clientY };
+    // 鍵名必須跟 showTip 讀的一致（clientX/clientY），用 x/y 會算出 NaN
+    lpStart = { clientX: ev.clientX, clientY: ev.clientY };
     lpFired = false;
     clearTimeout(lpTimer);
     lpTimer = setTimeout(function () {
       lpFired = true;
-      showTip(node, lpStart);
+      showTip(node, lpStart, true);
       // 觸覺回饋讓人知道長按已生效，否則不確定要按多久
       if (navigator.vibrate) { try { navigator.vibrate(12); } catch (e) { /* 略過 */ } }
     }, 450);
@@ -1096,7 +1101,8 @@ ul.about b{color:var(--ink);font-weight:600}
   document.addEventListener("pointermove", function (ev) {
     // 手指移動超過門檻就視為捲動，不是長按
     if (!lpStart) return;
-    if (Math.abs(ev.clientX - lpStart.x) > 10 || Math.abs(ev.clientY - lpStart.y) > 10) {
+    if (Math.abs(ev.clientX - lpStart.clientX) > 10 ||
+        Math.abs(ev.clientY - lpStart.clientY) > 10) {
       cancelLongPress();
     }
   }, true);
