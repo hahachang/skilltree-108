@@ -12,6 +12,7 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 
 import pdfplumber
 
@@ -164,8 +165,17 @@ def header_stage(text: str) -> str | None:
 
 
 def clean(desc: str) -> str:
-    """清掉換行、跨行斷字造成的空白與頁碼殘跡。"""
-    s = re.sub(r"\s+", "", desc)
+    """清掉換行、跨行斷字造成的空白與頁碼殘跡，並正規化相容字。
+
+    課綱 PDF 的字型會把部分常用字輸出成 CJK 相容字（度 U+FA01、力 U+F98A、
+    量 U+F97E…），外觀一樣但碼位不同，導致搜尋與跨文件比對整個失效——
+    實測搜尋「量」在數學領域是 0 筆，正規化後才是正確的 32 筆。
+
+    這裡用 NFC 而不是 NFKC：NFC 只還原相容字，全形標點（，：（）是中文
+    正確的寫法）保持不變；NFKC 會把它們變成半形，反而破壞原文。
+    """
+    s = unicodedata.normalize("NFC", desc)
+    s = re.sub(r"\s+", "", s)
     s = re.sub(r"^\d{1,3}(?=[^\d])", "", s)  # 頁首頁碼
     s = re.sub(r"\d{1,3}$", "", s)           # 頁尾頁碼
     return s.strip()

@@ -296,6 +296,13 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
 .rel .t{font-family:var(--sans);color:var(--ink);margin-left:6px}
 .xlink{margin-bottom:9px}
 .xlink p{margin:5px 0 0 2px;font-size:11.5px;line-height:1.6;color:var(--muted)}
+.hbrel{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:7px}
+.hbrel > span:first-child{font-size:11.5px;color:var(--faint);min-width:28px}
+details.hb{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
+details.hb summary{cursor:pointer;color:var(--accent);font-size:12.5px;font-weight:600}
+details.hb pre{margin:9px 0 0;white-space:pre-wrap;word-break:break-word;
+  font-family:var(--sans);font-size:12.5px;line-height:1.85;color:var(--muted);
+  max-height:420px;overflow-y:auto}
 .d-act{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
 .btn{flex:1 1 160px;padding:13px 16px;border-radius:11px;font-size:15px;font-weight:600;
   border:1px solid var(--line);background:var(--surface-2);text-align:center}
@@ -380,6 +387,7 @@ ul.about b{color:var(--ink);font-weight:600}
   var canHover = window.matchMedia("(hover:hover) and (pointer:fine)").matches;
 
   var CROSS = { pre: {}, use: {} };   // 自然←數學 的跨領域前置（正向／反向索引）
+  var HB = null, hbLoading = false;   // 數學課程手冊（391KB，延後載入）
   var G = {};        // 領域 -> 圖資料
   var IX = {};       // 領域 -> 索引（節點表、前置、後續、關聯、版面）
   var state = { domain: "math", q: "", panel: null, learned: new Set(),
@@ -1074,6 +1082,47 @@ ul.about b{color:var(--ink);font-weight:600}
       }).join("") + "</div>";
   }
 
+  // 課程手冊只有數學有，而且檔案不小，等到真的要看才抓。
+  function loadHandbook(after) {
+    if (HB || hbLoading) return after && HB && after();
+    hbLoading = true;
+    fetch("handbook_math.json").then(function (r) { return r.json(); })
+      .then(function (d) {
+        HB = {};
+        d.sections.forEach(function (x) { HB[x.code] = x; });
+        HB._source = d.source;
+        hbLoading = false;
+        if (after) after();
+      }).catch(function () { hbLoading = false; HB = {}; });
+  }
+
+  function handbookSection(n) {
+    if (n.domain !== "math") return "";
+    if (!HB) {
+      loadHandbook(function () {
+        if (drawer.dataset.mid === n.id) openNode(n.id);   // 載好後補畫
+      });
+      return '<div class="d-rel"><h4>課程手冊</h4>' +
+        '<p class="note">載入中…</p></div>';
+    }
+    var h = HB[n.src];
+    if (!h) return "";
+    function codes(list, label) {
+      if (!list || !list.length) return "";
+      return '<div class="hbrel"><span>' + label + "</span>" + list.map(function (c) {
+        var m = IX.math.nodes[c] || IX.math.nodes[c + "a"];
+        return m ? '<button class="rel' + (doneKind(m) ? " lit" : "") +
+          '" data-goto="' + esc(m.id) + '">' + esc(c) + "</button>"
+          : '<span class="rel">' + esc(c) + "</span>";
+      }).join("") + "</div>";
+    }
+    return '<div class="d-rel"><h4>課程手冊（國教院）明列的關係</h4>' +
+      (codes(h.prior, "先備") + codes(h.linked, "連結") + codes(h.after, "後續") ||
+        '<p class="note">這一條手冊沒有列出關係。</p>') +
+      '</div><details class="hb"><summary>課程手冊的教學解析（第 ' + h.page +
+      ' 頁）</summary><pre>' + esc(h.text) + "</pre></details>";
+  }
+
   function openNode(id) {
     var dom = state.domain, ix = IX[dom], g = G[dom], n = ix.nodes[id];
     if (!n) return;
@@ -1111,6 +1160,7 @@ ul.about b{color:var(--ink);font-weight:600}
       (next.length ? '<div class="d-rel"><h4>解鎖後續</h4><div class="rel-list">' + chips(next) + "</div></div>" : "") +
       (rel.length ? '<div class="d-rel"><h4>課綱原文點名的關聯條目</h4><div class="rel-list">' + chips(rel) + "</div></div>" : "") +
       crossSection(n) +
+      handbookSection(n) +
       '<div class="d-act">' +
       (kind === "base"
         ? '<button class="btn" id="go-base">調整起始年級</button>'
