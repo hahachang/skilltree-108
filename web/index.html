@@ -182,6 +182,12 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
   display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .tip .pre{margin-top:8px;font-size:11px;line-height:1.55;color:var(--faint)}
 .tip .pre b{font-family:var(--mono);color:var(--muted);font-weight:500}
+/* 泡泡總覽：不畫連線也不放技能名稱，779 個標籤只會糊成一片 */
+.bubble{stroke-width:1.6;cursor:pointer;vector-effect:non-scaling-stroke}
+.bubble[data-state="locked"]{stroke-opacity:.45}
+.bubble[data-state="open"]{stroke-width:2.6}
+.bublabel{font-family:var(--sans);font-size:11px;font-weight:600;fill:var(--muted);
+  paint-order:stroke;stroke:var(--surface);stroke-width:3px;stroke-linejoin:round}
 .tierline{stroke:var(--line);stroke-width:1;stroke-dasharray:2 5}
 .tiertext{font-family:var(--mono);font-size:9px;fill:var(--faint)}
 
@@ -344,9 +350,14 @@ ul.about b{color:var(--ink);font-weight:600}
   var state = { domain: "math", q: "", panel: null, learned: new Set(),
                 hidden: {}, zoom: 1, focus: null, baseGrade: 4, colorBy: "subject",
                 chainOnly: true };
+  // 泡泡總覽在小螢幕是更好的起點：一眼看完全貌，再點進去看路徑。
+  // 大螢幕直接顯示技能樹，因為橫向空間夠。
+  state.view = NARROW ? "bubble" : "graph";
   try {
     var mk = localStorage.getItem(MODE_KEY);
     if (mk !== null) state.chainOnly = mk === "1";
+    var vk = localStorage.getItem(VIEW_KEY);
+    if (vk === "bubble" || vk === "graph") state.view = vk;
   } catch (e) { /* 無痕視窗：用預設值 */ }
 
   // 節點依「科目」或「跨科概念」分色。數學沒有科別，一律用主題。
@@ -559,15 +570,153 @@ ul.about b{color:var(--ink);font-weight:600}
   }
 
   /* ---------- 地圖 ---------- */
+  var VIEW_KEY = "skilltree.view";
   var MODE_KEY = "skilltree.chainonly";
   var GUIDE_KEY = "skilltree.guide.open";
   function guideOpen() {
     try { return localStorage.getItem(GUIDE_KEY) === "1"; } catch (e) { return false; }
   }
 
+  // ===== 泡泡總覽 =====
+  // 目的跟技能樹不同：技能樹回答「這條路怎麼走」，泡泡圖回答「全貌長怎樣、
+  // 完成到哪」。所以不畫連線、不放技能名稱——779 個標籤只會糊成一片。
+  function bubbleR(n) {
+    return 5 + 9 * Math.sqrt(n.reach / IX[n.domain].maxReach);
+  }
+
+  // 貪婪螺旋打包：半徑大的先放，其餘沿阿基米德螺線找第一個不重疊的位置。
+  // 兩個加速手段，否則 779 顆會同步卡住近一秒：
+  //   1. 用空間網格做碰撞檢查，不必掃過所有已放置的圓
+  //   2. 從「已佔面積推得的前緣半徑」開始找，不必每次從中心掃起
+  function packDisc(items, radiusOfItem) {
+    var sorted = items.slice().sort(function (a, b) {
+      return radiusOfItem(b) - radiusOfItem(a);
+    });
+    if (!sorted.length) return { placed: [], r: 0 };
+    var placed = [], grid = {}, area = 0;
+    var cell = Math.max(8, radiusOfItem(sorted[0]) * 2 + 4);
+
+    function add(it, x, y, r) {
+      var p = { it: it, x: x, y: y, r: r };
+      placed.push(p);
+      var k = Math.floor(x / cell) + "," + Math.floor(y / cell);
+      (grid[k] = grid[k] || []).push(p);
+      area += Math.PI * r * r;
+    }
+    function hits(x, y, r) {
+      var cx = Math.floor(x / cell), cy = Math.floor(y / cell);
+      for (var i = -1; i <= 1; i++) {
+        for (var j = -1; j <= 1; j++) {
+          var arr = grid[(cx + i) + "," + (cy + j)];
+          if (!arr) continue;
+          for (var k = 0; k < arr.length; k++) {
+            var p = arr[k], dx = p.x - x, dy = p.y - y, need = p.r + r + 1.5;
+            if (dx * dx + dy * dy < need * need) return true;
+          }
+        }
+      }
+      return false;
+    }
+
+    sorted.forEach(function (it) {
+      var r = radiusOfItem(it);
+      if (!placed.length) { add(it, 0, 0, r); return; }
+      var start = Math.max(r, Math.sqrt(area / (Math.PI * 0.82)) - r);
+      var step = Math.max(1.2, r * 0.35), ang = 0, rad = start;
+      for (var i = 0; i < 20000; i++) {
+        var x = Math.cos(ang) * rad, y = Math.sin(ang) * rad;
+        if (!hits(x, y, r)) { add(it, x, y, r); return; }
+        ang += step / Math.max(rad, 1);
+        if (ang > Math.PI * 2) { ang -= Math.PI * 2; rad += step; }
+      }
+      add(it, rad, 0, r);
+    });
+
+    var bound = 0;
+    placed.forEach(function (p) {
+      bound = Math.max(bound, Math.sqrt(p.x * p.x + p.y * p.y) + p.r);
+    });
+    return { placed: placed, r: bound };
+  }
+
+  function bubbleLayout(dom) {
+    var ix = IX[dom], g = G[dom];
+    ix.bubbles = ix.bubbles || {};
+    if (ix.bubbles[state.colorBy]) return ix.bubbles[state.colorBy];
+
+    var groups = {};
+    g.nodes.forEach(function (n) {
+      (groups[groupKey(n)] = groups[groupKey(n)] || []).push(n);
+    });
+    var discs = Object.keys(groups).map(function (k) {
+      return { key: k, pack: packDisc(groups[k], bubbleR) };
+    });
+    // 再把各組的圓盤當成大泡泡打包，讓同科目的技能聚成一團
+    var outer = packDisc(discs, function (d) { return d.pack.r + 6; });
+
+    var pos = {}, labels = [];
+    var minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    outer.placed.forEach(function (o) {
+      var d = o.it;
+      d.pack.placed.forEach(function (p) {
+        var x = o.x + p.x, y = o.y + p.y;
+        pos[p.it.id] = { x: x, y: y, r: p.r };
+        minX = Math.min(minX, x - p.r); maxX = Math.max(maxX, x + p.r);
+        minY = Math.min(minY, y - p.r); maxY = Math.max(maxY, y + p.r);
+      });
+      labels.push({ key: d.key, x: o.x, y: o.y - d.pack.r - 8, n: d.pack.placed.length });
+      minY = Math.min(minY, o.y - d.pack.r - 22);
+    });
+    var lay = { pos: pos, labels: labels,
+                box: { x: minX - 8, y: minY - 8,
+                       w: maxX - minX + 16, h: maxY - minY + 16 } };
+    ix.bubbles[state.colorBy] = lay;
+    return lay;
+  }
+
+  function renderBubbles() {
+    var dom = state.domain, g = G[dom], lay = bubbleLayout(dom);
+    var labels = groupsOf(dom);
+    var hidden = {};
+    g.nodes.forEach(function (n) { hidden[n.id] = !!state.hidden[dom + groupKey(n)]; });
+
+    var svg = '<svg id="svg" width="100%" height="100%" viewBox="' +
+      [lay.box.x, lay.box.y, lay.box.w, lay.box.h].map(function (v) {
+        return v.toFixed(1);
+      }).join(" ") + '" preserveAspectRatio="xMidYMid meet">';
+    lay.labels.forEach(function (l) {
+      if (state.hidden[dom + l.key]) return;
+      svg += '<text class="bublabel" x="' + l.x.toFixed(1) + '" y="' + l.y.toFixed(1) +
+        '" text-anchor="middle">' + esc(labels[l.key] || l.key) +
+        " " + l.n + "</text>";
+    });
+    g.nodes.forEach(function (n) {
+      if (hidden[n.id]) return;
+      var p = lay.pos[n.id];
+      if (!p) return;
+      var kind = doneKind(n), st = nodeState(n);
+      var fill = kind === "manual" ? "var(--lit-ring)"
+        : kind === "base" ? "var(--t-" + groupKey(n) + ")"
+        : "none";
+      svg += '<circle class="bubble" data-mid="' + esc(n.id) + '" data-state="' + st +
+        '" data-done="' + (kind || "") + '" cx="' + p.x.toFixed(1) + '" cy="' +
+        p.y.toFixed(1) + '" r="' + p.r.toFixed(1) + '" fill="' + fill +
+        '" stroke="var(--t-' + groupKey(n) + ')"></circle>';
+    });
+    svg += "</svg>";
+    return svg;
+  }
+
   function renderMap() {
     var dom = state.domain, g = G[dom], ix = IX[dom], lay = activeLayout(dom);
     var chainMode = !!(state.focus && state.chainOnly);
+    // 必須在建構 SVG 之前決定，否則 var 提升會讓判斷拿到 undefined
+    var bubbleView = state.view === "bubble" && !state.focus;
+    var viewSwitch = '<div class="seg" role="group" aria-label="檢視類型">' +
+      '<button id="vw-bubble" aria-pressed="' + (state.view === "bubble") +
+      '" title="全部技能聚成泡泡，一眼看完規模與完成度">泡泡總覽</button>' +
+      '<button id="vw-graph" aria-pressed="' + (state.view === "graph") +
+      '" title="依賴關係圖，看得出先後順序">技能樹</button></div>';
     var prevBox = document.getElementById("mapbox");
     var sig = dom + "|" + (state.chainOnly ? state.focus : "");
     var keepScroll = (prevBox && state.lastSig === sig)
@@ -582,7 +731,12 @@ ul.about b{color:var(--ink);font-weight:600}
     }
     var W = lay.w, H = lay.h;
 
-    var svg = '<svg id="svg" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '">';
+    var svg = "";
+    if (bubbleView) {
+      svg = renderBubbles();
+    } else {
+      svg = '<svg id="svg" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W +
+        " " + H + '">';
     lay.layers.forEach(function (l, d) {
       if (!l || !l.length) return;
       var y = d * LH + LH / 2;
@@ -623,7 +777,8 @@ ul.about b{color:var(--ink);font-weight:600}
             '" text-anchor="middle">' + esc(ln) + '</text>';
         }).join("") + "</g>";
     });
-    svg += "</svg>";
+      svg += "</svg>";
+    }
 
     var legend = Object.keys(labels).map(function (t) {
       return '<button class="lg" data-topic="' + t + '" aria-pressed="' +
@@ -686,9 +841,13 @@ ul.about b{color:var(--ink);font-weight:600}
       '共 <b>' + g.nodes.length + '</b> 個技能、' + g.edges.length + ' 條前置關係，分成 ' +
       (g.max_depth + 1) + ' 層，已完成 ' + lit + ' 個' +
       (state.baseGrade > 0 ? '（含 1–' + state.baseGrade + ' 年級基準）' : "") + "。" +
-      '點任一個節點會把它的整條前置鏈與後續鏈連同線條一起打亮，其餘淡出。</p>' +
+      (bubbleView
+        ? '泡泡總覽不畫連線也不放名稱——先看全貌與完成度，' +
+          '<b>點任一顆泡泡就以它為中心展開技能樹</b>。長按（或滑鼠停留）可先看它是什麼。</p>'
+        : '點任一個節點會把它的整條前置鏈與後續鏈連同線條一起打亮，其餘淡出。</p>') +
       '<div class="hints">' + hints + codeHelp + "</div></details>" +
-      '<div class="map-bar"><div class="legend">' + legend + "</div>" + modeSwitch + colorSwitch +
+      '<div class="map-bar"><div class="legend">' + legend + "</div>" + viewSwitch +
+      (bubbleView ? "" : modeSwitch) + colorSwitch +
       '<div class="zoom"><button id="zo" aria-label="縮小">−</button>' +
       '<button id="zf" aria-label="還原" style="width:auto;padding:0 12px;font-size:13px">適中</button>' +
       '<button id="zi" aria-label="放大">＋</button></div></div>' +
@@ -700,8 +859,8 @@ ul.about b{color:var(--ink);font-weight:600}
           '共 <b>' + Object.keys(keep).length + '</b> 個技能。' +
           '<button class="back" id="clearfocus">清除聚焦</button></p>'
         : "");
-    applyZoom();
     fitMapHeight();
+    applyZoom();
     var box = document.getElementById("mapbox");
     var pending = false;
     box.addEventListener("scroll", function () {   // 節點每次重繪都是新的 box，不會累積監聽
@@ -767,11 +926,24 @@ ul.about b{color:var(--ink);font-weight:600}
     box.style.height = h + "px";
     var side = document.getElementById("side");
     if (side && window.matchMedia("(min-width:821px)").matches) side.style.height = h + "px";
+    var inner = document.getElementById("mapinner");
+    if (inner && state.view === "bubble" && !state.focus) {
+      inner.style.width = box.clientWidth * state.zoom + "px";
+      inner.style.height = box.clientHeight * state.zoom + "px";
+    }
   }
 
   function applyZoom() {
     var inner = document.getElementById("mapinner");
-    if (!inner) return;
+    var box = document.getElementById("mapbox");
+    if (!inner || !box) return;
+    if (state.view === "bubble" && !state.focus) {
+      // 泡泡圖用 viewBox 自動縮放：zoom 1 剛好塞滿容器，放大才需要捲動
+      inner.style.transform = "none";
+      inner.style.width = box.clientWidth * state.zoom + "px";
+      inner.style.height = box.clientHeight * state.zoom + "px";
+      return;
+    }
     var lay = activeLayout(state.domain);
     inner.style.transform = "scale(" + state.zoom + ")";
     inner.style.width = lay.w * state.zoom + "px";
@@ -1124,8 +1296,36 @@ ul.about b{color:var(--ink);font-weight:600}
     openNode(id);
   }
 
+  function nearestBubble(ev) {
+    var svg = document.getElementById("svg");
+    if (!svg || !svg.getScreenCTM) return null;
+    var ctm = svg.getScreenCTM();
+    if (!ctm) return null;
+    var pt = svg.createSVGPoint();
+    pt.x = ev.clientX; pt.y = ev.clientY;
+    var loc = pt.matrixTransform(ctm.inverse());
+    var lay = bubbleLayout(state.domain), best = null, bestD = Infinity;
+    Object.keys(lay.pos).forEach(function (id) {
+      var n = IX[state.domain].nodes[id];
+      if (state.hidden[state.domain + groupKey(n)]) return;
+      var p = lay.pos[id], dx = p.x - loc.x, dy = p.y - loc.y;
+      var d = Math.sqrt(dx * dx + dy * dy) - p.r;
+      if (d < bestD) { bestD = d; best = id; }
+    });
+    return bestD <= 14 ? best : null;   // 容許誤差，不必真的點中
+  }
+
   document.addEventListener("click", function (ev) {
     if (lpFired) { lpFired = false; return; }   // 長按已顯示速覽，不再觸發聚焦
+    if (state.view === "bubble" && !state.focus && ev.target.closest("#mapbox")) {
+      var hit = nearestBubble(ev);
+      if (hit) {
+        state.view = "graph";
+        try { localStorage.setItem(VIEW_KEY, "graph"); } catch (e) { /* 略過 */ }
+        return focusNode(state.domain, hit);
+      }
+      return;
+    }
     var t = ev.target.closest("button, g.node");
     if (!t) {
       // 點地圖空白處＝退出聚焦、收起詳情，回到整張圖
@@ -1169,6 +1369,12 @@ ul.about b{color:var(--ink);font-weight:600}
         centerOn(list.reduce(function (a, b) { return a.d <= b.d ? a : b; }).id);
       }
       return;
+    }
+    if (t.id === "vw-bubble" || t.id === "vw-graph") {
+      state.view = t.id === "vw-bubble" ? "bubble" : "graph";
+      try { localStorage.setItem(VIEW_KEY, state.view); } catch (e) { /* 略過 */ }
+      if (state.view === "bubble") { state.focus = null; closeDetail(); }
+      return render();
     }
     if (t.id === "md-chain" || t.id === "md-map") {
       state.chainOnly = t.id === "md-chain";
