@@ -1299,7 +1299,7 @@ ul.about b{color:var(--ink);font-weight:600}
 </script>
 
 <script>
-// 離線快取。資料是靜態的，裝一次之後沒網路也能開。
+// 離線快取。網路優先，所以開起來一定是最新版；斷線時退回快取照常運作。
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceWorker.register("sw.js").catch(function () {

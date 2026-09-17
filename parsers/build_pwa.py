@@ -50,7 +50,7 @@ img{{max-width:100%}}
 
 TAIL = """
 <script>
-// 離線快取。資料是靜態的，裝一次之後沒網路也能開。
+// 離線快取。網路優先，所以開起來一定是最新版；斷線時退回快取照常運作。
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceWorker.register("sw.js").catch(function () {
@@ -82,9 +82,25 @@ self.addEventListener("activate", function (e) {
 
 self.addEventListener("fetch", function (e) {
   if (e.request.method !== "GET") return;
-  e.respondWith(caches.match(e.request).then(function (hit) {
-    return hit || fetch(e.request);
-  }));
+  e.respondWith(
+    Promise.race([
+      fetch(e.request).then(function (res) {
+        if (res && res.ok) {
+          var copy = res.clone();
+          caches.open(CACHE).then(function (c) { c.put(e.request, copy); });
+        }
+        return res;
+      }),
+      new Promise(function (_, reject) {
+        // 斷線時 fetch 會直接 reject；這道逾時是為了「連得上但拿不到資料」的情況
+        setTimeout(reject, 3000, new Error("timeout"));
+      })
+    ]).catch(function () {
+      return caches.match(e.request).then(function (hit) {
+        return hit || caches.match("index.html");
+      });
+    })
+  );
 });
 """
 
