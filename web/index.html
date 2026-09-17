@@ -81,7 +81,7 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
   font:inherit;font-size:14px;color:var(--ink)}
 .search input::placeholder{color:var(--faint)}
 
-.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 120px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:16px 24px}
 details.guide{margin-bottom:14px}
 details.guide summary{cursor:pointer;color:var(--accent);font-size:13.5px;font-weight:600;
   padding:4px 0;list-style:none}
@@ -545,6 +545,11 @@ ul.about b{color:var(--ink);font-weight:600}
   }
 
   /* ---------- 地圖 ---------- */
+  var GUIDE_KEY = "skilltree.guide.open";
+  function guideOpen() {
+    try { return localStorage.getItem(GUIDE_KEY) === "1"; } catch (e) { return false; }
+  }
+
   function renderMap() {
     var dom = state.domain, g = G[dom], ix = IX[dom], lay = activeLayout(dom);
     var chainMode = !!(state.focus && state.chainOnly);
@@ -649,9 +654,8 @@ ul.about b{color:var(--ink);font-weight:600}
       "</details>";
 
     var lit = g.nodes.filter(doneKind).length;
-    var wide = window.innerWidth >= 900;
     main.innerHTML =
-      '<details class="guide"' + (wide ? " open" : "") + '>' +
+      '<details class="guide"' + (guideOpen() ? " open" : "") + '>' +
       '<summary>這張圖怎麼看</summary>' +
       '<p class="lede"><b>L 是依賴深度：從零開始，最少要先學會幾層才碰得到它。</b>' +
       '它決定的是<b>學習先後順序</b>，不是難易度——同一層的技能不必等對方，可以並行學；' +
@@ -737,8 +741,8 @@ ul.about b{color:var(--ink);font-weight:600}
   function fitMapHeight() {
     var box = document.getElementById("mapbox");
     if (!box) return;
-    var avail = window.innerHeight - box.getBoundingClientRect().top - 20;
-    var h = Math.max(300, Math.min(780, avail));
+    var avail = window.innerHeight - box.getBoundingClientRect().top - 16;
+    var h = Math.max(300, avail);
     box.style.height = h + "px";
     var side = document.getElementById("side");
     if (side && window.matchMedia("(min-width:821px)").matches) side.style.height = h + "px";
@@ -1146,6 +1150,14 @@ ul.about b{color:var(--ink);font-weight:600}
       document.getElementById("io-msg").textContent = "進度已清空。";
     }
   });
+  // 說明的展開／收合會改變地圖的可用高度，而且該記住使用者的選擇
+  document.addEventListener("toggle", function (ev) {
+    if (!ev.target.classList || !ev.target.classList.contains("guide")) return;
+    try { localStorage.setItem(GUIDE_KEY, ev.target.open ? "1" : "0"); } catch (e) { /* 略過 */ }
+    fitMapHeight();
+    updateEdgeMarks();
+  }, true);
+
   document.addEventListener("change", function (ev) {
     if (ev.target.id !== "basegrade") return;
     state.baseGrade = parseInt(ev.target.value, 10) || 0;
