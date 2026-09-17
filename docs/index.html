@@ -209,8 +209,8 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
 .tip .pre b{font-family:var(--mono);color:var(--muted);font-weight:500}
 /* 泡泡總覽：不畫連線也不放技能名稱，779 個標籤只會糊成一片 */
 .bubble{stroke-width:1.6;cursor:pointer;vector-effect:non-scaling-stroke}
-.bubble.faded{opacity:.12}
-.bubble.sel{stroke-width:3.2}
+.gradering{fill:none;stroke:var(--ink);stroke-width:1.8;opacity:.75;
+  vector-effect:non-scaling-stroke;pointer-events:none}
 .gradebar{display:flex;gap:5px;flex-wrap:wrap;align-items:center;margin:-2px 0 12px}
 .gradebar .lab{font-size:11.5px;color:var(--faint);margin-right:2px}
 .gr{padding:5px 11px;border-radius:999px;border:1px solid var(--line);
@@ -754,9 +754,13 @@ ul.about b{color:var(--ink);font-weight:600}
       var fill = kind === "manual" ? "var(--lit-ring)"
         : kind === "base" ? "var(--t-" + groupKey(n) + ")"
         : "none";
-      var gsel = state.gradeSel !== null;
-      var cls = "bubble" + (gsel ? (matchesGrade(n) ? " sel" : " faded") : "");
-      svg += '<circle class="' + cls + '" data-mid="' + esc(n.id) + '" data-state="' + st +
+      if (state.gradeSel !== null && matchesGrade(n)) {
+        // 外加一圈，而不是改本體的描邊或透明度：本體的填色＝完成度、
+        // 描邊＝科目，兩個都不該為了標年級而犧牲
+        svg += '<circle class="gradering" cx="' + p.x.toFixed(1) + '" cy="' +
+          p.y.toFixed(1) + '" r="' + (p.r + 2.6).toFixed(1) + '"></circle>';
+      }
+      svg += '<circle class="bubble" data-mid="' + esc(n.id) + '" data-state="' + st +
         '" data-done="' + (kind || "") + '" cx="' + p.x.toFixed(1) + '" cy="' +
         p.y.toFixed(1) + '" r="' + p.r.toFixed(1) + '" fill="' + fill +
         '" stroke="var(--t-' + groupKey(n) + ')"></circle>';
@@ -1287,8 +1291,9 @@ ul.about b{color:var(--ink);font-weight:600}
       (pre.length ? '<div class="pre">前置：<b>' + esc(pre.join("、")) + "</b></div>"
         : '<div class="pre">起點技能，不需要任何前置</div>');
   }
-  function showTip(node, ev, above) {
-    var n = IX[state.domain].nodes[node.dataset.mid];
+  function showTip(node, ev, above) { showTipFor(node.dataset.mid, ev, above); }
+  function showTipFor(id, ev, above) {
+    var n = IX[state.domain].nodes[id];
     if (!n) return;
     var cx = ev.clientX, cy = ev.clientY;
     if (typeof cx !== "number" || typeof cy !== "number") return;   // 沒有有效座標就不顯示
@@ -1310,12 +1315,12 @@ ul.about b{color:var(--ink);font-weight:600}
 
   if (canHover) {
     document.addEventListener("mouseover", function (ev) {
-      var node = ev.target.closest ? ev.target.closest("g.node") : null;
+      var node = ev.target.closest ? ev.target.closest("g.node, circle.bubble") : null;
       if (node) showTip(node, ev); else if (!tip.hidden) hideTip();
     });
     document.addEventListener("mousemove", function (ev) {
       if (tip.hidden) return;
-      var node = ev.target.closest ? ev.target.closest("g.node") : null;
+      var node = ev.target.closest ? ev.target.closest("g.node, circle.bubble") : null;
       if (!node) return hideTip();
       showTip(node, ev);
     });
@@ -1326,15 +1331,20 @@ ul.about b{color:var(--ink);font-weight:600}
   var lpTimer = null, lpStart = null, lpFired = false;
   document.addEventListener("pointerdown", function (ev) {
     if (ev.pointerType === "mouse") return;
-    var node = ev.target.closest ? ev.target.closest("g.node") : null;
-    if (!node) return;
-    // 鍵名必須跟 showTip 讀的一致（clientX/clientY），用 x/y 會算出 NaN
+    var bubbleMode = state.view === "bubble" && !state.focus;
+    var node = ev.target.closest ? ev.target.closest("g.node, circle.bubble") : null;
+    var onMap = ev.target.closest && ev.target.closest("#mapbox");
+    // 泡泡只有 5–13px，長按也按不準，所以泡泡檢視改用「取最近的一顆」
+    if (!node && !(bubbleMode && onMap)) return;
+    // 鍵名必須跟 showTipFor 讀的一致（clientX/clientY），用 x/y 會算出 NaN
     lpStart = { clientX: ev.clientX, clientY: ev.clientY };
     lpFired = false;
     clearTimeout(lpTimer);
     lpTimer = setTimeout(function () {
+      var id = bubbleMode ? nearestBubble(lpStart) : (node && node.dataset.mid);
+      if (!id) return;
       lpFired = true;
-      showTip(node, lpStart, true);
+      showTipFor(id, lpStart, true);
       // 觸覺回饋讓人知道長按已生效，否則不確定要按多久
       if (navigator.vibrate) { try { navigator.vibrate(12); } catch (e) { /* 略過 */ } }
     }, 450);
