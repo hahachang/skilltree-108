@@ -147,6 +147,7 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
 .edge{fill:none;stroke:var(--edge);stroke-width:1.4}
 .edge.hot{stroke:var(--edge-hot);stroke-width:2.4}
 .edge.fade{opacity:.18}
+.node{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
 .node .shape{stroke-width:2.5;cursor:pointer}
 .node .hit{fill:transparent;stroke:none;cursor:pointer}
 .node .halo{fill:none;stroke:var(--lit-ring);stroke-width:2;opacity:0}
@@ -660,6 +661,7 @@ ul.about b{color:var(--ink);font-weight:600}
       '<circle cx="8" cy="10" r="5.5" ' + ring + '></circle>' +
       '<polygon points="27,3.5 31.8,6.3 31.8,11.7 27,14.5 22.2,11.7 22.2,6.3" ' + ring +
       ' stroke-linejoin="round"></polygon></svg>單一技能／綜合應用</span>' +
+      (canHover ? "" : '<span class="hint">長按節點看速覽，點一下看依賴鏈</span>') +
       (dom === "natural"
         ? '<span class="hint"><svg width="20" height="18" viewBox="0 0 20 18" aria-hidden="true">' +
           '<circle cx="10" cy="10" r="6" fill="none" stroke="var(--faint)" ' +
@@ -1071,9 +1073,42 @@ ul.about b{color:var(--ink);font-weight:600}
       if (!node) return hideTip();
       showTip(node, ev);
     });
-    document.addEventListener("scroll", hideTip, true);
-    document.addEventListener("click", hideTip, true);
   }
+
+  // 觸控裝置沒有 hover，改用長按叫出同一張速覽小卡。
+  // 點一下＝聚焦（重的動作），長按＝預覽（輕的動作），兩者不互搶。
+  var lpTimer = null, lpStart = null, lpFired = false;
+  document.addEventListener("pointerdown", function (ev) {
+    if (ev.pointerType === "mouse") return;
+    var node = ev.target.closest ? ev.target.closest("g.node") : null;
+    if (!node) return;
+    lpStart = { x: ev.clientX, y: ev.clientY };
+    lpFired = false;
+    clearTimeout(lpTimer);
+    lpTimer = setTimeout(function () {
+      lpFired = true;
+      showTip(node, lpStart);
+      // 觸覺回饋讓人知道長按已生效，否則不確定要按多久
+      if (navigator.vibrate) { try { navigator.vibrate(12); } catch (e) { /* 略過 */ } }
+    }, 450);
+  }, true);
+  function cancelLongPress() { clearTimeout(lpTimer); lpStart = null; }
+  document.addEventListener("pointermove", function (ev) {
+    // 手指移動超過門檻就視為捲動，不是長按
+    if (!lpStart) return;
+    if (Math.abs(ev.clientX - lpStart.x) > 10 || Math.abs(ev.clientY - lpStart.y) > 10) {
+      cancelLongPress();
+    }
+  }, true);
+  document.addEventListener("pointerup", cancelLongPress, true);
+  document.addEventListener("pointercancel", cancelLongPress, true);
+
+  document.addEventListener("scroll", hideTip, true);
+  document.addEventListener("click", function () {
+    // 長按剛叫出小卡，放開手指產生的這一下點擊不算數（由主處理器重設旗標）
+    if (lpFired) return;
+    hideTip();
+  }, true);
 
   /* ---------- 事件 ---------- */
   function focusNode(dom, id) {
@@ -1084,6 +1119,7 @@ ul.about b{color:var(--ink);font-weight:600}
   }
 
   document.addEventListener("click", function (ev) {
+    if (lpFired) { lpFired = false; return; }   // 長按已顯示速覽，不再觸發聚焦
     var t = ev.target.closest("button, g.node");
     if (!t) {
       // 點地圖空白處＝退出聚焦、收起詳情，回到整張圖
