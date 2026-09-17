@@ -25,9 +25,61 @@ def is_applied(text: str) -> bool:
     return re.split(r"[：:。]", text, maxsplit=1)[0].strip() == "解題"
 
 
+def merge_official(spec: dict, skills_of_code) -> dict:
+    """官方優先：課程手冊有列先備的條目就用手冊的，沒列的才用人工標註。
+
+    手冊只列「直接先備」，而且 227 條裡只有 138 條有列；全面改用官方會讓
+    其餘 89 條變成孤兒、整張圖斷開，所以是「有就用、沒有才退回人工」。
+
+    編碼層級要對齊：手冊講的是課綱條目，我們的圖可能把一條拆成 a/b/c。
+    指向被拆解的條目時取最後一個子技能（子技能之間本來就串成鏈，
+    要到最後一個等於要整條都會）；被拆解條目本身的官方先備則掛在第一個。
+    """
+    hb = {x["code"]: x for x in load("handbook_math.json")["sections"]}
+    alias, splits, mine = spec["alias"], spec["splits"], spec["prereq"]
+
+    def last_of(code):
+        code = alias.get(code, code)
+        return code + splits[code][-1][0] if code in splits else code
+
+    merged, stats = {}, {"official": 0, "mine": 0, "dropped": []}
+    for sid in mine:
+        src = skills_of_code(sid)
+        is_first_part = sid == src or (src in splits and sid == src + splits[src][0][0])
+        official = hb.get(src, {}).get("prior") or []
+        if official and is_first_part:
+            mapped = []
+            for c in official:
+                t = last_of(c)
+                if t in mine and t != sid:
+                    mapped.append(t)
+                elif t not in mine:
+                    stats["dropped"].append(f"{src} ← {c}")
+            if mapped:
+                merged[sid] = sorted(set(mapped))
+                stats["official"] += 1
+                continue
+        merged[sid] = mine[sid]
+        stats["mine"] += 1
+    return merged, stats
+
+
 def main() -> None:
     spec = load("skills_math.json")
     raw = {r["code"]: r for r in load("raw_math.json") if r["kind"] == "content"}
+    # 官方優先：先把 prereq 換成合併後的版本，再交給共用建構器驗證
+    def code_of(sid):
+        for c in spec["splits"]:
+            for suf, _ in spec["splits"][c]:
+                if sid == c + suf:
+                    return c
+        return sid
+    merged, stats = merge_official(spec, code_of)
+    spec = dict(spec, prereq=merged)
+    print(f"  前置來源：官方手冊 {stats['official']} 條、人工標註 {stats['mine']} 條"
+          + (f"，官方指向不在部定必修的 {len(stats['dropped'])} 條已略過"
+             if stats["dropped"] else ""))
+
     payload = build(
         raw, spec, domain="math", topics=TOPICS,
         topic_of=lambda r: r["topic_code"],
