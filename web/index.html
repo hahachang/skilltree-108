@@ -1,0 +1,1190 @@
+<meta charset="utf-8">
+<title>108課綱技能樹</title>
+<style>
+:root{
+  --ground:#eef0f6; --surface:#ffffff; --surface-2:#f7f8fc; --line:#d7dbe8;
+  --ink:#171b28; --muted:#5b6379; --faint:#8b93a8;
+  --nat:#0d7f70; --nat-soft:#d9efeb;
+  --math:#4450c4; --math-soft:#dfe2fa;
+  --lit:#b4791a; --lit-soft:#f6e7c8; --lit-ring:#e0a63a;
+  --t-N:#3b6ea5; --t-S:#2e8b6f; --t-A:#8d55ad; --t-R:#bd6a34;
+  --t-F:#ab4566; --t-G:#7a8b2f; --t-D:#5f6b8a;
+  --t-INa:var(--t-N); --t-INb:var(--t-S); --t-INc:var(--t-G); --t-INd:var(--t-R);
+  --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
+  --t-bio:#2e8b6f; --t-phy:#3b6ea5; --t-chem:#8d55ad;
+  --t-earth:#bd6a34; --t-cross:#78809a;
+  --edge:#c3c9da; --edge-hot:#e0a63a;
+  --shadow:0 1px 2px rgba(20,25,45,.06),0 8px 24px rgba(20,25,45,.07);
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+  --sans:"PingFang TC","Heiti TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
+  --r:14px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0d1017; --surface:#161a25; --surface-2:#1d2231; --line:#2b3243;
+  --ink:#e7eaf3; --muted:#98a1b8; --faint:#6b7489;
+  --nat:#3fc9b2; --nat-soft:#123531;
+  --math:#8f97ff; --math-soft:#1b2048;
+  --lit:#efb44e; --lit-soft:#3a2c11; --lit-ring:#efb44e;
+  --t-N:#6fa6dd; --t-S:#4fc39c; --t-A:#bb8ad6; --t-R:#e0975f;
+  --t-F:#e0778f; --t-G:#b3c455; --t-D:#94a0c2;
+  --t-INa:var(--t-N); --t-INb:var(--t-S); --t-INc:var(--t-G); --t-INd:var(--t-R);
+  --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
+  --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
+  --t-earth:#e0975f; --t-cross:#98a1b8;
+  --edge:#333c52; --edge-hot:#efb44e;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+}}
+:root[data-theme="dark"]{
+  --ground:#0d1017; --surface:#161a25; --surface-2:#1d2231; --line:#2b3243;
+  --ink:#e7eaf3; --muted:#98a1b8; --faint:#6b7489;
+  --nat:#3fc9b2; --nat-soft:#123531;
+  --math:#8f97ff; --math-soft:#1b2048;
+  --lit:#efb44e; --lit-soft:#3a2c11; --lit-ring:#efb44e;
+  --t-N:#6fa6dd; --t-S:#4fc39c; --t-A:#bb8ad6; --t-R:#e0975f;
+  --t-F:#e0778f; --t-G:#b3c455; --t-D:#94a0c2;
+  --t-INa:var(--t-N); --t-INb:var(--t-S); --t-INc:var(--t-G); --t-INd:var(--t-R);
+  --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
+  --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
+  --t-earth:#e0975f; --t-cross:#98a1b8;
+  --edge:#333c52; --edge-hot:#efb44e;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+  -webkit-text-size-adjust:100%;overflow-x:hidden}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent,var(--nat));outline-offset:2px;border-radius:6px}
+[data-domain="natural"]{--accent:var(--nat);--accent-soft:var(--nat-soft)}
+[data-domain="math"]{--accent:var(--math);--accent-soft:var(--math-soft)}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;
+  background:color-mix(in srgb,var(--ground) 90%,transparent);
+  backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top-in{max-width:1180px;margin:0 auto;padding:10px 16px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:9px;margin-right:auto;min-width:0}
+.brand h1{margin:0;font-size:19px;font-weight:700;letter-spacing:.01em;white-space:nowrap}
+.brand .sub{font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.06em}
+.seg{display:flex;background:var(--surface-2);border:1px solid var(--line);
+  border-radius:10px;padding:3px;gap:3px}
+.seg button{padding:7px 15px;border-radius:7px;font-size:14px;font-weight:600;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--accent);box-shadow:var(--shadow)}
+.tally{display:flex;align-items:baseline;gap:5px;font-family:var(--mono);
+  font-variant-numeric:tabular-nums;font-size:13px;color:var(--muted);white-space:nowrap}
+.tally b{font-size:19px;font-weight:600;color:var(--lit)}
+.icon-btn{padding:8px 11px;border:1px solid var(--line);border-radius:9px;
+  background:var(--surface);font-size:13px;color:var(--muted)}
+.search{flex:1 1 200px;min-width:150px;display:flex;align-items:center;gap:8px;
+  background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:0 11px}
+.search input{flex:1;min-width:0;border:none;background:none;padding:9px 0;
+  font:inherit;font-size:14px;color:var(--ink)}
+.search input::placeholder{color:var(--faint)}
+
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 120px}
+details.guide{margin-bottom:14px}
+details.guide summary{cursor:pointer;color:var(--accent);font-size:13.5px;font-weight:600;
+  padding:4px 0;list-style:none}
+details.guide summary::-webkit-details-marker{display:none}
+details.guide summary::before{content:"▸ ";color:var(--faint)}
+details.guide[open] summary::before{content:"▾ "}
+details.guide[open] summary{margin-bottom:8px}
+.lede{color:var(--muted);font-size:14px;line-height:1.75;max-width:64ch;margin:0 0 18px}
+.lede b{color:var(--ink);font-weight:600}
+.lede code{font-family:var(--mono);font-size:12.5px;color:var(--accent)}
+.theme-head{display:flex;align-items:center;gap:12px;margin:30px 0 14px}
+.theme-head:first-of-type{margin-top:8px}
+.theme-head h2{margin:0;font-size:15px;font-weight:700;letter-spacing:.02em}
+.theme-head .rule{flex:1;height:1px;background:var(--line)}
+.theme-head .n{font-family:var(--mono);font-size:11px;color:var(--faint)}
+
+/* ---------- 技能地圖（數學：依賴圖分層） ---------- */
+.map-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.legend{display:flex;gap:4px;flex-wrap:wrap;margin-right:auto}
+.lg{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;
+  border:1px solid var(--line);background:var(--surface);font-size:12px;color:var(--muted)}
+.lg i{width:9px;height:9px;border-radius:50%;background:var(--c);display:block}
+.lg[aria-pressed="false"]{opacity:.42}
+.zoom{display:flex;gap:4px}
+.zoom button{width:38px;height:38px;border:1px solid var(--line);border-radius:9px;
+  background:var(--surface);font-size:16px;color:var(--muted);line-height:1}
+.stage{display:flex;gap:14px;align-items:flex-start}
+@media (max-width:820px){
+  .stage{flex-direction:column}
+  .stage .side{flex:1 1 auto;width:100%;height:auto;max-height:46vh}
+  .mapwrap{width:100%}
+  .mapbox{height:min(56vh,480px)}
+}
+.mapwrap{position:relative;flex:1;min-width:0}
+.mapbox{position:relative;width:100%;border:1px solid var(--line);
+  border-radius:var(--r);background:var(--surface);overflow:auto;
+  -webkit-overflow-scrolling:touch;height:min(76vh,760px);touch-action:pan-x pan-y}
+.edgemark{position:absolute;z-index:5;display:inline-flex;align-items:center;gap:6px;
+  padding:7px 13px;border-radius:999px;border:1px solid var(--lit-ring);
+  background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(6px);
+  color:var(--lit);font-size:12.5px;font-weight:600;box-shadow:var(--shadow);cursor:pointer}
+.edgemark b{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.edgemark[data-edge="up"]{top:12px;left:50%;transform:translateX(-50%)}
+.edgemark[data-edge="down"]{bottom:12px;left:50%;transform:translateX(-50%)}
+.edgemark[data-edge="left"]{left:12px;top:50%;transform:translateY(-50%)}
+.edgemark[data-edge="right"]{right:12px;top:50%;transform:translateY(-50%)}
+/* 寬螢幕把詳情停靠在地圖右側，避免底部彈出的面板蓋住剛剛高亮的依賴鏈 */
+.side{display:none;flex:0 0 342px;height:min(76vh,760px);overflow-y:auto;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.stage.has-side .side{display:block}
+.side .grip{display:none}
+.side .drawer-in{max-width:none}
+
+.hints{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin:-2px 0 12px}
+.hint{font-size:11.5px;color:var(--faint);display:inline-flex;align-items:center;gap:6px}
+.hint svg{display:block;flex:none}
+details.code-help{font-size:12px;color:var(--muted)}
+details.code-help summary{cursor:pointer;color:var(--faint);font-size:11.5px}
+details.code-help p{margin:8px 0 0;line-height:1.7;max-width:62ch}
+details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent)}
+.mapinner{transform-origin:0 0}
+.edge{fill:none;stroke:var(--edge);stroke-width:1.4}
+.edge.hot{stroke:var(--edge-hot);stroke-width:2.4}
+.edge.fade{opacity:.18}
+.node .shape{stroke-width:2.5;cursor:pointer}
+.node .hit{fill:transparent;stroke:none;cursor:pointer}
+.node .halo{fill:none;stroke:var(--lit-ring);stroke-width:2;opacity:0}
+.node[data-lit="1"] .halo{opacity:.55}
+.node text{font-family:var(--sans);font-size:9.5px;fill:var(--muted);pointer-events:none}
+@media (max-width:560px){.node text{font-size:8.5px}.node .badge{font-size:7.5px}}
+.node .badge{font-family:var(--mono);font-size:8.5px;font-weight:500}
+/* 還沒完成的技能只留輪廓，不填色——一整片實心灰會把地圖糊成一團。
+   文字不跟著變淡，改用底色描邊讓它在交錯的連線上仍然讀得到。 */
+.node[data-state="locked"] .shape{stroke-opacity:.4}
+.node[data-state="open"] .shape{stroke-width:3.4}
+/* 虛線輪廓＝卡在數學前置上，不是卡在自然科自己的鏈 */
+.node[data-mathgap="1"] .shape{stroke-dasharray:3.5 2.5}
+.node text{paint-order:stroke;stroke:var(--surface);stroke-width:3px;
+  stroke-linejoin:round;fill:var(--ink)}
+.node .badge{fill:var(--faint)}
+.node.dim{opacity:.13}
+.node.focus .shape{stroke:var(--ink);stroke-width:3.6}
+/* 滑鼠懸停的速覽小卡。觸控裝置沒有 hover，仍以點擊開側欄為主，不受影響。 */
+.tip{--accent:var(--math);--accent-soft:var(--math-soft);
+  position:fixed;z-index:60;width:272px;pointer-events:none;
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  box-shadow:var(--shadow);padding:11px 13px 12px}
+.tip .code{font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;color:var(--accent)}
+.tip .nm{font-size:14.5px;font-weight:700;line-height:1.35;margin-top:3px;text-wrap:balance}
+.tip .meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.tip .meta span{font-size:10.5px;padding:3px 7px;border-radius:999px;
+  background:var(--surface-2);border:1px solid var(--line);color:var(--muted)}
+.tip .meta span.on{background:var(--accent-soft);border-color:transparent;
+  color:var(--accent);font-weight:600}
+.tip .ex{margin-top:8px;font-size:12px;line-height:1.6;color:var(--muted);
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.tip .pre{margin-top:8px;font-size:11px;line-height:1.55;color:var(--faint)}
+.tip .pre b{font-family:var(--mono);color:var(--muted);font-weight:500}
+.tierline{stroke:var(--line);stroke-width:1;stroke-dasharray:2 5}
+.tiertext{font-family:var(--mono);font-size:9px;fill:var(--faint)}
+
+/* ---------- 自然：分支卡片／階梯 ---------- */
+.cards{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(228px,1fr))}
+.card{display:flex;align-items:center;gap:13px;text-align:left;width:100%;
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+  padding:14px;transition:transform .12s ease,border-color .12s ease}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card .meta{min-width:0;flex:1}
+.card .nm{font-size:14.5px;font-weight:600;line-height:1.35;overflow-wrap:anywhere}
+.card .dt{margin-top:4px;font-family:var(--mono);font-size:11px;color:var(--faint);
+  letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.ring{flex:none;width:44px;height:44px}
+.ring .bg{stroke:var(--line)}
+.ring .fg{stroke:var(--lit-ring);stroke-linecap:round;transition:stroke-dasharray .4s ease}
+.ring text{font-family:var(--mono);font-size:13px;fill:var(--muted);font-variant-numeric:tabular-nums}
+.ring.done .fg{stroke:var(--accent)}
+.crumb{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;color:var(--accent);font-weight:600}
+.crumb .path{font-size:12.5px;color:var(--faint)}
+.branch-h{margin:0 0 4px;font-size:24px;font-weight:700;letter-spacing:.01em;text-wrap:balance}
+.branch-note{margin:0 0 22px;font-size:13.5px;color:var(--muted);line-height:1.7;max-width:60ch}
+.branch-note code{font-family:var(--mono);font-size:12px;color:var(--accent)}
+.tier{position:relative;padding:0 0 4px 22px;margin-bottom:6px}
+.tier::before{content:"";position:absolute;left:5px;top:12px;bottom:-6px;width:2px;
+  background:var(--line);border-radius:2px}
+.tier:last-child::before{bottom:auto;height:14px}
+.tier-h{display:flex;align-items:center;gap:9px;margin:0 0 11px;position:relative}
+.tier-h::before{content:"";position:absolute;left:-21px;top:5px;width:12px;height:12px;
+  border-radius:50%;background:var(--surface);border:2px solid var(--line)}
+.tier.any-lit .tier-h::before{border-color:var(--lit-ring);background:var(--lit-ring)}
+.tier-h h3{margin:0;font-size:13px;font-weight:700;letter-spacing:.04em;color:var(--muted)}
+.tier-h .cnt{font-family:var(--mono);font-size:11px;color:var(--faint);font-variant-numeric:tabular-nums}
+.pts{display:grid;gap:9px;grid-template-columns:repeat(auto-fill,minmax(146px,1fr))}
+.pt{position:relative;text-align:left;background:var(--surface);border:1px solid var(--line);
+  border-radius:12px;padding:11px 12px 12px;min-height:84px;display:flex;flex-direction:column;gap:6px}
+.pt .code{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--faint)}
+.pt .nm{font-size:13px;line-height:1.4;font-weight:500;overflow-wrap:anywhere}
+.pt[data-state="open"]{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.pt[data-state="open"] .code{color:var(--accent)}
+.pt[data-state="locked"]{opacity:.5;background:var(--surface-2)}
+.pt[data-state="lit"]{background:var(--lit-soft);border-color:var(--lit-ring)}
+.pt[data-state="lit"] .code{color:var(--lit)}
+.pt .spark{position:absolute;top:9px;right:10px;width:9px;height:9px;border-radius:50%;
+  background:var(--lit-ring);box-shadow:0 0 0 3px color-mix(in srgb,var(--lit-ring) 24%,transparent)}
+
+/* ---------- 抽屜 ---------- */
+.scrim{position:fixed;inset:0;background:rgba(10,12,20,.42);z-index:40}
+.drawer{position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--surface);
+  border-top:1px solid var(--line);border-radius:18px 18px 0 0;
+  box-shadow:0 -12px 40px rgba(10,14,28,.22);
+  padding:16px 16px calc(18px + env(safe-area-inset-bottom,0px));
+  max-height:min(52vh,440px);overflow-y:auto}
+.drawer-in{max-width:720px;margin:0 auto}
+.grip{width:38px;height:4px;border-radius:3px;background:var(--line);margin:0 auto 14px}
+.d-code{font-family:var(--mono);font-size:12px;letter-spacing:.05em;color:var(--accent)}
+.d-title{margin:7px 0 0;font-size:19px;font-weight:700;line-height:1.35;text-wrap:balance}
+.d-text{margin:11px 0 0;font-size:14.5px;line-height:1.85;color:var(--muted)}
+.d-text b{color:var(--ink);font-weight:600}
+.d-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+.tag{font-size:11.5px;padding:4px 9px;border-radius:999px;background:var(--surface-2);
+  border:1px solid var(--line);color:var(--muted)}
+.tag.accent{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:600}
+.d-rel{margin-top:16px;border-top:1px solid var(--line);padding-top:14px}
+.d-rel h4{margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--faint)}
+.rel-list{display:flex;flex-wrap:wrap;gap:7px}
+.rel{font-family:var(--mono);font-size:11.5px;padding:5px 9px;border-radius:8px;
+  border:1px solid var(--line);background:var(--surface-2);color:var(--muted)}
+.rel.lit{border-color:var(--lit-ring);color:var(--lit);background:var(--lit-soft)}
+.rel .t{font-family:var(--sans);color:var(--ink);margin-left:6px}
+.xlink{margin-bottom:9px}
+.xlink p{margin:5px 0 0 2px;font-size:11.5px;line-height:1.6;color:var(--muted)}
+.d-act{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.btn{flex:1 1 160px;padding:13px 16px;border-radius:11px;font-size:15px;font-weight:600;
+  border:1px solid var(--line);background:var(--surface-2);text-align:center}
+.btn.primary{background:var(--lit-ring);border-color:var(--lit-ring);color:#1d1503}
+.btn.ghost{flex:0 0 auto}
+
+.rows{display:flex;flex-direction:column;gap:8px}
+.row{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;
+  background:var(--surface);border:1px solid var(--line);border-radius:11px;padding:11px 13px}
+.row:hover{border-color:var(--accent)}
+.row .code{font-family:var(--mono);font-size:11px;color:var(--faint);flex:none;width:78px;padding-top:2px}
+.row .body{min-width:0}
+.row .nm{font-size:14px;font-weight:600}
+.row .ex{font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row[data-lit="1"] .code{color:var(--lit)}
+.empty{color:var(--faint);font-size:14px;padding:28px 0;text-align:center}
+textarea{width:100%;min-height:150px;border:1px solid var(--line);border-radius:10px;
+  background:var(--surface-2);color:var(--ink);font-family:var(--mono);font-size:11.5px;
+  padding:11px;line-height:1.6;resize:vertical}
+.note{font-size:12.5px;color:var(--muted);line-height:1.7;margin:10px 0 0}
+ul.about{margin:0;padding-left:20px;color:var(--muted);font-size:13.5px;line-height:1.85;
+  max-width:66ch}
+ul.about li{margin-bottom:7px}
+ul.about b{color:var(--ink);font-weight:600}
+@media (max-width:520px){
+  .brand .sub{display:none}
+  .branch-h{font-size:20px}
+  .pts{grid-template-columns:repeat(auto-fill,minmax(132px,1fr))}
+  .mapbox{height:min(62vh,520px)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="top" data-domain="math" id="top">
+  <div class="top-in">
+    <div class="brand"><h1>108課綱技能樹</h1><span class="sub">SKILL ATLAS</span></div>
+    <div class="seg" role="group" aria-label="切換領域">
+      <button id="tab-math" aria-pressed="true">數學</button>
+      <button id="tab-natural" aria-pressed="false">自然科學</button>
+    </div>
+    <div class="tally" title="已點亮的技能"><b id="lit-count">0</b><span id="lit-total">/ 0</span></div>
+    <button class="icon-btn" id="btn-about">關於</button>
+    <button class="icon-btn" id="btn-key">關鍵</button>
+    <button class="icon-btn" id="btn-progress">進度</button>
+  </div>
+  <div class="top-in" style="padding-top:0">
+    <label class="search"><span aria-hidden="true" style="color:var(--faint)">⌕</span>
+      <input id="q" type="search" placeholder="搜尋技能、編碼或關鍵字（例如：畢氏定理、S-9、配方法）" aria-label="搜尋技能"></label>
+  </div>
+</header>
+
+<main class="wrap" data-domain="math" id="main"></main>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<div id="scrim" class="scrim" hidden></div>
+<section id="drawer" class="drawer" hidden aria-live="polite"></section>
+
+<script>
+(function () {
+  "use strict";
+  var KEY = "skilltree.progress.v1";
+  var BASE_KEY = "skilltree.basegrade.v1";
+  var DOMAINS = { math: "數學", natural: "自然科學" };
+  var NARROW = window.matchMedia("(max-width:560px)").matches;
+  // 手機螢幕塞不下 78px 的欄寬，縮到 62px 一個畫面能多看兩欄
+  var SP = NARROW ? 62 : 78, LH = NARROW ? 84 : 96, RAD = 15;
+
+  var main = document.getElementById("main");
+  var topEl = document.getElementById("top");
+  var drawer = document.getElementById("drawer");
+  var scrim = document.getElementById("scrim");
+  var tip = document.getElementById("tip");
+  var canHover = window.matchMedia("(hover:hover) and (pointer:fine)").matches;
+
+  var CROSS = { pre: {}, use: {} };   // 自然←數學 的跨領域前置（正向／反向索引）
+  var G = {};        // 領域 -> 圖資料
+  var IX = {};       // 領域 -> 索引（節點表、前置、後續、關聯、版面）
+  var state = { domain: "math", q: "", panel: null, learned: new Set(),
+                hidden: {}, zoom: 1, focus: null, baseGrade: 4, colorBy: "subject",
+                chainOnly: true };
+
+  // 節點依「科目」或「跨科概念」分色。數學沒有科別，一律用主題。
+  function groupsOf(dom) {
+    var g = G[dom];
+    return (state.colorBy === "subject" && g.subjects) ? g.subjects : g.topics;
+  }
+  function groupKey(n) {
+    return (state.colorBy === "subject" && n.subject_key) ? n.subject_key : n.topic;
+  }
+
+  function loadProgress() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (raw) JSON.parse(raw).forEach(function (id) { state.learned.add(id); });
+      var g = localStorage.getItem(BASE_KEY);
+      if (g !== null) state.baseGrade = Math.max(0, Math.min(12, parseInt(g, 10) || 0));
+    } catch (e) { /* 無痕視窗或封鎖站台資料：以預設值繼續 */ }
+  }
+  function saveProgress() {
+    try {
+      localStorage.setItem(KEY, JSON.stringify(Array.from(state.learned)));
+      localStorage.setItem(BASE_KEY, String(state.baseGrade));
+    } catch (e) { /* 寫入失敗不影響本次操作 */ }
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  /* ---------- 索引與版面 ---------- */
+  function index(dom) {
+    var g = G[dom];
+    var ix = { nodes: {}, pre: {}, next: {}, rel: {} };
+    g.nodes.forEach(function (n) { n.uid = dom + ":" + n.id; ix.nodes[n.id] = n; });
+    g.edges.forEach(function (e) {
+      (ix.pre[e.to] = ix.pre[e.to] || []).push(e.from);
+      (ix.next[e.from] = ix.next[e.from] || []).push(e.to);
+    });
+    (g.related || []).forEach(function (e) {
+      (ix.rel[e.from] = ix.rel[e.from] || []).push(e.to);
+    });
+    ix.maxReach = Math.max(1, Math.max.apply(null, g.nodes.map(function (n) { return n.reach; })));
+    IX[dom] = ix;
+    ix.layout = layout(dom);
+  }
+
+  function layout(dom, only) {
+    var g = G[dom], ix = IX[dom], layers = [];
+    g.nodes.forEach(function (n) {
+      if (only && !only[n.id]) return;
+      (layers[n.depth] = layers[n.depth] || []).push(n);
+    });
+    layers.forEach(function (l) {
+      l.sort(function (a, b) {
+        return a.topic < b.topic ? -1 : a.topic > b.topic ? 1 : (a.id < b.id ? -1 : 1);
+      });
+    });
+    var pos = {};
+    function reindex() { layers.forEach(function (l) { l.forEach(function (n, i) { pos[n.id] = i; }); }); }
+    reindex();
+    // 重心法（barycenter）減少連線交叉：上下各掃幾輪，讓節點靠近鄰居的平均位置
+    for (var sweep = 0; sweep < 8; sweep++) {
+      var down = sweep % 2 === 0;
+      for (var k = 0; k < layers.length; k++) {
+        var layer = layers[down ? k : layers.length - 1 - k];
+        if (!layer) continue;
+        var nb = down ? ix.pre : ix.next;
+        layer.forEach(function (n) {
+          var xs = (nb[n.id] || []).map(function (x) { return pos[x]; })
+            .filter(function (v) { return v !== undefined; });
+          n._b = xs.length ? xs.reduce(function (a, b) { return a + b; }, 0) / xs.length : pos[n.id];
+        });
+        layer.sort(function (a, b) { return a._b - b._b || (a.id < b.id ? -1 : 1); });
+        reindex();
+      }
+    }
+    var maxw = 0;
+    layers.forEach(function (l) { if (l && l.length > maxw) maxw = l.length; });
+    var xy = {};
+    layers.forEach(function (l, d) {
+      if (!l) return;
+      var off = (maxw - l.length) / 2;
+      l.forEach(function (n, i) {
+        xy[n.id] = { x: (off + i) * SP + SP / 2, y: d * LH + LH / 2 };
+      });
+    });
+    return { w: maxw * SP, h: layers.length * LH, layers: layers, pos: xy };
+  }
+
+  /* ---------- 完成狀態 ---------- */
+  // 「起始年級」以下的技能視為已完成——使用者宣告的學習基準，不是假造的進度，
+  // 因此和手動點亮的節點分開標示（實心主題色 vs 實心金色）。
+  function doneKind(n) {
+    if (state.learned.has(n.uid)) return "manual";
+    if (n.tier <= state.baseGrade) return "base";
+    return null;
+  }
+  function crossBlocked(n) {
+    var links = CROSS.pre[n.id];
+    if (!links || n.domain !== "natural" || !IX.math) return [];
+    return links.filter(function (l) { return !doneKind(IX.math.nodes[l.math]); });
+  }
+  function nodeState(n) {
+    if (doneKind(n)) return "lit";
+    var ix = IX[n.domain], pre = ix.pre[n.id] || [];
+    for (var i = 0; i < pre.length; i++) {
+      if (!doneKind(ix.nodes[pre[i]])) return "locked";
+    }
+    // 跨領域前置同樣擋住解鎖——「數學會用在自然」要看得見，就不能只當註記
+    return crossBlocked(n).length ? "locked" : "open";
+  }
+  var NAT_BADGE = { "Ⅱ": "Ⅱ", "Ⅲ": "Ⅲ", "Ⅳ": "Ⅳ", "Ⅴc": "必", "Ⅴa": "選" };
+  function badgeOf(n) {
+    return n.domain === "math" ? String(n.grade) : (NAT_BADGE[n.stage] || "");
+  }
+  // 技能名稱折成兩行。自然科名稱中位數 11 字，只給一行會截掉 78%。
+  // 每行字數要配合欄寬，否則會橫向撞到鄰居的名稱。
+  var PER_LINE = NARROW ? 6 : 7;
+  function nameLines(name) {
+    var k = PER_LINE;
+    if (name.length <= k) return [name];
+    if (name.length <= k * 2) return [name.slice(0, k), name.slice(k)];
+    return [name.slice(0, k), name.slice(k, k * 2 - 1) + "…"];
+  }
+
+  function whenLabel(n) {
+    return n.domain === "math" ? "課綱排在 " + n.grade + "年級" : n.stage_label;
+  }
+
+  // 節點大小＝它解鎖的下游技能數（開平方壓縮，否則根節點會大到蓋住鄰居）。
+  // 關鍵樞紐因此自己就會浮出來，不必另外標記。
+  function radiusOf(n) {
+    return 10 + 11 * Math.sqrt(n.reach / IX[n.domain].maxReach);
+  }
+  function shapeOf(n, fill) {
+    // 圓形＝單一技能；六角形＝綜合應用（數學的「解題」、自然的跨科目主題）
+    var r = radiusOf(n), stroke = 'stroke="var(--t-' + groupKey(n) + ')"';
+    if (!n.applied) {
+      return '<circle class="shape" cx="' + n.x + '" cy="' + n.y + '" r="' + r.toFixed(1) +
+        '" fill="' + fill + '" ' + stroke + '></circle>';
+    }
+    var pts = [];
+    for (var i = 0; i < 6; i++) {
+      var a = (-90 + 60 * i) * Math.PI / 180;
+      pts.push((n.x + (r + 2.5) * Math.cos(a)).toFixed(1) + "," +
+               (n.y + (r + 2.5) * Math.sin(a)).toFixed(1));
+    }
+    return '<polygon class="shape" points="' + pts.join(" ") + '" fill="' + fill + '" ' +
+      stroke + ' stroke-linejoin="round"></polygon>';
+  }
+
+  // 學會某個技能之後的實際收穫，用兩個誠實的數字表示：
+  //   opened — 立刻從鎖住變成可學的技能數（它是那些技能最後一個缺的前置）
+  //   ahead  — 它下游還沒完成的技能總數（這條路前方還有多大一片）
+  // 不用「連鎖可達性」計算，那會沿著整張圖一路傳播，每個節點都得到相同答案。
+  function pickStats(dom, id) {
+    var ix = IX[dom];
+    var opened = (ix.next[id] || []).filter(function (c) {
+      return (ix.pre[c] || []).every(function (p) {
+        return p === id || doneKind(ix.nodes[p]);
+      });
+    }).length;
+    var seen = {}, stack = [id], ahead = 0;
+    while (stack.length) {
+      var cur = stack.pop();
+      (ix.next[cur] || []).forEach(function (c) {
+        if (seen[c]) return;
+        seen[c] = 1;
+        if (!doneKind(ix.nodes[c])) ahead++;
+        stack.push(c);
+      });
+    }
+    return { opened: opened, ahead: ahead };
+  }
+  function keyPicks(dom) {
+    return G[dom].nodes.filter(function (n) { return nodeState(n) === "open"; })
+      .map(function (n) {
+        var st = pickStats(dom, n.id);
+        return { n: n, opened: st.opened, ahead: st.ahead };
+      })
+      .sort(function (a, b) { return b.opened - a.opened || b.ahead - a.ahead; });
+  }
+
+  // 聚焦時只把這條鏈拿出來重新排版。整張圖最寬 57 個節點（4446px），
+  // 單一條鏈通常只剩 4–13 個（300–1000px），一個螢幕就看得完。
+  function activeLayout(dom) {
+    var ix = IX[dom];
+    if (!state.focus || !state.chainOnly) return ix.layout;
+    if (!ix.chain || ix.chain.id !== state.focus) {
+      ix.chain = { id: state.focus, lay: layout(dom, kinFor(dom, state.focus)) };
+    }
+    return ix.chain.lay;
+  }
+
+  function kinFor(dom, id) {
+    // 焦點節點的整條前置祖先 + 整條後續子孫，用來把其他節點淡出
+    var ix = IX[dom], keep = {}, stack = [id];
+    keep[id] = 1;
+    while (stack.length) {
+      var cur = stack.pop();
+      (ix.pre[cur] || []).forEach(function (p) { if (!keep[p]) { keep[p] = 1; stack.push(p); } });
+    }
+    stack = [id];
+    while (stack.length) {
+      var c2 = stack.pop();
+      (ix.next[c2] || []).forEach(function (p) { if (!keep[p]) { keep[p] = 1; stack.push(p); } });
+    }
+    return keep;
+  }
+
+  /* ---------- 地圖 ---------- */
+  function renderMap() {
+    var dom = state.domain, g = G[dom], ix = IX[dom], lay = activeLayout(dom);
+    var chainMode = !!(state.focus && state.chainOnly);
+    var prevBox = document.getElementById("mapbox");
+    var sig = dom + "|" + (state.chainOnly ? state.focus : "");
+    var keepScroll = (prevBox && state.lastSig === sig)
+      ? { l: prevBox.scrollLeft, t: prevBox.scrollTop } : null;
+    state.lastSig = sig;
+    var visible = {};
+    var labels = groupsOf(dom);
+    g.nodes.forEach(function (n) { visible[n.id] = !state.hidden[dom + groupKey(n)]; });
+    var keep = state.focus ? kinFor(dom, state.focus) : null;
+    if (chainMode) {
+      g.nodes.forEach(function (n) { if (!keep[n.id]) visible[n.id] = false; });
+    }
+    var W = lay.w, H = lay.h;
+
+    var svg = '<svg id="svg" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '">';
+    lay.layers.forEach(function (l, d) {
+      if (!l || !l.length) return;
+      var y = d * LH + LH / 2;
+      svg += '<line class="tierline" x1="0" y1="' + y + '" x2="' + W + '" y2="' + y + '"></line>' +
+        '<text class="tiertext" x="6" y="' + (y - 7) + '">L' + d +
+        (d === 0 ? "　起點（不需要任何前置）" : "") + '</text>';
+    });
+    g.edges.forEach(function (e) {
+      if (!visible[e.from] || !visible[e.to]) return;
+      var a = lay.pos[e.from], b = lay.pos[e.to];
+      if (!a || !b) return;
+      var hot = keep && keep[e.from] && keep[e.to];
+      svg += '<path class="edge' + (hot && !chainMode ? " hot" : keep && !chainMode ? " fade" : "") +
+        '" d="M' + a.x + ' ' + a.y + ' C' + a.x + ' ' + (a.y + LH * 0.45) + ', ' +
+        b.x + ' ' + (b.y - LH * 0.45) + ', ' + b.x + ' ' + b.y + '"></path>';
+    });
+    g.nodes.forEach(function (n) {
+      if (!visible[n.id]) return;
+      var p = lay.pos[n.id];
+      if (!p) return;
+      n.x = p.x; n.y = p.y;      // shapeOf 與 centerOn 共用這組座標
+      var st = nodeState(n), kind = doneKind(n), rr = radiusOf(n);
+      var fill = kind === "manual" ? "var(--lit-ring)"
+        : kind === "base" ? "var(--t-" + groupKey(n) + ")"
+        : "none";
+      svg += '<g class="node' + (keep && !chainMode && !keep[n.id] ? " dim" : "") +
+        (state.focus === n.id ? " focus" : "") + '" data-state="' + st +
+        '" data-lit="' + (kind === "manual" ? 1 : 0) + '" data-done="' + (kind || "") +
+        '" data-mathgap="' + (crossBlocked(n).length ? 1 : 0) +
+        '" data-mid="' + esc(n.id) + '" tabindex="0" role="button">' +
+        '<circle class="halo" cx="' + n.x + '" cy="' + n.y + '" r="' + (rr + 6).toFixed(1) + '"></circle>' +
+        shapeOf(n, fill) +
+        '<circle class="hit" cx="' + n.x + '" cy="' + n.y + '" r="' + (rr + 3).toFixed(1) + '"></circle>' +
+        '<text class="badge" x="' + (n.x - rr * 0.85).toFixed(1) + '" y="' +
+        (n.y - rr * 0.7).toFixed(1) + '" text-anchor="end">' + esc(badgeOf(n)) + "</text>" +
+        nameLines(n.name).map(function (ln, li) {
+          return '<text x="' + n.x + '" y="' + (n.y + rr + 13 + li * 11).toFixed(1) +
+            '" text-anchor="middle">' + esc(ln) + '</text>';
+        }).join("") + "</g>";
+    });
+    svg += "</svg>";
+
+    var legend = Object.keys(labels).map(function (t) {
+      return '<button class="lg" data-topic="' + t + '" aria-pressed="' +
+        (state.hidden[dom + t] ? "false" : "true") + '" style="--c:var(--t-' + t + ')">' +
+        "<i></i>" + esc(labels[t]) + "</button>";
+    }).join("");
+    var colorSwitch = g.subjects
+      ? '<div class="seg" role="group" aria-label="著色依據">' +
+        '<button id="cb-subject" aria-pressed="' + (state.colorBy === "subject") +
+        '">科目</button><button id="cb-topic" aria-pressed="' +
+        (state.colorBy !== "subject") + '">跨科概念</button></div>'
+      : "";
+
+    // 視覺編碼的說明用小圖比文字省版面：四種通道講成文字會佔掉整個開場。
+    var ring = 'fill="none" stroke="var(--faint)" stroke-width="1.6"';
+    var hints =
+      '<span class="hint"><svg width="30" height="18" viewBox="0 0 30 18" aria-hidden="true">' +
+      '<circle cx="19" cy="10" r="6" ' + ring + '></circle>' +
+      '<text x="10" y="6" text-anchor="end" font-size="7" ' +
+      'font-family="ui-monospace,monospace" fill="var(--faint)">' +
+      (dom === "math" ? "8" : "Ⅳ") + '</text></svg>左上角＝' +
+      (dom === "math" ? "年級" : "學習階段") + "</span>" +
+      '<span class="hint"><svg width="40" height="18" viewBox="0 0 40 18" aria-hidden="true">' +
+      '<circle cx="7" cy="10" r="3.5" ' + ring + '></circle>' +
+      '<circle cx="26" cy="10" r="7" ' + ring + '></circle>' +
+      '</svg>越大＝解鎖的下游技能越多</span>' +
+      '<span class="hint"><svg width="36" height="18" viewBox="0 0 36 18" aria-hidden="true">' +
+      '<circle cx="8" cy="10" r="5.5" ' + ring + '></circle>' +
+      '<polygon points="27,3.5 31.8,6.3 31.8,11.7 27,14.5 22.2,11.7 22.2,6.3" ' + ring +
+      ' stroke-linejoin="round"></polygon></svg>單一技能／綜合應用</span>' +
+      (dom === "natural"
+        ? '<span class="hint"><svg width="20" height="18" viewBox="0 0 20 18" aria-hidden="true">' +
+          '<circle cx="10" cy="10" r="6" fill="none" stroke="var(--faint)" ' +
+          'stroke-width="1.8" stroke-dasharray="3.5 2.5"></circle></svg>虛線＝卡在數學前置</span>'
+        : "");
+    var codeHelp = '<details class="code-help"><summary>編碼怎麼讀</summary>' +
+      (dom === "math"
+        ? '<p><code>N-6-7</code> ＝ 數與量・6年級・第7條。中間那碼直接就是年級。</p>'
+        : '<p><code>PEb-Ⅴc-4</code> ＝ 物理・力與運動・高中必修・第4條。' +
+          '中間的羅馬數字是<b>學習階段</b>不是年級：Ⅱ＝3–4年級、Ⅲ＝5–6年級、' +
+          'Ⅳ＝7–9年級、Ⅴc＝高中必修、Ⅴa＝高中加深加廣選修。' +
+          '科別前綴只有高中有：B生物、P物理、C化學、E地球科學。</p>') +
+      "</details>";
+
+    var lit = g.nodes.filter(doneKind).length;
+    var wide = window.innerWidth >= 900;
+    main.innerHTML =
+      '<details class="guide"' + (wide ? " open" : "") + '>' +
+      '<summary>這張圖怎麼看</summary>' +
+      '<p class="lede"><b>L 是依賴深度：從零開始，最少要先學會幾層才碰得到它。</b>' +
+      '它決定的是<b>學習先後順序</b>，不是難易度——同一層的技能不必等對方，可以並行學；' +
+      '層數深代表它底下壓著一條不能跳過的長鏈。縱軸用的是這個深度，不是年級。' +
+      '共 <b>' + g.nodes.length + '</b> 個技能、' + g.edges.length + ' 條前置關係，分成 ' +
+      (g.max_depth + 1) + ' 層，已完成 ' + lit + ' 個' +
+      (state.baseGrade > 0 ? '（含 1–' + state.baseGrade + ' 年級基準）' : "") + "。" +
+      '點任一個節點會把它的整條前置鏈與後續鏈連同線條一起打亮，其餘淡出。</p>' +
+      '<div class="hints">' + hints + codeHelp + "</div></details>" +
+      '<div class="map-bar"><div class="legend">' + legend + "</div>" + colorSwitch +
+      '<div class="zoom"><button id="zo" aria-label="縮小">−</button>' +
+      '<button id="zf" aria-label="還原" style="width:auto;padding:0 12px;font-size:13px">適中</button>' +
+      '<button id="zi" aria-label="放大">＋</button></div></div>' +
+      '<div class="stage" id="stage"><div class="mapwrap" id="mapwrap">' +
+      '<div class="mapbox" id="mapbox"><div class="mapinner" id="mapinner">' + svg +
+      '</div></div></div><aside class="side" id="side"></aside></div>' +
+      (state.focus
+        ? '<p class="note">正在看 <b>' + esc(ix.nodes[state.focus].name) + '</b> 的依賴鏈，' +
+          '共 <b>' + Object.keys(keep).length + '</b> 個技能。' +
+          '<button class="back" id="chaintoggle">' +
+          (state.chainOnly ? "在整張圖上看" : "只看這條鏈") + "</button>　" +
+          '<button class="back" id="clearfocus">清除聚焦</button></p>'
+        : "");
+    applyZoom();
+    fitMapHeight();
+    var box = document.getElementById("mapbox");
+    var pending = false;
+    box.addEventListener("scroll", function () {   // 節點每次重繪都是新的 box，不會累積監聽
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(function () { pending = false; updateEdgeMarks(); });
+    });
+    if (keepScroll) {
+      box.scrollLeft = keepScroll.l;
+      box.scrollTop = keepScroll.t;
+    } else {
+      // 版面是置中的，捲軸留在最左邊會只看到一片空白
+      box.scrollLeft = Math.max(0, (W * state.zoom - box.clientWidth) / 2);
+    }
+    updateEdgeMarks();
+  }
+
+  var EDGE_LABEL = { up: "↑ 上方", down: "↓ 下方", left: "← 左邊", right: "→ 右邊" };
+
+  // 聚焦時，把落在視窗外的相關節點依方向統計成四個指示器。
+  // 觸控裝置沒有 hover，所以做成夠大的按鈕：按一下就跳到該方向最近的那一個。
+  function updateEdgeMarks() {
+    var wrap = document.getElementById("mapwrap");
+    var box = document.getElementById("mapbox");
+    if (!wrap || !box) return;
+    var old = document.getElementById("edgemarks");
+    if (old) old.remove();
+    if (!state.focus) return;
+
+    var lay = activeLayout(state.domain), keep = kinFor(state.domain, state.focus);
+    var L = box.scrollLeft, T = box.scrollTop, W = box.clientWidth, H = box.clientHeight;
+    var bucket = { up: [], down: [], left: [], right: [] };
+    Object.keys(keep).forEach(function (id) {
+      if (id === state.focus) return;
+      var pt = lay.pos[id];
+      if (!pt) return;
+      var x = pt.x * state.zoom, y = pt.y * state.zoom;
+      var dx = x < L ? L - x : x > L + W ? x - (L + W) : 0;
+      var dy = y < T ? T - y : y > T + H ? y - (T + H) : 0;
+      if (!dx && !dy) return;
+      var dir = dy >= dx ? (y < T ? "up" : "down") : (x < L ? "left" : "right");
+      bucket[dir].push({ id: id, d: Math.max(dx, dy) });
+    });
+
+    var host = document.createElement("div");
+    host.id = "edgemarks";
+    host.innerHTML = Object.keys(bucket).filter(function (k) { return bucket[k].length; })
+      .map(function (k) {
+        return '<button class="edgemark" data-edge="' + k + '">' + EDGE_LABEL[k] +
+          '還有 <b>' + bucket[k].length + "</b> 個</button>";
+      }).join("");
+    wrap.appendChild(host);
+    host._bucket = bucket;
+  }
+
+  // 地圖高度用 vh 會算不準：上方的說明與圖例高度會隨領域與換行改變，
+  // 地圖底部（連同邊緣指示器）常被擠出瀏覽器視窗。改成依實際可用高度撐滿。
+  function fitMapHeight() {
+    var box = document.getElementById("mapbox");
+    if (!box) return;
+    var avail = window.innerHeight - box.getBoundingClientRect().top - 20;
+    var h = Math.max(300, Math.min(780, avail));
+    box.style.height = h + "px";
+    var side = document.getElementById("side");
+    if (side && window.matchMedia("(min-width:821px)").matches) side.style.height = h + "px";
+  }
+
+  function applyZoom() {
+    var inner = document.getElementById("mapinner");
+    if (!inner) return;
+    var lay = activeLayout(state.domain);
+    inner.style.transform = "scale(" + state.zoom + ")";
+    inner.style.width = lay.w * state.zoom + "px";
+    inner.style.height = lay.h * state.zoom + "px";
+  }
+
+  /* ---------- 詳情 ---------- */
+  function showDetail(html) {
+    // 詳情一律排進版面流（寬螢幕靠右、窄螢幕接在地圖下方），不用覆蓋式面板——
+    // 蓋住剛剛高亮的依賴鏈等於白高亮。
+    var side = document.getElementById("side");
+    if (!side) {
+      drawer.innerHTML = html; drawer.hidden = false; scrim.hidden = false;
+      return;
+    }
+    side.innerHTML = html;
+    document.getElementById("stage").classList.add("has-side");
+    fitMapHeight();
+    drawer.hidden = true; scrim.hidden = true;
+  }
+  function centerOn(id) {
+    var box = document.getElementById("mapbox");
+    var pt = activeLayout(state.domain).pos[id];
+    if (!box || !pt) return;
+    box.scrollLeft = Math.max(0, pt.x * state.zoom - box.clientWidth / 2);
+    box.scrollTop = Math.max(0, pt.y * state.zoom - box.clientHeight / 2);
+    updateEdgeMarks();
+  }
+  function closeDetail() {
+    drawer.hidden = true; scrim.hidden = true;
+    var stage = document.getElementById("stage");
+    if (stage) stage.classList.remove("has-side");
+    if (state.focus) { state.focus = null; render(); }
+  }
+
+  // 跨領域區塊：自然看「需要哪些數學」，數學看「自然科哪裡會用到」。
+  // 課綱兩份文件互不引用，這些邊全是人工判定，所以每一條都附上理由。
+  function crossSection(n) {
+    var links = n.domain === "natural" ? CROSS.pre[n.id] : CROSS.use[n.id];
+    if (!links || !links.length) return "";
+    var toMath = n.domain === "natural";
+    return '<div class="d-rel"><h4>' + (toMath ? "需要的數學" : "自然科哪裡會用到") +
+      "</h4>" + links.map(function (l) {
+        var oid = toMath ? l.math : l.nat;
+        var other = toMath ? IX.math.nodes[l.math] : IX.natural.nodes[l.nat];
+        return '<div class="xlink"><button class="rel' +
+          (other && doneKind(other) ? " lit" : "") + '" data-xgoto="' +
+          esc((toMath ? "math|" : "natural|") + oid) + '">' + esc(oid) +
+          '<span class="t">' + esc(toMath ? l.math_name : l.nat_name) +
+          "</span></button><p>" + esc(l.why) + "</p></div>";
+      }).join("") + "</div>";
+  }
+
+  function openNode(id) {
+    var dom = state.domain, ix = IX[dom], g = G[dom], n = ix.nodes[id];
+    if (!n) return;
+    var st = nodeState(n), kind = doneKind(n);
+    function chips(ids) {
+      return ids.map(function (x) {
+        var m = ix.nodes[x];
+        return '<button class="rel' + (doneKind(m) ? " lit" : "") + '" data-goto="' +
+          esc(x) + '">' + esc(x) + '<span class="t">' + esc(m.name) + "</span></button>";
+      }).join("");
+    }
+    var pre = ix.pre[id] || [], next = ix.next[id] || [], rel = ix.rel[id] || [];
+    var blocked = pre.filter(function (p) { return !doneKind(ix.nodes[p]); });
+    var html = '<div class="drawer-in"><div class="grip"></div>' +
+      '<div class="d-code">' + esc(id) + (n.split ? '　（拆自課綱 ' + esc(n.src) + '）' : "") + "</div>" +
+      '<h3 class="d-title">' + esc(n.name) + "</h3>" +
+      '<p class="d-text"><b>課綱原文（' + esc(n.src) + '）</b><br>' + esc(n.text) + "</p>" +
+      '<div class="d-tags"><span class="tag accent">L' + n.depth +
+      '　前面最少 ' + n.depth + " 層</span>" +
+      '<span class="tag">' + esc(g.topics[n.topic] || n.topic) + "</span>" +
+      (n.subject && n.subject !== "跨科" ? '<span class="tag accent">' + esc(n.subject) + "</span>"
+        : n.subject ? '<span class="tag">跨科</span>' : "") +
+      '<span class="tag">' + esc(whenLabel(n)) + "</span>" +
+      (n.also && n.also.length ? '<span class="tag">同 ' + esc(n.also.join("、")) + "</span>" : "") +
+      (n.reach ? '<span class="tag">解鎖 ' + n.reach + ' 個下游技能</span>' : "") +
+      (n.gate > 0 ? '<span class="tag">必經關口：擋住 ' + n.gate + ' 個</span>' : "") +
+      (n.applied ? '<span class="tag">綜合應用</span>' : "") +
+      '<span class="tag">' + (kind === "base" ? "已完成（1–" + state.baseGrade + "年級基準）"
+        : kind === "manual" ? "已點亮"
+        : st === "open" ? "可學習"
+        : "還差 " + (blocked.length + crossBlocked(n).length) + " 個前置" +
+          (crossBlocked(n).length ? "（其中 " + crossBlocked(n).length + " 個是數學）" : "")) +
+      "</span></div>" +
+      (pre.length ? '<div class="d-rel"><h4>前置技能</h4><div class="rel-list">' + chips(pre) + "</div></div>" : "") +
+      (next.length ? '<div class="d-rel"><h4>解鎖後續</h4><div class="rel-list">' + chips(next) + "</div></div>" : "") +
+      (rel.length ? '<div class="d-rel"><h4>課綱原文點名的關聯條目</h4><div class="rel-list">' + chips(rel) + "</div></div>" : "") +
+      crossSection(n) +
+      '<div class="d-act">' +
+      (kind === "base"
+        ? '<button class="btn" id="go-base">調整起始年級</button>'
+        : '<button class="btn primary" id="toggle">' +
+          (kind === "manual" ? "取消點亮" : "點亮這個技能") + "</button>") +
+      '<button class="btn ghost" id="close">關閉</button></div></div>';
+    drawer.dataset.mid = id;
+    showDetail(html);
+    centerOn(id);
+  }
+
+  /* ---------- 搜尋與進度 ---------- */
+  function renderSearch(q) {
+    var needle = q.trim().toLowerCase(), hits = [];
+    Object.keys(G).forEach(function (dom) {
+      G[dom].nodes.forEach(function (n) {
+        if ((n.id + n.name + n.text).toLowerCase().indexOf(needle) >= 0) {
+          hits.push(n);
+        }
+      });
+    });
+    hits = hits.slice(0, 120);
+    main.innerHTML = '<div class="theme-head"><h2>搜尋「' + esc(q) + '」</h2>' +
+      '<span class="rule"></span><span class="n">' + hits.length + " 筆</span></div>" +
+      (hits.length ? '<div class="rows">' + hits.map(function (n) {
+        return '<button class="row" data-jump="' + esc(n.domain + "|" + n.id) + '" data-lit="' +
+          (doneKind(n) ? 1 : 0) + '"><span class="code">' + esc(n.id) +
+          '</span><span class="body"><span class="nm">' + esc(n.name) + "　" +
+          esc(DOMAINS[n.domain]) + '</span><span class="ex">L' + n.depth + "　" +
+          esc(n.text) + "</span></span></button>";
+      }).join("") + "</div>"
+        : '<p class="empty">沒有符合的技能。試試編碼（S-9、Eb-Ⅳ）或關鍵字（畢氏定理、光合作用）。</p>');
+  }
+
+  function renderProgress() {
+    main.innerHTML = '<div class="crumb"><button class="back" id="back">‹ 返回</button></div>' +
+      '<h2 class="branch-h">進度備份</h2>' +
+      '<p class="branch-note">起始年級以下的技能會直接視為完成（實心填滿），不必逐個點。' +
+      '之後手動點亮的技能會用金色標示，跟基準區分開來。</p>' +
+      '<p class="branch-note"><label>已完成到　<select id="basegrade">' +
+      [0,1,2,3,4,5,6,7,8,9,10,11,12].map(function (g) {
+        return '<option value="' + g + '"' + (g === state.baseGrade ? " selected" : "") +
+          ">" + (g === 0 ? "尚未開始" : g + "年級") + "</option>";
+      }).join("") + "</select></label></p>" +
+      '<p class="branch-note">進度存在這台裝置的瀏覽器裡，換裝置不會同步。複製下面這段文字，' +
+      '在另一台裝置貼回同一個欄位後按「匯入」。</p>' +
+      '<textarea id="io" spellcheck="false">' +
+      esc(JSON.stringify({ v: 2, baseGrade: state.baseGrade,
+                           learned: Array.from(state.learned) })) + "</textarea>" +
+      '<div class="d-act"><button class="btn" id="do-import">匯入貼上的進度</button>' +
+      '<button class="btn ghost" id="do-reset">全部重設</button></div>' +
+      '<p class="note" id="io-msg">目前手動點亮 ' + state.learned.size + " 個技能。</p>";
+  }
+
+  function renderKey() {
+    var dom = state.domain, g = G[dom];
+    var picks = keyPicks(dom).filter(function (p) { return p.ahead > 0; }).slice(0, 12);
+    var hubs = g.nodes.filter(function (n) { return n.gate > 0 && !doneKind(n); })
+      .sort(function (a, b) { return b.gate - a.gate; }).slice(0, 12);
+
+    function rows(list, fmt) {
+      return '<div class="rows">' + list.map(function (item) {
+        var n = item.n || item;
+        return '<button class="row" data-jump="' + esc(dom + "|" + n.id) + '">' +
+          '<span class="code">' + esc(n.id) + '</span><span class="body">' +
+          '<span class="nm">' + esc(n.name) + '</span>' +
+          '<span class="ex">' + fmt(item) + '　L' + n.depth + "　" +
+          esc(g.topics[n.topic] || n.topic) + "</span></span></button>";
+      }).join("") + "</div>";
+    }
+    main.innerHTML = '<div class="crumb"><button class="back" id="back">‹ 返回</button></div>' +
+      '<h2 class="branch-h">關鍵節點</h2>' +
+      '<p class="branch-note">兩種「重要」是不同的問題。上面那份會隨你的進度改變，' +
+      '下面那份是整張圖的固有結構。</p>' +
+      '<div class="theme-head"><h2>現在最該學的</h2><span class="rule"></span>' +
+      '<span class="n">依目前進度</span></div>' +
+      '<p class="branch-note">前置都完成、現在就能學。依「學完會立刻解鎖幾個技能」排序，' +
+      '後面那個數字是這條路前方還有多少技能沒完成。</p>' +
+      (picks.length ? rows(picks, function (p) {
+        return (p.opened ? "立刻解鎖 " + p.opened + " 個" : "暫時不會解鎖新技能") +
+          "　前方還有 " + p.ahead + " 個未完成";
+      })
+        : '<p class="empty">目前可學的技能都不會連鎖解鎖其他技能，往地圖上任選一個開始即可。</p>') +
+      '<div class="theme-head"><h2>整張圖的必經關口</h2><span class="rule"></span>' +
+      '<span class="n">固有結構</span></div>' +
+      '<p class="branch-note">把它拿掉，下游會有多少技能永遠走不到——卡在這裡就是卡住一整片。</p>' +
+      (hubs.length ? rows(hubs, function (n) { return "擋住 " + n.gate + " 個技能"; })
+        : '<p class="empty">沒有尚未完成的關口。</p>');
+  }
+
+  // 這份資料裡「課綱寫的」與「我判斷的」必須分清楚。整個專案的核心價值
+  // （依賴深度、關鍵節點、跨領域連結）全部建立在人工標註上，課綱一個字都沒寫。
+  function renderAbout() {
+    var mn = G.math.nodes.length, nn = G.natural.nodes.length;
+    var me = G.math.edges.length, ne = G.natural.edges.length;
+    var xn = 0;
+    Object.keys(CROSS.pre).forEach(function (k) { xn += CROSS.pre[k].length; });
+    var words = 0;
+    [G.math, G.natural].forEach(function (g) {
+      g.nodes.forEach(function (n) { words += n.text.length; });
+    });
+
+    main.innerHTML = '<div class="crumb"><button class="back" id="back">‹ 返回</button></div>' +
+      '<h2 class="branch-h">關於這份資料</h2>' +
+      '<p class="lede">這不是官方教材，也不是教育部發布的學習順序。' +
+      '課綱原文與我的判斷混在同一張圖上，所以先說清楚哪些是哪些。</p>' +
+
+      '<div class="theme-head"><h2>課綱寫的</h2><span class="rule"></span></div>' +
+      '<ul class="about"><li>每一條技能的<b>原文敘述與編碼</b>，共 ' +
+      words.toLocaleString() + ' 字，逐字取自教育部《十二年國民基本教育課程綱要》' +
+      '自然科學領域（107 年 11 月）與數學領域。</li>' +
+      '<li>主題／次主題／跨科概念的<b>分類架構</b>、學習階段與年級。</li>' +
+      '<li>數學課綱自己標示的「對應學習表現」與條目內點名的其他編碼。</li></ul>' +
+
+      '<div class="theme-head"><h2>我判斷的（課綱沒有寫）</h2><span class="rule"></span></div>' +
+      '<ul class="about"><li><b>' + (me + ne).toLocaleString() +
+      ' 條前置關係</b>（數學 ' + me + '、自然 ' + ne + '）。課綱只按主題與年級編號，' +
+      '沒有說明哪個技能是哪個技能的前提，這些連線全部是逐條判定的。</li>' +
+      '<li><b>' + xn + ' 條跨領域連結</b>。課綱兩份文件互不引用。</li>' +
+      '<li>把少數混合多個概念的條目<b>拆解</b>成子技能，並合併課綱自己標示「同 X」的重複條目。</li>' +
+      '<li>國小與國中條目的<b>科目歸屬</b>。課綱只在高中給科別前綴，國中由高中同碼反推，' +
+      '國小的跨科概念條目全為人工判定。</li>' +
+      '<li><b>依賴深度（L）、影響範圍（圓的大小）、必經關口</b>——' +
+      '這些全是由上面那些前置關係計算出來的，前置改了，數字就跟著改。</li></ul>' +
+
+      '<div class="theme-head"><h2>可以辯論的地方</h2><span class="rule"></span></div>' +
+      '<ul class="about"><li>方向可以反過來的例子：生物的「遺傳物質為核酸」我連到化學的' +
+      '「醣類、蛋白質、油脂及核酸的性質」；反過來主張化學課才需要生物背景也說得通。</li>' +
+      '<li>「二次方根」與「畢氏定理」我讓畢氏定理依賴二次方根，不少教材是反過來教的。</li>' +
+      '<li>跨領域只收「不會這個數學就真的算不出」的門檻級依賴。' +
+      '若把「用得到但不卡關」也算進來，會膨脹到兩三百條。</li>' +
+      '<li>自然科的學習階段涵蓋 2–3 個年級，課綱刻意不綁定，' +
+      '所以無法從編碼看出確切年級；各版本教科書的編排順序也不同。</li></ul>' +
+
+      '<div class="theme-head"><h2>隱私</h2><span class="rule"></span></div>' +
+      '<ul class="about"><li>沒有伺服器、沒有帳號、沒有分析追蹤，也沒有任何外部連線。</li>' +
+      '<li>學習進度只存在你自己瀏覽器的 localStorage，不會上傳，換裝置不會同步。' +
+      '要搬移請用「進度」裡的匯出／匯入。</li></ul>' +
+
+      '<p class="note">拿來當討論起點可以，直接當教學進度表不行——' +
+      '前置關係請自己覆核過再用。</p>';
+  }
+
+  function setTally() {
+    var g = G[state.domain];
+    document.getElementById("lit-count").textContent = g.nodes.filter(doneKind).length;
+    document.getElementById("lit-total").textContent = "/ " + g.nodes.length;
+  }
+
+  function render() {
+    topEl.dataset.domain = state.domain;
+    main.dataset.domain = state.domain;
+    document.getElementById("tab-math").setAttribute("aria-pressed", state.domain === "math");
+    document.getElementById("tab-natural").setAttribute("aria-pressed", state.domain === "natural");
+    setTally();
+    if (state.panel === "about") return renderAbout();
+    if (state.panel === "key") return renderKey();
+    if (state.panel === "progress") return renderProgress();
+    if (state.q.trim()) return renderSearch(state.q);
+    return renderMap();
+  }
+
+  /* ---------- 懸停速覽小卡 ---------- */
+  function tipFor(n) {
+    var ix = IX[n.domain], g = G[n.domain];
+    var st = nodeState(n), kind = doneKind(n);
+    var pre = (ix.pre[n.id] || []).map(function (p) { return ix.nodes[p].name; });
+    return '<div class="code">' + esc(n.id) + (n.split ? "　拆自 " + esc(n.src) : "") + "</div>" +
+      '<div class="nm">' + esc(n.name) + "</div>" +
+      '<div class="meta"><span class="on">L' + n.depth + "　前面最少 " + n.depth + " 層</span>" +
+      "<span>" + esc(g.topics[n.topic] || n.topic) + "</span>" +
+      (n.subject ? "<span>" + esc(n.subject) + "</span>" : "") +
+      "<span>" + esc(whenLabel(n)) + "</span>" +
+      (n.reach ? "<span>解鎖 " + n.reach + " 個下游</span>" : "") +
+      (n.gate > 0 ? "<span>必經關口</span>" : "") +
+      (n.applied ? "<span>綜合應用</span>" : "") +
+      (crossBlocked(n).length ? "<span>缺 " + crossBlocked(n).length + " 個數學前置</span>" : "") +
+      "<span>" + (kind === "base" ? "已完成（年級基準）" : kind === "manual" ? "已點亮"
+        : st === "open" ? "可學習" : "前置未完成") + "</span></div>" +
+      '<div class="ex">' + esc(n.text) + "</div>" +
+      (pre.length ? '<div class="pre">前置：<b>' + esc(pre.join("、")) + "</b></div>"
+        : '<div class="pre">起點技能，不需要任何前置</div>');
+  }
+  function showTip(node, ev) {
+    var n = IX[state.domain].nodes[node.dataset.mid];
+    if (!n) return;
+    if (tip.dataset.for !== n.uid) {
+      tip.innerHTML = tipFor(n);
+      tip.dataset.for = n.uid;
+    }
+    tip.hidden = false;
+    var pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+    var x = ev.clientX + pad, y = ev.clientY + pad;
+    if (x + w > window.innerWidth - 8) x = ev.clientX - w - pad;
+    if (y + h > window.innerHeight - 8) y = Math.max(8, ev.clientY - h - pad);
+    tip.style.left = Math.max(8, x) + "px";
+    tip.style.top = y + "px";
+  }
+  function hideTip() { tip.hidden = true; tip.dataset.for = ""; }
+
+  if (canHover) {
+    document.addEventListener("mouseover", function (ev) {
+      var node = ev.target.closest ? ev.target.closest("g.node") : null;
+      if (node) showTip(node, ev); else if (!tip.hidden) hideTip();
+    });
+    document.addEventListener("mousemove", function (ev) {
+      if (tip.hidden) return;
+      var node = ev.target.closest ? ev.target.closest("g.node") : null;
+      if (!node) return hideTip();
+      showTip(node, ev);
+    });
+    document.addEventListener("scroll", hideTip, true);
+    document.addEventListener("click", hideTip, true);
+  }
+
+  /* ---------- 事件 ---------- */
+  function focusNode(dom, id) {
+    state.domain = dom; state.focus = id; state.panel = null;
+    if (state.q.trim()) { state.q = ""; document.getElementById("q").value = ""; }
+    render();                      // 先重畫地圖（高亮依賴鏈），再把詳情填進側欄
+    openNode(id);
+  }
+
+  document.addEventListener("click", function (ev) {
+    var t = ev.target.closest("button, g.node");
+    if (!t) {
+      // 點地圖空白處＝退出聚焦、收起詳情，回到整張圖
+      var onMap = ev.target.closest && ev.target.closest("#mapbox");
+      var engaged = state.focus || !drawer.hidden ||
+                    !!document.querySelector(".stage.has-side");
+      if (onMap && engaged) closeDetail();
+      return;
+    }
+    if (t.id === "tab-math" || t.id === "tab-natural") {
+      state.domain = t.id === "tab-math" ? "math" : "natural";
+      state.panel = null; state.focus = null; state.q = "";
+      document.getElementById("q").value = ""; return render();
+    }
+    if (t.id === "btn-about") {
+      state.panel = state.panel === "about" ? null : "about"; state.focus = null;
+      return render();
+    }
+    if (t.id === "btn-key") {
+      state.panel = state.panel === "key" ? null : "key"; state.focus = null; return render();
+    }
+    if (t.id === "btn-progress") {
+      state.panel = state.panel === "progress" ? null : "progress"; return render();
+    }
+    if (t.id === "back") { state.panel = null; return render(); }
+    if (t.dataset.topic) {
+      var k = state.domain + t.dataset.topic;
+      state.hidden[k] = !state.hidden[k]; return render();
+    }
+    if (t.id === "zi") { state.zoom = Math.min(2, state.zoom * 1.25); return applyZoom(); }
+    if (t.id === "zo") { state.zoom = Math.max(0.35, state.zoom / 1.25); return applyZoom(); }
+    if (t.id === "zf") { state.zoom = 1; return applyZoom(); }
+    if (t.id === "cb-subject" || t.id === "cb-topic") {
+      state.colorBy = t.id === "cb-subject" ? "subject" : "topic";
+      return render();
+    }
+    if (t.dataset.edge) {
+      var host = document.getElementById("edgemarks");
+      var list = host && host._bucket ? host._bucket[t.dataset.edge] : null;
+      if (list && list.length) {
+        centerOn(list.reduce(function (a, b) { return a.d <= b.d ? a : b; }).id);
+      }
+      return;
+    }
+    if (t.id === "chaintoggle") {
+      state.chainOnly = !state.chainOnly;
+      var cur = state.focus;
+      render();
+      return openNode(cur);
+    }
+    if (t.id === "clearfocus") { state.focus = null; return render(); }
+    if (t.dataset.xgoto) {
+      var xp = t.dataset.xgoto.split("|");
+      return focusNode(xp[0], xp[1]);
+    }
+    if (t.dataset.jump) {
+      var parts = t.dataset.jump.split("|");
+      return focusNode(parts[0], parts[1]);
+    }
+    if (t.dataset.mid) return focusNode(state.domain, t.dataset.mid);
+    if (t.dataset.goto) return focusNode(state.domain, t.dataset.goto);
+    if (t.id === "close") return closeDetail();
+    if (t.id === "go-base") { state.panel = "progress"; state.focus = null; return render(); }
+    if (t.id === "toggle") {
+      var id = drawer.dataset.mid, uid = IX[state.domain].nodes[id].uid;
+      if (state.learned.has(uid)) state.learned.delete(uid); else state.learned.add(uid);
+      saveProgress(); render(); return openNode(id);
+    }
+    if (t.id === "do-import") {
+      var msg = document.getElementById("io-msg");
+      try {
+        var parsed = JSON.parse(document.getElementById("io").value);
+        state.learned = new Set(parsed.learned || []);
+        if (typeof parsed.baseGrade === "number") state.baseGrade = parsed.baseGrade;
+        saveProgress(); render();
+        document.getElementById("io-msg").textContent =
+          "已匯入 " + state.learned.size + " 個手動點亮的技能。";
+      } catch (e) { msg.textContent = "這段文字不是有效的進度資料，請確認完整複製了整段內容。"; }
+      return;
+    }
+    if (t.id === "do-reset") {
+      state.learned = new Set(); saveProgress(); render();
+      document.getElementById("io-msg").textContent = "進度已清空。";
+    }
+  });
+  document.addEventListener("change", function (ev) {
+    if (ev.target.id !== "basegrade") return;
+    state.baseGrade = parseInt(ev.target.value, 10) || 0;
+    saveProgress(); render();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeDetail();
+    if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.mid) {
+      e.preventDefault(); focusNode(state.domain, e.target.dataset.mid);
+    }
+  });
+  window.addEventListener("resize", function () {
+    fitMapHeight();
+    updateEdgeMarks();
+  });
+  scrim.addEventListener("click", closeDetail);
+  var timer;
+  document.getElementById("q").addEventListener("input", function (e) {
+    var v = e.target.value;
+    clearTimeout(timer);
+    timer = setTimeout(function () { state.q = v; state.panel = null; render(); }, 160);
+  });
+
+  main.innerHTML = '<p class="empty">載入課綱資料…</p>';
+  loadProgress();
+  Promise.all([
+    fetch("graph_math.json").then(function (r) { return r.json(); }),
+    fetch("graph_natural.json").then(function (r) { return r.json(); }),
+    fetch("graph_cross.json").then(function (r) { return r.json(); })
+  ]).then(function (res) {
+    G.math = res[0]; G.natural = res[1];
+    res[2].links.forEach(function (l) {
+      (CROSS.pre[l.nat] = CROSS.pre[l.nat] || []).push(l);
+      (CROSS.use[l.math] = CROSS.use[l.math] || []).push(l);
+    });
+    index("math"); index("natural");
+    render();
+  }).catch(function () {
+    main.innerHTML = '<p class="empty">課綱資料載入失敗，請重新整理頁面。</p>';
+  });
+})();
+</script>

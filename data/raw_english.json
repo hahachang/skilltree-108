@@ -1,0 +1,1192 @@
+[
+ {
+  "code": "Aa-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "字母名稱。",
+  "page": 19
+ },
+ {
+  "code": "Aa-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "印刷體大小寫字母的辨識及書寫。B溝通功能◎",
+  "page": 19
+ },
+ {
+  "code": "Aa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "連續體大小寫字母的辨識及書寫。",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "子音、母音及其組合。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "單音節、多音節，及重音音節。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "片語及句子的重音。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "所學的字母拼讀規則（含看字讀音、聽音拼字）。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "子音、母音及其組合。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "單音節、多音節，及重音音節。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "片語及句子的重音。*",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "句子的語調及節奏。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "所學的字母拼讀規則（含看字讀音、聽音拼字）。",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "句子的發音、重音及語調。*◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "歌謠、韻文的節奏與音韻。*",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "字母拼讀規則（含字母拼讀的精熟能力、字彙拼寫的輔助）。",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "句子語調所表達的情緒和態度。◎",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "歌謠、韻文的節奏與音韻。*",
+  "page": 19
+ },
+ {
+  "code": "Ab-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "不同腔調/語言背景英語使用者的談話。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "簡易的教室用語。◎",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "簡易的生活用語。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "第二學習階段所學字詞。第二學習階段",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "校園內簡易的英文標示。◎",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "簡易的教室用語。◎",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "簡易的生活用語。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "國小階段所學字詞（能聽、讀、說300字詞，其中必須拼寫180字詞）。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "簡易的英文標示。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "常見的教室用語。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "常見的生活用語。B溝通功能",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "國中階段所學字詞（能聽、讀、說、寫最基本的1,200字詞）。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "常見的英文標示。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "生活用語。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "高中階段所學字詞（字頻最高的4,500字詞）。",
+  "page": 19
+ },
+ {
+  "code": "Ad-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "簡易標點符號。",
+  "page": 19
+ },
+ {
+  "code": "Ad-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "簡易、常用的句型結構。*◎",
+  "page": 19
+ },
+ {
+  "code": "Ad-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "國中階段所學的文法句型。◎",
+  "page": 19
+ },
+ {
+  "code": "Ad-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "高中階段所學的結構。B.溝通功能",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "簡易歌謠、韻文、短文、故事及短第三學習階段劇。*",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "繪本故事、兒童短劇。C文化與習俗◎",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "簡易歌謠、韻文、短文、第四學習階段故事及短劇。◎",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "常見的圖表。*◎",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "公共場所廣播（如捷運、車站、機場廣播）。",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "簡易賀卡、書信、電子郵件。*",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "不同體裁、不同之簡易文章。C文化與習俗",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "簡易故事的背景、人物、事件和結局。*◎",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "敘述者的觀點、態度、及寫作目的。*",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "簡易故事及短文的大意。",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "歌曲、短詩、短文、短劇、故事。第五學習階段◎",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "常見的圖表。◎",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "公共場所廣播（如捷運、車站、機場廣播）。",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "賀卡、便條、書信、電子郵件、邀請卡。B.溝通功能",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "教學廣播節目的內容。",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-6",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "學習雜誌、漫畫。",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-7",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 7,
+  "text": "新聞報導。A.語言知識",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-8",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 8,
+  "text": "工具書（如百科全書）或其他線上資源。C文化與習俗A語言知識",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-9",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 9,
+  "text": "不同體裁、不同之文章。",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-10",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 10,
+  "text": "故事及短劇的內容與情節。",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-11",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 11,
+  "text": "故事的背景、人物、事件和結局。◎",
+  "page": 20
+ },
+ {
+  "code": "Ae-Ⅴ-12",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 12,
+  "text": "敘述者的觀點、態度、及寫作目的。B.溝通功能",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "第二學習階段所學字詞及句型的生活溝通。第二學習階段◎",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "自己、家人及朋友的簡易介紹。",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "國小階段所學字詞及句型的生活溝通。第三學習階段◎",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "自己、家人及朋友的簡易描述。",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "國中階段所學字詞及句型的生活溝通。",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "語言與非第四學習階段語言的溝通策略（如請求重述、手勢、表情等）。略（如請求重述、手勢、表情等）。C文化與習俗",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "個人的需求、意願和感受的表達。",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "人、事、時、地、物的描述及問答。A語言知識",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "圖片描述。",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "角色扮演。*◎",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "引導式討論。第四學習階段",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "自己、家人及朋友的式或情境式介紹及描述。",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "高中階段所學字詞及句型的生活第五學習階段溝通。",
+  "page": 20
+ },
+ {
+  "code": "B-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "語言與非語言的溝通策略（如請求重述、委婉語、迂迴解說、手勢、表情等）。A語言知識",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "圖片描述。",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "短劇表演。◎",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-6",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "引導式討論。*",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-7",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 7,
+  "text": "符合情境或場景的自我表達與人際溝通。B.溝通功能",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-8",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 8,
+  "text": "短文、書信的內容及文本結構。B.溝通功能",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-9",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 9,
+  "text": "有情節發展及細節描述的故事或個人經驗。",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-10",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 10,
+  "text": "一段談話或簡短故事的轉述。",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-11",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 11,
+  "text": "日常對話、故事、廣播的要點。",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-12",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 12,
+  "text": "故事及短文的主旨或大意。A.語言知識",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-13",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 13,
+  "text": "談話或短文的摘要。*",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-14",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 14,
+  "text": "不同體裁、不同文章之賞析心得。*",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-15",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 15,
+  "text": "歌謠、韻文音韻之第五學習階段賞析心得。*",
+  "page": 21
+ },
+ {
+  "code": "B-Ⅴ-16",
+  "kind": "content",
+  "topic_code": "B",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 16,
+  "text": "字詞的特色、各類文學作品之賞析心得。C文化與習俗",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "國內（外）招呼方式。◎",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "國內外主要節慶習俗。C文化與習俗◎",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "國內（外）招呼方式。◎",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "國內外主要節慶習俗。◎",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "國內外節慶習俗。",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "國內外風土民情。D思考能力",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "文化習俗的了解及尊重。C文化與習俗",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "基本的世界觀。A語言知識",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "國際生活禮儀。",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "多元文化觀點、不同文化及習俗的尊重。",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "國際社會的基本生活禮儀。",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "國際情勢、國際視野。*",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "國際議題（如全球暖化、人工智慧、氣候變遷等）。*變遷等）。",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "地球村觀點、生命及全球永續發展的關注。A語言知識",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-6",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "文化知識與語言能力、生活問題解決之道。D思考能力",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-7",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 7,
+  "text": "多元文化、文化差異。*",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-8",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 8,
+  "text": "文化涵養與國際觀。*",
+  "page": 22
+ },
+ {
+  "code": "C-Ⅴ-9",
+  "kind": "content",
+  "topic_code": "C",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 9,
+  "text": "文化素養及社會上的多元文化觀點。D思考能力",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "所學字詞的簡易歸類。B.溝通功能",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "所學字詞的簡易歸類。",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "故事發展的排序。",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "依綜合",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "依綜合資訊作合理猜測。*◎",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "二至三項訊息的比較、歸類、排第四學習階段序的方法。",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "訊息因果關係的釐清。*◎",
+  "page": 23
+ },
+ {
+  "code": "D-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "藉文字線索，對客觀事實及主觀意見的分辨。A語言知識",
+  "page": 23
+ },
+ {
+  "code": "D-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "多項訊息的比較、歸類、排序。",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "兩個訊息關係的釐清。第五學習階段◎",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "藉文字線索，對客觀事實及主觀意見的分辨。",
+  "page": 23
+ },
+ {
+  "code": "D-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "多項訊息共通點或結論的分析及歸納。",
+  "page": 23
+ },
+ {
+  "code": "D-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "原則的類推、問題解決之道。A語言知識",
+  "page": 23
+ },
+ {
+  "code": "D-Ⅴ-6",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "依於訊息的整合，對情勢發展的預測。",
+  "page": 23
+ },
+ {
+  "code": "D-Ⅴ-7",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 7,
+  "text": "不同資訊的評估，及合理判斷或建議的提供。B溝通功能*",
+  "page": 23
+ },
+ {
+  "code": "D-Ⅴ-8",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 8,
+  "text": "資訊的評估，及任務的規劃與完成。",
+  "page": 23
+ }
+]

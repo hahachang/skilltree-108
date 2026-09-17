@@ -1,0 +1,1122 @@
+[
+ {
+  "code": "A-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "演算法基本概念。-問題解析。-流程控制。八年級資生",
+  "page": 14
+ },
+ {
+  "code": "A-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "日常科技產品的機構與結構應用。-常見機構之種類、原理與應用。常見結構之原理與-應用。八年級生",
+  "page": 14
+ },
+ {
+  "code": "A-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "日常科技產品的保養與維護。-日常生活中常見科技產品之保養、維護與故障排除技巧。常用機具的使用安-全與維護。生",
+  "page": 14
+ },
+ {
+  "code": "A-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "日常科技產品的能源與動力應用。-能源與動力的基本概念及其應用方式。能源轉換的技術與-應用。機械與動力傳動之-應用。九年級生",
+  "page": 17
+ },
+ {
+  "code": "A-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "日常科技產品的電與控制應用。-基本電學與常用電子零件。-簡單電子電路的設計與應用。簡單控制邏輯系統-的應用。生",
+  "page": 17
+ },
+ {
+  "code": "A-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "新興科技的應用。-近代新興科技的發展與應用。七年級生",
+  "page": 17
+ },
+ {
+  "code": "A-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "機構與結構的設計與應用。-機構與結構的模擬與分析。機構與結構在生活上-的設計與應用。生",
+  "page": 15
+ },
+ {
+  "code": "A-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "機電整合與控制的設計與應用。機電整合的基礎概念-知識。機電整合與控制在生-活上的應用。生",
+  "page": 15
+ },
+ {
+  "code": "A-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "＊生空間與結構設計。＊生",
+  "page": 15
+ },
+ {
+  "code": "A-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "工程材料與應用。＊生",
+  "page": 18
+ },
+ {
+  "code": "A-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "產品開發與製作。＊生",
+  "page": 18
+ },
+ {
+  "code": "A-Ⅴ-6",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "運輸載具製作。＊生",
+  "page": 18
+ },
+ {
+  "code": "A-Ⅴ-7",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 7,
+  "text": "新興科技應用。資",
+  "page": 19
+ },
+ {
+  "code": "D-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "資料數位化之原理與方法。資資",
+  "page": 14
+ },
+ {
+  "code": "D-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "數位資料的表示方法。資",
+  "page": 15
+ },
+ {
+  "code": "D-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "資料處理概念與方法。-資料整理與整合。-資料轉換。-＊資料壓縮。七年級資",
+  "page": 15
+ },
+ {
+  "code": "D-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "巨量資料的概念。資",
+  "page": 15
+ },
+ {
+  "code": "D-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "資料探勘與機器學習的基本概念。資",
+  "page": 15
+ },
+ {
+  "code": "Da-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "資",
+  "page": 18
+ },
+ {
+  "code": "Da-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "資",
+  "page": 18
+ },
+ {
+  "code": "H-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "個人資料保護。資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "資訊科技合理使用原則。資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "資訊安全。八年級資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "媒體與資訊科技相關社會議題。資融入課程綱要學習重點之示例資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "資訊倫理與法律。九年級資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "資訊科技對人類生活之影響。資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "常見資訊產業的特性與種類。七年級生-分而治之演算法。",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "資訊科技的合理使用原則。資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "個人資料的保護。資",
+  "page": 15
+ },
+ {
+  "code": "H-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "H",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "資訊科技對人與社會的影響與衝擊。生-日常生活中常用的識圖概念知識。-常用繪圖工具的認識與使用。-平面圖、立體圖的繪製，尺度標註的方式。-基本的電腦輔助設計與應用。生",
+  "page": 15
+ },
+ {
+  "code": "I-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "I",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "資",
+  "page": 18
+ },
+ {
+  "code": "I-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "I",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "資生",
+  "page": 18
+ },
+ {
+  "code": "L-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "L",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "資",
+  "page": 18
+ },
+ {
+  "code": "L-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "L",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "資",
+  "page": 18
+ },
+ {
+  "code": "N-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "N",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "科技的起源與演進。科技的定義及科技本-質。科技產品演進的起-源、發展歷程及影響因素。八年級生",
+  "page": 16
+ },
+ {
+  "code": "N-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "N",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "科技的系統。科技系統組成與運-作。九年級生",
+  "page": 16
+ },
+ {
+  "code": "N-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "N",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "科技與科學的關係。-科學知識在科技發展過程中所扮演的角色。科學原理在科技產-品設計與製作過程的應用。七年級生",
+  "page": 16
+ },
+ {
+  "code": "N-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "N",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "科技與工程的關係。-工程技術在科技發展過程中所扮演的角色。工程設計的基本概-念。生",
+  "page": 17
+ },
+ {
+  "code": "N-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "N",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "工程、科技、科學與數學的統整與應用。-科學原理、數學運算、藝術美感在工程設計過程中的應用。生",
+  "page": 17
+ },
+ {
+  "code": "P-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "創意思考的方法。創意發想的技巧及-傳達構想的方式。生",
+  "page": 14
+ },
+ {
+  "code": "P-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "結構化程式設計。-循序與選擇結構。-重複結構。八年級資生",
+  "page": 14
+ },
+ {
+  "code": "P-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "手工具的操作與使用。-常用手工具功能與安全注意事項。-常用手工具的加工處理方法。八年級生",
+  "page": 14
+ },
+ {
+  "code": "P-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "設計的流程。設計的流程或問題-解決的步驟。生",
+  "page": 14
+ },
+ {
+  "code": "P-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "材料的選用與加工處理。日常生活常見材料-的特性、選用時機與加工方法。生",
+  "page": 14
+ },
+ {
+  "code": "P-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "常用的機具操作與使用。-常用電動機具功能與安全注意事項。常用電動機具的加-工處理方法。九年級生",
+  "page": 16
+ },
+ {
+  "code": "P-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "產品的設計與發展。-產品設計的概念介紹。特定需求的產品創-意設計與製作專題活動。七年級生",
+  "page": 16
+ },
+ {
+  "code": "P-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "文字式程式設計概念與實作。資生",
+  "page": 15
+ },
+ {
+  "code": "P-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "進階工程設計與實作。-使用者需求與市場分析。-設計與開發程序。-功能分析與創新。-力學模擬與分析。-數位輔助設計與製造。資",
+  "page": 15
+ },
+ {
+  "code": "P-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "進階機電整合設計與實作。-功能分析與創新。-機構控制裝置。-傳動與動力系統。-感測電路及程式控制。資",
+  "page": 15
+ },
+ {
+  "code": "Rc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Rc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "機器人程式開發工具的使用方法。資",
+  "page": 19
+ },
+ {
+  "code": "Rc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Rc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "機器人之各項機動裝置的控制方法。資",
+  "page": 19
+ },
+ {
+  "code": "Rc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Rc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "機器人之各項感測器的資料存取方法。資",
+  "page": 19
+ },
+ {
+  "code": "Rd-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Rd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "機器人的種類與應用。資",
+  "page": 19
+ },
+ {
+  "code": "Rp-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Rp",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "機器人程式設計專題實作。生",
+  "page": 19
+ },
+ {
+  "code": "S-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "S",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "科技與社會的互動關係。八年級生-日常生活科技產品使用與社會的互動關係。八年級生",
+  "page": 14
+ },
+ {
+  "code": "S-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "S",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "科技對社會與環境的影響。-科技發展對人類社會、自然環境的正負面影響。九年級生",
+  "page": 14
+ },
+ {
+  "code": "S-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "S",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "科技議題的探究。-近代科技議題與其對未來人類社會、自然環境的影響。個人在科技社會中-所扮演的角色，及應有的正向作為。生",
+  "page": 14
+ },
+ {
+  "code": "S-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "S",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "科技產業的發展。-常見科技產業特性與職業種類。科技與工程相關產-業的發展對社會的影響。-界定問題與發展解決方案的原則。預測分析的方法。-模型/原型製作。-測試、修正與最佳化。-生",
+  "page": 14
+ },
+ {
+  "code": "S-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "S",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "工程科技議題的探究。科技與工程相關產業-與職業介紹。科技、工程與社會議-題的探究及省思。",
+  "page": 15
+ },
+ {
+  "code": "S-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "S",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "系統平台之未來發展趨勢。資",
+  "page": 15
+ },
+ {
+  "code": "T-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "T",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "資料處理應用專題。-資料搜尋。-資料組織與表達。-資料運算與分析。九年級資",
+  "page": 15
+ },
+ {
+  "code": "T-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "T",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "資訊科技應用專題。-多媒體應用專題。-程式設計應用專題。七年級資",
+  "page": 15
+ },
+ {
+  "code": "T-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "T",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "數位合作共創的概念與工具使用。資資資",
+  "page": 15
+ },
+ {
+  "code": "Tp-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Tp",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "資訊科技應用實作方法。資",
+  "page": 20
+ },
+ {
+  "code": "Tp-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Tp",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "資訊科技應用效能評估。生",
+  "page": 20
+ },
+ {
+  "code": "Tt-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Tt",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "資訊科技應用運算原理。資",
+  "page": 20
+ },
+ {
+  "code": "a-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能主動參與科技實作活動及試探興趣，不受性別的限制。設",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能了解資訊科技相關之法律、倫理及社會議題，以保護自己與尊重他人。運科技領域學習重點會議題，以保護自己與尊重他人。設",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "能具備探索資訊科技之興趣，不受性別限制。運融入課程綱要學習重點之示例設",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅳ-4",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "能針對科技議題養成社會責任感與公民意識。※設",
+  "page": 12
+ },
+ {
+  "code": "a-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能實踐健康適切的數位公民生活。運",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能從關懷自然生態與社會人文的角度，思考科技的選用及永續發展議題。※設融入課程綱要學習重點之示例※運",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "能不受性別限制主動關注並參與生活中的科技議題。設融入課程綱要學習重點之示例運",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅴ-4",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "能解析各種媒體與科技產品所傳遞的社會議題之迷思、偏見與歧視。※運",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅴ-5",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "能主動探索資訊科技新知。※運",
+  "page": 11
+ },
+ {
+  "code": "a-Ⅴ-6",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "能了解自己對資訊科學之性向，不受性別限制。※運",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能運用設計流程，實際設計並製作科技產品以解決問題。設",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能選用適當的資訊科技與他人合作完成作品。運",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "能應用資訊科技與他人合作進行數位創作。運",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能運用工程設計流程，規劃、分析並執行專案計畫以解決實務問題。※設科技領域學習重點運",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能運用科技知能及創新思考以設計並實際製作科技產品。※設",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "能整合適當的資訊科技與他人合作完成專題製作。運",
+  "page": 11
+ },
+ {
+  "code": "k-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "k",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能了解日常科技的意涵與設計製作的基本概念。",
+  "page": 11
+ },
+ {
+  "code": "k-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "k",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能了解科技產品的基本原理、發展歷程、與創新關鍵。設",
+  "page": 12
+ },
+ {
+  "code": "k-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "k",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "能了解選用適當材料及正確工具的基本知識。設",
+  "page": 12
+ },
+ {
+  "code": "k-Ⅳ-4",
+  "kind": "performance",
+  "topic_code": "k",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "能了解選擇、分析與運用科技產品的基本知識。※設",
+  "page": 12
+ },
+ {
+  "code": "k-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "k",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能了解工程與工程設計的基本知識。※設融入課程綱要學習重點之示例設",
+  "page": 12
+ },
+ {
+  "code": "k-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "k",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能了解科技產業現況及新興科技發展趨勢。※設",
+  "page": 12
+ },
+ {
+  "code": "k-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "k",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "能分析、思辨與批判人與科技、社會、環境之間的關係。※設",
+  "page": 12
+ },
+ {
+  "code": "m-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "m",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能利用運算思維進行創作。※運",
+  "page": 11
+ },
+ {
+  "code": "m-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "m",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能利用資訊科技創作解決問題。設",
+  "page": 11
+ },
+ {
+  "code": "p-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "p",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能選用適當的資訊科技組織思維，並進行有效的表達。運",
+  "page": 11
+ },
+ {
+  "code": "p-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "p",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能利用資訊科技與他人進行有效的互動。運",
+  "page": 11
+ },
+ {
+  "code": "p-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "p",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "能有系統地整理數位資源。運",
+  "page": 11
+ },
+ {
+  "code": "p-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "p",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能整合資訊科技進行有效的溝通表達。※設科技領域學習重點※設",
+  "page": 11
+ },
+ {
+  "code": "r-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "r",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能將問題以運算形式呈現。※運",
+  "page": 11
+ },
+ {
+  "code": "r-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "r",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能將資料以適合於運算之結構表示。※運",
+  "page": 11
+ },
+ {
+  "code": "r-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "r",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "能利用程式語言表達運算程序。※運",
+  "page": 11
+ },
+ {
+  "code": "r-Ⅴ-4",
+  "kind": "performance",
+  "topic_code": "r",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "能發展演算法以解決運算問題。※運",
+  "page": 11
+ },
+ {
+  "code": "s-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "s",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能繪製可正確傳達設計理念的平面或立體設計圖。設",
+  "page": 12
+ },
+ {
+  "code": "s-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "s",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能運用基本工具進行材料處理與組裝。設",
+  "page": 12
+ },
+ {
+  "code": "s-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "s",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "能運用科技工具保養與維護科技產品。※設",
+  "page": 12
+ },
+ {
+  "code": "s-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "s",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能運用繪圖軟體或相關科技以表達設計構想。※設",
+  "page": 12
+ },
+ {
+  "code": "s-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "s",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能針對實作需求，有效活用材料、工具並進行精確加工處理。※設",
+  "page": 12
+ },
+ {
+  "code": "s-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "s",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "能運用科技工具維修及調校科技產品。設",
+  "page": 12
+ },
+ {
+  "code": "t-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "t",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能了解資訊系統的基本組成架構與運算原理。運",
+  "page": 11
+ },
+ {
+  "code": "t-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "t",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能熟悉資訊系統之使用與簡易故障排除。運",
+  "page": 11
+ },
+ {
+  "code": "t-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "t",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "能設計資訊作品以解決生活問題。運科技領域學習重點運",
+  "page": 11
+ },
+ {
+  "code": "t-Ⅳ-4",
+  "kind": "performance",
+  "topic_code": "t",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "能應用運算思維解析問題。運",
+  "page": 11
+ },
+ {
+  "code": "t-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "t",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "能了解資訊系統之運算原理。運",
+  "page": 11
+ },
+ {
+  "code": "t-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "t",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能使用程式設計實現運算思維的解題方法。運",
+  "page": 11
+ },
+ {
+  "code": "t-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "t",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "能應用運算思維評估解題方法的優劣。運",
+  "page": 11
+ }
+]

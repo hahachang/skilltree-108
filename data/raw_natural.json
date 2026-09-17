@@ -1,0 +1,8747 @@
+[
+ {
+  "code": "Aa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "原子模型的發展。",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "原子量與分子量是原子、分子之間的相對質量。",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "純物質包括元素與化合物。",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "元素的性質有規律性和週期性。",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "元素與化合物有特定的化學符號表示法。",
+  "page": 26
+ },
+ {
+  "code": "Ab-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "物質的粒子模型與物質三態。",
+  "page": 26
+ },
+ {
+  "code": "Ab-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "溫度會影響物質的狀態。",
+  "page": 27
+ },
+ {
+  "code": "Ab-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "物質的物理性質與化學性質。",
+  "page": 27
+ },
+ {
+  "code": "Ab-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "物質依是否可用物理方法分離，可分為純物質和混合物。",
+  "page": 27
+ },
+ {
+  "code": "BDa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "細胞的分子組成。",
+  "page": 48
+ },
+ {
+  "code": "BDa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "生物膜的構造與功能。",
+  "page": 48
+ },
+ {
+  "code": "BDa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "酶的功能與影響酶活性的因素。",
+  "page": 48
+ },
+ {
+  "code": "BDa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "呼吸作用包括有氧呼吸、無氧呼吸及醱酵作用。",
+  "page": 48
+ },
+ {
+  "code": "BDa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "能量流轉與生命維持的關係。",
+  "page": 48
+ },
+ {
+  "code": "BDa-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "細胞的生命歷程。",
+  "page": 48
+ },
+ {
+  "code": "BDa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "不同的細胞具有不同的功能、形態及構造。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "原核細胞與真核細胞的構造與功能。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "ATP是提供細胞生理作用所需能量的直接來源。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "光合作用與呼吸作用的能量轉換關係。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "真核細胞的細胞週期包括間期與細胞分裂期。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-6",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 6,
+  "text": "真核細胞的細胞分裂。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-7",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 7,
+  "text": "有絲分裂的過程。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-8",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 8,
+  "text": "動物生殖細胞一般須經過減數分裂的過程形成配子。",
+  "page": 37
+ },
+ {
+  "code": "BDa-Ⅴc-9",
+  "kind": "content",
+  "topic_code": "BDa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 9,
+  "text": "多細胞生物的受精卵經由有絲分裂與細胞分化的過程，形成不同類型的細胞。",
+  "page": 37
+ },
+ {
+  "code": "BDb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "動物組織的構造與功能。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "動物體的器官系統之構造與功能。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "動物體內恆定的生理意義與重要性。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "動物體對刺激的感應。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "動物體的神經系統對生理作用的調節。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "動物體的激素對生理作用的調節。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "動物體的防禦構造與功能。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "動物體的生殖與胚胎發育。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-9",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 9,
+  "text": "植物體的組成層次。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-10",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 10,
+  "text": "光合作用包括光反應與固碳反應。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-11",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 11,
+  "text": "植物體的生殖。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-12",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 12,
+  "text": "植物體內的物質運輸。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-13",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 13,
+  "text": "植物激素會調節植物體的生理作用。",
+  "page": 48
+ },
+ {
+  "code": "BDb-Ⅴa-14",
+  "kind": "content",
+  "topic_code": "BDb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 14,
+  "text": "植物體對環境刺激的反應。",
+  "page": 48
+ },
+ {
+  "code": "BFc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BFc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "生態學的研究層級主要為個體、族群、群集、生態系及生物圈。",
+  "page": 48
+ },
+ {
+  "code": "BFc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BFc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "臺灣主要的生態系可分為自然生態系與人工生態系。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "遺傳的染色體學說的建立。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "確認DNA為遺傳物質的歷程。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "遺傳訊息的複製。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "遺傳訊息的轉錄與轉譯。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "基因表現的調控。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "遺傳變異。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "生物科技的應用。",
+  "page": 48
+ },
+ {
+  "code": "BGa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "孟德爾遺傳法則中，性狀與遺傳因子之關係。",
+  "page": 37
+ },
+ {
+  "code": "BGa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "孟德爾遺傳法則的延伸。",
+  "page": 37
+ },
+ {
+  "code": "BGa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "遺傳的染色體學說之發展歷程。",
+  "page": 37
+ },
+ {
+  "code": "BGa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "性聯遺傳。",
+  "page": 38
+ },
+ {
+  "code": "BGa-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "遺傳物質為核酸。",
+  "page": 38
+ },
+ {
+  "code": "BGa-Ⅴc-6",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 6,
+  "text": "分子遺傳學的中心法則。",
+  "page": 38
+ },
+ {
+  "code": "BGa-Ⅴc-7",
+  "kind": "content",
+  "topic_code": "BGa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 7,
+  "text": "同一性狀具有不同的表徵。",
+  "page": 38
+ },
+ {
+  "code": "BGb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "生源說與無生源說的爭論歷程。",
+  "page": 48
+ },
+ {
+  "code": "BGb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "從無機物到有機物的演變，探討生物起源的過程。",
+  "page": 48
+ },
+ {
+  "code": "BGb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "原核細胞形成的演化歷程。",
+  "page": 48
+ },
+ {
+  "code": "BGb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "真核細胞形成的演化歷程。",
+  "page": 48
+ },
+ {
+  "code": "BGb-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "現代生物演化理論。",
+  "page": 48
+ },
+ {
+  "code": "BGb-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "族群遺傳學。",
+  "page": 48
+ },
+ {
+  "code": "BGb-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "演化與物種形成。",
+  "page": 48
+ },
+ {
+  "code": "BGb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "生物性狀的表徵比例會變動。",
+  "page": 38
+ },
+ {
+  "code": "BGb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "達爾文的演化理論。",
+  "page": 38
+ },
+ {
+  "code": "BGb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "共同祖先的概念對生物分類系統之影響。",
+  "page": 38
+ },
+ {
+  "code": "BGb-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "演化證據對生物分類系統演變之影響。",
+  "page": 38
+ },
+ {
+  "code": "BGb-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "BGb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "在地球上的生物經演化過程而形成目前的生物多樣性。",
+  "page": 38
+ },
+ {
+  "code": "BGc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BGc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "生物多樣性包含遺傳多樣性、物種多樣性及生態系多樣性三個面向。",
+  "page": 48
+ },
+ {
+  "code": "BGc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BGc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "遺傳多樣性。",
+  "page": 48
+ },
+ {
+  "code": "BGc-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BGc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "物種多樣性。",
+  "page": 49
+ },
+ {
+  "code": "BGc-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "BGc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "生態系多樣性。",
+  "page": 49
+ },
+ {
+  "code": "BGc-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "BGc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "造就臺灣生物多樣性的因素。",
+  "page": 49
+ },
+ {
+  "code": "BGc-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "BGc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "生物多樣性的保育。",
+  "page": 49
+ },
+ {
+  "code": "BLb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BLb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "生態學的研究層級。",
+  "page": 49
+ },
+ {
+  "code": "BLb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BLb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "族群特徵包括族群大小、族群密度、族群成長曲線、生存曲線及年齡結構等。",
+  "page": 49
+ },
+ {
+  "code": "BLb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BLb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "群集中族群間的交互作用、群集結構及演替。",
+  "page": 49
+ },
+ {
+  "code": "BLb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "BLb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "生態系中的非生物因子與生物因子、能量流轉及元素循環。",
+  "page": 49
+ },
+ {
+  "code": "BMa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BMa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "探討代理孕母的倫理與法律問題。",
+  "page": 49
+ },
+ {
+  "code": "BMa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BMa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "探討人類基因組計畫及其意義與重要性。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "從科學史的觀點，探討生物膜的模型之發展歷程。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "從科學史的觀點，探討生長素發現過程的相關實驗。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "從科學史的觀點，說明遺傳的染色體學說之發展歷程。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "從科學史的觀點，探討聯鎖的相關實驗與推論。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "從科學史的觀點，探討確認DNA為遺傳物質之發展歷程。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "從科學史的觀點，探討DNA分子結構模型之發展歷程。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "從科學史的觀點，探討DNA複製為半保留複製模式之發展歷程。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "從科學史的觀點，說明現代生物演化理論之發展歷程。",
+  "page": 49
+ },
+ {
+  "code": "BMb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "細胞學說的發展歷程。",
+  "page": 38
+ },
+ {
+  "code": "BMb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "孟德爾依據實驗結果推論遺傳現象的規律性。",
+  "page": 38
+ },
+ {
+  "code": "BMb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "性染色體的發現。",
+  "page": 38
+ },
+ {
+  "code": "BMb-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "BMb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "演化觀念的形成與發展。",
+  "page": 38
+ },
+ {
+  "code": "BMc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "生物科技的應用。",
+  "page": 49
+ },
+ {
+  "code": "BMc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "以生態學的理論為基礎，規劃保育策略。",
+  "page": 49
+ },
+ {
+  "code": "BMc-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "BMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "可以實際案例，由研究、教育、立法或行政等方面來探討生物多樣性的保育。",
+  "page": 49
+ },
+ {
+  "code": "BMc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "BMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "基因轉殖技術的應用。",
+  "page": 38
+ },
+ {
+  "code": "BNa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "BNa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "棲地零碎化造成的邊緣效應對物種多樣性之影響。",
+  "page": 49
+ },
+ {
+  "code": "BNa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "BNa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "入侵外來種對物種多樣性之影響。",
+  "page": 49
+ },
+ {
+  "code": "Ba-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能量有不同形式，例如：動能、熱能、光能、電能、化學能等，而且彼此之間可以轉換。孤立系統的總能量會維持定值。",
+  "page": 27
+ },
+ {
+  "code": "Ba-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "光合作用是將光能轉換成化學能；呼吸作用是將化學能轉換成熱能。",
+  "page": 27
+ },
+ {
+  "code": "Ba-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "化學反應中的能量改變，常以吸熱或放熱的形式發生。",
+  "page": 27
+ },
+ {
+  "code": "Ba-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "電池是化學能轉變成電能的裝置。",
+  "page": 27
+ },
+ {
+  "code": "Ba-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "力可以作功，作功可以改變物體的能量。",
+  "page": 27
+ },
+ {
+  "code": "Ba-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "每單位時間對物體所做的功稱為功率。",
+  "page": 27
+ },
+ {
+  "code": "Ba-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "物體的動能與位能之和稱為力學能，動能與位能可以互換。",
+  "page": 27
+ },
+ {
+  "code": "Bb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "熱具有從高溫處傳到低溫處的趨勢。",
+  "page": 27
+ },
+ {
+  "code": "Bb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "透過水升高溫度所吸收的熱能定義熱量單位。",
+  "page": 27
+ },
+ {
+  "code": "Bb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "不同物質受熱後，其溫度的變化可能不同，比熱就是此特性的定量化描述。",
+  "page": 27
+ },
+ {
+  "code": "Bb-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "熱的傳播方式包含傳導、對流與輻射。",
+  "page": 27
+ },
+ {
+  "code": "Bb-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "熱會改變物質形態，例如：狀態產生變化、體積發生脹縮。",
+  "page": 27
+ },
+ {
+  "code": "Bc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生物經由酵素的催化進行新陳代謝，並以實驗活動探討影響酵素作用速率的因素。",
+  "page": 27
+ },
+ {
+  "code": "Bc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "細胞利用養分進行呼吸作用釋放能量，供生物生存所需。",
+  "page": 27
+ },
+ {
+  "code": "Bc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "植物利用葉綠體進行光合作用，將二氧化碳和水轉變成醣類養分，並釋出氧氣；養分可供植物本身及動物生長所需。",
+  "page": 27
+ },
+ {
+  "code": "Bc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "日光、二氧化碳和水分等因素會影響光合作用的進行，這些因素的影響可經由探究實驗來證實。",
+  "page": 27
+ },
+ {
+  "code": "Bd-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生態系中的能量來源是太陽，能量會經由食物鏈在不同生物間流轉。",
+  "page": 27
+ },
+ {
+  "code": "Bd-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "在生態系中，碳元素會出現在不同的物質中（例如：二氧化碳、葡萄糖），在生物與無生物間循環使用。",
+  "page": 27
+ },
+ {
+  "code": "Bd-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "生態系中，生產者、消費者和分解者共同促成能量的流轉和物質的循環。",
+  "page": 27
+ },
+ {
+  "code": "CAa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "原子的結構是原子核在中間，電子會存在於不同能階。",
+  "page": 53
+ },
+ {
+  "code": "CAa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "波耳氫原子模型解釋氫原子光譜與芮得柏方程式。",
+  "page": 53
+ },
+ {
+  "code": "CAa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "多電子原子的電子與其軌域，可以四種量子數加以說明。",
+  "page": 53
+ },
+ {
+  "code": "CAa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "原子的電子組態的填入規則，包括包立不相容原理、洪德定則及遞建原理。",
+  "page": 53
+ },
+ {
+  "code": "CAa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "元素的電子組態和性質息息相關，且可在週期表呈現出其週期性變化。",
+  "page": 53
+ },
+ {
+  "code": "CAa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "拉瓦節提出物質最基本的組成是元素。",
+  "page": 40
+ },
+ {
+  "code": "CAa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "道耳頓根據定比定律、倍比定律、質量守恆定律及元素概念提出原子說。",
+  "page": 40
+ },
+ {
+  "code": "CAa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "元素依原子序大小順序，有規律的排列在週期表上。",
+  "page": 40
+ },
+ {
+  "code": "CAa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "CAa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "同位素。",
+  "page": 40
+ },
+ {
+  "code": "CAb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CAb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "化學鍵的特性會影響物質的性質。",
+  "page": 53
+ },
+ {
+  "code": "CAb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CAb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "不同的官能基會影響有機化合物的性質。",
+  "page": 53
+ },
+ {
+  "code": "CAb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CAb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "液晶的形態與性質。",
+  "page": 53
+ },
+ {
+  "code": "CAb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CAb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "週期表中的分類。",
+  "page": 53
+ },
+ {
+  "code": "CAb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CAb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "物質的三相圖。",
+  "page": 40
+ },
+ {
+  "code": "CAb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CAb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "元素可依特性分為金屬、類金屬及非金屬。",
+  "page": 40
+ },
+ {
+  "code": "CAb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CAb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "化合物可依組成與性質不同，分為離子化合物與分子化合物。",
+  "page": 40
+ },
+ {
+  "code": "CBa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "化學能與其他形式能量之間的轉換。",
+  "page": 53
+ },
+ {
+  "code": "CBa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "影響反應熱的因素包括：溫度、壓力、反應物的量及狀態。",
+  "page": 53
+ },
+ {
+  "code": "CBa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "反應熱的加成性遵守赫斯定律。",
+  "page": 53
+ },
+ {
+  "code": "CBa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "常見的反應熱種類包括莫耳燃燒熱與莫耳生成熱。",
+  "page": 53
+ },
+ {
+  "code": "CBa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CBa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "化學反應發生後，產物的能量總和較反應物低者，為放熱反應；反之，則為吸熱反應。",
+  "page": 40
+ },
+ {
+  "code": "CBa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CBa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "能量轉換過程遵守能量守恆。",
+  "page": 40
+ },
+ {
+  "code": "CCa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CCa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "常見物質的鑑定方法與原理。",
+  "page": 53
+ },
+ {
+  "code": "CCa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CCa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "混合物的分離過程與純化方法：蒸餾、萃取、色層分析、硬水軟化及海水純化等。",
+  "page": 40
+ },
+ {
+  "code": "CCa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CCa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "化合物特性的差異。",
+  "page": 40
+ },
+ {
+  "code": "CCb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CCb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "同分異構物的結構與功能。",
+  "page": 53
+ },
+ {
+  "code": "CCb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CCb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "混成軌域與價鍵理論：原子結合的方式與原理。",
+  "page": 53
+ },
+ {
+  "code": "CCb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CCb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "價殼層電子對互斥原理與分子形狀。",
+  "page": 53
+ },
+ {
+  "code": "CCb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CCb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "分子形狀、結構、極性及分子間作用力。",
+  "page": 53
+ },
+ {
+  "code": "CCb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CCb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "原子之間會以不同方式形成不同的化學鍵結。",
+  "page": 40
+ },
+ {
+  "code": "CCb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CCb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "化學鍵的特性會影響物質的結構，並決定其功能。",
+  "page": 40
+ },
+ {
+  "code": "CEc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CEc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "理想氣體粒子模型。",
+  "page": 53
+ },
+ {
+  "code": "CEc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CEc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "氣體的壓力。",
+  "page": 53
+ },
+ {
+  "code": "CEc-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CEc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "理想氣體三大定律與理想氣體方程式。",
+  "page": 53
+ },
+ {
+  "code": "CEc-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CEc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "道耳頓分壓定律。",
+  "page": 53
+ },
+ {
+  "code": "CEc-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CEc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "理想氣體與真實氣體。",
+  "page": 53
+ },
+ {
+  "code": "CEc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CEc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "氣體基本性質。",
+  "page": 40
+ },
+ {
+  "code": "CJa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CJa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "化學反應牽涉原子間的重組，並遵守質量守恆、原子不滅、電荷守恆及能量守恆。",
+  "page": 53
+ },
+ {
+  "code": "CJa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CJa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "化學反應與化學程序的產率。",
+  "page": 53
+ },
+ {
+  "code": "CJa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CJa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "拉瓦節以定量分析方法，驗證質量守恆定律。",
+  "page": 40
+ },
+ {
+  "code": "CJa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CJa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "化學反應僅為原子的重新排列組合，其個數不變，依此原則即可平衡化學反應方程式。",
+  "page": 40
+ },
+ {
+  "code": "CJa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CJa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "莫耳與簡單的化學計量。",
+  "page": 41
+ },
+ {
+  "code": "CJb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "莫耳分率的表示法。",
+  "page": 53
+ },
+ {
+  "code": "CJb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "溫度與壓力對氣體溶解度的影響。",
+  "page": 53
+ },
+ {
+  "code": "CJb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "離子之沉澱、分離及確認。",
+  "page": 53
+ },
+ {
+  "code": "CJb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "拉午耳定律與理想溶液。",
+  "page": 53
+ },
+ {
+  "code": "CJb-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "依數性質：非揮發性物質溶於水，使得蒸氣壓下降、沸點上升、凝固點下降及滲透壓增加。",
+  "page": 53
+ },
+ {
+  "code": "CJb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "溶液的種類與特性。",
+  "page": 41
+ },
+ {
+  "code": "CJb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "定量說明物質在水中溶解的程度會受到水溫的影響。",
+  "page": 41
+ },
+ {
+  "code": "CJb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CJb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "體積莫耳濃度的表示法。",
+  "page": 41
+ },
+ {
+  "code": "CJc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "常見氧化劑與還原劑的半反應式。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "氧化數的規則與應用。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "氧化還原反應與均衡。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "氧化還原滴定原理與定量分析。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "電化電池的原理。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "標準還原電位與電化電池的電動勢。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "常見電池的原理與設計。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "電解與電鍍的原理。",
+  "page": 54
+ },
+ {
+  "code": "CJc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "氧化還原的廣義定義為：物質失去電子稱為氧化反應；得到電子稱為還原反應。",
+  "page": 41
+ },
+ {
+  "code": "CJc-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CJc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "氧化劑與還原劑的定義及常見氧化劑與還原劑。",
+  "page": 41
+ },
+ {
+  "code": "CJd-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "酸與鹼的命名。",
+  "page": 54
+ },
+ {
+  "code": "CJd-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "布-洛酸鹼學說。",
+  "page": 54
+ },
+ {
+  "code": "CJd-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "定溫下，[H＋]和[OH－]的乘積為一定值，稱為離子積常數。",
+  "page": 54
+ },
+ {
+  "code": "CJd-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "弱酸或弱鹼的游離常數：酸鹼的Ka、Kb。",
+  "page": 54,
+  "overridden": true
+ },
+ {
+  "code": "CJd-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "酸鹼指示劑的原理與應用。",
+  "page": 54
+ },
+ {
+  "code": "CJd-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "酸鹼滴定原理與定量分析。",
+  "page": 54
+ },
+ {
+  "code": "CJd-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "鹽的種類與性質。",
+  "page": 54
+ },
+ {
+  "code": "CJd-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "同離子效應與緩衝溶液的定義、製備及功用。",
+  "page": 54
+ },
+ {
+  "code": "CJd-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "水可自解離產生H＋與OH－。",
+  "page": 41
+ },
+ {
+  "code": "CJd-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "根據阿瑞尼斯的酸鹼學說，物質溶於水中，可解離出H＋為酸；可解離出OH-為鹼。",
+  "page": 41
+ },
+ {
+  "code": "CJd-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "pH＝－log[H＋]，此數值可代表水溶液的酸鹼程度。",
+  "page": 41
+ },
+ {
+  "code": "CJd-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "CJd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "在水溶液中可幾乎100%解離的酸或鹼，稱為強酸或強鹼；反之則稱為弱酸或弱鹼。",
+  "page": 41
+ },
+ {
+  "code": "CJe-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "反應速率定律式。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "反應能量圖。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "碰撞學說解釋影響反應速率的因素。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "催化劑與酵素的性質及其應用。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "定溫時，水的游離速率會等於結合速率，稱為游離平衡。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "勒沙特列原理。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "平衡常數的定義與計算。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "溶解度平衡與溶度積的關係。",
+  "page": 54
+ },
+ {
+  "code": "CJe-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "定溫時，飽和溶液的溶質溶解度為定值，其溶質溶解與結晶達到平衡。",
+  "page": 41
+ },
+ {
+  "code": "CJe-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CJe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "物質的接觸面積大小對反應速率之影響。",
+  "page": 41
+ },
+ {
+  "code": "CJf-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "有機化合物組成。",
+  "page": 54
+ },
+ {
+  "code": "CJf-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "有機化合物的命名、結構及官能基的檢驗與其用途—烴、鹵化烴、醇、酚、醚、酮、醛、有機酸、酯、胺及醯胺。",
+  "page": 54
+ },
+ {
+  "code": "CJf-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "常見有機化合物的重要反應。",
+  "page": 54
+ },
+ {
+  "code": "CJf-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "常見聚合物的一般性質與分類。",
+  "page": 54
+ },
+ {
+  "code": "CJf-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "常見聚合物的結構及製備。",
+  "page": 54
+ },
+ {
+  "code": "CJf-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "醣類、蛋白質、油脂及核酸的性質與功能。",
+  "page": 41
+ },
+ {
+  "code": "CJf-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "常見的界面活性劑包括肥皂與清潔劑，其組成包含親油性的一端和親水性的一端。",
+  "page": 41
+ },
+ {
+  "code": "CJf-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CJf",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "界面活性劑的性質與應用。",
+  "page": 41
+ },
+ {
+  "code": "CMa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CMa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "從化學的主要發展方向和產業成果，建立綠色化學與永續發展的概念，並積極參與科學知識的傳播，促進化學知識進入個人和社會生活。",
+  "page": 54
+ },
+ {
+  "code": "CMa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CMa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "化學化工技術與社會、法律及倫理相關議題。",
+  "page": 54
+ },
+ {
+  "code": "CMa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CMa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "化學製造流程對日常生活、社會、經濟、環境及生態的影響。",
+  "page": 41
+ },
+ {
+  "code": "CMb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "化學發展史上的重要事件、相關理論發展及科學家的研究事蹟。",
+  "page": 54
+ },
+ {
+  "code": "CMb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "化學微觀概念的形成與發展。",
+  "page": 54
+ },
+ {
+  "code": "CMb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "科學模型的特性與演變。",
+  "page": 54
+ },
+ {
+  "code": "CMb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CMb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "近代化學科學的發展，以及不同性別、背景、族群者於其中的貢獻。",
+  "page": 41
+ },
+ {
+  "code": "CMb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CMb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "未來科學的發展。",
+  "page": 41
+ },
+ {
+  "code": "CMc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "氫氣的性質、製取及用途。",
+  "page": 54
+ },
+ {
+  "code": "CMc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "常見金屬及重要的化合物之製備、性質及用途。",
+  "page": 55
+ },
+ {
+  "code": "CMc-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "常見合金之性質與用途。",
+  "page": 55
+ },
+ {
+  "code": "CMc-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "常見非金屬與重要的化合物之製備、性質及用途。",
+  "page": 55
+ },
+ {
+  "code": "CMc-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "生活中常見之合成纖維、合成塑膠及合成橡膠之性質與應用。",
+  "page": 55
+ },
+ {
+  "code": "CMc-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "先進材料。",
+  "page": 55
+ },
+ {
+  "code": "CMc-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "奈米尺度。",
+  "page": 55
+ },
+ {
+  "code": "CMc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "水的處理過程。",
+  "page": 41
+ },
+ {
+  "code": "CMc-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "生活中常見的藥品。",
+  "page": 41
+ },
+ {
+  "code": "CMc-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "化學在先進科技發展的應用。",
+  "page": 41
+ },
+ {
+  "code": "CMe-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CMe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "水汙染之檢測方法。",
+  "page": 55
+ },
+ {
+  "code": "CMe-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CMe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "大氣汙染物之檢測方法。",
+  "page": 55
+ },
+ {
+  "code": "CMe-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CMe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "酸雨的成因、影響及防治方法。",
+  "page": 41
+ },
+ {
+  "code": "CMe-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CMe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "全球暖化的成因、影響及因應方法。",
+  "page": 41
+ },
+ {
+  "code": "CMe-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CMe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "臭氧層破洞的成因、影響及防治方法。",
+  "page": 41
+ },
+ {
+  "code": "CMe-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "CMe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "工業廢水的影響與再利用。",
+  "page": 41
+ },
+ {
+  "code": "CNa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "永續發展理念之應用。",
+  "page": 55
+ },
+ {
+  "code": "CNa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "資源保育的有效方法。",
+  "page": 55
+ },
+ {
+  "code": "CNa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "廢棄物的創新利用與再製作。",
+  "page": 55
+ },
+ {
+  "code": "CNa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "氮循環。",
+  "page": 55
+ },
+ {
+  "code": "CNa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "永續發展在於滿足當代人之需求，又不危及下一代之發展。",
+  "page": 41
+ },
+ {
+  "code": "CNa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "將永續發展的理念應用於生活中。",
+  "page": 41
+ },
+ {
+  "code": "CNa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "水資源回收與再利用。",
+  "page": 41
+ },
+ {
+  "code": "CNa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "CNa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "水循環與碳循環。",
+  "page": 41
+ },
+ {
+  "code": "CNc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "CNc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "新興能源與替代能源在臺灣發展之可能性與限制。",
+  "page": 55
+ },
+ {
+  "code": "CNc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "CNc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "新興能源與替代能源在臺灣的發展現況。",
+  "page": 41
+ },
+ {
+  "code": "Ca-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "實驗分離混合物，例如：結晶法、過濾法及簡易濾紙色層分析法。",
+  "page": 27
+ },
+ {
+  "code": "Ca-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "化合物可利用化學性質來鑑定。",
+  "page": 27
+ },
+ {
+  "code": "Cb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "分子與原子。",
+  "page": 27
+ },
+ {
+  "code": "Cb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "元素會因原子排列方式不同而有不同的特性。",
+  "page": 28
+ },
+ {
+  "code": "Cb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "分子式相同會因原子排列方式不同而形成不同的物質。",
+  "page": 28
+ },
+ {
+  "code": "Da-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "使用適當的儀器可觀察到細胞的形態及細胞膜、細胞質、細胞核、細胞壁等基本構造。",
+  "page": 28
+ },
+ {
+  "code": "Da-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "細胞是組成生物體的基本單位。",
+  "page": 28
+ },
+ {
+  "code": "Da-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "多細胞個體具有細胞、組織、器官、器官系統等組成層次。",
+  "page": 28
+ },
+ {
+  "code": "Da-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "細胞會進行細胞分裂，染色體在分裂過程中會發生變化。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "動物體（以人體為例）經由攝食、消化、吸收獲得所需的養分。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "動物體（以人體為例）的循環系統能將體內的物質運輸至各細胞處，並進行物質交換。並經由心跳、心音及脈搏的探測，以了解循環系統的運作情形。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "動物體（以人體為例）藉由呼吸系統與外界交換氣體。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "生殖系統（以人體為例）能產生配子進行有性生殖，並且有分泌激素的功能。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "動植物體適應環境的構造常成為人類發展各種精密儀器的參考。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "植物體根、莖、葉、花、果實內的維管束具有運輸功能。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "花的構造中，雄蕊的花藥可產生花粉粒，花粉粒內有精細胞；雌蕊的子房內有胚珠，胚珠內有卵細胞。",
+  "page": 28
+ },
+ {
+  "code": "Db-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "植物體的分布會影響水在地表的流動，也會影響氣溫和空氣品質。",
+  "page": 28
+ },
+ {
+  "code": "Dc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "人體的神經系統能察覺環境的變動並產生反應。",
+  "page": 28
+ },
+ {
+  "code": "Dc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "人體的內分泌系統能調節代謝作用，維持體內物質的恆定。",
+  "page": 28
+ },
+ {
+  "code": "Dc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "皮膚是人體的第一道防禦系統，能阻止外來物，例如：細菌的侵入；而淋巴系統則可進一步產生免疫作用。",
+  "page": 28
+ },
+ {
+  "code": "Dc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "人體會藉由各系統的協調，使體內所含的物質以及各種狀態能維持在一定範圍內。",
+  "page": 28
+ },
+ {
+  "code": "Dc-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "生物體能覺察外界環境變化、採取適當的反應以使體內環境維持恆定，這些現象能以觀察或改變自變項的方式來探討。",
+  "page": 28
+ },
+ {
+  "code": "EEd-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "恆星光譜可用以了解恆星的大氣組成與物理性質。",
+  "page": 55
+ },
+ {
+  "code": "EEd-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "地面天文觀測的主要工具是光學望遠鏡與電波望遠鏡。",
+  "page": 55
+ },
+ {
+  "code": "EEd-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "地面天文觀測會受到諸多地表環境條件的限制。",
+  "page": 55
+ },
+ {
+  "code": "EEd-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "地球上看到的星空係不同時空的疊合，距離愈遠即愈古老。",
+  "page": 55
+ },
+ {
+  "code": "EEd-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "星色-星等的關係圖有助於認識恆星的類型與演化。",
+  "page": 55
+ },
+ {
+  "code": "EEd-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "測量天體的距離有助於了解宇宙的大尺度結構。",
+  "page": 55
+ },
+ {
+  "code": "EEd-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "我們的宇宙由各種不同尺度的天體所組成，且正在膨脹。",
+  "page": 42
+ },
+ {
+  "code": "EEd-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "天體的亮度與光度用視星等與絕對星等來表示。",
+  "page": 42
+ },
+ {
+  "code": "EEd-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "天文觀測可在不同的電磁波段進行。",
+  "page": 42
+ },
+ {
+  "code": "EEd-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "EEd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "恆星的顏色可用來了解恆星的表面溫度。",
+  "page": 42
+ },
+ {
+  "code": "EFa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "火成岩形成時岩漿的成分與冷卻速度會影響外觀。",
+  "page": 55
+ },
+ {
+  "code": "EFa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "不同沉積環境會影響沉積岩組成與顆粒的大小。",
+  "page": 55
+ },
+ {
+  "code": "EFa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "變質岩的形成受原來母岩與變質程度的影響，具有不同的外觀形態。",
+  "page": 55
+ },
+ {
+  "code": "EFa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "礦物具有一定的化學成分與物理性質。",
+  "page": 55
+ },
+ {
+  "code": "EFa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "礦物種類繁多，但一般岩石中常見的造岩礦物種類有限。",
+  "page": 55
+ },
+ {
+  "code": "EFa-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "主要建材多來自於岩石與其產物。",
+  "page": 55
+ },
+ {
+  "code": "EFa-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "經由地殼鑽探、不同地球物理探勘方法，可以幫助了解固體地球的結構與成分。",
+  "page": 55
+ },
+ {
+  "code": "EFa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "由地震波可以協助了解固體地球具有不同性質的分層。",
+  "page": 42
+ },
+ {
+  "code": "EFa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "固體地球各分層之化學組成與物理狀態不同。",
+  "page": 42
+ },
+ {
+  "code": "EFa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "大氣溫度與壓力會隨高度而變化。",
+  "page": 42
+ },
+ {
+  "code": "EFa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "海洋表水鹽度主要受降水、蒸發及河川注入等因素影響。",
+  "page": 42
+ },
+ {
+  "code": "EFa-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "EFa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "海水的溫度隨深度和水平分布而變化。",
+  "page": 42
+ },
+ {
+  "code": "EFb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EFb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "歷經地心說、日心說等學說的演進，天文學家現今已了解地球在太空中的運行規律。",
+  "page": 55
+ },
+ {
+  "code": "EFb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EFb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "曆法主要是根據天體運動的規律而制定。",
+  "page": 56
+ },
+ {
+  "code": "EFb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EFb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "由地球觀察恆星的視運動可以分成周日運動與周年運動。",
+  "page": 42
+ },
+ {
+  "code": "EHa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EHa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "人類對地球起源與演變的想法隨文明發展而改變，近代逐漸釐清出大致的輪廓。",
+  "page": 56
+ },
+ {
+  "code": "EHa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EHa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "高溫熔融態的原始地球，經過分化分層，形成具層狀結構之固體地球，逐漸冷卻，在釋氣過程中，大氣與海洋隨之演化。",
+  "page": 56
+ },
+ {
+  "code": "EHa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "EHa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "人類透過各種科學方法，了解地球的大小與形狀。",
+  "page": 56
+ },
+ {
+  "code": "EHa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EHa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "天文學家以太陽星雲學說來解釋太陽系的起源和形成。太陽系是由太陽、行星、衛星、小行星和彗星等天體組成。",
+  "page": 42
+ },
+ {
+  "code": "EHa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EHa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "與其他類地行星及太陽系小天體相較，地球獨一無二的環境，極為適合生命的發生和繁衍。",
+  "page": 42
+ },
+ {
+  "code": "EHa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "EHa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "在地球大氣演化過程中，海洋與生物扮演著極其重要的角色。",
+  "page": 42
+ },
+ {
+  "code": "EHb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EHb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "地層中的標準化石，指相化石與地質構造，可輔助了解地層的沉積環境與年代。",
+  "page": 56
+ },
+ {
+  "code": "EHb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EHb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "研究地球歷史的不同方法有不同限制與精確度，地球歷史需要綜合多方面的證據才能提出適當的推論。",
+  "page": 56
+ },
+ {
+  "code": "EHb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EHb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "化石可以作為地層的相對地質年代對比的輔助工具。",
+  "page": 42
+ },
+ {
+  "code": "EHb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EHb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "利用岩層中的化石與放射性同位素定年法，可幫助推論地層的絕對地質年代。",
+  "page": 42
+ },
+ {
+  "code": "EIa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "由浮力平衡的原理可推知，地殼會有垂直方向的升降調整，且有觀測證據支持。",
+  "page": 56
+ },
+ {
+  "code": "EIa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "斷層、褶皺、節理為岩層歷經地殼變動受力後的表徵。",
+  "page": 56
+ },
+ {
+  "code": "EIa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "透過野外觀察記錄及分析，建立地質圖等資料，可以幫助了解當地岩層的分布與構造。",
+  "page": 56
+ },
+ {
+  "code": "EIa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "透過野外地質觀測及儀器偵測到的地球物理資料，可以幫助建立臺灣的地體構造模型。",
+  "page": 56
+ },
+ {
+  "code": "EIa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "透過儀器對地殼變動的監測，可幫助了解板塊相互運動的狀態。",
+  "page": 56
+ },
+ {
+  "code": "EIa-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "遙測工具對於地表與地殼的變動提供了更全面的觀測。",
+  "page": 56
+ },
+ {
+  "code": "EIa-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "各種不同工具可幫助了解海底地形與陸地地形在形態及規模的不同。",
+  "page": 56
+ },
+ {
+  "code": "EIa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "科學家曾經提出大陸漂移、海底擴張及板塊構造等主要學說，來解釋變動中的固體地球。",
+  "page": 42
+ },
+ {
+  "code": "EIa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "板塊邊界可分為聚合、張裂及錯動三大類型。",
+  "page": 42
+ },
+ {
+  "code": "EIa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "板塊邊界有各種不同的地質作用與岩漿活動。",
+  "page": 42
+ },
+ {
+  "code": "EIa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "EIa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "由地質構造與震源分布等特徵，可推論臺灣位於聚合型板塊邊界。",
+  "page": 42
+ },
+ {
+  "code": "EIb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "水在水圈及大氣圈之中的三態變化與能量的轉換傳遞，對天氣與氣候變化有很大的影響。",
+  "page": 56
+ },
+ {
+  "code": "EIb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "大氣垂直溫度的差異會造成大氣的不穩定而引發垂直運動。",
+  "page": 56
+ },
+ {
+  "code": "EIb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "大氣垂直運動的形態決定了雲與降水的形態。",
+  "page": 56
+ },
+ {
+  "code": "EIb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "各種尺度的海陸差異與地形變化對天氣都有影響。",
+  "page": 56
+ },
+ {
+  "code": "EIb-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "氣象預報與生活習習相關，有些行業非常需要氣象預報提供的訊息。",
+  "page": 56
+ },
+ {
+  "code": "EIb-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "透過地面觀測與高空觀測、衛星及雷達遙測可以獲得氣象資料。",
+  "page": 56
+ },
+ {
+  "code": "EIb-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "透過觀測的氣溫、降水量、風向、風速、相對濕度等和衛星雲圖等紀錄，可以分析天氣系統的變化過程，並提出適當的解釋。",
+  "page": 56
+ },
+ {
+  "code": "EIb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "一定氣壓下，氣溫越高，空氣所能容納的水氣含量越高。",
+  "page": 42
+ },
+ {
+  "code": "EIb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "當水氣達到飽和時，多餘的水氣會凝結或凝固。",
+  "page": 42
+ },
+ {
+  "code": "EIb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "空氣中的水氣量可以用濕度來表示。",
+  "page": 42
+ },
+ {
+  "code": "EIb-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "空氣上升時會因為膨脹而降溫。",
+  "page": 42
+ },
+ {
+  "code": "EIb-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "大氣的水平運動主要受氣壓梯度力、科氏力和摩擦力的影響。",
+  "page": 42,
+  "overridden": true
+ },
+ {
+  "code": "EIb-Ⅴc-6",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 6,
+  "text": "天氣圖是由各地氣象觀測資料繪製而成，用以分析天氣。",
+  "page": 43,
+  "overridden": true
+ },
+ {
+  "code": "EIb-Ⅴc-7",
+  "kind": "content",
+  "topic_code": "EIb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 7,
+  "text": "大氣與海洋的交互作用會影響天氣，造成氣候變化，例如：聖嬰現象。",
+  "page": 43,
+  "overridden": true
+ },
+ {
+  "code": "EIc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "溫鹽環流是海洋下層水的流動，由海水的密度差異所驅動，具有傳送能量與調節氣候的重要功能。",
+  "page": 57
+ },
+ {
+  "code": "EIc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "臺灣附近的海流會影響臺灣四季的氣候。",
+  "page": 57
+ },
+ {
+  "code": "EIc-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "透過觀測資料可以判斷潮汐的不同形態。",
+  "page": 57
+ },
+ {
+  "code": "EIc-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "湧升流能將下層富營養鹽的海水往表層輸送，可以提高該海域的基礎生產力。",
+  "page": 57
+ },
+ {
+  "code": "EIc-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "透過海洋的探測與遙測，有助於了解海水運動與水文性質的變化。",
+  "page": 57
+ },
+ {
+  "code": "EIc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "表面海流受盛行風的影響。",
+  "page": 43
+ },
+ {
+  "code": "EIc-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "波浪形成的主因為風吹海面，而波浪會影響海岸地形。",
+  "page": 43
+ },
+ {
+  "code": "EIc-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "潮汐的變化受到日地月系統的影響有週期性。",
+  "page": 43
+ },
+ {
+  "code": "EIc-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "EIc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "臺灣海峽的潮流運動隨地點不同而有所差異。",
+  "page": 43
+ },
+ {
+  "code": "EId-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EId",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "不同緯度的晝夜長短會隨季節變化。",
+  "page": 57
+ },
+ {
+  "code": "EId-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EId",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "二十四節氣依太陽在天球上的位置而訂定。",
+  "page": 57
+ },
+ {
+  "code": "EId-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EId",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "太陽每日於天空中的位置會隨季節而改變。",
+  "page": 43
+ },
+ {
+  "code": "EMd-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "EMd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "山崩、土石流、地質環境及氣象狀況有密切關連。",
+  "page": 57
+ },
+ {
+  "code": "EMd-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "EMd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "水土保持具有防災與減災的功能。",
+  "page": 57
+ },
+ {
+  "code": "EMd-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "EMd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "可利用野外測勘、遙測及鑽井等技術確認地質敏感區。",
+  "page": 57
+ },
+ {
+  "code": "EMd-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "EMd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "颱風形成有其必要條件與機制。",
+  "page": 43
+ },
+ {
+  "code": "EMd-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "EMd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "颱風是一個螺旋雲帶結構，中心氣壓最低。",
+  "page": 43
+ },
+ {
+  "code": "EMd-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "EMd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "侵臺颱風的路徑主要受太平洋高壓所引導，不同路徑對臺灣各地的風雨影響不同。",
+  "page": 43
+ },
+ {
+  "code": "EMd-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "EMd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "臺灣位在活躍的板塊交界，斷層活動引發的地震及所導致的災害常造成巨大的損失。",
+  "page": 43
+ },
+ {
+  "code": "ENa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "全球水資源的分布不均，取用亦有限制，是人類面臨的重大課題，臺灣尤其需要面對。",
+  "page": 57
+ },
+ {
+  "code": "ENa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "水資源的永續經營與利用，除節約用水之外，維護自然生態環境，作好水土保持，才是更積極的做法。",
+  "page": 57
+ },
+ {
+  "code": "ENa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "化石燃料是目前用途最廣且最重要的能源，但地球蘊藏量有限，且有破壞全球碳循環平衡的問題。",
+  "page": 57
+ },
+ {
+  "code": "ENa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "新興能源的開發，有機會解決當代能源問題。",
+  "page": 57
+ },
+ {
+  "code": "ENa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "面對永續發展的問題，可以用社會、經濟及環境等三個面向來共同討論與均衡發展。",
+  "page": 57
+ },
+ {
+  "code": "ENa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "永續發展對地球與人類的延續有其重要性。",
+  "page": 43
+ },
+ {
+  "code": "ENa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "節用資源與合理開發，可以降低人類對地球環境的影響，以利永續發展。",
+  "page": 43
+ },
+ {
+  "code": "ENa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "ENa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "認識地球環境有助於經濟、生態、文化及政策四個面向的永續發展。",
+  "page": 43
+ },
+ {
+  "code": "ENb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "各種不同的氣候變遷模式的研究，說明單純自然因素和加入人為因素之後的推估。",
+  "page": 57
+ },
+ {
+  "code": "ENb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "氣候變遷的推估與未來衝擊充滿了不確定性。",
+  "page": 57
+ },
+ {
+  "code": "ENb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "全球各地所發生的氣候變遷在程度與類型上是不一樣的。",
+  "page": 57
+ },
+ {
+  "code": "ENb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "人類對地球環境變遷的因應與調適有可能避免災害發生。",
+  "page": 57
+ },
+ {
+  "code": "ENb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "氣候變化有多重時間尺度的特性。",
+  "page": 43
+ },
+ {
+  "code": "ENb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "冰期與間冰期的氣溫變化及海平面的升降，對全球生物與自然環境會造成影響。",
+  "page": 43
+ },
+ {
+  "code": "ENb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "過去主導地球長期的自然氣候變化的原理並無法完全用來解釋近幾十年來快速的氣候變遷情形。根據目前科學證據了解人類活動是主要因素。",
+  "page": 43
+ },
+ {
+  "code": "ENb-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "ENb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "因應氣候變遷的調適有許多面向與方法。",
+  "page": 43
+ },
+ {
+  "code": "Ea-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "時間、長度、質量等為基本物理量，經由計算可得到密度、體積等衍伸物理量。",
+  "page": 28
+ },
+ {
+  "code": "Ea-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "以適當的尺度量測或推估物理量，例如：奈米到光年、毫克到公噸、毫升到立方公尺等。",
+  "page": 28
+ },
+ {
+  "code": "Ea-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "測量時可依工具的最小刻度進行估計。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "力能引發物體的移動或轉動。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "力矩會改變物體的轉動，槓桿是力矩的作用。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "平衡的物體所受合力為零且合力矩為零。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "摩擦力可分靜摩擦力與動摩擦力。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "壓力的定義與帕斯卡原理。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "物體在靜止液體中所受浮力，等於排開液體的重量。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "簡單機械，例如：槓桿、滑輪、輪軸、齒輪、斜面，通常具有省時、省力，或者是改變作用力方向等功能。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "距離、時間及方向等概念可用來描述物體的運動。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-9",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 9,
+  "text": "圓周運動是一種加速度運動。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-10",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 10,
+  "text": "物體不受力時，會保持原有的運動狀態。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-11",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 11,
+  "text": "物體做加速度運動時，必受力。以相同的力量作用相同的時間，則質量愈小的物體其受力後造成的速度改變愈大。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-12",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 12,
+  "text": "物體的質量決定其慣性大小。",
+  "page": 29
+ },
+ {
+  "code": "Eb-Ⅳ-13",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 13,
+  "text": "對於每一作用力都有一個大小相等、方向相反的反作用力。",
+  "page": 29
+ },
+ {
+  "code": "Ec-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ec",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "大氣壓力是因為大氣層中空氣的重量所造成。",
+  "page": 29
+ },
+ {
+  "code": "Ec-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ec",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "定溫下，定量氣體在密閉容器內，其壓力與體積的定性關係。",
+  "page": 29
+ },
+ {
+  "code": "Ed-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ed",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "星系是組成宇宙的基本單位。",
+  "page": 29
+ },
+ {
+  "code": "Ed-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ed",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "我們所在的星系，稱為銀河系，主要是由恆星所組成；太陽是銀河系的成員之一。",
+  "page": 29
+ },
+ {
+  "code": "Fa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "地球具有大氣圈、水圈和岩石圈。",
+  "page": 29
+ },
+ {
+  "code": "Fa-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "三大類岩石有不同的特徵和成因。",
+  "page": 29
+ },
+ {
+  "code": "Fa-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "大氣的主要成分為氮氣和氧氣，並含有水氣、二氧化碳等變動氣體。",
+  "page": 29
+ },
+ {
+  "code": "Fa-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "大氣可由溫度變化分層。",
+  "page": 29
+ },
+ {
+  "code": "Fa-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "海水具有不同的成分及特性。",
+  "page": 29
+ },
+ {
+  "code": "Fb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "太陽系由太陽和行星組成，行星均繞太陽公轉。",
+  "page": 29
+ },
+ {
+  "code": "Fb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "類地行星的環境差異極大。",
+  "page": 29
+ },
+ {
+  "code": "Fb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "月球繞地球公轉；日、月、地在同一直線上會發生日月食。",
+  "page": 29
+ },
+ {
+  "code": "Fb-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "月相變化具有規律性。",
+  "page": 29
+ },
+ {
+  "code": "Fc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Fc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生物圈內含有不同的生態系。生態系的生物因子，其組成層次由低到高為個體、族群、群集。",
+  "page": 29
+ },
+ {
+  "code": "Fc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Fc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "組成生物體的基本層次是細胞，而細胞則由醣類、蛋白質及脂質等分子所組成，這些分子則由更小的粒子所組成。",
+  "page": 30
+ },
+ {
+  "code": "Ga-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生物的生殖可分為有性生殖與無性生殖，有性生殖產生的子代其性狀和親代差異較大。",
+  "page": 30
+ },
+ {
+  "code": "Ga-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "人類的性別主要由性染色體決定。",
+  "page": 30
+ },
+ {
+  "code": "Ga-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "人類的ABO血型是可遺傳的性狀。",
+  "page": 30
+ },
+ {
+  "code": "Ga-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "遺傳物質會發生變異，其變異可能造成性狀的改變，若變異發生在生殖細胞可遺傳到後代。",
+  "page": 30
+ },
+ {
+  "code": "Ga-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "生物技術的進步，有助於解決農業、食品、能源、醫藥，以及環境相關的問題，但也可能帶來新問題。",
+  "page": 30
+ },
+ {
+  "code": "Ga-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "孟德爾遺傳研究的科學史。",
+  "page": 30
+ },
+ {
+  "code": "Gb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Gb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "從地層中發現的化石，可以知道地球上曾經存在許多的生物，但有些生物已經消失了，例如：三葉蟲、恐龍等。",
+  "page": 30
+ },
+ {
+  "code": "Gc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Gc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "依據生物形態與構造的特徵，可以將生物分類。",
+  "page": 30
+ },
+ {
+  "code": "Gc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Gc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "地球上有形形色色的生物，在生態系中擔任不同的角色，發揮不同的功能，有助於維持生態系的穩定。",
+  "page": 30
+ },
+ {
+  "code": "Gc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Gc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "人的體表和體內有許多微生物，有些微生物對人體有利，有些則有害。",
+  "page": 30
+ },
+ {
+  "code": "Gc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Gc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "人類文明發展中有許多利用微生物的例子，例如：早期的釀酒、近期的基因轉殖等。",
+  "page": 30
+ },
+ {
+  "code": "Hb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Hb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "研究岩層岩性與化石可幫助了解地球的歷史。",
+  "page": 30
+ },
+ {
+  "code": "Hb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Hb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "解讀地層、地質事件，可幫助了解當地的地層發展先後順序。",
+  "page": 30
+ },
+ {
+  "code": "INa-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "自然界（包含生物與非生物）是由不同物質所組成。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "在地球上，物質具有重量，佔有體積。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "物質各有其特性，並可以依其特性與用途進行分類。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "物質的形態會因溫度的不同而改變。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅱ-5",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 5,
+  "text": "太陽照射、物質燃燒和摩擦等可以使溫度升高，運用測量的方法可知溫度高低。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅱ-6",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 6,
+  "text": "太陽是地球能量的主要來源，提供生物的生長需要，能量可以各種形式呈現。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅱ-7",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 7,
+  "text": "生物需要能量（養分）、陽光、空氣、水和土壤，維持生命、生長與活動。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅱ-8",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 8,
+  "text": "日常生活中常用的能源。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "物質是由微小的粒子所組成，而且粒子不斷的運動。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "物質各有不同性質，有些性質會隨溫度而改變。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "混合物是由不同的物質所混合，物質混合前後重量不會改變，性質可能會改變。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "空氣由各種不同氣體所組成，空氣具有熱脹冷縮的性質。氣體無一定的形狀與體積。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "不同形式的能量可以相互轉換，但總量不變。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-6",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 6,
+  "text": "能量可藉由電流傳遞、轉換而後為人類所應用。利用電池等設備可以儲存電能再轉換成其他能量。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-7",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 7,
+  "text": "運動的物體具有動能，對同一物體而言，速度越快動能越大。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-8",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 8,
+  "text": "熱由高溫處往低溫處傳播，傳播的方式有傳導、對流和輻射，生活中可運用不同的方法保溫與散熱。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-9",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 9,
+  "text": "植物生長所需的養分是經由光合作用從太陽光獲得的。",
+  "page": 19
+ },
+ {
+  "code": "INa-Ⅲ-10",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 10,
+  "text": "在生態系中，能量經由食物鏈在不同物種間流動與循環。",
+  "page": 20
+ },
+ {
+  "code": "INa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能量有多種不同的形式。",
+  "page": 35
+ },
+ {
+  "code": "INa-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能量之間可以轉換，且會維持定值。",
+  "page": 35
+ },
+ {
+  "code": "INa-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "科學的發現與新能源，及其對生活與社會的影響。",
+  "page": 35
+ },
+ {
+  "code": "INa-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "生活中各種能源的特性及其影響。",
+  "page": 35
+ },
+ {
+  "code": "INa-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "INa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "能源開發、利用及永續性。",
+  "page": 35
+ },
+ {
+  "code": "INb-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "物質或物體各有不同的功能或用途。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "物質性質上的差異性可用來區分或分離物質。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "虹吸現象可用來將容器中的水吸出；連通管可測水平。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "生物體的構造與功能是互相配合的。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅱ-5",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 5,
+  "text": "常見動物的外部形態主要分為頭、軀幹和肢，但不同類別動物之各部位特徵和名稱有差異。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅱ-6",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 6,
+  "text": "常見植物的外部形態主要由根、莖、葉、花、果實及種子所組成。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅱ-7",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 7,
+  "text": "動植物體的外部形態和內部構造，與其生長、行為、繁衍後代和適應環境有關。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "物質有不同的結構與功能。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "應用性質的不同可分離物質或鑑別物質。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "物質表面的結構與性質不同，其可產生的摩擦力不同；摩擦力會影響物體運動的情形。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "力可藉由簡單機械傳遞。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "生物體是由細胞所組成，具有由細胞、器官到個體等不同層次的構造。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-6",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 6,
+  "text": "動物的形態特徵與行為相關，動物身體的構造不同，有不同的運動方式。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-7",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 7,
+  "text": "植物各部位的構造和所具有的功能有關，有些植物產生特化的構造以適應環境。",
+  "page": 20
+ },
+ {
+  "code": "INb-Ⅲ-8",
+  "kind": "content",
+  "topic_code": "INb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 8,
+  "text": "生物可依其形態特徵進行分類。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "使用工具或自訂參考標準可量度與比較。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "生活中常見的測量單位與度量。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "力的表示法，包括大小、方向與作用點等。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "方向、距離可用以表示物體位置。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-5",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 5,
+  "text": "水和空氣可以傳送動力讓物體移動。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-6",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 6,
+  "text": "水有三態變化及毛細現象。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-7",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 7,
+  "text": "利用適當的工具觀察不同大小、距離位置的物體。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-8",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 8,
+  "text": "不同的環境有不同的生物生存。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅱ-9",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 9,
+  "text": "地表具有岩石、砂、土壤等不同環境，各有特徵，可以分辨。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅱ-10",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 10,
+  "text": "天空中天體有東升西落的現象，月亮有盈虧的變化，星星則是有些亮有些暗。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "生活及探究中常用的測量工具和方法。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "自然界或生活中有趣的最大或最小的事物（量），事物大小宜用適當的單位來表示。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "本量與改變量不同，由兩者的比例可評估變化的程度。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "對相同事物做多次測量，其結果間可能有差異，差異越大表示測量越不精確。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "力的大小可由物體的形變或運動狀態的改變程度得知。",
+  "page": 20
+ },
+ {
+  "code": "INc-Ⅲ-6",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 6,
+  "text": "運用時間與距離可描述物體的速度與速度的變化。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-7",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 7,
+  "text": "動物體內的器官系統是由數個器官共同組合，以執行某種特定的生理作用。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-8",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 8,
+  "text": "在同一時期，特定區域上，相同物種所組成的群體稱為「族群」，而在特定區域由多個族群結合而組成「群集」。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-9",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 9,
+  "text": "不同的環境條件影響生物的種類和分布，以及生物間的食物關係，因而形成不同的生態系。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-10",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 10,
+  "text": "地球是由空氣、陸地、海洋及生存於其中的生物所組成的。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-11",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 11,
+  "text": "岩石由礦物組成，岩石和礦物有不同特徵，各有不同用途。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-12",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 12,
+  "text": "地球上的水存在於大氣、海洋、湖泊與地下中。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-13",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 13,
+  "text": "日出日落時間與位置，在不同季節會不同。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-14",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 14,
+  "text": "四季星空會有所不同。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅲ-15",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 15,
+  "text": "除了地球外，還有其他行星環繞著太陽運行。",
+  "page": 21
+ },
+ {
+  "code": "INc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "宇宙間事、物的規模可以分為微觀尺度及巨觀尺度。",
+  "page": 34
+ },
+ {
+  "code": "INc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "對應不同尺度，各有適用的單位（以長度單位為例），尺度大小可以使用科學記號來表達。",
+  "page": 34
+ },
+ {
+  "code": "INc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "測量時要選擇適當的尺度。",
+  "page": 35
+ },
+ {
+  "code": "INc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "不同物體間的尺度關係可以用比例的方式來呈現。",
+  "page": 35
+ },
+ {
+  "code": "INc-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "原子與分子是組成生命世界與物質世界的微觀尺度。",
+  "page": 35
+ },
+ {
+  "code": "INc-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "INc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "從個體到生物圈是組成生命世界的巨觀尺度。",
+  "page": 35
+ },
+ {
+  "code": "INd-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "當受外在因素作用時，物質或自然現象可能會改變。改變有些較快、有些較慢；有些可以回復，有些則不能。",
+  "page": 21
+ },
+ {
+  "code": "INd-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "物質或自然現象的改變情形，可以運用測量的工具和方法得知。",
+  "page": 21
+ },
+ {
+  "code": "INd-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "生物從出生、成長到死亡有一定的壽命，透過生殖繁衍下一代。",
+  "page": 21
+ },
+ {
+  "code": "INd-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "空氣流動產生風。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅱ-5",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 5,
+  "text": "自然環境中有砂石及土壤，會因水流、風而發生改變。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅱ-6",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 6,
+  "text": "一年四季氣溫會有所變化，天氣也會有所不同。氣象報告可以讓我們知道天氣的可能變化。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅱ-7",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 7,
+  "text": "天氣預報常用雨量、溫度、風向、風速等資料來表達天氣狀態，這些資料可以使用適當儀器測得。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅱ-8",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 8,
+  "text": "力有各種不同的形式。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅱ-9",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 9,
+  "text": "施力可能會使物體改變運動情形或形狀；當物體受力變形時，有的可恢復原狀，有的不能恢復原狀。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "自然界中存在著各種的穩定狀態；當有新的外加因素時，可能造成改變，再達到新的穩定狀態。",
+  "page": 21
+ },
+ {
+  "code": "INd-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "人類可以控制各種因素來影響物質或自然現象的改變，改變前後的差異可以被觀察，改變的快慢可以被測量與了解。",
+  "page": 21
+ },
+ {
+  "code": "INd-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "地球上的物體（含生物和非生物）均會受地球引力的作用，地球對物體的引力就是物體的重量。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "生物個體間的性狀具有差異性；子代與親代的性狀具有相似性和相異性。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "生物體接受環境刺激會產生適當的反應，並自動調節生理作用以維持恆定。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-6",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 6,
+  "text": "生物種類具有多樣性；生物生存的環境亦具有多樣性。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-7",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 7,
+  "text": "天氣圖上用高、低氣壓、鋒面、颱風等符號來表示天氣現象，並認識其天氣變化。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-8",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 8,
+  "text": "土壤是由岩石風化成的碎屑及生物遺骸所組成。化石是地層中古代生物的遺骸。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-9",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 9,
+  "text": "流水、風和波浪對砂石和土壤產生侵蝕、風化、搬運及堆積等作用，河流是改變地表最重要的力量。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-10",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 10,
+  "text": "流水及生物活動，對地表的改變會產生不同的影響。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-11",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 11,
+  "text": "海水的流動會影響天氣與氣候的變化。氣溫下降時水氣凝結為雲和霧或昇華為霜、雪。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-12",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 12,
+  "text": "自然界的水循環主要由海洋或湖泊表面水的蒸發，經凝結降水，再透過地表水與地下水等傳送回海洋或湖泊。",
+  "page": 22
+ },
+ {
+  "code": "INd-Ⅲ-13",
+  "kind": "content",
+  "topic_code": "INd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 13,
+  "text": "施力可使物體的運動速度改變，物體受多個力的作用，仍可能保持平衡靜止不動，物體不接觸也可以有力的作用。",
+  "page": 22
+ },
+ {
+  "code": "INe-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "自然界的物體、生物、環境間常會相互影響。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "溫度會影響物質在水中溶解的程度（定性）及物質燃燒、生鏽、發酵等現象。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "有些物質溶於水中，有些物質不容易溶於水中。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "常見食物的酸鹼性有時可利用氣味、觸覺、味覺簡單區分，花卉、菜葉會因接觸到酸鹼而改變顏色。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-5",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 5,
+  "text": "生活周遭有各種的聲音；物體振動會產生聲音，聲音可以透過固體、液體、氣體傳播。不同的動物會發出不同的聲音，並且作為溝通的方式。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-6",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 6,
+  "text": "光線以直線前進，反射時有一定的方向。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-7",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 7,
+  "text": "磁鐵具有兩極，同極相斥，異極相吸；磁鐵會吸引含鐵的物體。磁力強弱可由吸起含鐵物質數量多寡得知。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-8",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 8,
+  "text": "物質可分為電的良導體和不良導體，將電池用電線或良導體接成通路，可使燈泡發光、馬達轉動。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-9",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 9,
+  "text": "電池或燈泡可以有串聯和並聯的接法，不同的接法會產生不同的效果。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-10",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 10,
+  "text": "動物的感覺器官接受外界刺激會引起生理和行為反應。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅱ-11",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 11,
+  "text": "環境的變化會影響植物生長。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "自然界的物體、生物與環境間的交互作用，常具有規則性。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "物質的形態與性質可因燃燒、生鏽、發酵、酸鹼作用等而改變或形成新物質，這些改變有些會和溫度、水、空氣、光等有關。改變要能發生，常需要具備一些條件。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "燃燒是物質與氧劇烈作用的現象，燃燒必須同時具備可燃物、助燃物，並達到燃點等三個要素。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "物質溶解、反應前後總重量不變。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "常用酸鹼物質的特性，水溶液的酸鹼性質及其生活上的運用。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-6",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 6,
+  "text": "聲音有大小、高低與音色等不同性質，生活中聲音有樂音與噪音之分，噪音可以防治。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-7",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 7,
+  "text": "陽光是由不同色光組成。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-8",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 8,
+  "text": "光會有折射現象，放大鏡可聚光和成像。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-9",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 9,
+  "text": "地球有磁場，會使指北針指向固定方向。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-10",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 10,
+  "text": "磁鐵與通電的導線皆可產生磁力，使附近指北針偏轉。改變電流方向或大小，可以調控電磁鐵的磁極方向或磁力大小。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-11",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 11,
+  "text": "動物有覓食、生殖、保護、訊息傳遞以及社會性的行為。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-12",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 12,
+  "text": "生物的分布和習性，會受環境因素的影響；環境改變也會影響生存於其中的生物種類。",
+  "page": 23
+ },
+ {
+  "code": "INe-Ⅲ-13",
+  "kind": "content",
+  "topic_code": "INe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 13,
+  "text": "生態系中生物與生物彼此間的交互作用，有寄生、共生和競爭的關係。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "日常生活中常見的科技產品。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "不同的環境影響人類食物的種類、來源與飲食習慣。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "自然的規律與變化對人類生活應用與美感的啟發。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "季節的變化與人類生活的關係。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅱ-5",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 5,
+  "text": "人類活動對環境造成影響。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅱ-6",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 6,
+  "text": "地震會造成嚴重的災害，平時的準備與防震能降低損害。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅱ-7",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 7,
+  "text": "水與空氣汙染會對生物產生影響。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "世界與本地不同性別科學家的事蹟與貢獻。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "科技在生活中的應用與對環境與人體的影響。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "自然界生物的特徵與原理在人類生活上的應用。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "人類日常生活中所依賴的經濟動植物及栽培養殖的方法。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "臺灣的主要天然災害之認識及防災避難。",
+  "page": 24
+ },
+ {
+  "code": "INf-Ⅲ-6",
+  "kind": "content",
+  "topic_code": "INf",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 6,
+  "text": "生活中的電器可以產生電磁波，具有功能但也可能造成傷害。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "自然環境中有許多資源。人類生存與生活需依賴自然環境中的各種資源，但自然資源都是有限的，需要珍惜使用。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "地球資源永續可結合日常生活中低碳與節水方法做起。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "可利用垃圾減量、資源回收、節約能源等方法來保護環境。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "自然景觀和環境一旦被改變或破壞，極難恢復。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "人類活動與其他生物的活動會相互影響，不當引進外來物種可能造成經濟損失和生態破壞。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "生物多樣性對人類的重要性，而氣候變遷將對生物生存造成影響。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "人類的活動會造成氣候變遷，加劇對生態與環境的影響。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "能源的使用與地球永續發展息息相關。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅲ-6",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 6,
+  "text": "碳足跡與水足跡所代表環境的意涵。",
+  "page": 24
+ },
+ {
+  "code": "INg-Ⅲ-7",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 7,
+  "text": "人類行為的改變可以減緩氣候變遷所造成的衝擊與影響。",
+  "page": 25
+ },
+ {
+  "code": "INg-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "地球上各系統的能量主要來源是太陽，且彼此之間有流動轉換。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "大氣組成中的變動氣體有些是溫室氣體。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "不同物質受熱後，其溫度的變化可能不同。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "碳元素在自然界中的儲存與流動。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "生物活動會改變環境，環境改變之後也會影響生物活動。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "新興科技的發展對自然環境的影響。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "溫室氣體與全球暖化的關係。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "氣候變遷產生的衝擊是全球性的。",
+  "page": 35
+ },
+ {
+  "code": "INg-Ⅳ-9",
+  "kind": "content",
+  "topic_code": "INg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 9,
+  "text": "因應氣候變遷的方法，主要有減緩與調適兩種途徑。",
+  "page": 35
+ },
+ {
+  "code": "Ia-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "外營力及內營力的作用會改變地貌。",
+  "page": 30
+ },
+ {
+  "code": "Ia-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "岩石圈可分為數個板塊。",
+  "page": 30
+ },
+ {
+  "code": "Ia-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "板塊之間會相互分離或聚合，產生地震、火山和造山運動。",
+  "page": 30
+ },
+ {
+  "code": "Ia-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "全球地震、火山分布在特定的地帶，且兩者相當吻合。",
+  "page": 30
+ },
+ {
+  "code": "Ib-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "氣團是性質均勻的大型空氣團塊，性質各有不同。",
+  "page": 30
+ },
+ {
+  "code": "Ib-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "氣壓差會造成空氣的流動而產生風。",
+  "page": 30
+ },
+ {
+  "code": "Ib-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "由於地球自轉的關係會造成高、低氣壓空氣的旋轉。",
+  "page": 30
+ },
+ {
+  "code": "Ib-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "鋒面是性質不同的氣團之交界面，會產生各種天氣變化。",
+  "page": 30
+ },
+ {
+  "code": "Ib-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "臺灣的災變天氣包括颱風、梅雨、寒潮、乾旱等現象。",
+  "page": 30
+ },
+ {
+  "code": "Ib-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "臺灣秋冬季受東北季風影響，夏季受西南季風影響，造成各地氣溫、風向和降水的季節性差異。",
+  "page": 31
+ },
+ {
+  "code": "Ic-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ic",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "海水運動包含波浪、海流和潮汐，各有不同的運動方式。",
+  "page": 31
+ },
+ {
+  "code": "Ic-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ic",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "海流對陸地的氣候會產生影響。",
+  "page": 31
+ },
+ {
+  "code": "Ic-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ic",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "臺灣附近的海流隨季節有所不同。",
+  "page": 31
+ },
+ {
+  "code": "Ic-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ic",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "潮汐變化具有規律性。",
+  "page": 31
+ },
+ {
+  "code": "Id-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Id",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "夏季白天較長，冬季黑夜較長。",
+  "page": 31
+ },
+ {
+  "code": "Id-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Id",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "陽光照射角度之變化，會造成地表單位面積土地吸收太陽能量的不同。",
+  "page": 31
+ },
+ {
+  "code": "Id-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Id",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "地球的四季主要是因為地球自轉軸傾斜於地球公轉軌道面而造成。",
+  "page": 31
+ },
+ {
+  "code": "Ja-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "化學反應中的質量守恆定律。",
+  "page": 31
+ },
+ {
+  "code": "Ja-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "化學反應是原子重新排列。",
+  "page": 31
+ },
+ {
+  "code": "Ja-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "化學反應中常伴隨沉澱、氣體、顏色及溫度變化等現象。",
+  "page": 31
+ },
+ {
+  "code": "Ja-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "化學反應的表示法。",
+  "page": 31
+ },
+ {
+  "code": "Jb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "由水溶液導電的實驗認識電解質與非電解質。",
+  "page": 31
+ },
+ {
+  "code": "Jb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "電解質在水溶液中會解離出陰離子和陽離子而導電。",
+  "page": 31
+ },
+ {
+  "code": "Jb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "不同的離子在水溶液中可能會發生沉澱、酸鹼中和及氧化還原等反應。",
+  "page": 31
+ },
+ {
+  "code": "Jb-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "溶液的概念及重量百分濃度（P%）、百萬分點的表示法（ppm）。",
+  "page": 31
+ },
+ {
+  "code": "Jc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Jc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "氧化與還原的狹義定義為：物質得到氧稱為氧化反應；失去氧稱為還原反應。",
+  "page": 31
+ },
+ {
+  "code": "Jc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Jc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "物質燃燒實驗認識氧化。",
+  "page": 31
+ },
+ {
+  "code": "Jc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Jc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "不同金屬元素燃燒實驗認識元素對氧氣的活性。",
+  "page": 31
+ },
+ {
+  "code": "Jc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Jc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "生活中常見的氧化還原反應與應用。",
+  "page": 31
+ },
+ {
+  "code": "Jc-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Jc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "鋅銅電池實驗認識電池原理。",
+  "page": 31
+ },
+ {
+  "code": "Jc-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Jc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "化學電池的放電與充電。",
+  "page": 31
+ },
+ {
+  "code": "Jc-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Jc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "電解水與硫酸銅水溶液實驗認識電解原理。",
+  "page": 31
+ },
+ {
+  "code": "Jd-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Jd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "金屬與非金屬氧化物在水溶液中的酸鹼性，及酸性溶液對金屬與大理石的反應。",
+  "page": 31
+ },
+ {
+  "code": "Jd-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Jd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "酸鹼強度與pH值的關係。",
+  "page": 31
+ },
+ {
+  "code": "Jd-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Jd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "實驗認識廣用指示劑及pH計。",
+  "page": 31
+ },
+ {
+  "code": "Jd-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Jd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "水溶液中氫離子與氫氧根離子的關係。",
+  "page": 31
+ },
+ {
+  "code": "Jd-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Jd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "酸、鹼、鹽類在日常生活中的應用與危險性。",
+  "page": 31
+ },
+ {
+  "code": "Jd-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Jd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "實驗認識酸與鹼中和生成鹽和水，並可放出熱量而使溫度變化。",
+  "page": 31
+ },
+ {
+  "code": "Je-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Je",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "實驗認識化學反應速率及影響反應速率的因素，例如：本性、溫度、濃度、接觸面積及催化劑。",
+  "page": 31
+ },
+ {
+  "code": "Je-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Je",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "可逆反應。",
+  "page": 32
+ },
+ {
+  "code": "Je-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Je",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "化學平衡及溫度、濃度如何影響化學平衡的因素。",
+  "page": 32
+ },
+ {
+  "code": "Jf-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Jf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "有機化合物與無機化合物的重要特徵。",
+  "page": 32
+ },
+ {
+  "code": "Jf-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Jf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "生活中常見的烷類、醇類、有機酸及酯類。",
+  "page": 32
+ },
+ {
+  "code": "Jf-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Jf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "酯化與皂化反應。",
+  "page": 32
+ },
+ {
+  "code": "Jf-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Jf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "常見的塑膠。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "波的特徵，例如：波峰、波谷、波長、頻率、波速、振幅。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "波傳播的類型，例如：橫波和縱波。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "介質的種類、狀態、密度及溫度等因素會影響聲音傳播的速率。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "聲波會反射，可以做為測量、傳播等用途。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "耳朵可以分辨不同的聲音，例如：大小、高低及音色，但人耳聽不到超聲波。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "由針孔成像、影子實驗驗證與說明光的直進性。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "光速的大小和影響光速的因素。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "透過實驗探討光的反射與折射規律。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-9",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 9,
+  "text": "生活中有許多運用光學原理的實例或儀器，例如：透鏡、面鏡、眼睛、眼鏡及顯微鏡等。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-10",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 10,
+  "text": "陽光經過三稜鏡可以分散成各種色光。",
+  "page": 32
+ },
+ {
+  "code": "Ka-Ⅳ-11",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 11,
+  "text": "物體的顏色是光選擇性反射的結果。",
+  "page": 32
+ },
+ {
+  "code": "Kb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "物體在地球或月球等星體上因為星體的引力作用而具有重量；物體之質量與其重量是不同的物理量。",
+  "page": 32
+ },
+ {
+  "code": "Kb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "帶質量的兩物體之間有重力，例如：萬有引力，此力大小與兩物體各自的質量成正比、與物體間距離的平方成反比。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "摩擦可以產生靜電，電荷有正負之別。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "靜止帶電物體之間有靜電力，同號電荷會相斥，異號電荷則會相吸。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "磁場可以用磁力線表示，磁力線方向即為磁場方向，磁力線越密處磁場越大。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "電流會產生磁場，其方向分布可以由安培右手定則求得。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "載流導線在磁場會受力，並簡介電動機的運作原理。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "環形導線內磁場變化，會產生感應電流。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "電池連接導體形成通路時，多數導體通過的電流與其兩端電壓差成正比，其比值即為電阻。",
+  "page": 32
+ },
+ {
+  "code": "Kc-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "Kc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "電流通過帶有電阻物體時，能量會以發熱的形式逸散。",
+  "page": 32
+ },
+ {
+  "code": "La-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "La",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "隨著生物間、生物與環境間的交互作用，生態系中的結構會隨時間改變，形成演替現象。",
+  "page": 33
+ },
+ {
+  "code": "Lb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生態系中的非生物因子會影響生物的分布與生存，環境調查時常需檢測非生物因子的變化。",
+  "page": 33
+ },
+ {
+  "code": "Lb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "人類活動會改變環境，也可能影響其他生物的生存。",
+  "page": 33
+ },
+ {
+  "code": "Lb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "人類可採取行動來維持生物的生存環境，使生物能在自然環境中生長、繁殖、交互作用，以維持生態平衡。",
+  "page": 33
+ },
+ {
+  "code": "Ma-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生命科學的進步，有助於解決社會中發生的農業、食品、能源、醫藥，以及環境相關的問題。",
+  "page": 33
+ },
+ {
+  "code": "Ma-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "保育工作不是只有科學家能夠處理，所有的公民都有權利及義務，共同研究、監控及維護生物多樣性。",
+  "page": 33
+ },
+ {
+  "code": "Ma-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "不同的材料對生活及社會的影響。",
+  "page": 33
+ },
+ {
+  "code": "Ma-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "各種發電方式與新興的能源科技對社會、經濟、環境及生態的影響。",
+  "page": 33
+ },
+ {
+  "code": "Ma-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "各種本土科學知能（含原住民族科學與世界觀）對社會、經濟環境及生態保護之啟示。",
+  "page": 33
+ },
+ {
+  "code": "Mb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Mb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生物技術的發展是為了因應人類需求，運用跨領域技術來改造生物。發展相關技術的歷程中，也應避免對其他生物以及環境造成過度的影響。",
+  "page": 33
+ },
+ {
+  "code": "Mb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Mb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "科學史上重要發現的過程，以及不同性別、背景、族群者於其中的貢獻。",
+  "page": 33
+ },
+ {
+  "code": "Mc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生物生長條件與機制在處理環境汙染物質的應用。",
+  "page": 33
+ },
+ {
+  "code": "Mc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "運用生物體的構造與功能，可改善人類生活。",
+  "page": 33
+ },
+ {
+  "code": "Mc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "生活中對各種材料進行加工與運用。",
+  "page": 33
+ },
+ {
+  "code": "Mc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "常見人造材料的特性、簡單的製造過程及在生活上的應用。",
+  "page": 33
+ },
+ {
+  "code": "Mc-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "電力供應與輸送方式的概要。",
+  "page": 33
+ },
+ {
+  "code": "Mc-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "用電安全常識，避免觸電和電線走火。",
+  "page": 33
+ },
+ {
+  "code": "Mc-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "電器標示和電費計算。",
+  "page": 33
+ },
+ {
+  "code": "Md-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生物保育知識與技能在防治天然災害的應用。",
+  "page": 33
+ },
+ {
+  "code": "Md-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "颱風主要發生在七至九月，並容易造成生命財產的損失。",
+  "page": 33
+ },
+ {
+  "code": "Md-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "颱風會帶來狂風、豪雨及暴潮等災害。",
+  "page": 33
+ },
+ {
+  "code": "Md-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "臺灣位處於板塊交界，因此地震頻仍，常造成災害。",
+  "page": 33
+ },
+ {
+  "code": "Md-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "大雨過後和順向坡會加重山崩的威脅。",
+  "page": 34
+ },
+ {
+  "code": "Me-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Me",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "環境汙染物對生物生長的影響及應用。",
+  "page": 34
+ },
+ {
+  "code": "Me-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Me",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "家庭廢水的影響與再利用。",
+  "page": 34
+ },
+ {
+  "code": "Me-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Me",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "空氣品質與空氣汙染的種類、來源及一般防治方法。",
+  "page": 34
+ },
+ {
+  "code": "Me-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Me",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "溫室氣體與全球暖化。",
+  "page": 34
+ },
+ {
+  "code": "Me-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Me",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "重金屬汙染的影響。",
+  "page": 34
+ },
+ {
+  "code": "Me-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Me",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "環境汙染物與生物放大的關係。",
+  "page": 34
+ },
+ {
+  "code": "Me-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Me",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "對聲音的特性做深入的研究可以幫助我們更確實防範噪音的汙染。",
+  "page": 34
+ },
+ {
+  "code": "Na-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "利用生物資源會影響生物間相互依存的關係。",
+  "page": 34
+ },
+ {
+  "code": "Na-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "生活中節約能源的方法。",
+  "page": 34
+ },
+ {
+  "code": "Na-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "環境品質繫於資源的永續利用與維持生態平衡。",
+  "page": 34
+ },
+ {
+  "code": "Na-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "資源使用的5R：減量、拒絕、重複使用、回收及再生。",
+  "page": 34
+ },
+ {
+  "code": "Na-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "各種廢棄物對環境的影響，環境的承載能力與處理方法。",
+  "page": 34
+ },
+ {
+  "code": "Na-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "人類社會的發展必須建立在保護地球自然環境的基礎上。",
+  "page": 34
+ },
+ {
+  "code": "Na-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "為使地球永續發展，可以從減量、回收、再利用、綠能等做起。",
+  "page": 34
+ },
+ {
+  "code": "Nb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "全球暖化對生物的影響。",
+  "page": 34
+ },
+ {
+  "code": "Nb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "氣候變遷產生的衝擊有海平面上升、全球暖化、異常降水等現象。",
+  "page": 34
+ },
+ {
+  "code": "Nb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "因應氣候變遷的方法有減緩與調適。",
+  "page": 34
+ },
+ {
+  "code": "Nc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Nc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "生質能源的發展現況。",
+  "page": 34
+ },
+ {
+  "code": "Nc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Nc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "開發任何一種能源都有風險，應依據證據來評估與決策。",
+  "page": 34
+ },
+ {
+  "code": "Nc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Nc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "化石燃料的形成與特性。",
+  "page": 34
+ },
+ {
+  "code": "Nc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Nc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "新興能源的開發，例如：風能、太陽能、核融合發電、汽電共生、生質能、燃料電池等。",
+  "page": 34
+ },
+ {
+  "code": "Nc-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Nc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "新興能源的科技，例如：油電混合動力車、太陽能飛機等。",
+  "page": 34
+ },
+ {
+  "code": "Nc-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Nc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "臺灣能源的利用現況與未來展望。",
+  "page": 34
+ },
+ {
+  "code": "PBa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "功等於力和位移的向量內積，功率為功的時間變化率。",
+  "page": 49
+ },
+ {
+  "code": "PBa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "功能定理。",
+  "page": 49
+ },
+ {
+  "code": "PBa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "位能的定義。",
+  "page": 49
+ },
+ {
+  "code": "PBa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "重力位能及彈簧位能的一般表示式。",
+  "page": 49
+ },
+ {
+  "code": "PBa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "一般性的力學能守恆律與實例。",
+  "page": 49
+ },
+ {
+  "code": "PBa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "電場以及磁場均具有能量，利用手機傳遞訊息即是電磁場以電磁波的形式來傳遞能量的實例。",
+  "page": 38
+ },
+ {
+  "code": "PBa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "不同形式的能量間可以轉換，且總能量守恆。能量的形式因觀察尺度的不同，而有不同的展現與說明。",
+  "page": 38
+ },
+ {
+  "code": "PBa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "質量及能量可以相互轉換，其轉換公式為E=mc²。",
+  "page": 38,
+  "overridden": true
+ },
+ {
+  "code": "PBa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PBa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "原子核的融合以及原子核的分裂是質量可以轉換為能量的應用實例，且為目前重要之能源議題。",
+  "page": 38
+ },
+ {
+  "code": "PBb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PBb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "理想氣體狀態方程為PV=nRT，此溫度T為絕對溫度。",
+  "page": 50
+ },
+ {
+  "code": "PBb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PBb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "將牛頓力學定律應用到理想氣體動力論，可以推導出氣體壓力以及體積與內能的定量關係。將此結果套用到理想氣體狀態方程式則可得出理想氣體的內能與絕對溫度成正比的結論。",
+  "page": 50
+ },
+ {
+  "code": "PBb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PBb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "在一系統中氣體分子運動速率並非完全相同，而是有一個速率分布。",
+  "page": 50
+ },
+ {
+  "code": "PBb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PBb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "克氏溫標的意義及理想氣體的內能的簡單說明。",
+  "page": 38
+ },
+ {
+  "code": "PBb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PBb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "實驗顯示：把功轉換成熱很容易，卻無法把熱完全轉換為功。",
+  "page": 38
+ },
+ {
+  "code": "PBb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PBb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "物體內的原子不斷在運動並交互作用，此交互作用能量與原子的動能合稱為熱能。",
+  "page": 38
+ },
+ {
+  "code": "PBb-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PBb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "由於物體溫度的不同所造成的能量傳遞稱為熱。",
+  "page": 38
+ },
+ {
+  "code": "PEa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PEa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "測量都會有不確定度，不確定度源自被測量物、測量儀器的特性，並受測量者及環境的影響。不確定度有國際公定的標準計算方法。",
+  "page": 50
+ },
+ {
+  "code": "PEa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PEa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "科學上常用的物理量有國際標準單位。",
+  "page": 38
+ },
+ {
+  "code": "PEa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PEa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "因工具的限制或應用上的方便，許多自然科學所需的測量，包含物理量，是經由基本物理量的測量再計算而得。",
+  "page": 38
+ },
+ {
+  "code": "PEa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PEa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "原子的大小約為10-10公尺，原子核的大小約為10-15公尺。",
+  "page": 38
+ },
+ {
+  "code": "PEb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "質點如在一平面上運動，則其位移、速度、加速度有兩個獨立的分量。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "直線等加速運動（例如：自由落體運動），其位移、速度、加速度及時間的數學關係。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "二質點在同一直線上運動，其相對速度為二質點速度之差。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "簡諧運動為一週期性運動，其位移和速度可用時間的正弦函數或餘弦函數表示。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "質點如在一平面上運動，則其位移、速度、加速度有兩個分量，應用向量表示，例如：拋體運動，其軌跡是拋物線。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "質點作等速圓周運動時其速率及角速度不變，但有向心加速度，因此速度的方向會改變。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "力是向量，可以分解和合成。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "牛頓三大運動定律包括慣性定律、運動定律、作用與反作用定律。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-9",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 9,
+  "text": "牛頓第二運動定律的應用，例如：簡諧運動與等速圓周運動。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-10",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 10,
+  "text": "質點的動量等於質點的質量乘以速度，其時間變化率等於質點所受作用力。衝量等於動量的變化。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-11",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 11,
+  "text": "質點系統的動量對時間的變化率等於外力的總和，如外力的總和為零，則系統動量守恆。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-12",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 12,
+  "text": "質點系統質心的定義。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-13",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 13,
+  "text": "質心速度、質心加速度及系統總動量及其所受外力的關係。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-14",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 14,
+  "text": "一質點的角動量等於其位置向量和動量的向量外積，其時間變化率等於質點所受的力矩。",
+  "page": 50
+ },
+ {
+  "code": "PEb-Ⅴa-15",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 15,
+  "text": "許多生活上和工程上的問題都可用牛頓三大運動定律來解釋或計算，例如：靜力平衡、摩擦力、一維碰撞問題。",
+  "page": 51
+ },
+ {
+  "code": "PEb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "伽利略之前學者對物體運動的觀察與思辯。",
+  "page": 38
+ },
+ {
+  "code": "PEb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "伽利略對物體運動的研究與思辯歷程。",
+  "page": 39
+ },
+ {
+  "code": "PEb-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "克卜勒行星運動三大定律發現的歷史背景及內容。",
+  "page": 39
+ },
+ {
+  "code": "PEb-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "牛頓三大運動定律。",
+  "page": 39
+ },
+ {
+  "code": "PEb-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "PEb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "摩擦力、正向力、彈力等常見的作用力。",
+  "page": 39
+ },
+ {
+  "code": "PKa-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "力學波須透過介質來傳播，但光可在真空中傳播。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "介質振動會產生波。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "正弦波在時間上以及空間中均有週期性。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "波遇到不同的介質時會反射和透射，例如：繩波。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "線性波相遇時波形可以疊加。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "兩個振幅、波長、週期皆相同的波相向行進會經由干涉形成駐波。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "如聲音形成駐波，其頻率最低者稱為基音，頻率高者稱為泛音。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "物體振動的頻率和聲波頻率相同時會產生聲音的共振（或共鳴）。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-9",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 9,
+  "text": "惠更斯原理可解釋波的傳遞，波前的每一點就像一個向外傳播的點波源。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-10",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 10,
+  "text": "光有波動的性質。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-11",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 11,
+  "text": "光的折射遵循司乃耳定律，光由光密介質進入光疏介質的入射角大於臨界角時會發生全反射。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-12",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 12,
+  "text": "光經透鏡成像可用透鏡公式分析，透鏡有很多用途。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴa-13",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 13,
+  "text": "光有干涉與繞射的現象，其亮紋和暗紋決定於相位差。",
+  "page": 51
+ },
+ {
+  "code": "PKa-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "波速、頻率、波長的數學關係。",
+  "page": 39
+ },
+ {
+  "code": "PKa-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "定性介紹都卜勒效應及其應用。",
+  "page": 39
+ },
+ {
+  "code": "PKa-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "歷史上光的主要理論有微粒說和波動說。",
+  "page": 39
+ },
+ {
+  "code": "PKa-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "光的反射定律，並以波動理論解釋折射定律。",
+  "page": 39
+ },
+ {
+  "code": "PKa-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "光除了反射和折射現象外，也有干涉及繞射現象。",
+  "page": 39
+ },
+ {
+  "code": "PKa-Ⅴc-6",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 6,
+  "text": "惠更斯原理可以解釋光波如何前進、干涉和繞射。",
+  "page": 39
+ },
+ {
+  "code": "PKa-Ⅴc-7",
+  "kind": "content",
+  "topic_code": "PKa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 7,
+  "text": "馬克士威從其方程式預測電磁波的存在，且計算出電磁波的速度等於光速，因此推論光是一種電磁波，後來也獲得證實。",
+  "page": 39
+ },
+ {
+  "code": "PKb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PKb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "萬有引力定律的說明。",
+  "page": 51
+ },
+ {
+  "code": "PKb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PKb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "地球表面的重力與重力加速度。",
+  "page": 51
+ },
+ {
+  "code": "PKb-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PKb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "行星與人造衛星的運動。",
+  "page": 51
+ },
+ {
+  "code": "PKb-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "PKb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "以圓周運動為例說明如何由萬有引力定律推論出克卜勒定律。",
+  "page": 51
+ },
+ {
+  "code": "PKb-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PKb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "牛頓運動定律結合萬有引力定律可用以解釋克卜勒行星運動定律。",
+  "page": 39
+ },
+ {
+  "code": "PKb-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PKb",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "物體在重力場中運動的定性描述。",
+  "page": 39
+ },
+ {
+  "code": "PKc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "可以用電力線表示出電場的大小與方向。",
+  "page": 51
+ },
+ {
+  "code": "PKc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "庫倫作用力是守恆力，具有位能。",
+  "page": 51
+ },
+ {
+  "code": "PKc-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "在電場中，單位電荷在某點所具有的位能，即為該點之電位。",
+  "page": 51
+ },
+ {
+  "code": "PKc-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "電位差等於電流乘以電阻，此為歐姆定律。",
+  "page": 51
+ },
+ {
+  "code": "PKc-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "電路中電流帶有能量。",
+  "page": 51
+ },
+ {
+  "code": "PKc-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "電路有串聯、並聯及迴路等形式，電路中的能量及電量必須守恆。",
+  "page": 51
+ },
+ {
+  "code": "PKc-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "載流導線如長直導線、圓線圈、長螺線管，會產生磁場，遵循必歐-沙伐定律及安培右手定則。",
+  "page": 51
+ },
+ {
+  "code": "PKc-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "載流導線在磁場中受力，可利用此特性設計電動機。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴa-9",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 9,
+  "text": "在平面上運動的帶電質點受到垂直於平面之均勻磁場的作用，會受力並做等速圓周運動。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴa-10",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 10,
+  "text": "磁通量的負時間變化率等於感應電動勢，此為法拉第定律。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴa-11",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 11,
+  "text": "電壓和電流有直流電和交流電兩種。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴa-12",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 12,
+  "text": "發電機與變壓器的原理皆為電磁感應。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴa-13",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 13,
+  "text": "電場變化會產生磁場。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴa-14",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 14,
+  "text": "電磁波在真空中傳播的速率由電磁常數決定，與頻率無關。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴa-15",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 15,
+  "text": "平面電磁波的電場、磁場以及傳播方向互相垂直。",
+  "page": 52
+ },
+ {
+  "code": "PKc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "電荷會產生電場，兩點電荷間有電力，此力量值與兩點電荷所帶電荷量成正比，與兩點電荷間的距離平方成反比。",
+  "page": 39
+ },
+ {
+  "code": "PKc-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "原子內帶負電的電子與帶正電的原子核以電力互相吸引，形成穩定的原子結構。",
+  "page": 39
+ },
+ {
+  "code": "PKc-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "變動的磁場會產生電場，變動的電場會產生磁場。",
+  "page": 39
+ },
+ {
+  "code": "PKc-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "所有的電磁現象經統整後，皆可由馬克士威方程式描述。",
+  "page": 39
+ },
+ {
+  "code": "PKc-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "馬克士威方程式預測電磁場的擾動可以在空間中傳遞，即為電磁波。",
+  "page": 39
+ },
+ {
+  "code": "PKc-Ⅴc-6",
+  "kind": "content",
+  "topic_code": "PKc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 6,
+  "text": "電磁波包含低頻率的無線電波，到高頻率的伽瑪射線在日常生活中有廣泛的應用。",
+  "page": 39
+ },
+ {
+  "code": "PKd-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "用湯木生陰極射線管及密立坎油滴實驗測量電子的荷質比及電量。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "X射線比起可見光來能量較高、波長較短，可用來分析晶體結構，並且有許多其他的應用。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "普朗克分析黑體輻射現象，提出量子論之解釋。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴa-4",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 4,
+  "text": "愛因斯坦分析光電效應，提出光量子論。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴa-5",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 5,
+  "text": "德布羅意提出物質波理論：物質都具有波與粒子的二象性，並經實驗驗證。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴa-6",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 6,
+  "text": "拉塞福提出正電荷集中在核心，電子分布在外的原子模型。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴa-7",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 7,
+  "text": "波耳假設角動量的量子化，提出氫原子模型，成功解釋氫原子光譜。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴa-8",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 8,
+  "text": "依照量子力學解釋，原子內之電子是以機率分布出現，沒有固定的古典軌道。",
+  "page": 52
+ },
+ {
+  "code": "PKd-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "光具有粒子性，光子能量E=hν，與其頻率ν成正比。",
+  "page": 39
+ },
+ {
+  "code": "PKd-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "光電效應在日常生活中之應用。",
+  "page": 39
+ },
+ {
+  "code": "PKd-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "原子光譜。",
+  "page": 39
+ },
+ {
+  "code": "PKd-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "能階的概念。",
+  "page": 39
+ },
+ {
+  "code": "PKd-Ⅴc-5",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 5,
+  "text": "電子的雙狹縫干涉現象與其波動性。",
+  "page": 39
+ },
+ {
+  "code": "PKd-Ⅴc-6",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 6,
+  "text": "光子與電子以及所有微觀粒子都具有波粒二象性。",
+  "page": 39
+ },
+ {
+  "code": "PKd-Ⅴc-7",
+  "kind": "content",
+  "topic_code": "PKd",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 7,
+  "text": "牛頓運動定律在原子尺度以下並不適用。",
+  "page": 39
+ },
+ {
+  "code": "PKe-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PKe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "質子和中子可組成結構穩定以及不穩定的原子核。",
+  "page": 52
+ },
+ {
+  "code": "PKe-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PKe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "不穩定的原子核會經由放射性衰變釋放能量或轉變為其他的原子核。",
+  "page": 52
+ },
+ {
+  "code": "PKe-Ⅴa-3",
+  "kind": "content",
+  "topic_code": "PKe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "基本交互作用遵循許多守恆律，例如：動量守恆、角動量守恆、質能守恆、電荷守恆。",
+  "page": 52
+ },
+ {
+  "code": "PKe-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PKe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "原子核內的質子與質子、質子與中子、中子與中子之間有強力使它們互相吸引。",
+  "page": 39
+ },
+ {
+  "code": "PKe-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PKe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "單獨的中子並不穩定，會透過弱作用（或弱力）自動衰變成質子及其他粒子。",
+  "page": 40
+ },
+ {
+  "code": "PKe-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PKe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "自然界的一切交互作用可完全由重力、電磁力、強力、以及弱作用等四種基本交互作用所涵蓋。",
+  "page": 40
+ },
+ {
+  "code": "PMb-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "克卜勒定律和萬有引力定律的關係。",
+  "page": 52
+ },
+ {
+  "code": "PMb-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PMb",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "伽利略的慣性原理和牛頓運動定律的關係。",
+  "page": 52
+ },
+ {
+  "code": "PMc-Ⅴa-1",
+  "kind": "content",
+  "topic_code": "PMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "以物理原理解釋自然現象，例如：光的各種現象、天體運動、各種力的作用。",
+  "page": 52
+ },
+ {
+  "code": "PMc-Ⅴa-2",
+  "kind": "content",
+  "topic_code": "PMc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "電路、電磁波、透鏡、核能、光電效應的應用。",
+  "page": 52
+ },
+ {
+  "code": "PMc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "用電安全。",
+  "page": 40
+ },
+ {
+  "code": "PMc-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "電在生活中的應用。",
+  "page": 40
+ },
+ {
+  "code": "PMc-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "科學的態度與方法。",
+  "page": 40
+ },
+ {
+  "code": "PMc-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PMc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "近代物理科學的發展，以及不同性別、背景、族群者於其中的貢獻。",
+  "page": 40
+ },
+ {
+  "code": "PNc-Ⅴc-1",
+  "kind": "content",
+  "topic_code": "PNc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "原子核的分裂。",
+  "page": 40
+ },
+ {
+  "code": "PNc-Ⅴc-2",
+  "kind": "content",
+  "topic_code": "PNc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "核能發電與輻射安全。",
+  "page": 40
+ },
+ {
+  "code": "PNc-Ⅴc-3",
+  "kind": "content",
+  "topic_code": "PNc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "能量一樣的系統，作功的能力不一定相同。",
+  "page": 40
+ },
+ {
+  "code": "PNc-Ⅴc-4",
+  "kind": "content",
+  "topic_code": "PNc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 4,
+  "text": "雖然能量守恆，但能量一旦發生形式上的轉換，通常其作功效能會降低。",
+  "page": 40
+ },
+ {
+  "code": "ah-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "透過各種感官了解生活週遭事物的屬性。",
+  "page": 18
+ },
+ {
+  "code": "ah-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "透過有系統的分類與表達方式，與他人溝通自己的想法與發現。",
+  "page": 18
+ },
+ {
+  "code": "ah-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "利用科學知識理解日常生活觀察到的現象。",
+  "page": 18
+ },
+ {
+  "code": "ah-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "透過科學探究活動解決一部分生活週遭的問題。",
+  "page": 18
+ },
+ {
+  "code": "ah-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "對於有關科學發現的報導，甚至權威的解釋（例如：報章雜誌的報導或書本上的解釋），能抱持懷疑的態度，評估其推論的證據是否充分且可信賴。",
+  "page": 26
+ },
+ {
+  "code": "ah-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "應用所學到的科學知識與科學探究方法，幫助自己做出最佳的決定。",
+  "page": 26
+ },
+ {
+  "code": "ah-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "了解科學工作者經常遵循某些特定的標準（例如：可推廣性、簡約性等）判斷探究活動的可行性。",
+  "page": 47
+ },
+ {
+  "code": "ah-Ⅴa-2",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "運用科學的思考模式，例如：邏輯思考、精確性、客觀性等標準，判斷日常生活中科學資訊的可信度。",
+  "page": 47
+ },
+ {
+  "code": "ah-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "了解科學知識是人們理解現象的一種解釋，但不是唯一的解釋。",
+  "page": 37
+ },
+ {
+  "code": "ah-Ⅴc-2",
+  "kind": "performance",
+  "topic_code": "ah",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "對日常生活中所獲得的科學資訊抱持批判的態度，審慎檢視其真實性與可信度。",
+  "page": 37
+ },
+ {
+  "code": "ai-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "保持對自然現象的好奇心，透過不斷的探尋和提問，常會有新發現。",
+  "page": 18
+ },
+ {
+  "code": "ai-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "透過探討自然與物質世界的規律性，感受發現的樂趣。",
+  "page": 18
+ },
+ {
+  "code": "ai-Ⅱ-3",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "透過動手實作，享受以成品來表現自己構想的樂趣。",
+  "page": 18
+ },
+ {
+  "code": "ai-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "透過科學探索了解現象發生的原因或機制，滿足好奇心。",
+  "page": 18
+ },
+ {
+  "code": "ai-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "透過成功的科學探索經驗，感受自然科學學習的樂趣。",
+  "page": 18
+ },
+ {
+  "code": "ai-Ⅲ-3",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "參與合作學習並與同儕有良好的互動經驗，享受學習科學的樂趣。",
+  "page": 18
+ },
+ {
+  "code": "ai-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "動手實作解決問題或驗證自己想法，而獲得成就感。",
+  "page": 26
+ },
+ {
+  "code": "ai-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "透過與同儕的討論，分享科學發現的樂趣。",
+  "page": 26
+ },
+ {
+  "code": "ai-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "透過所學到的科學知識和科學探索的各種方法，解釋自然現象發生的原因，建立科學學習的自信心。",
+  "page": 26
+ },
+ {
+  "code": "ai-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "了解科學能力是多元的，擁有熱誠是從事與科學或科技有關的工作最重要的條件。",
+  "page": 47
+ },
+ {
+  "code": "ai-Ⅴa-2",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "透過了解科學理論的簡約、科學思考的嚴謹與複雜自然現象背後的規律，學會欣賞科學的美。",
+  "page": 47
+ },
+ {
+  "code": "ai-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "透過成功的問題解決經驗，獲得成就感。",
+  "page": 37
+ },
+ {
+  "code": "ai-Ⅴc-2",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "透過科學探索與科學思考對生活週遭的事物產生新的體驗及興趣。",
+  "page": 37
+ },
+ {
+  "code": "ai-Ⅴc-3",
+  "kind": "performance",
+  "topic_code": "ai",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "體會生活中處處都會運用到科學，而能欣賞科學的重要性。",
+  "page": 37
+ },
+ {
+  "code": "an-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "體會科學的探索都是由問題開始。",
+  "page": 18
+ },
+ {
+  "code": "an-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "察覺科學家們是利用不同的方式探索自然與物質世界的形式與規律。",
+  "page": 18
+ },
+ {
+  "code": "an-Ⅱ-3",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "發覺創造和想像是科學的重要元素。",
+  "page": 19
+ },
+ {
+  "code": "an-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "透過科學探究活動，了解科學知識的基礎是來自於真實的經驗和證據。",
+  "page": 18
+ },
+ {
+  "code": "an-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "發覺許多科學的主張與結論，會隨著新證據的出現而改變。",
+  "page": 18
+ },
+ {
+  "code": "an-Ⅲ-3",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "體認不同性別、族群等文化背景的人，都可成為科學家。",
+  "page": 19
+ },
+ {
+  "code": "an-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "察覺到科學的觀察、測量和方法是否具有正當性，是受到社會共同建構的標準所規範。",
+  "page": 26
+ },
+ {
+  "code": "an-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "分辨科學知識的確定性和持久性，會因科學研究的時空背景不同而有所變化。",
+  "page": 26
+ },
+ {
+  "code": "an-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "體察到不同性別、背景、族群科學家們具有堅毅、嚴謹和講求邏輯的特質，也具有好奇心、求知慾和想像力。",
+  "page": 26
+ },
+ {
+  "code": "an-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "了解從事科學工作者具有一些共同的特質，例如：邏輯思考、精確性、心智開放、客觀性、保持懷疑、研究結果的可重覆性、誠實並符合倫理地發表研究成果等。",
+  "page": 47
+ },
+ {
+  "code": "an-Ⅴa-2",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "察覺到相同的自然現象，可用多個理論解釋；當現有的證據同樣都支持著這些理論，人們傾向採用較簡約的理論。",
+  "page": 47
+ },
+ {
+  "code": "an-Ⅴa-3",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 3,
+  "text": "了解科學知識發展的歷史是與社會、文化、政治、經濟緊密相關。",
+  "page": 47
+ },
+ {
+  "code": "an-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "了解科學探究過程採用多種方法、工具和技術，經由不同面向的證據支持特定的解釋，以增強科學論點的有效性。",
+  "page": 37
+ },
+ {
+  "code": "an-Ⅴc-2",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "了解科學的認知方式講求經驗證據性、合乎邏輯性、存疑和反覆檢視。",
+  "page": 37
+ },
+ {
+  "code": "an-Ⅴc-3",
+  "kind": "performance",
+  "topic_code": "an",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 3,
+  "text": "體認科學能幫助人類創造更好的生活條件，但並不能解決人類社會所有的問題，科技發展有時也會引起環境或倫理道德的議題。",
+  "page": 37
+ },
+ {
+  "code": "pa-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "能運用簡單分類、製作圖表等方法，整理已有的資訊或數據。",
+  "page": 17
+ },
+ {
+  "code": "pa-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "能從得到的資訊或數據，形成解釋、得到解答、解決問題。並能將自己的探究結果和他人的結果（例如：來自老師）相比較，檢查是否相近。",
+  "page": 17
+ },
+ {
+  "code": "pa-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "能分析比較、製作圖表、運用簡單數學等方法，整理已有的資訊或數據。",
+  "page": 17
+ },
+ {
+  "code": "pa-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "能從（所得的）資訊或數據，形成解釋、發現新知、獲知因果關係、解決問題或是發現新的問題。並能將自己的探究結果和他人的結果（例如：來自同學）比較對照，檢查相近探究是否有相近的結果。",
+  "page": 17
+ },
+ {
+  "code": "pa-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能分析歸納、製作圖表、使用資訊及數學等方法，整理資訊或數據。",
+  "page": 25
+ },
+ {
+  "code": "pa-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能運用科學原理、思考智能、數學等方法，從（所得的）資訊或數據，形成解釋、發現新知、獲知因果關係、解決問題或是發現新的問題。並能將自己的探究結果和同學的結果或其他相關的資訊比較對照，相互檢核，確認結果。",
+  "page": 25
+ },
+ {
+  "code": "pa-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能流暢運用思考智能、製作圖表、使用資訊及數學等方法，以有效整理資訊或數據。",
+  "page": 46
+ },
+ {
+  "code": "pa-Ⅴa-2",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "能運用科學原理、思考智能、數學、統計等方法，從所得的資訊或數據，形成解釋、發現新知、獲知因果關係、理解科學問題、解決問題或是發現新的問題。並能將自己的結果和同學的結果或其他相關的資訊比較對照，相互檢核，確認結果；如果結果不同，能進一步探究原因。",
+  "page": 47
+ },
+ {
+  "code": "pa-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能合理運用思考智能、製作圖表、使用資訊及數學等方法，有效整理資訊或數據。",
+  "page": 36
+ },
+ {
+  "code": "pa-Ⅴc-2",
+  "kind": "performance",
+  "topic_code": "pa",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "能運用科學原理、思考智能、數學、統計等方法，從探究所得的資訊或數據，形成解釋、理解、發現新知、獲知因果關係、理解科學相關的社會議題、解決問題或是發現新的問題。並能將自己的探究結果和同學的結果或其他相關的資訊比較對照，相互檢核，確認結果。",
+  "page": 36
+ },
+ {
+  "code": "pc-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "能專注聆聽同學報告，提出疑問或意見。並能對探究方法、過程或結果，進行檢討。",
+  "page": 17
+ },
+ {
+  "code": "pc-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "能利用簡單形式的口語、文字或圖畫等，表達探究之過程、發現。",
+  "page": 18
+ },
+ {
+  "code": "pc-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "能理解同學報告，提出合理的疑問或意見。並能對「所訂定的問題」、「探究方法」、「獲得之證據」及「探究之發現」等之間的符應情形，進行檢核並提出優點和弱點。",
+  "page": 17
+ },
+ {
+  "code": "pc-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "能利用簡單形式的口語、文字、影像（例如：攝影、錄影）、繪圖或實物、科學名詞、數學公式、模型等，表達探究之過程、發現或成果。",
+  "page": 18
+ },
+ {
+  "code": "pc-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能理解同學的探究過程和結果（或經簡化過的科學報告），提出合理而且具有根據的疑問或意見。並能對問題、探究方法、證據及發現，彼此間的符應情形，進行檢核並提出可能的改善方案。",
+  "page": 26
+ },
+ {
+  "code": "pc-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能利用口語、影像（例如：攝影、錄影）、文字與圖案、繪圖或實物、科學名詞、數學公式、模型或經教師認可後以報告或新媒體形式表達完整之探究過程、發現與成果、價值、限制和主張等。視需要，並能摘要描述主要過程、發現和可能的運用。",
+  "page": 26
+ },
+ {
+  "code": "pc-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能理解同學的探究過程和結果（或經簡化過的科學報告），提出合理而且較完整的疑問或意見。並能對整個探究過程中：包括，觀察定題、推理實作、數據信效度、資源運用、活動安全、探究結果等，進行反思、形成評價與改善方案，作為未來改進與提升能力的基礎。",
+  "page": 47
+ },
+ {
+  "code": "pc-Ⅴa-2",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "能利用口語、影像（例如：攝影、錄影）、文字與圖案、繪圖或實物、科學名詞、數學公式、模型等，表達探究之過程、發現或成果，並選擇合適的發表方式和途徑。視需要，並能摘要描述目的、特徵、方法、發現、價值、限制、運用及展望等。",
+  "page": 47
+ },
+ {
+  "code": "pc-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能理解同學的探究過程和結果（或經簡化過的科學報告），提出合理而且較完整的疑問或意見。並能對整個探究過程：包括，觀察定題、推理實作、數據信效度、資源運用、活動安全、探究結果等，進行評核、形成評價並提出合理的改善方案。",
+  "page": 36
+ },
+ {
+  "code": "pc-Ⅴc-2",
+  "kind": "performance",
+  "topic_code": "pc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "能利用口語、影像（例如：攝影、錄影）、文字與圖案、繪圖或實物、科學名詞、數學公式、模型等，呈現探究之過程、發現或成果；並在保有個資安全與不損及公眾利益下，嘗試以報告或新媒體形式，自主並較廣面性的分享相對嚴謹之探究發現、成果、結論或主張。視需要，並能摘要描述目的、特徵、方法、發現、價值、限制、運用及展望等。",
+  "page": 36
+ },
+ {
+  "code": "pe-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "能了解一個因素改變可能造成的影響，進而預測活動的大致結果。在教師或教科書的指導或說明下，能了解探究的計畫。",
+  "page": 16
+ },
+ {
+  "code": "pe-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "能正確安全操作適合學習階段的物品、器材儀器、科技設備及資源，並能觀察和記錄。",
+  "page": 17
+ },
+ {
+  "code": "pe-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "能了解自變項、應變項並預測改變時可能的影響和進行適當次數測試的意義。在教師或教科書的指導或說明下，能了解探究的計畫，並進而能根據問題的特性、資源（設備等）的有無等因素，規劃簡單的探究活動。",
+  "page": 16
+ },
+ {
+  "code": "pe-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "能正確安全操作適合學習階段的物品、器材儀器、科技設備及資源。能進行客觀的質性觀察或數值量測並詳實記錄。",
+  "page": 17
+ },
+ {
+  "code": "pe-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能辨明多個自變項、應變項並計劃適當次數的測試、預測活動的可能結果。在教師或教科書的指導或說明下，能了解探究的計畫，並進而能根據問題特性、資源（例如：設備、時間）等因素，規劃具有可信度（例如：多次測量等）的探究活動。",
+  "page": 25
+ },
+ {
+  "code": "pe-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能正確安全操作適合學習階段的物品、器材儀器、科技設備及資源。能進行客觀的質性觀察或數值量測並詳實記錄。",
+  "page": 25
+ },
+ {
+  "code": "pe-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能辨明多個自變項或應變項並計劃適當次數的測試、嚴謹地預測活動的可能結果和可能失敗的原因。在有限的指導下，能依據指導或展現創意，依據問題特性、學習資源（設備、時間、人力等）、預期成果（包括信效度）、對社會環境的影響等因素，有效率地規劃最佳化的實作（或推理）探究活動或問題解決活動。",
+  "page": 46
+ },
+ {
+  "code": "pe-Ⅴa-2",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "能正確安全操作適合學習階段的物品、器材儀器、科技設備及資源。能進行精確、高效率之的質性觀察或數值量測，視需要能運用科技儀器輔助記錄。",
+  "page": 46
+ },
+ {
+  "code": "pe-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能辨明多個自變項或應變項並計劃適當次數的測試、合理地預測活動的可能結果和可能失敗的原因。藉由教師或教科書的指引或展現創意，能根據問題特性、學習資源（設備、時間、人力等）、期望之成果（包括信效度）、對社會環境的影響等因素，規劃最佳化的實作（或推理）探究活動或問題解決活動。",
+  "page": 36
+ },
+ {
+  "code": "pe-Ⅴc-2",
+  "kind": "performance",
+  "topic_code": "pe",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "能正確安全操作適合學習階段的物品、器材儀器、科技設備及資源，能適度創新改善執行方式。能進行精確的質性觀察或數值量測，視需要能運用科技儀器輔助記錄。",
+  "page": 36
+ },
+ {
+  "code": "po-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "能從日常經驗、學習活動、自然環境，進行觀察，進而能察覺問題。",
+  "page": 16
+ },
+ {
+  "code": "po-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "能依據觀察、蒐集資料、閱讀、思考、討論等，提出問題。",
+  "page": 16
+ },
+ {
+  "code": "po-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "能從學習活動、日常經驗及科技運用、自然環境、書刊及網路媒體等察覺問題。",
+  "page": 16
+ },
+ {
+  "code": "po-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "能初步辨別適合科學探究的問題，並能依據觀察、蒐集資料、閱讀、思考、討論等，提出適宜探究之問題。",
+  "page": 16
+ },
+ {
+  "code": "po-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能從學習活動、日常經驗及科技運用、自然環境、書刊及網路媒體中，進行各種有計畫的觀察，進而能察覺問題。",
+  "page": 25
+ },
+ {
+  "code": "po-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "能辨別適合科學探究或適合以科學方式尋求解決的問題（或假說），並能依據觀察、蒐集資料、閱讀、思考、討論等，提出適宜探究之問題。",
+  "page": 25
+ },
+ {
+  "code": "po-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能從學習活動、日常經驗及科技運用、自然環境、書刊及網路媒體中，進行各種有計畫、有條理、有效率的觀察，進而能察覺問題。",
+  "page": 46
+ },
+ {
+  "code": "po-Ⅴa-2",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 2,
+  "text": "能依據觀察、蒐集資料、閱讀、思考、討論等，確認並提出與生活周遭或學術探索相關，而適合科學探究或適合以科學方式尋求解決的關鍵問題（或假說）。當有多個問題同時存在時，能分辨並擇定優先重要之問題（或假說）。",
+  "page": 46
+ },
+ {
+  "code": "po-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能從日常經驗、科技運用、社會中的科學相關議題、學習活動、自然環境、書刊及網路媒體中，汲取資訊並進行有計畫、有條理的多方觀察，進而能察覺問題。",
+  "page": 36
+ },
+ {
+  "code": "po-Ⅴc-2",
+  "kind": "performance",
+  "topic_code": "po",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 2,
+  "text": "能依據觀察、蒐集資料、閱讀、思考、討論等，確認並提出生活周遭中適合科學探究或適合以科學方式尋求解決的問題（或假說）。當有多個問題同時存在時，能分辨並擇定優先重要之問題（或假說）。",
+  "page": 36
+ },
+ {
+  "code": "tc-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "tc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "能簡單分辨或分類所觀察到的自然科學現象。",
+  "page": 16
+ },
+ {
+  "code": "tc-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "tc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "能就所蒐集的數據或資料，進行簡單的記錄與分類，並依據習得的知識，思考資料的正確性及辨別他人資訊與事實的差異。",
+  "page": 16
+ },
+ {
+  "code": "tc-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "tc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能依據已知的自然科學知識與概念，對自己蒐集與分類的科學數據，抱持合理的懷疑態度，並對他人的資訊或報告，提出自己的看法或解釋。",
+  "page": 25
+ },
+ {
+  "code": "tc-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "tc",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能比較科學事實在不同論點、證據或事實解釋的合理性，並透過探索證據、挑戰思想、回應多元觀點的過程，進行批判論點或判斷科學證據的正確性。",
+  "page": 46
+ },
+ {
+  "code": "tc-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "tc",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能比較與判斷自己及他人對於科學資料的解釋在方法及程序上的合理性，並能提出問題或意見。",
+  "page": 36
+ },
+ {
+  "code": "ti-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "ti",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能依據已知的自然科學知識概念，經由自我或團體探索與討論的過程，想像當使用的觀察方法或實驗方法改變時，其結果可能產生的差異；並能嘗試在指導下以創新思考和方法得到新的模型、成品或結果。",
+  "page": 25
+ },
+ {
+  "code": "ti-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "ti",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能獨立察覺各種自然科學問題的成因，並能依不同情況發想各種假設及可行的解決方法，進而以個人或團體方式設計不同的實驗步驟，或創造新的實驗方法。",
+  "page": 46
+ },
+ {
+  "code": "ti-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "ti",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能主動察覺生活中各種自然科學問題的成因，並能根據已知的科學知識提出解決問題的各種假設想法，進而以個人或團體方式設計創新的科學探索方式並得到成果。",
+  "page": 35
+ },
+ {
+  "code": "tm-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "tm",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "能經由觀察自然界現象之間的關係，理解簡單的概念模型，進而與其生活經驗連結。",
+  "page": 16
+ },
+ {
+  "code": "tm-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "tm",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "能經由提問、觀察及實驗等歷程，探索自然界現象之間的關係，建立簡單的概念模型，並理解到有不同模型的存在。",
+  "page": 16
+ },
+ {
+  "code": "tm-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "tm",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能從實驗過程、合作討論中理解較複雜的自然界模型，並能評估不同模型的優點和限制，進能應用在後續的科學理解或生活。",
+  "page": 25
+ },
+ {
+  "code": "tm-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "tm",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能依據科學問題自行運思或經由合作討論來建立模型，並使用例如：「比擬或抽象」的形式來描述一個系統化的科學現象。進而能分析各種模型的特性，且了解模型可隨著對科學事物複雜關係的認知增加來修正。",
+  "page": 46
+ },
+ {
+  "code": "tm-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "tm",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能依據科學問題自行運思或經由合作討論來建立模型，並能使用例如：「比擬或抽象」的形式來描述一個系統化的科學現象，進而了解模型有其局限性。",
+  "page": 36
+ },
+ {
+  "code": "tr-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "tr",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "能將所習得的知識正確的連結到所觀察到的自然現象及實驗數據，並推論出其中的關聯，進而運用習得的知識來解釋自己論點的正確性。",
+  "page": 25
+ },
+ {
+  "code": "tr-Ⅴa-1",
+  "kind": "performance",
+  "topic_code": "tr",
+  "stage": "Ⅴa",
+  "stage_label": "第五學習階段（加深加廣選修）",
+  "seq": 1,
+  "text": "能運用一系列的科學證據或理論，以及類比、轉換等演繹推理方式，理解並推導自然現象的因果關係，或修正、說明自己提出的論點。",
+  "page": 46
+ },
+ {
+  "code": "tr-Ⅴc-1",
+  "kind": "performance",
+  "topic_code": "tr",
+  "stage": "Ⅴc",
+  "stage_label": "第五學習階段（必修）",
+  "seq": 1,
+  "text": "能運用簡單的數理演算公式及單一的科學證據或理論，理解自然科學知識或理論及其因果關係，或提出他人論點的限制，進而提出不同的論點。",
+  "page": 35
+ }
+]

@@ -1,0 +1,5492 @@
+[
+ {
+  "code": "A-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "紀年與分期。歷",
+  "page": 22
+ },
+ {
+  "code": "A-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "A",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "誰的歷史？誰留下的史料？誰寫的歷史？歷",
+  "page": 24
+ },
+ {
+  "code": "Aa-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "個人在家庭、學校與社會中有各種不同的角色，個人發展也會受其影響。建議融入課程綱要學習重點之示例會中有各種不同的角色，個人發展也會受其影響。公",
+  "page": 18
+ },
+ {
+  "code": "Aa-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "不同群體（可包括年齡、性別、族群、階層、職業、區域或身心特質等）應受到理解、尊重與保護，並避免偏見。社建議融入課程綱要學習重點之示例職業、區域或身心特質等）應受到理解、尊重與保護，並避免偏見。",
+  "page": 18
+ },
+ {
+  "code": "Aa-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "個人可以決定自我發展的特色，並具有參與群體社會發展的權利。",
+  "page": 18
+ },
+ {
+  "code": "Aa-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "規範（可包括習俗、道德、宗教或法律等）能導引個人與群體行為，並維持社會秩序與運作。",
+  "page": 18
+ },
+ {
+  "code": "Aa-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "個人的價值觀會影響其行為，也可能會影響人際關係。建議融入課程綱要學習重點之示例人際關係。社",
+  "page": 18
+ },
+ {
+  "code": "Aa-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "在民主社會個人須遵守社會規範，理性溝通、理解包容與相互尊重。歷",
+  "page": 18
+ },
+ {
+  "code": "Aa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "全球經緯度座標系統。地",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "現代公民必須具備哪些基本的德性？為什麼？公",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "臺灣地理位置的特性及其影響。地",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：臺灣和世界各地的關聯性。地",
+  "page": 26
+ },
+ {
+  "code": "Aa-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "公民身分如何演變？為什麼從特定群體，漸次擴張至普遍性身分？公",
+  "page": 28
+ },
+ {
+  "code": "Aa-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "我國的公民權利如何發展與落實？【延伸探為什麼我國憲法、原究】住民族基本法賦予原住民族具有民族的地位和自治的權利？對於原住民族的公民身分有什麼意義？公",
+  "page": 28
+ },
+ {
+  "code": "Aa-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "資料的來源與蒐集。地",
+  "page": 28
+ },
+ {
+  "code": "Aa-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "資料整理、分析與展示。地",
+  "page": 28
+ },
+ {
+  "code": "Aa-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "問題探究：解決問題的策略與步驟。地",
+  "page": 28
+ },
+ {
+  "code": "Ab-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "居民的生活方式與空間利用，和其居住地方的自然、人文環境相互影響。",
+  "page": 18
+ },
+ {
+  "code": "Ab-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "自然環境會影響經濟的發展，經濟的發展也會改變自然環境。條目第二學習階段條目自然環境。",
+  "page": 18
+ },
+ {
+  "code": "Ab-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "臺灣的地理位置、自然環境，與歷史文化的發展有關聯性。",
+  "page": 18
+ },
+ {
+  "code": "Ab-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "交通運輸與產業發展會影響城鄉與區域間的人口遷移及連結互動。",
+  "page": 18
+ },
+ {
+  "code": "Ab-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "自然環境、自然災害及經濟活動，和生活空間的使用有關聯性。第三學習階段",
+  "page": 18
+ },
+ {
+  "code": "Ab-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "民主國家中權力與權利的差別及關聯。公",
+  "page": 26
+ },
+ {
+  "code": "Ab-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "學生們在校園中享有哪些權利？如何在校園生活中實踐公民德性？【本於第五學習階段學習】條目國民中學公",
+  "page": 26
+ },
+ {
+  "code": "Ab-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "臺灣的領海與經濟海域。地",
+  "page": 26
+ },
+ {
+  "code": "Ab-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：土地利用或地形災害與環境倫理。地",
+  "page": 26
+ },
+ {
+  "code": "Ab-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼人是權利主體，且享有平等的權利能力？為什麼在自然人之外，還有法人的概念？公",
+  "page": 28
+ },
+ {
+  "code": "Ab-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "為什麼部落、原住民各民族、原住民族都有權利能力？公條目權利能力？公",
+  "page": 28
+ },
+ {
+  "code": "Ab-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "民主國家中，人民或政府如何才會被賦予法律上的義務或責任（包括學生參與校園民主及學生自治的責任）？公",
+  "page": 28
+ },
+ {
+  "code": "Ab-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "國家的權力行使，為什麼必須權責相符？【延伸探高級中等教育法對究】學生在學校的權利與義務有何規範？對於高中學生的影響為何？高中學生在學校還有其他權利與責任嗎？公",
+  "page": 31
+ },
+ {
+  "code": "Ac-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "兒童在生活中擁有許多權利（可包括生存權、學習權、表意權、隱私權、身體自主權及不受歧視的權利等）與責任（可包括遵守規範、尊重他人或維護公共利益等）。社",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "遇到違反人權的事件，可尋求適當的救助管道。公",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "憲法規範人民的基本權利與義務。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "法律是由立法機關所制定，其功能在保障人民權利、維護社會秩序和促進社會進步。地",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "我國政府組織可區分為中央及地方政府，各具有不同的功能，並依公權力管理公共事務。條目",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "國家權力的運用會維護國家安全及社會秩序，也可能會增進或傷害個人與群體的權益。",
+  "page": 19
+ },
+ {
+  "code": "Ac-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "天氣與氣候。地",
+  "page": 26
+ },
+ {
+  "code": "Ac-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "臺灣的氣候特色。地",
+  "page": 26
+ },
+ {
+  "code": "Ac-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "臺灣的水資源分布。地",
+  "page": 26
+ },
+ {
+  "code": "Ac-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：颱風與生活。配合Aa、Ab、Ac的，觀察學校附近自然環境的特色。教師可指導田野觀察準備工作，如調查紀錄方式，並可與其他學科教師配合《總綱》揭櫫之議題協同設計。地",
+  "page": 26
+ },
+ {
+  "code": "Ac-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "國家主權和人民的日常生活有什麼關係？公",
+  "page": 28
+ },
+ {
+  "code": "Ac-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "為什麼公民身分是現代國家認同的基礎？普通型高級中等學校公",
+  "page": 28
+ },
+ {
+  "code": "Ac-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "為什麼多元身分認同的建構、肯認與保障，和國家政策關係密切？公條目公",
+  "page": 28
+ },
+ {
+  "code": "Ad-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "個人透過參與各行各業的經濟活動，與他人形成分工合作的關係。",
+  "page": 19
+ },
+ {
+  "code": "Ad-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "人們透過儲蓄與消費，來滿足生活需求。",
+  "page": 19
+ },
+ {
+  "code": "Ad-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "消費者權益的保障，需要消費者、業者與政府共同努力。",
+  "page": 19
+ },
+ {
+  "code": "Ad-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼保障人權與維護人性尊嚴有關？公",
+  "page": 26
+ },
+ {
+  "code": "Ad-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "為什麼人權應超越國籍、種族、族群、區域、文化、性別、性傾向與身心障礙等界限，受到普遍性的保障？公建議融入課程綱要學習重點之示例歷建議融入課程綱要學習重點之示例身心障礙等界限，受到普遍性的保障？公",
+  "page": 26
+ },
+ {
+  "code": "Ad-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "多元族群的文化特色。地",
+  "page": 26
+ },
+ {
+  "code": "Ad-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：臺灣人口問題與對策。地條目灣人口問題與對策。地",
+  "page": 26
+ },
+ {
+  "code": "Ad-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "國際人權公約與相關國際組織（包括聯合國與非政府組織等）如何促成普世人權的實現？公",
+  "page": 32
+ },
+ {
+  "code": "Ad-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "我國如何將國際人權公約的相關主張融入法律制度中？【本於第四學習階段學習】公",
+  "page": 32
+ },
+ {
+  "code": "Ae-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "人類為了解決生活需求或滿足好奇心，進行科學和技術的研發，從而改變自然環境與人們的生活。",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "科學和技術發展對自然與人文環境具有不同層面的影響。",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "科學和技術的發展與人類的價值、信仰與態度會相互影響。",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "科學和技術的研究與運用，應受到道德與法律的規範；政府的政策或法令會因新科技的出現而增修。歷",
+  "page": 19
+ },
+ {
+  "code": "Ae-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "臺灣農業經營的特色。地",
+  "page": 26
+ },
+ {
+  "code": "Ae-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "臺灣工業發展的特色。地",
+  "page": 26
+ },
+ {
+  "code": "Ae-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "臺灣的國際貿易與全球關連。地建議融入課程綱要學習重點之示例歷",
+  "page": 26
+ },
+ {
+  "code": "Ae-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ae",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：產業活動的挑戰與調適。地",
+  "page": 26
+ },
+ {
+  "code": "Af-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "不同文化的接觸和交流，可能產生衝突、合作和創新，並影響在地的生活與文化。條目",
+  "page": 19
+ },
+ {
+  "code": "Af-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "為了確保基本人權、維護生態環境的永續發展，全球須共同關心許多議題。歷",
+  "page": 19
+ },
+ {
+  "code": "Af-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "國際間因利益競爭而造成衝突、對立與結盟。",
+  "page": 19
+ },
+ {
+  "code": "Af-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "個人、政府與民間組織可透過各種方式積極參與國際組織與事務，善盡世界公民責任。歷",
+  "page": 19
+ },
+ {
+  "code": "Af-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "聚落體系與交通網絡。地",
+  "page": 26
+ },
+ {
+  "code": "Af-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "都市發展與都市化。地",
+  "page": 26
+ },
+ {
+  "code": "Af-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "臺灣的區域發展及其空間差異。地",
+  "page": 26
+ },
+ {
+  "code": "Af-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Af",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：原住民族文化、生活空間與生態保育政策。配合Ad、Ae、Af的，觀察學校附近的人文景觀，並使用「心智圖」或語言、文字、圖像、影音等符號形式呈現其觀察結果。教師可與其他學科教師配合《總綱》揭櫫之議題協同設計。地",
+  "page": 26
+ },
+ {
+  "code": "Ba-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "人們對社會事物的認識、感受與意見有相同之處，亦有差異性。條目第二學習階段",
+  "page": 19
+ },
+ {
+  "code": "Ba-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "每個人不同的生活背景與經驗，會使其對社會事務的觀點與感受產生差異。第三學習階段",
+  "page": 19
+ },
+ {
+  "code": "Ba-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼家庭是基本及重要的社會組織？公",
+  "page": 22
+ },
+ {
+  "code": "Ba-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "在原住民族社會中，部落的意義與重要性是什麼？為什麼？公條目歷條目公",
+  "page": 22
+ },
+ {
+  "code": "Ba-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "家人間的親屬關係在法律上是如何形成的？親子之間為何互有權利與義務？公",
+  "page": 26
+ },
+ {
+  "code": "Ba-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "為什麼會產生多樣化的家庭型態？家庭職能如何隨著社會變遷而改變？公",
+  "page": 32
+ },
+ {
+  "code": "Ba-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "公權力如何介入以協助建立平權的家庭和發揮家庭職能？公",
+  "page": 32
+ },
+ {
+  "code": "Ba-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "我群界定、原住民與原住民族的分類。歷",
+  "page": 24
+ },
+ {
+  "code": "Ba-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "當代原住民族的處境與權利伸張。歷條目地",
+  "page": 24
+ },
+ {
+  "code": "Ba-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "氣候類型。地",
+  "page": 28
+ },
+ {
+  "code": "Ba-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "氣候與自然景觀帶。地",
+  "page": 28
+ },
+ {
+  "code": "Ba-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "問題探究：氣候、水資源與人類生活。條目歷",
+  "page": 28
+ },
+ {
+  "code": "Bb-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "居民的生活空間與生活方式具有地區性的差異。",
+  "page": 20
+ },
+ {
+  "code": "Bb-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "自然與人文環境的交互影響，造成生活空間型態的差異與多元。",
+  "page": 20
+ },
+ {
+  "code": "Bb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "除了家庭之外，個人還會參與哪些團體？為什麼？公歷",
+  "page": 22
+ },
+ {
+  "code": "Bb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "民主社會中的志願結社具有哪些特徵？對公共生活有什麼影響？公",
+  "page": 22
+ },
+ {
+  "code": "Bb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "經濟發展與全球關連。地條目全球關連。地",
+  "page": 26
+ },
+ {
+  "code": "Bb-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：經濟發展與環境衝擊。地建議融入課程綱要學習重點之示例地",
+  "page": 26
+ },
+ {
+  "code": "Bb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼人民的志願結社受到相關法律的規範？會產生什麼影響？公條目會產生什麼影響？公",
+  "page": 24
+ },
+ {
+  "code": "Bb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "戰後來臺的各方移民。歷",
+  "page": 24
+ },
+ {
+  "code": "Bb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "地形辨識。地條目歷",
+  "page": 29
+ },
+ {
+  "code": "Bb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：地形與人類生活。教師可與其他學科教師配合《總綱》揭櫫之議題，協同設計探究及實施方法。地",
+  "page": 29
+ },
+ {
+  "code": "Bc-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "各個族群有不同的命名方式、節慶與風俗習慣。條目",
+  "page": 20
+ },
+ {
+  "code": "Bc-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "家庭有不同的成員組成方式；每個家庭所重視的價值有其異同。歷",
+  "page": 20
+ },
+ {
+  "code": "Bc-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "族群或地區的文化特色，各有其產生的背景因素，因而形塑臺灣多元豐富的文化內涵。歷",
+  "page": 20
+ },
+ {
+  "code": "Bc-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "權力不平等與資源分配不均，會造成個人或群體間的差別待遇。歷",
+  "page": 20
+ },
+ {
+  "code": "Bc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼會有社會規範？法律與其他社會規範有什麼不同？條目國民中學公",
+  "page": 26
+ },
+ {
+  "code": "Bc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "日常生活規範與文化有什麼關係？公",
+  "page": 26
+ },
+ {
+  "code": "Bc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "社會規範如何隨著時間與空間而變動？臺灣社會之族群、性別、性傾向與身心障礙相關規範如何變動？公",
+  "page": 26
+ },
+ {
+  "code": "Bc-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：大洋洲與臺灣原住民族文化的連結。條目配合Ba、Bb、Bc的，觀察學校附近與原住民族或漢人有關的文化地景或文化資產，教師可與其他學科教師配合《總綱》揭櫫之議題協同設計。地",
+  "page": 26
+ },
+ {
+  "code": "Bc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "社會規範如何維護社會秩序與形成社會控制？在什麼情形下，規範會受到質普通型高級中等學校疑而改變？公",
+  "page": 29
+ },
+ {
+  "code": "Bc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "社會規範對個人追求自我實現以及社群的資源分配，會產生哪些影響？【延伸探就我國而言，既有性究】別文化規範如何影響個人追求自我實現？性別文化規範和性騷擾、性暴力或性別霸凌的關係為何？公條目【延伸探究】就我國而言，既有性別文化規範如何影響個人追求自我實現？性別文化規範和性騷擾、性暴力或性別霸凌的關係為何？公",
+  "page": 29
+ },
+ {
+  "code": "Bc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "問題探究：人口動態與環境負載力。地",
+  "page": 29
+ },
+ {
+  "code": "Bd-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "國家與政府的區別。【延伸探對國中學生而言，政究】府有哪些政策可以讓人民感到幸福？公",
+  "page": 27
+ },
+ {
+  "code": "Bd-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "產業與文化發展的特色。地",
+  "page": 27
+ },
+ {
+  "code": "Bd-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "東北亞經濟發展的成就與挑戰。地",
+  "page": 27
+ },
+ {
+  "code": "Bd-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：臺灣與東北亞的文化交流。地",
+  "page": 27
+ },
+ {
+  "code": "Bd-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "我國國家主權在憲法上如何界定？有何爭議？公",
+  "page": 29
+ },
+ {
+  "code": "Bd-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "運輸與交通。地",
+  "page": 29
+ },
+ {
+  "code": "Bd-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "中地體系。地",
+  "page": 29
+ },
+ {
+  "code": "Bd-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：中地概念與生活。地",
+  "page": 29
+ },
+ {
+  "code": "Be-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "民主國家的政府體制為什麼須符合權力分立的原則？公",
+  "page": 27
+ },
+ {
+  "code": "Be-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "為什麼政府的職權與行使要規範在憲法中？公",
+  "page": 27
+ },
+ {
+  "code": "Be-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "我國中央政府如何組成？我國的地方政府如何組成？公",
+  "page": 27
+ },
+ {
+  "code": "Be-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：東南亞和南亞新興市場與臺灣產業發展的關聯。地",
+  "page": 27
+ },
+ {
+  "code": "Be-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "民主國家有哪些常見的政府體制？與我國的政府體制有什麼差異？公條目異？公",
+  "page": 29
+ },
+ {
+  "code": "Be-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "民主國家中央與地方政府的權力分享原則有哪些？我國中央與地方政府之間如何劃分權限？【延伸探我國原住民族追求究】自治的訴求有哪些？與目前的地方自治有哪些基本差異？為什麼？公",
+  "page": 29
+ },
+ {
+  "code": "Be-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "都市內部空間結構。地",
+  "page": 29
+ },
+ {
+  "code": "Be-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：都市機能與城鄉關係。地",
+  "page": 29
+ },
+ {
+  "code": "Bf-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "法治與人治的差異。公",
+  "page": 27
+ },
+ {
+  "code": "Bf-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "憲法、法律、命令三者為什麼有位階的關係？【延伸探原住民族基本法或究】其他基本法，其法律位階之效力為何？和一般的法律有何不同？公條目色。地",
+  "page": 27
+ },
+ {
+  "code": "Bf-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "國際衝突的焦點。地",
+  "page": 27
+ },
+ {
+  "code": "Bf-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：伊斯蘭文化與西方文化的互動。配合Bd、Be、Bf的，觀察學校附近具有異國色彩的商店分布，並使用地圖或語言、文字、圖像、影音等符號形式呈現其觀察結果，教師可與其他學科教師配合《總綱》揭櫫之議題協同設計。地",
+  "page": 27
+ },
+ {
+  "code": "Bf-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "法律如何制定、修改與廢止？公",
+  "page": 29
+ },
+ {
+  "code": "Bf-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "產業分布與區位選擇。地",
+  "page": 29
+ },
+ {
+  "code": "Bf-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "資訊革命與知識經濟。地",
+  "page": 29
+ },
+ {
+  "code": "Bf-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：產業發展與變遷。地",
+  "page": 29
+ },
+ {
+  "code": "Bg-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼憲法被稱為「人民權利的保障書」？條目國民中學公條目利的保障書」？公",
+  "page": 27
+ },
+ {
+  "code": "Bg-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "漠南非洲的文化特色與影響。地",
+  "page": 27
+ },
+ {
+  "code": "Bg-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "現代經濟的發展與挑戰。地",
+  "page": 27
+ },
+ {
+  "code": "Bg-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：漠南非洲的公平貿易議題。地公",
+  "page": 27
+ },
+ {
+  "code": "Bg-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "憲法與基本權利的保障，有什麼關聯？基本權利的限制，有何範圍？國家如何促進基本權利的實普通型高級中等學校現？公",
+  "page": 29
+ },
+ {
+  "code": "Bg-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "憲法如何規範國家公權力之行使以保障人權？【延伸探國家必須經由立法究】授權才能限制人民的基本權利，什麼樣的限制是侵犯人性尊嚴而不得為之？公建議融入課程綱要學習重點之示例",
+  "page": 29
+ },
+ {
+  "code": "Bg-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "核心-半邊陲-邊陲體系。地建議融入課程綱要學習重點之示例地",
+  "page": 29
+ },
+ {
+  "code": "Bg-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：區域發展的反思。地條目思。地",
+  "page": 29
+ },
+ {
+  "code": "Bh-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bh",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼行政法與我們日常生活息息相關？為什麼政府應依法行政？公",
+  "page": 27
+ },
+ {
+  "code": "Bh-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bh",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "人民生活中有哪些常見的行政管制？當人民的權益受到侵害時，可以尋求行政救濟的意義為何？公建議融入課程綱要學習重點之示例歷條目當人民的權益受到侵害時，可以尋求行政救濟的意義為何？公",
+  "page": 27
+ },
+ {
+  "code": "Bh-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bh",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "現代經濟的發展與區域結盟。地",
+  "page": 27
+ },
+ {
+  "code": "Bh-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bh",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：歐洲發展綠能的原因與條件。地",
+  "page": 27
+ },
+ {
+  "code": "Bh-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bh",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "人民日常生活如何受到行政法的影響？行政法有哪些重要的原理原則？公",
+  "page": 34
+ },
+ {
+  "code": "Bh-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bh",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "行政行為要達成實質正義，為什麼必須先有公平合理的程序？行政程序有哪些的基本原則？公",
+  "page": 34
+ },
+ {
+  "code": "Bh-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bh",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "人民的權益因行政公權力違法或不當而受損時，人民如何尋求行政救濟？公",
+  "page": 34
+ },
+ {
+  "code": "Bi-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "國家為什麼要制定刑法？為什麼行為的處罰，必須以行為時的法律有明文規定者為限？公條目公",
+  "page": 27
+ },
+ {
+  "code": "Bi-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "國家制定刑罰的目的是什麼？我國刑罰的制裁方式有哪些？公",
+  "page": 27
+ },
+ {
+  "code": "Bi-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "在犯罪的追訴及處罰過程中，警察、檢察官及法官有哪些功能與權限？條目國民中學公",
+  "page": 27
+ },
+ {
+  "code": "Bi-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：南美洲熱帶雨林的開發與保育。配合Bg、Bh、Bi的，觀察並統計日常生活用品的生產製造國來源，及說明隱含的意義，教師可與其他學科教師配合《總綱》揭櫫之議題協同設計。地建議融入課程綱要學習重點之示例歷條目林的開發與保育。配合Bg、Bh、Bi的，觀察並統計日常生活用品的生產製造國來源，及說明隱含的意義，教師可與其他學科教師配合《總綱》揭櫫之議題協同設計。地",
+  "page": 27
+ },
+ {
+  "code": "Bi-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "國家為什麼要以刑罰的方式處罰人民？犯罪的一般成立要件有哪些？公",
+  "page": 34
+ },
+ {
+  "code": "Bi-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "為什麼罪刑法定主義是刑法的最高原則？有哪些重要內涵？公",
+  "page": 34
+ },
+ {
+  "code": "Bi-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "國家如何追訴、處罰犯罪行為？為什麼被告未經審判確定有罪前，應推定其為無罪？為什麼被告與被害人的權利應受到保障？公條目公",
+  "page": 34
+ },
+ {
+  "code": "Bi-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bi",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "法院的事實認定與自由心證主義。【延伸探「刑法的最後手段究】性」或「刑法的謙抑思想」與現代社會對公平正義的期待有何關聯？為什麼？普通型高級中等學校公",
+  "page": 34
+ },
+ {
+  "code": "Bj-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼一般契約只要雙方當事人合意即可生效，而有些契約必須完成登記方能生效？契約不履行會產生哪些責任？公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "為什麼一般人能自由訂立契約，而限制行為能力人訂立契約原則上必須得法定代理人同意？公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "侵權行為的概念與責任。公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "智慧財產權為什麼需要保障？日常生活中，如何合理使用他人的著作？侵害著作權須負的法律責任有哪些？公條目侵害著作權須負的法律責任有哪些？公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "社會生活上人民如何解決民事紛爭？這些解決方法各有哪些優缺點？公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼消費者保護契約、勞動契約的資方不能享有完全的締約自由，必須被多加限制？如何判斷其限制的合理性？公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "所有權的物權特性與保障。公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "配偶之間的財產應如何規範方屬合理？公",
+  "page": 35
+ },
+ {
+  "code": "Bj-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bj",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "現行民法繼承制度如何保障人民的財產權？【延伸探保護私有財產（例如究】智慧財產權與所有權）與促進公共利益如何調和？公條目【延伸探究】保護私有財產（例如智慧財產權與所有權）與促進公共利益如何調和？公",
+  "page": 35
+ },
+ {
+  "code": "Bk-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bk",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼少年應具備重要的兒童及少年保護的相關法律知識？我國制定保護兒童及少年相關法律的目的是什麼？有哪些相關的重要保護措施？【延伸探我國制定保護兒童究】及少年的相關法律，對兒童及少年來說，是保護或是限制？公建議融入課程綱要學習重點之示例要的兒童及少年保護的相關法律知識？我國制定保護兒童及少年相關法律的目的是什麼？有哪些相關的重要保護措施？【延伸探就我國而言，既有性別究】文化規範如何影響個人追求自我實現？性別文化規範和性騷擾、性暴力或性別霸凌的關係為何？公建議融入課程綱要學習重點之示例國制定保護兒童及少年相關法律的目的是什麼？有哪些相關的重要保護措施？歷",
+  "page": 35
+ },
+ {
+  "code": "Bk-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bk",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼少年的刑事司法程序與成年人不同？公",
+  "page": 35
+ },
+ {
+  "code": "Bl-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bl",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "個人與家庭為什麼需要做選擇？如何選擇？公",
+  "page": 35
+ },
+ {
+  "code": "Bl-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bl",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "如何計算某項選擇的機會成本？公",
+  "page": 35
+ },
+ {
+  "code": "Bl-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bl",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "如何使用機會成本的概念來解釋選擇行為？條目國民中學公條目解釋選擇行為？公",
+  "page": 35
+ },
+ {
+  "code": "Bl-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bl",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "價格如何影響資源分配？公",
+  "page": 36
+ },
+ {
+  "code": "Bl-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Bl",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "不同分配資源的方法，各有哪些優缺點？公",
+  "page": 36
+ },
+ {
+  "code": "Bl-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bl",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "廠商與政府有什麼資源？如何決定資源的用途？普通型高級中等學校公",
+  "page": 35
+ },
+ {
+  "code": "Bm-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bm",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "家庭與學校如何透過誘因影響學生的行為？公",
+  "page": 36
+ },
+ {
+  "code": "Bm-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bm",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "為什麼不同人對同一誘因的反應不同？公條目公",
+  "page": 36
+ },
+ {
+  "code": "Bm-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bm",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "價格高低對誘因的影響。公",
+  "page": 36
+ },
+ {
+  "code": "Bm-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bm",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "政府政策如何影響誘因，進而改變人民行為？公",
+  "page": 36
+ },
+ {
+  "code": "Bn-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bn",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "個人與家庭如何解決食衣住行的需求？公",
+  "page": 36
+ },
+ {
+  "code": "Bn-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bn",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "人為什麼從自給自足轉向交易？公",
+  "page": 36
+ },
+ {
+  "code": "Bn-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bn",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "自願的交易為什麼對雙方都有利？公",
+  "page": 36
+ },
+ {
+  "code": "Bn-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bn",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "臺灣開放外國商品進口的利弊。【本於第五學習階段學習】公",
+  "page": 36
+ },
+ {
+  "code": "Bn-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bn",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "專業分工的影響。公",
+  "page": 36
+ },
+ {
+  "code": "Bn-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bn",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "決定一國進出口某項商品的主要因素。公",
+  "page": 36
+ },
+ {
+  "code": "Bo-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bo",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "消費者對某單位產品的願付價格是如何決定的？公",
+  "page": 36
+ },
+ {
+  "code": "Bo-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bo",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "某產品的市場需求線是如何決定的？公條目公",
+  "page": 36
+ },
+ {
+  "code": "Bo-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bo",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "需求的變動與需求量的變動有什麼不同？公",
+  "page": 36
+ },
+ {
+  "code": "Bo-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bo",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "廠商某單位產出之願售價格如何決定？公",
+  "page": 36
+ },
+ {
+  "code": "Bo-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Bo",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "某產品的市場供給線是如何決定的？公",
+  "page": 36
+ },
+ {
+  "code": "Bo-Ⅴ-6",
+  "kind": "content",
+  "topic_code": "Bo",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "供給的變動與供給量的變動有什麼不同？【本於第四學習階段學習】普通型高級中等學校公",
+  "page": 36
+ },
+ {
+  "code": "Bp-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bp",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "貨幣為什麼會出現？公",
+  "page": 36
+ },
+ {
+  "code": "Bp-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bp",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "使用儲值卡和使用貨幣的差異。公",
+  "page": 36
+ },
+ {
+  "code": "Bp-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bp",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "使用信用卡與儲值卡的差異。公",
+  "page": 36
+ },
+ {
+  "code": "Bp-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bp",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "買賣外幣通常透過銀行，哪些人會想要條目國民中學買外幣？哪些人會想要賣外幣？【本於第五學習階段學習】公",
+  "page": 36
+ },
+ {
+  "code": "Bq-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bq",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "國民所得如何衡量？公條目公",
+  "page": 37
+ },
+ {
+  "code": "Bq-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bq",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "國內生產毛額如何衡量？公",
+  "page": 37
+ },
+ {
+  "code": "Bq-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bq",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "國民所得與國內生產毛額的關係。公",
+  "page": 37
+ },
+ {
+  "code": "Ca-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "居住地方的環境隨著社會與經濟的發展而改變。",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "人口分布與自然、人文環境的變遷相互影響。",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "都市化與工業化會改變環境，也會引發環境問題。",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "土地利用反映過去和現在的環境變遷，以及對未來的展望。歷",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "日常生活和公共事務中的爭議，為什麼應該以非暴力的方式來解決？公",
+  "page": 22
+ },
+ {
+  "code": "Ca-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "行政機關在政策制定前，為什麼應提供人民參與和表達意見的機會？公",
+  "page": 22
+ },
+ {
+  "code": "Ca-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "聚落地名的命名與環境、族群文化的關係。地",
+  "page": 27
+ },
+ {
+  "code": "Ca-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：地名和生產活動、產物命名等商品行銷的關係。地",
+  "page": 27
+ },
+ {
+  "code": "Ca-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "民主治理的核心概念是什麼？我國有哪些民主治理的實踐？公",
+  "page": 24
+ },
+ {
+  "code": "Ca-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "民主治理如何課責？【延伸探我國民主治理的實究】踐經驗中，存在哪些挑戰及困境？公條目【延伸探究】我國民主治理的實踐經驗中，存在哪些挑戰及困境？公",
+  "page": 24
+ },
+ {
+  "code": "Ca-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "臺灣的移民社會與多元文化。地建議融入課程綱要學習重點之示例公",
+  "page": 29
+ },
+ {
+  "code": "Ca-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：臺灣經濟發展與世界的關聯。地",
+  "page": 29
+ },
+ {
+  "code": "Cb-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "居住地方不同時代的重要人物、事件與文物古蹟，可以反映當地的歷史變遷。",
+  "page": 20
+ },
+ {
+  "code": "Cb-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "不同時期臺灣、世界的重要事件與人物，影響臺灣的歷史變遷。社條目",
+  "page": 20
+ },
+ {
+  "code": "Cb-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "臺灣史前文化、原住民族文化、中華文化及世界其他文化隨著時代變遷，都在臺灣留下有形與無形的文化資產，並於生活中展現特色。及世界其他文化隨著時代變遷，都在臺灣留下有形與無形的文化資產，並於生活中展現特色。歷",
+  "page": 20
+ },
+ {
+  "code": "Cb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "民主社會的公共意見是如何形成的？有什麼特性？公歷",
+  "page": 22
+ },
+ {
+  "code": "Cb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "媒體與社群網路在公共意見形成的過程中，扮演什麼角色？閱聽人如何覺察其影響？公",
+  "page": 22
+ },
+ {
+  "code": "Cb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "飲食文化與食品加工、基因改造食物。地工、基因改造食物。公",
+  "page": 27
+ },
+ {
+  "code": "Cb-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "問題探究：從地理觀點探究食安問題的原因與解決策略。1.教師可與其他學科教師配合《總綱》揭櫫之議題協同設計，訪查學校附近地名蘊含的意義。2.教師可與其他學科教師配合《總綱》揭櫫之議題協同設計，訪查並統計學校附近賣場的農產品條目地",
+  "page": 27
+ },
+ {
+  "code": "Cb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "媒體與社群網路的所有權或產製過程，如何影響公共意見的形成？公",
+  "page": 24
+ },
+ {
+  "code": "Cb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "公共意見形成過程中，可能存在哪些媒體近用與媒體再現（可包括族群、性別、性傾向或身心障礙等群體之再現）的不平等？【延伸探在臺灣社會的實例究】中，公共意見如何影響公共政策的制訂？如何發揮對政府監督與制衡的作用？公條目公條目督與制衡的作用？公",
+  "page": 24
+ },
+ {
+  "code": "Cb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "從傳統到現代的文學與藝術。歷",
+  "page": 24
+ },
+ {
+  "code": "Cb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：國家間的競爭與合作。教師可與其他學科教師配合《總綱》揭櫫之議題，協同設計探究及實施方法。地",
+  "page": 29
+ },
+ {
+  "code": "Cc-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "各地居民的生活與工作方式會隨著社會變遷而改變。【本於第三學習階段學習】【本於第三學習階段學習】條目第二學習階段",
+  "page": 20
+ },
+ {
+  "code": "Cc-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "個人在團體中的角色會隨著社會變遷產生改變。歷",
+  "page": 20
+ },
+ {
+  "code": "Cc-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "族群的遷徙、通婚及交流，與社會變遷互為因果。【本於第三學習階段學習】",
+  "page": 20
+ },
+ {
+  "code": "Cc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "民主社會中的政治參與為什麼很重要？公",
+  "page": 37
+ },
+ {
+  "code": "Cc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "民主社會中為什麼常用投票來做為重要的參與形式？公",
+  "page": 37
+ },
+ {
+  "code": "Cc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "公平投票有哪些基本原則？條目國民中學【延伸探中學生有哪些政治究】參與的管道？可能會面臨哪些限制？公",
+  "page": 37
+ },
+ {
+  "code": "Cc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "我國公民如何透過選舉參與中央及地方政治？公",
+  "page": 29
+ },
+ {
+  "code": "Cc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "除了選舉之外，我國還有哪些重要的政治參與形式及管道？【延伸探社會處境不利的群普通型高級中等學校究】體面臨什麼樣政治參與機會與資源上的不平等？公建議融入課程綱要學習重點之示例地",
+  "page": 29
+ },
+ {
+  "code": "Cc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "經濟發展與轉型。地",
+  "page": 29
+ },
+ {
+  "code": "Cc-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究1：東南亞國協的發展與挑戰。問題探究2：南亞新興經濟體的發展與挑戰。（以上兩個問題探究可擇一執行）地條目地",
+  "page": 29
+ },
+ {
+  "code": "Cd-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "不同時空環境下，臺灣人民透過爭取權利與政治改革，使得政治逐漸走向民主。條目臺灣人民透過爭取權利與政治改革，使得政治逐漸走向民主。",
+  "page": 20
+ },
+ {
+  "code": "Cd-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "臺灣人民的政治參與及公民團體的發展，為臺灣的民主政治奠定基礎。【本於第三學習階段學習】",
+  "page": 20
+ },
+ {
+  "code": "Cd-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "為什麼勞動參與是重要的？公",
+  "page": 38
+ },
+ {
+  "code": "Cd-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "家務勞動的分擔如何影響成員的個人發展與社會參與？其中可能蘊含哪些性別不平等的現象？公條目其中可能蘊含哪些性別不平等的現象？公",
+  "page": 38
+ },
+ {
+  "code": "Cd-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "為什麼需要立法保障公平的市場勞動參與？【本於第五學習階段學習】公",
+  "page": 38
+ },
+ {
+  "code": "Cd-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼勞動參與可以促成社會發展與經濟永續？公",
+  "page": 29
+ },
+ {
+  "code": "Cd-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "「個別勞動權益」和「集體勞動三權」的內涵為何？為什麼政府需透過個別與集體勞動法制相關規定來保障平等的市場勞動參與？【延伸探自主的勞動關係為究】什麼是重要的？如何發展自主的勞動關係？公",
+  "page": 29
+ },
+ {
+  "code": "Cd-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "產業發展與地緣樞紐。地",
+  "page": 29
+ },
+ {
+  "code": "Cd-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Cd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：原生物種與環境永續。條目地",
+  "page": 29
+ },
+ {
+  "code": "Ce-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ce",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "經濟型態的變遷會影響人們的生活。",
+  "page": 20
+ },
+ {
+  "code": "Ce-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ce",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "在經濟發展過程中，資源的使用會產生意義與價值的轉變，但也可能第三學習階段引發爭議。",
+  "page": 20
+ },
+ {
+  "code": "Ce-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ce",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "自然環境的特殊性。地條目公",
+  "page": 30
+ },
+ {
+  "code": "Ce-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ce",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "市場機能如何影響資源分配？公",
+  "page": 30
+ },
+ {
+  "code": "Ce-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ce",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "為什麼經由市場機能可以達到經濟效率？公",
+  "page": 30
+ },
+ {
+  "code": "Ce-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ce",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "為什麼政府的價格管制會降低經濟效率？公",
+  "page": 30
+ },
+ {
+  "code": "Cf-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Cf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "廠商間的競爭對消費者有何影響？公",
+  "page": 38
+ },
+ {
+  "code": "Cf-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Cf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "廠商可能的競爭方式有哪些？公",
+  "page": 38
+ },
+ {
+  "code": "Cf-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Cf",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "為什麼新廠商越容易加入某一市場，則該市場的競爭程度越高？【本於第五學習階段學習】公",
+  "page": 38
+ },
+ {
+  "code": "Cf-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Cf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "單一廠商漲價與所有廠商聯合漲價之效果有何不同？公",
+  "page": 30
+ },
+ {
+  "code": "Cf-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Cf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "為什麼政府需要關心廠商的聯合漲價？公",
+  "page": 30
+ },
+ {
+  "code": "Cf-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Cf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "區域競爭、合作與歐盟。地",
+  "page": 30
+ },
+ {
+  "code": "Cf-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Cf",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：西方文化圈的形成與特色。地",
+  "page": 30
+ },
+ {
+  "code": "Cg-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Cg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "外部成本如何影響我們的日常生活？公條目公",
+  "page": 30
+ },
+ {
+  "code": "Cg-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Cg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "多元族群共同塑造的文化特色。地建議融入課程綱要學習重點之示例本的問題？公",
+  "page": 30
+ },
+ {
+  "code": "Cg-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Cg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "產業發展與都市文明。地",
+  "page": 30
+ },
+ {
+  "code": "Cg-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Cg",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "問題探究：美國發展的前景與挑戰。地",
+  "page": 30
+ },
+ {
+  "code": "Ch-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ch",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "南方區域的意涵。地",
+  "page": 30
+ },
+ {
+  "code": "Ch-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ch",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "自然環境背景。地",
+  "page": 30
+ },
+ {
+  "code": "Ch-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ch",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "列強入侵與殖民。地",
+  "page": 30
+ },
+ {
+  "code": "Ch-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ch",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "殖民地式經濟。地條目濟。地",
+  "page": 30
+ },
+ {
+  "code": "Ch-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Ch",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "問題探究：現代發展的優勢與挑戰。地",
+  "page": 30
+ },
+ {
+  "code": "Ci-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ci",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "發展條件的空間差異。地",
+  "page": 30
+ },
+ {
+  "code": "Ci-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ci",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "交通革新與全球化。地",
+  "page": 30
+ },
+ {
+  "code": "Ci-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ci",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "經濟地理空間重組。地",
+  "page": 30
+ },
+ {
+  "code": "Ci-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ci",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "世界都市。地",
+  "page": 30
+ },
+ {
+  "code": "Ci-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Ci",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "問題探究：全球化的貢獻與挑戰。教師可與其他學科教師配合《總綱》揭櫫之議題，協同設計探究及實施方法。條目國民中學公貢獻與挑戰。公條目歷",
+  "page": 30
+ },
+ {
+  "code": "D-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "與歷可合併規劃。2.參考之探究課題或活動如下：（1）訪談家族或週遭長輩的歷史。（2）臺灣歷史人物資料的調查、報告或展示，並留意不同性別的歷史人物。（3）與當地原住民有關的歷史與文化探究。說明同時期社會的流行文化。",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "從B或C挑選適當課題深入探究，或規劃與執行歷史踏查或展演。歷條目歷",
+  "page": 22
+ },
+ {
+  "code": "D-Ⅳ-21",
+  "kind": "content",
+  "topic_code": "D",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 21,
+  "text": ".歷",
+  "page": 105
+ },
+ {
+  "code": "Da-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "時間與資源有限，個人須在生活中學會做選擇。",
+  "page": 21
+ },
+ {
+  "code": "Da-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "個人生活習慣和方式的選擇，對環境與社會價值觀有不同的影響。地",
+  "page": 21
+ },
+ {
+  "code": "Da-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "依據需求與價值觀做選擇時，須評估風險、結果及承擔責任，且不應侵害他人福祉或正當權益。",
+  "page": 21
+ },
+ {
+  "code": "Da-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "日常生活中所說的「公不公平」有哪些例子？考量的原理或原則有哪些？公",
+  "page": 38
+ },
+ {
+  "code": "Da-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "日常生活中，個人或條目國民中學群體可能面臨哪些不公平處境？公",
+  "page": 38
+ },
+ {
+  "code": "Da-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "日常生活中，僅依賴個人或團體行善可以促成社會公平正義的實現嗎？公",
+  "page": 39
+ },
+ {
+  "code": "Da-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "個人權利跟公平正義（包括程序、匡正等）有什麼關聯？每個人都受到「無差別對待」對於追求社會普通型高級中等學校公平正義有什麼重要性？公",
+  "page": 24
+ },
+ {
+  "code": "Da-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "群體權利跟公平正義有什麼關聯？在什麼情形下，特定群體受到「差別對待」會成為追求社會公平正義的積極原則？公條目什麼情形下，特定群體受到「差別對待」會成為追求社會公平正義的積極原則？公",
+  "page": 24
+ },
+ {
+  "code": "Da-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Da",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "為什麼社會的不同群體，對於「公平正義」的理解與追求會有衝突？【延伸探民主社會如何解決究】「公平正義」有關的爭議？公條目歷",
+  "page": 24
+ },
+ {
+  "code": "Db-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "滿足需要的資源有限，在進行各項消費時要做評估再選擇。條目",
+  "page": 21
+ },
+ {
+  "code": "Db-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "選擇合適的理財規劃，可以增加個人的財富並調節自身的消費力。",
+  "page": 21
+ },
+ {
+  "code": "Db-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "個人的基本生活受到保障，和人性尊嚴及選擇自由有什麼關聯？公",
+  "page": 39
+ },
+ {
+  "code": "Db-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "為什麼國家有責任促成個人基本生活的保障？公",
+  "page": 39
+ },
+ {
+  "code": "Db-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "國家為促進社會安全，為什麼需要社會救助、社會福利和社會保險等多種制度的規劃？公",
+  "page": 24
+ },
+ {
+  "code": "Db-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "我國社會安全制度有哪些常見的難題與辯論（包括公平、責任與效率之間如何權衡）？【延伸探全民健保如何能確究】保國民享有合理的醫療資源，但又能避免資源濫用？公條目見的難題與辯論（包括公平、責任與效率之間如何權衡）？【延伸探究】全民健保如何能確保國民享有合理的醫療資源，但又能避免資源濫用？公",
+  "page": 24
+ },
+ {
+  "code": "Db-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Db",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "問題探究：利用地圖觀察或標定某地表現象的發生地點，討論其空間分布型態與成因。地",
+  "page": 24
+ },
+ {
+  "code": "Dc-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "班級與學校公共事務的安排，可以透過師生適切的討論歷程做出決定。條目歷",
+  "page": 21
+ },
+ {
+  "code": "Dc-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "團體或會議的運作可以透過成員適切的討論歷程做出決定。普通型高級中等學校公說明（1）學校附近的史前遺址或原住民族部落。（2）南島語族的遷徙與原住民族的分布。臺灣是東亞交通的輻輳之地，十六、十七世紀來到亞洲的歐洲人，和早就生活在臺灣的原住民族，以及從事走私貿易的中、日商人，產生了對抗、競爭、合作等種種互動。這一建議討論：1.東亞海域各方人群和勢力在臺灣的遭遇與互動。2.原住民族（包含平埔族群）與外來者的接觸、回應與處境。在清帝國統治之下，移入邊區臺灣的漢人帶動經濟發展，形塑社會結構，並對原住民族（包含平埔族群）社會造成影響。這一建議在上述脈絡下討論：1.清帝國的族群政治。2.臺灣農、商業關係緊密的經濟特質。3.帝國體制內外原住民族（包含平埔族群）社會、文化的動態（包括土地流失問題）。4.漢人在臺灣的活動特色。",
+  "page": 21
+ },
+ {
+  "code": "Dc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "日常生活中，有哪些文化差異的例子？公",
+  "page": 39
+ },
+ {
+  "code": "Dc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "不同語言與文化之間在哪些情況下會產生位階和不平等的現象？為什麼？公",
+  "page": 39
+ },
+ {
+  "code": "Dc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "面對文化差異時，為什麼要互相尊重與包容？公",
+  "page": 39
+ },
+ {
+  "code": "Dc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "不同文化之間為何會有摩擦或衝突？公",
+  "page": 39
+ },
+ {
+  "code": "Dc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Dc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "我國目前有什麼具體政策，促進不同文化之間的平等？【延伸探實現文化平等與普究】世人權有什麼關聯？二者之間可能存在的一致性與緊張關係是什麼？為什麼？公條目是什麼？為什麼？公",
+  "page": 39
+ },
+ {
+  "code": "Dd-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Dd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "可以用哪些現象或議題來理解「全球化過程」？條目國民中學公",
+  "page": 39
+ },
+ {
+  "code": "Dd-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Dd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "全球化帶來哪些影響？人們有哪些回應和評價？公建議融入課程綱要學習重點之示例地建議融入課程綱要學習重點之示例響？人們有哪些回應和評價？地",
+  "page": 40
+ },
+ {
+  "code": "Dd-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Dd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "臺海兩岸關係對我國的國際參與有什麼影響？公",
+  "page": 40
+ },
+ {
+  "code": "Dd-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Dd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "全球化會對國家治理帶來哪些挑戰？我國面臨的議題有普通型高級中等學校哪些？公",
+  "page": 39
+ },
+ {
+  "code": "Dd-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Dd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "我國在全球競爭與合作關係中的地位與處境為何？臺海兩岸關係如何影響我國的國際地位與處境？公",
+  "page": 40
+ },
+ {
+  "code": "Dd-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Dd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "全球永續發展的理念有哪些？全球化及永續發展之間有什麼緊張關係？個人與國家如何面對這些挑戰？【延伸探國際非政府組織（包究】括國際原住民族組織或環境組織）在全球永續發展議題有哪些作為或行動？面臨哪些困境？公什麼緊張關係？個人與國家如何面對這些挑戰？條目條目家如何面對這些挑戰？【延伸探究】國際非政府組織（包括國際原住民族組織或環境組織）在全球永續發展議題有哪些作為或行動？面臨哪些困境？公",
+  "page": 40
+ },
+ {
+  "code": "De-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "De",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "科技發展如何改變我們的日常生活？公",
+  "page": 40
+ },
+ {
+  "code": "De-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "De",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "科技發展對中學生參與公共事務有什麼影響？【延伸探日常生活中，國中學究】生如何因應科技帶來的風險？【本於第五學習階段學習】條目歷",
+  "page": 40
+ },
+ {
+  "code": "De-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "De",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "科技發展如何提升公共生活的參與？又會造成什麼樣的參與不平等？公",
+  "page": 40
+ },
+ {
+  "code": "De-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "De",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "科技發展會衍生哪些倫理或法律問題？【延伸探為什麼追求科技發究】展時要重視「科技風險治理」？公",
+  "page": 40
+ },
+ {
+  "code": "Df-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Df",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼會產生貿易自由化？公",
+  "page": 40
+ },
+ {
+  "code": "Df-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Df",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "貿易的管制與開放對哪些人有利？對哪些人不利？公條目哪些人不利？公",
+  "page": 40
+ },
+ {
+  "code": "Df-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Df",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "世界貿易組織在國際間所扮演的角色有哪些？建議融入課程綱要學習重點之示例地說明著重探討中華人民共和國的黨國體制和經濟改革如何影響其政治，而非介紹其政治制度的細節。分析中華人民共和國的發展及其影響。從國際政治權力的結構與消長加以探討。",
+  "page": 40
+ },
+ {
+  "code": "E-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "E",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "從B、C或D挑選適當課題深入探究，或規劃與執行歷史踏查或展演。歷",
+  "page": 24
+ },
+ {
+  "code": "Ea-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "殖民統治體制的建立。歷",
+  "page": 22
+ },
+ {
+  "code": "Ea-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "基礎建設與產業政策。歷",
+  "page": 22
+ },
+ {
+  "code": "Ea-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "「理蕃」政策與原住民族社會的對應。歷",
+  "page": 22
+ },
+ {
+  "code": "Ea-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "什麼是階層化？不同的社會學理論如何解釋階層化所蘊含的資源分配不均等現象？公",
+  "page": 43
+ },
+ {
+  "code": "Ea-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "社會階層化如何表現在經濟資源、文化資本、社會資本與政治權力等不同面向？公",
+  "page": 43
+ },
+ {
+  "code": "Ea-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "家庭的社會經濟地位如何影響子女的教育機會？民主社會有什麼重要機制促進社會流動？公",
+  "page": 43
+ },
+ {
+  "code": "Ea-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ea",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "社會階層化現象與族群、性別、身心障礙等因素的關係為何？這些因素如何造成社會不平等現象？公條目公",
+  "page": 46
+ },
+ {
+  "code": "Eb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "現代教育與文化啟蒙運動。歷",
+  "page": 22
+ },
+ {
+  "code": "Eb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "都會文化的出現。歷",
+  "page": 22
+ },
+ {
+  "code": "Eb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "新舊文化的衝突與在地社會的調適。歷",
+  "page": 22
+ },
+ {
+  "code": "Eb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "什麼是社會運動？為什麼會出現社會運動？社會運動為什麼是公民參與的重要形式？公",
+  "page": 44
+ },
+ {
+  "code": "Eb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "臺灣有哪些社會運動曾對社會變遷形成重大影響？公",
+  "page": 44
+ },
+ {
+  "code": "Eb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "社會運動與政黨活動及壓力團體有什麼區別？【延伸探科技與社群媒體對於晚近臺灣社會運動的發展究】有什麼影響？公",
+  "page": 44
+ },
+ {
+  "code": "Eb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "地圖設計。地",
+  "page": 44
+ },
+ {
+  "code": "Eb-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Eb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "問題探究：針對特定地理議題繪製地圖，進行議題討論。地條目地",
+  "page": 44
+ },
+ {
+  "code": "F-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "F",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "可以在什麼樣的脈絡中討論中國史？歷",
+  "page": 24
+ },
+ {
+  "code": "Fa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "中華民國統治體制的移入與轉變。歷",
+  "page": 22
+ },
+ {
+  "code": "Fa-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "二二八事件與白色恐怖。歷",
+  "page": 22
+ },
+ {
+  "code": "Fa-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "國家政策下的原住民族。歷",
+  "page": 22
+ },
+ {
+  "code": "Fa-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "臺海兩岸關係與臺灣的國際處境。歷",
+  "page": 22
+ },
+ {
+  "code": "Fa-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "經濟成長率對人民有何影響？公",
+  "page": 44
+ },
+ {
+  "code": "Fa-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "比較各國的國民所得時，為何要使用購買力平價指數？公",
+  "page": 44
+ },
+ {
+  "code": "Fa-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "如何衡量生活成本的變動？公",
+  "page": 46
+ },
+ {
+  "code": "Fa-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Fa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "物價膨脹的原因有哪些？公",
+  "page": 46
+ },
+ {
+  "code": "Fb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "經濟發展與社會轉型。歷",
+  "page": 22
+ },
+ {
+  "code": "Fb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "大眾文化的演變。歷條目歷",
+  "page": 22
+ },
+ {
+  "code": "Fb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "勞動市場的薪資如何決定？公",
+  "page": 44
+ },
+ {
+  "code": "Fb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "為什麼受薪者關心的是實質薪資，而非名目薪資？公",
+  "page": 44
+ },
+ {
+  "code": "Fb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "政府訂定基本工資對勞動市場可能造成什麼影條目公",
+  "page": 44
+ },
+ {
+  "code": "Fb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Fb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "工廠外移、國際移工增加、生產的自動化與服務業數位化，如何影響本地勞動市場？公條目場？公",
+  "page": 44
+ },
+ {
+  "code": "Fc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Fc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼國外的景氣衰退會導致臺灣也出現景氣衰退？公",
+  "page": 44
+ },
+ {
+  "code": "Fc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Fc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "景氣衰退對於薪資與就業有哪些影響？公",
+  "page": 44
+ },
+ {
+  "code": "Fc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Fc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "失業可分為哪幾種類型？失業率如何衡量？公",
+  "page": 44
+ },
+ {
+  "code": "Fc-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Fc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "「怯志工作者」為什麼會影響失業率？公",
+  "page": 47
+ },
+ {
+  "code": "Fd-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Fd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "可貸資金市場上，哪些人是主要的需求者？哪些人是主要的供給者？公",
+  "page": 47
+ },
+ {
+  "code": "Fd-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Fd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "資金借貸的價格為何？公",
+  "page": 47
+ },
+ {
+  "code": "Fd-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Fd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "景氣波動如何影響利率？公",
+  "page": 47
+ },
+ {
+  "code": "Fe-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Fe",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "貨幣政策如何影響廠商的固定投資？公",
+  "page": 47
+ },
+ {
+  "code": "Fe-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Fe",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "為什麼寬鬆貨幣政策有提振景氣的效果？公",
+  "page": 47
+ },
+ {
+  "code": "Fe-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Fe",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "寬鬆貨幣政策可能有哪些副作用？條目公條目不服從的正當性與爭議有哪些？會產生哪些法律後果與對社會的影響？公",
+  "page": 47
+ },
+ {
+  "code": "G-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "G",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "與歷可合併規劃。2.參考之探究課題或活動如下：（1）訪談家族或週遭長輩的歷史。（2）臺灣歷史人物資料的調查、報告或展示，並留意不同性別的歷史人物。（3）與當地原住民有關的歷史與文化探究。（4）當地有形或無形文化遺產的調查、參訪與報告。從古典封建到郡縣帝國時期，政治的分合與社會結構的變遷往往和人民的生活息息相關。不同人群與文化的互動往往各為主體、超越政治界域，型態多樣且面向不一。這一可以擇要討論：1.這個時期統治階級如何維繫政權、選拔官僚，和形塑社會區別的重要措施及對人民生活的影響。2.這個時期不同民族在宗教禮俗、飲食服飾、生活方式或學術思想上有哪些重要的特色與交流。在東亞地區逐步進入世界網絡的時代中，這個地區國際秩序的變遷往往與政軍衝突，及商貿、文化的交流互為表裡。這一可以擇要討論：1.兩宋期間國際間以對抗與征服為主的軍政關係、蒙古帝國建立的國際新秩序。2.宋、元時期海上與陸路的商貿網絡，以及宗教、學術、技藝等文化交流。條目分？公",
+  "page": 22
+ },
+ {
+  "code": "G-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "G",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "從E或F挑選適當課題深入探究，或規劃與執行歷史踏查或展演。歷",
+  "page": 22
+ },
+ {
+  "code": "G-Ⅳ-21",
+  "kind": "content",
+  "topic_code": "G",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 21,
+  "text": ".歷",
+  "page": 107
+ },
+ {
+  "code": "Ga-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "審議民主與代議民主的變遷有什麼關聯？公",
+  "page": 24
+ },
+ {
+  "code": "Ga-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "民主社會為什麼會產生公民不服從？公民不服從的正當性與爭議有哪些？會產生哪些法律後果與對社會的影響？公條目歷",
+  "page": 24
+ },
+ {
+  "code": "Ga-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ga",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "主流地圖與對抗性地圖。地",
+  "page": 44
+ },
+ {
+  "code": "Gb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Gb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "中國的政治有哪些特性？面臨哪些挑戰？公",
+  "page": 24
+ },
+ {
+  "code": "Gb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Gb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "中國的政治與經濟發展如何影響區域和平和臺海兩岸關係？公",
+  "page": 24
+ },
+ {
+  "code": "Gb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Gb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "問題探究：應用地理媒體向他人分享自己對某個社會空間議題的看法。地",
+  "page": 44
+ },
+ {
+  "code": "Gc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Gc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼當代國際組織的成員通常是民族國家或經濟體？公",
+  "page": 47
+ },
+ {
+  "code": "Gc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Gc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "有哪些因素會產生國際衝突？常見的國際衝突型態與解決機制有哪些？公",
+  "page": 47
+ },
+ {
+  "code": "Gc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Gc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "國際的政治結盟與世界秩序的變動會受到哪些因素的影響？【延伸探國際政治權力與世界地圖及區域名稱有什麼關究】聯？公",
+  "page": 47
+ },
+ {
+  "code": "Ha-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ha",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "商周至隋唐時期國家與社會的重要變遷。歷",
+  "page": 22
+ },
+ {
+  "code": "Ha-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ha",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "商周至隋唐時期民族與文化的互動。歷族與文化的互動。歷",
+  "page": 22
+ },
+ {
+  "code": "Ha-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ha",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼適用法令時應考量合憲性的問題？當發生法令的合憲性疑義時，聲請大法官解釋的程序為何？公",
+  "page": 24
+ },
+ {
+  "code": "Ha-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ha",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "有哪些大法官解釋，立下重要人權保障的里程碑？公條目議題。地條目公",
+  "page": 24
+ },
+ {
+  "code": "Ha-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ha",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "疊合全臺活動斷層與某種重要設施的圖層，評估災害風險。（以上條目可三選一進行實作）條目地條目地",
+  "page": 44
+ },
+ {
+  "code": "Hb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Hb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "宋、元時期的國際互動。歷",
+  "page": 22
+ },
+ {
+  "code": "Hb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Hb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "宋、元時期的商貿與文化交流。歷條目歷",
+  "page": 22
+ },
+ {
+  "code": "Hb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Hb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為實踐公共利益的公權力與應受法律拘束的公權力，如何影響人民的日常生活？公條目歷",
+  "page": 24
+ },
+ {
+  "code": "Hb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Hb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "如何判定行政處分的合法性？人民提起訴願或行政訴訟的重要程序要件有哪些？公條目歷",
+  "page": 24
+ },
+ {
+  "code": "Hb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Hb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "什麼情況下人民可以請求國家賠償？什麼情況下國家應對人民補償損失？國家為什麼要賠償或補償人民？條目歷",
+  "page": 47
+ },
+ {
+  "code": "Hc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Hc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "民法對於財產權、身分權與人格權的保障有什麼基本差異？公",
+  "page": 48
+ },
+ {
+  "code": "Hc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Hc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "人格權的保障與公益之間應如何衡量？【延伸探侵害他人的財產權與侵害他人的人格權，其賠究】償責任與範圍有何差異？如何判斷其差異的合理性？公",
+  "page": 48
+ },
+ {
+  "code": "Hd-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Hd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "現代社會中資訊生活為什麼需要有規範？有什麼重要性？公條目公",
+  "page": 48
+ },
+ {
+  "code": "Hd-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Hd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "在刑法中與高中生密切相關的資訊生活重要法律規範有哪些？【延伸探在資訊生活中，一般人較常觸犯的法律規範有究】哪些？條目歷",
+  "page": 48
+ },
+ {
+  "code": "Ia-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "明、清時期東亞世界的變動。歷",
+  "page": 22
+ },
+ {
+  "code": "Ia-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "明、清時期東亞世界的商貿與文化交流。歷",
+  "page": 22
+ },
+ {
+  "code": "Ia-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "西方文化傳入東亞的影響。歷",
+  "page": 24
+ },
+ {
+  "code": "Ia-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "極端氣候事件的發生頻率是否正在變化？地",
+  "page": 24
+ },
+ {
+  "code": "Ia-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "氣候變遷如何影響人類的生活？地",
+  "page": 24
+ },
+ {
+  "code": "Ia-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "為何國際社會對氣候變遷的反應有別？地",
+  "page": 44
+ },
+ {
+  "code": "Ia-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Ia",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "國家與個人如何調適氣候變遷的影響？地",
+  "page": 44
+ },
+ {
+  "code": "Ib-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "晚清時期的東西方接觸與衝突。歷",
+  "page": 22
+ },
+ {
+  "code": "Ib-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "甲午戰爭後的政治體制變革。條目歷",
+  "page": 22
+ },
+ {
+  "code": "Ib-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "東亞地區人民在二十世紀重大戰爭中的經歷。歷",
+  "page": 24
+ },
+ {
+  "code": "Ib-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "共產主義在東亞的發展歷程及對局勢的影響。歷",
+  "page": 24
+ },
+ {
+  "code": "Ib-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "自然災害和人類生活有何關係？地條目歷",
+  "page": 24
+ },
+ {
+  "code": "Ib-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "土地退化對人類生活有何影響？地",
+  "page": 44
+ },
+ {
+  "code": "Ib-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "如何避免或減少自然災害與土地退化的衝擊？地",
+  "page": 44
+ },
+ {
+  "code": "Ib-Ⅴ-6",
+  "kind": "content",
+  "topic_code": "Ib",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 6,
+  "text": "原住民族傳統生態知識（TEK）和生態永續有何關係？條目地條目地",
+  "page": 44
+ },
+ {
+  "code": "Ic-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ic",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "城市風貌的改變與新媒體的出現。歷",
+  "page": 23
+ },
+ {
+  "code": "Ic-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ic",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "家族與婦女角色的轉變。歷",
+  "page": 23
+ },
+ {
+  "code": "J-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "J",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "從H或I挑選適當課題深入探究，或規劃與執行歷史踏查或展演。歷條目歷",
+  "page": 23
+ },
+ {
+  "code": "J-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "J",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "從G、H或I挑選適當課題深入探究，或規劃與執行歷史踏查或展演。歷",
+  "page": 24
+ },
+ {
+  "code": "Ja-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "水資源的豐缺和人類活動有何關係？地",
+  "page": 45
+ },
+ {
+  "code": "Ja-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "水資源的開發與分配和國家、區域的經濟發展有何關係？地",
+  "page": 45
+ },
+ {
+  "code": "Ja-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "海洋資源的開發利用和人類活動有何關係？地",
+  "page": 45
+ },
+ {
+  "code": "Ja-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "海洋資源的開發與利用如何影響國際關係？地",
+  "page": 45
+ },
+ {
+  "code": "Ja-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Ja",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "水資源和海洋資源如何永續利用？地",
+  "page": 45
+ },
+ {
+  "code": "Jb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "化石能源的開發利用和人類活動有何關係？地",
+  "page": 45
+ },
+ {
+  "code": "Jb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "核能是否為乾淨且安全的能源？地",
+  "page": 45
+ },
+ {
+  "code": "Jb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "化石能源的產銷如何影響國際關係？地",
+  "page": 45
+ },
+ {
+  "code": "Jb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "除了核能外，化石能源還有哪些替代能源？地",
+  "page": 45
+ },
+ {
+  "code": "Jb-Ⅴ-5",
+  "kind": "content",
+  "topic_code": "Jb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 5,
+  "text": "替代能源是否可以取代化石能源的主要地位？地",
+  "page": 45
+ },
+ {
+  "code": "K-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "K",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "可以在什麼樣的脈絡中討論世界史？歷",
+  "page": 24
+ },
+ {
+  "code": "Ka-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "中華民國的建立與早期發展。歷",
+  "page": 23
+ },
+ {
+  "code": "Ka-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "舊傳統與新思潮間的激盪。歷",
+  "page": 23
+ },
+ {
+  "code": "Ka-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "人口倍時和人口分布有何空間差異？地",
+  "page": 45
+ },
+ {
+  "code": "Ka-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "為何有些國家具備人口紅利，有些國家卻出現人口負利？地條目地",
+  "page": 45
+ },
+ {
+  "code": "Ka-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "國際移民和區域社會、經濟與政治有何關係？地",
+  "page": 45
+ },
+ {
+  "code": "Ka-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ka",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "當一地區同時出現人口數量與人口結構問題時，人口政策如何擬訂？地",
+  "page": 45
+ },
+ {
+  "code": "Kb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "現代國家的建制與外交發展。歷",
+  "page": 23
+ },
+ {
+  "code": "Kb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "日本帝國的對外擴張與衝擊。歷",
+  "page": 23
+ },
+ {
+  "code": "Kb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "全球農業系統生產的糧食是否足夠供應目前人口所需？地",
+  "page": 45
+ },
+ {
+  "code": "Kb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "糧食供應和國民健康有何關聯？地",
+  "page": 45
+ },
+ {
+  "code": "Kb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "綠色革命與基因改造食物能否解決糧食問題？地",
+  "page": 45
+ },
+ {
+  "code": "Kb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Kb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "縮短食物里程能否增進國家糧食供應的穩定性？條目教師可與其他學科教師合作，指導學生學習。地條目地",
+  "page": 45
+ },
+ {
+  "code": "La-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "La",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "中華人民共和國的建立。歷",
+  "page": 23
+ },
+ {
+  "code": "La-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "La",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "改革開放後的政經發展。歷",
+  "page": 23
+ },
+ {
+  "code": "La-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "La",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "神話與哲學。歷",
+  "page": 24
+ },
+ {
+  "code": "La-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "La",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "中古基督教世界。歷",
+  "page": 24
+ },
+ {
+  "code": "La-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "La",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "蒐集和解析資料的技能。地",
+  "page": 24
+ },
+ {
+  "code": "Lb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "冷戰時期東亞國家間的競合。歷",
+  "page": 23
+ },
+ {
+  "code": "Lb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "東南亞地區國際組織的發展與影響。歷條目歷",
+  "page": 23
+ },
+ {
+  "code": "Lb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "從宗教改革到啟蒙運動。歷",
+  "page": 25
+ },
+ {
+  "code": "Lb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "資本主義與社會主義。歷",
+  "page": 25
+ },
+ {
+  "code": "Lb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Lb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "民主傳統及其現代挑戰。歷",
+  "page": 25
+ },
+ {
+  "code": "M-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "M",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "從K或L挑選適當課題深入探究，或規劃與執行歷史踏查或展演。歷",
+  "page": 23
+ },
+ {
+  "code": "Ma-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "伊斯蘭文化的發展與擴張。歷",
+  "page": 25
+ },
+ {
+  "code": "Ma-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "原住民族傳統生態知識（TEK）與生活方式的變遷。地條目歷",
+  "page": 25
+ },
+ {
+  "code": "Ma-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ma",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "都市化與都市生態環境的變遷。（以上條目可三選一或自訂）地條目公",
+  "page": 45
+ },
+ {
+  "code": "Mb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Mb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "歐洲與亞洲的交流。歷",
+  "page": 25
+ },
+ {
+  "code": "Mb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Mb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "文學、藝術作品中的地理歷史文化背景。地",
+  "page": 25
+ },
+ {
+  "code": "Mb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Mb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "文化資產、歷史現場與現代發展的關係。（以上條目可三選一或自訂）地",
+  "page": 25
+ },
+ {
+  "code": "Mc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "法規、制度、地權與地理景觀塑造。地",
+  "page": 45
+ },
+ {
+  "code": "Mc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "工商業活動的區位選擇。地",
+  "page": 45
+ },
+ {
+  "code": "Mc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Mc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "國土規劃與區域經濟發展。（以上條目可三選一或自訂）地",
+  "page": 45
+ },
+ {
+  "code": "Md-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "農業生產、食物消費、飲食文化與地理環境。地",
+  "page": 45
+ },
+ {
+  "code": "Md-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "地方文化與觀光產業的發展。地",
+  "page": 45
+ },
+ {
+  "code": "Md-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Md",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "生態旅遊的意涵與省思。（以上條目可三選一或自訂）教師可與其他學科教師合作，指導學生學習。地",
+  "page": 45
+ },
+ {
+  "code": "Na-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "非洲與西亞的早期文化。歷",
+  "page": 23
+ },
+ {
+  "code": "Na-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "希臘、羅馬的政治及文化。歷",
+  "page": 23
+ },
+ {
+  "code": "Na-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "從學習經驗及日常生活中發掘有意義的問題。地",
+  "page": 25
+ },
+ {
+  "code": "Na-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "設計解決問題的策略。地",
+  "page": 25
+ },
+ {
+  "code": "Na-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "蒐集、分析、解釋資料。地",
+  "page": 46
+ },
+ {
+  "code": "Na-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Na",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "展現成果：依教學環境的實際情況，使用各種形式展現以上活動的成果，撰寫心得報告、製作海報、拍攝照片或影片、繪製各式地圖以及撰寫小論文等，並鼓勵學生參加各種比賽。條目響？公條目公",
+  "page": 46
+ },
+ {
+  "code": "Nb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "佛教的起源與發展。歷",
+  "page": 23
+ },
+ {
+  "code": "Nb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "基督教的起源與發展。歷",
+  "page": 23
+ },
+ {
+  "code": "Nb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "伊斯蘭教的起源與發展。歷",
+  "page": 23
+ },
+ {
+  "code": "Nb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "現代性與現代文化。歷",
+  "page": 25
+ },
+ {
+  "code": "Nb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "「西方」與「反西方」。歷",
+  "page": 25
+ },
+ {
+  "code": "Nb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Nb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "全球化與多元文化。歷",
+  "page": 25
+ },
+ {
+  "code": "O-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "O",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "從L、M或N挑選適當課題深入探究，或規劃與執行歷史踏查或展演。條目地條目地",
+  "page": 25
+ },
+ {
+  "code": "Oa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Oa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "文藝復興。歷",
+  "page": 23
+ },
+ {
+  "code": "Oa-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Oa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "宗教改革。歷",
+  "page": 23
+ },
+ {
+  "code": "Oa-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Oa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "科學革命與啟蒙運動。歷條目歷",
+  "page": 23
+ },
+ {
+  "code": "Ob-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ob",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "歐洲的海外擴張與傳教。歷",
+  "page": 23
+ },
+ {
+  "code": "Ob-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ob",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "美洲和澳洲的政治與文化。歷",
+  "page": 23
+ },
+ {
+  "code": "Ob-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ob",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "近代南亞與東南亞。歷",
+  "page": 23
+ },
+ {
+  "code": "P-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "P",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "從N或O挑選適當課題深入探究，或規劃與執行歷史踏查或展演。歷",
+  "page": 23
+ },
+ {
+  "code": "Pa-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Pa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "原住民族的傳統社會、傳統領域與知識體系。歷",
+  "page": 41
+ },
+ {
+  "code": "Pa-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Pa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "原住民與外來者的互動。歷",
+  "page": 41
+ },
+ {
+  "code": "Pa-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Pa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "殖民統治下的原住民、原住民族。歷",
+  "page": 41
+ },
+ {
+  "code": "Pa-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Pa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "原住民族的權利復振運動與現代國家的角色。歷",
+  "page": 41
+ },
+ {
+  "code": "Pb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Pb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "人群移動的背景與型態。歷",
+  "page": 41
+ },
+ {
+  "code": "Pb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Pb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "移民社會的形成與認同問題。歷",
+  "page": 41
+ },
+ {
+  "code": "Pb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Pb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "殖民與反殖民運動。歷",
+  "page": 41
+ },
+ {
+  "code": "Pb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Pb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "殖民的影響與對殖民經驗的省思。歷條目歷",
+  "page": 41
+ },
+ {
+  "code": "Qa-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Qa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "美國獨立與法國大革命。歷",
+  "page": 23
+ },
+ {
+  "code": "Qa-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Qa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "工業革命與社會變遷。歷",
+  "page": 23
+ },
+ {
+  "code": "Qa-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Qa",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "民族主義與國家建立。歷",
+  "page": 23
+ },
+ {
+  "code": "Qa-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Qa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "歷史中的女性領袖。歷",
+  "page": 41
+ },
+ {
+  "code": "Qa-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Qa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "國族主義下的女性。歷",
+  "page": 41
+ },
+ {
+  "code": "Qa-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Qa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "女性權利的提升。歷",
+  "page": 41
+ },
+ {
+  "code": "Qb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Qb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "歐洲帝國的擴張。歷",
+  "page": 23
+ },
+ {
+  "code": "Qb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Qb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "亞、非、美三洲的發展及回應。歷",
+  "page": 23
+ },
+ {
+  "code": "Qb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Qb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "第一次世界大戰。歷條目歷",
+  "page": 23
+ },
+ {
+  "code": "Qb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Qb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "傳統社會中的性別角色。歷",
+  "page": 41
+ },
+ {
+  "code": "Qb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Qb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "婚姻與家庭的變遷。歷",
+  "page": 41
+ },
+ {
+  "code": "Qb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Qb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "歷史上的宗教與性別。歷",
+  "page": 41
+ },
+ {
+  "code": "Qb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Qb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "性別平等運動的發展。歷",
+  "page": 41
+ },
+ {
+  "code": "Qc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Qc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "戰間期的世界局勢。歷",
+  "page": 23
+ },
+ {
+  "code": "Qc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Qc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "第二次世界大戰。歷",
+  "page": 23
+ },
+ {
+  "code": "Qc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Qc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "從兩極到多元的戰後世界。歷",
+  "page": 23
+ },
+ {
+  "code": "R-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "R",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "從Q挑選適當課題深入探究，或規劃與執行歷史踏查或展演。條目歷條目歷",
+  "page": 23
+ },
+ {
+  "code": "Ra-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ra",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "戰爭的殺戮及其影響。歷",
+  "page": 41
+ },
+ {
+  "code": "Ra-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ra",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "戰爭宣傳的操作。歷條目歷",
+  "page": 41
+ },
+ {
+  "code": "Ra-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ra",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "戰爭的創傷與集體記憶。歷",
+  "page": 41
+ },
+ {
+  "code": "Rb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Rb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "現代的國家暴力。歷",
+  "page": 41
+ },
+ {
+  "code": "Rb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Rb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "轉型正義的追求與反思。條目歷條目歷",
+  "page": 41
+ },
+ {
+  "code": "Sa-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Sa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "多元的醫療傳統。歷",
+  "page": 41
+ },
+ {
+  "code": "Sa-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Sa",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "疾疫傳布的過去與現在。歷",
+  "page": 41
+ },
+ {
+  "code": "Sb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Sb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "交通運輸的發展與國家治理。歷",
+  "page": 41
+ },
+ {
+  "code": "Sb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Sb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "能源利用與生活方式的改變。歷",
+  "page": 41
+ },
+ {
+  "code": "Sb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Sb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "媒體的發展與社會變遷。歷條目地",
+  "page": 41
+ },
+ {
+  "code": "Ta-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ta",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "大航海時代的物種交流與影響。歷",
+  "page": 41
+ },
+ {
+  "code": "Ta-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ta",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "育種技術與人類社會。歷",
+  "page": 41
+ },
+ {
+  "code": "Tb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Tb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "環境變遷與消失的文明。歷",
+  "page": 41
+ },
+ {
+  "code": "Tb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Tb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "石化產業的發展與衝擊。歷",
+  "page": 41
+ },
+ {
+  "code": "Tb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Tb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "永續發展的省思。歷",
+  "page": 41
+ },
+ {
+  "code": "Ua-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ua",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "西方古代傳統到現代藝術。歷",
+  "page": 41
+ },
+ {
+  "code": "Ua-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ua",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "中國的書畫藝術。條目歷",
+  "page": 41
+ },
+ {
+  "code": "Ub-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ub",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "宗教信仰與節慶的意義。歷",
+  "page": 42
+ },
+ {
+  "code": "Ub-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ub",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "戲劇、文學與大眾生活。歷",
+  "page": 42
+ },
+ {
+  "code": "Ub-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ub",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "科技、環境與藝術創作。條目地條目地",
+  "page": 42
+ },
+ {
+  "code": "Va-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Va",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "為什麼學歷史？歷",
+  "page": 42
+ },
+ {
+  "code": "Va-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Va",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "什麼是史料？歷",
+  "page": 42
+ },
+ {
+  "code": "Va-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Va",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "歷史事實如何建構？歷",
+  "page": 42
+ },
+ {
+  "code": "Vb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Vb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "歷史著作選讀。歷",
+  "page": 42
+ },
+ {
+  "code": "Vb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Vb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "歷史著作分析。歷",
+  "page": 42
+ },
+ {
+  "code": "Vb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Vb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "如何寫作歷史？歷",
+  "page": 42
+ },
+ {
+  "code": "Vc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Vc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "歷史解釋怎麼形成？歷",
+  "page": 42
+ },
+ {
+  "code": "Vc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Vc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "歷史敘述中的觀點問題。歷",
+  "page": 42
+ },
+ {
+  "code": "Vc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Vc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "學習歷史的意義。教師可針對高中必、選修相關或其他歷史課題，選擇適當材料進行教學，並引導1.探究西方「國家」概念的發展、「西方現代性」的擴張與影響，以及非西方國家的現代化2.針對臺灣原住民族政治地位、民族分類、身分、土地、語言、祭儀、狩獵文化等重大課題，請擇一探究其於不同政權統治時期的政策、演變及其影響。3.探究澳洲、加拿大、紐西蘭或臺灣的政治領袖向原住民族道歉的歷史淵源、內容及後續4.流轉、離散，是移民與殖民的核心。思考移民為什麼離開家鄉？從故土到他鄉的處境如何？帝國和殖民地交流互動，到底譜寫出怎樣的歷史與文明？5.歷史上有哪些女性領袖？這些女性領袖的作為是如何被書寫的？歷史上有哪些女性權利曾經被提出，它們又是怎麼被實踐的？在爭取女性權利的過程中，國家扮演了什麼樣的6.探究傳統歷史書寫中性別受到忽視或扭曲的現象，並藉由諸如影片、文本閱讀或訪談等形式，反思追求性別平等、婚姻平權（含同性婚姻）的歷史背景及其進程與影響。7.探究二十世紀以來兩次世界大戰與地區性戰爭對人類歷史發展的影響，透過影片或文本閱讀來理解戰爭的無情，以及倖存者的處境，進而省思人類應如何避免戰爭。8.探討課堂所舉近代國家暴力事例中，國家權力的運作特徵，以及其在群眾與社會文化上所造成的負面影響，並藉由諸如影片、文本閱讀或參訪等形式，引導學生探討轉型正義條目地",
+  "page": 42
+ },
+ {
+  "code": "a-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "透過日常觀察與省思，對社會事物與環境提出感興趣的問題。條目第二學習階段",
+  "page": 10
+ },
+ {
+  "code": "a-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "表達對居住地方社會事物與環境的關懷。",
+  "page": 10
+ },
+ {
+  "code": "a-Ⅱ-3",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "舉例說明社會事物與環境的互動、差異或變遷現象。條目國民中學社",
+  "page": 10
+ },
+ {
+  "code": "a-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "透過對時事的理解與省思，提出感興趣或令人困惑的現象及社會議題。第三學習階段",
+  "page": 10
+ },
+ {
+  "code": "a-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "舉例說明在個人生活或民主社會中對各項議題做選擇的理由及其影響。普通型高級中等學校歷社會領域學習重點社",
+  "page": 10
+ },
+ {
+  "code": "a-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "發覺生活經驗或社會現象與社會領域內容知識的關係。歷社會領域學習重點歷社會領域學習重點社",
+  "page": 12
+ },
+ {
+  "code": "a-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "關注生活周遭的重要議題及其脈絡，發展本土意識與在地關懷。社條目地",
+  "page": 12
+ },
+ {
+  "code": "a-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "關心不同的社會文化及其發展，並展現開闊的世界觀。社",
+  "page": 14
+ },
+ {
+  "code": "a-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "根據地理系統與地理視野的觀點，利用地理技能的方法發掘各種社會及環境問題。地社會領域學習重點建議融入課程綱要學習重點之示例",
+  "page": 12
+ },
+ {
+  "code": "a-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "連結地理視野、地理系統的概念，體認生活中各種現象的全球關連。公",
+  "page": 12
+ },
+ {
+  "code": "a-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "a",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "比較過去與現在的異同，並說明過去與現在的關聯性。地",
+  "page": 12
+ },
+ {
+  "code": "b-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "透過適當的管道蒐集與學習相關的資料，並判讀其正確性。社",
+  "page": 11
+ },
+ {
+  "code": "b-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "感受與欣賞不同文化的特色。",
+  "page": 11
+ },
+ {
+  "code": "b-Ⅱ-3",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "整理資料，製作成簡易的圖表，並加以說明。",
+  "page": 12
+ },
+ {
+  "code": "b-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "體認人們對社會事物與環境有不同的認知、感受、意見與表現方式，並加以尊重。社",
+  "page": 11
+ },
+ {
+  "code": "b-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "摘取及整理社會議題相關資料的重點，判讀其正確性及價值，並加以描述和解釋。",
+  "page": 11
+ },
+ {
+  "code": "b-Ⅲ-3",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "解析特定人物、族群與事件在所處時間、空間脈絡中的位置與意義。",
+  "page": 11
+ },
+ {
+  "code": "b-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "感受個人或不同群體在社會處境中的經歷與情緒，並了解其抉擇。社社會領域學習重點歷",
+  "page": 13
+ },
+ {
+  "code": "b-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "利用社會領域相關概念，整理並檢視所蒐集資料的適切性。社",
+  "page": 13
+ },
+ {
+  "code": "b-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "使用文字、照片、圖表、數據、地圖、年表、言語等多種方式，呈現並解釋探究結果。條目國民中學社",
+  "page": 14
+ },
+ {
+  "code": "b-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "從各式地圖、航空照片圖、衛星影像，網路與文獻、實驗、田野實察等，蒐集和解決問題有關的資料。地",
+  "page": 13
+ },
+ {
+  "code": "b-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "理解並尊重不同文化、宗教、族群、種族、性別歷史發展的獨特性與主體性。地社會領域學習重點種解釋觀點。公建議融入課程綱要學習重點之示例地",
+  "page": 13
+ },
+ {
+  "code": "b-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "分辨歷史事實、史料證據與歷史解釋，說明歷史解釋不同的原因，並檢視證據的適普通型高級中等學校切性。歷",
+  "page": 13
+ },
+ {
+  "code": "b-Ⅴ-4",
+  "kind": "performance",
+  "topic_code": "b",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "應用歷史資料，藉以形成新的問題、呈現自己的歷史敘述，或編製歷史類作品。地",
+  "page": 16
+ },
+ {
+  "code": "c-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "省思個人的生活習慣與在群體中的角色扮演，尊重人我差異，避免對他人產生偏見。",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "澄清及珍視自己的角色與權利，並具備責任感。",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "反省自己或社會的價值觀、偏見與歧視，並探究其緣由。",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "檢視社會現象或事件之間的關係，並想像在不同的條件下，推測其可能的發展。",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅲ-3",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "澄清及珍視自己的公民身分，並具備對國家及文化的認同感。社",
+  "page": 11
+ },
+ {
+  "code": "c-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "評估社會領域內容知識與多元觀點，並提出自己的看法。歷條目國民中學地",
+  "page": 13
+ },
+ {
+  "code": "c-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "從多元觀點探究重要歷史事件與人物在歷史中的作用與意義。地條目國民中學社社會領域學習重點歷",
+  "page": 13
+ },
+ {
+  "code": "c-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "欣賞並願意維護自然與人文之美。社",
+  "page": 15
+ },
+ {
+  "code": "c-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "聆聽他人並陳述自己的觀點，檢視自己的盲點與偏見，形成新的觀點。歷社會領域學習重點社會領域學習重點探討。地",
+  "page": 13
+ },
+ {
+  "code": "c-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "綜合歷史知識與史料證據，提出個人的分析與詮釋。歷普通型高級中等學校議題，並能進行整合評價。地",
+  "page": 13
+ },
+ {
+  "code": "c-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "c",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "跨領域/科目整合相關知能，反思各種社會及環境議題，並提出看法或解決策略。公普通型高級中等學校歷",
+  "page": 13
+ },
+ {
+  "code": "d-Ⅱ-1",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "探究問題發生的原因與影響，並尋求解決問題的可能做法。",
+  "page": 12
+ },
+ {
+  "code": "d-Ⅱ-2",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "評估與選擇可能的做法，嘗試解決問題。",
+  "page": 12
+ },
+ {
+  "code": "d-Ⅱ-3",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "將問題解決的過程與結果，進行報告分享或實作展演。條目國民中學與文化議題間的相互關係。公",
+  "page": 12
+ },
+ {
+  "code": "d-Ⅲ-1",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "選定學習或社會議題，進行探究與實作。",
+  "page": 12
+ },
+ {
+  "code": "d-Ⅲ-2",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "探究社會議題發生的原因與影響，評估與選擇合適的解決方案。社",
+  "page": 12
+ },
+ {
+  "code": "d-Ⅲ-3",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "分享學習、社會議題探究的發現或執行經驗，並運用回饋資訊進行省思，尋求調整與創新。普通型高級中等學校義。地",
+  "page": 12
+ },
+ {
+  "code": "d-Ⅳ-1",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "規劃與執行社會領域的問題探究、訪查、創作或展演等活動。社",
+  "page": 17
+ },
+ {
+  "code": "d-Ⅳ-2",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "提出保存文化資產、改善環境或維護社會正義等可能方案。社",
+  "page": 17
+ },
+ {
+  "code": "d-Ⅳ-3",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "執行具有公共性或利他性的行動方案並檢討其歷程與結果。條目第二學習階段社會領域學習重點歷",
+  "page": 17
+ },
+ {
+  "code": "d-Ⅴ-1",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "透過小組合作，發掘各種社會或環境問題，規劃解決問題的執行策略。地",
+  "page": 17
+ },
+ {
+  "code": "d-Ⅴ-2",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "對於具有價值立場的公共議題，進行歷史性的分析與討論，並付諸行動。地第三學習階段",
+  "page": 17
+ },
+ {
+  "code": "d-Ⅴ-3",
+  "kind": "performance",
+  "topic_code": "d",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "檢討執行策略的成效，並提出改善的方案。公",
+  "page": 17
+ }
+]

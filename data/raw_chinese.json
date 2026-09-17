@@ -1,0 +1,1732 @@
+[
+ {
+  "code": "Aa-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "聲符、韻符、介符的正確發音和寫法。",
+  "page": 15
+ },
+ {
+  "code": "Aa-Ⅰ-2",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 2,
+  "text": "聲調及其正確的標注方式。",
+  "page": 15
+ },
+ {
+  "code": "Aa-Ⅰ-3",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 3,
+  "text": "二拼音和三拼音的拼讀和書寫。",
+  "page": 15
+ },
+ {
+  "code": "Aa-Ⅰ-4",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 4,
+  "text": "結合韻的拼讀和書寫。",
+  "page": 15
+ },
+ {
+  "code": "Aa-Ⅰ-5",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 5,
+  "text": "標注注音符號的各類文本。",
+  "page": 15
+ },
+ {
+  "code": "Aa-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Aa",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "標注注音符號的各類文本。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅰ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 3,
+  "text": "常用字筆畫及部件的空間結構。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅰ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 4,
+  "text": "常用字部首的表義（分類）功能。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅰ-11",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 11,
+  "text": ",000個常用字的字形、字音和字義。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅰ-27",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 27,
+  "text": "個常用字的使用。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅰ-51",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 51,
+  "text": ",500個常用語詞的認念。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅰ-61",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 61,
+  "text": ",000個常用語詞的使用。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "常用字部首及部件的表音及表義功能。◎",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "多音字及多義字。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅱ-7",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 7,
+  "text": "國字組成詞彙的構詞規則。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅱ-8",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 8,
+  "text": "詞類的分辨。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅱ-9",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 9,
+  "text": "量詞的運用。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅱ-10",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 10,
+  "text": "字辭典的運用。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅱ-11",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 11,
+  "text": ",800個常用字的字形、字音和字義。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅱ-12",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 12,
+  "text": "楷書基本筆畫運筆方法。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅱ-13",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 13,
+  "text": "書法名家故事。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅱ-21",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 21,
+  "text": ",200個常用字的使用。◎",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅱ-53",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 53,
+  "text": ",000個常用語詞的認念。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅱ-62",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 62,
+  "text": ",000個常用語詞的使用。",
+  "page": 15
+ },
+ {
+  "code": "Ab-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "常用字部首及部件的表音及表義功能。◎",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "多音字及多義字。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-7",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 7,
+  "text": "數位辭典的運用。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-8",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 8,
+  "text": "詞類的分辨。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-9",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 9,
+  "text": "楷書形體結構要領。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-12",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 12,
+  "text": ",700個常用字的字形、字音和字義。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-22",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 22,
+  "text": ",200個常用字的使用。◎",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-54",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 54,
+  "text": ",500個常用語詞的認念。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅲ-63",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 63,
+  "text": ",700個常用語詞的使用。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "基本的造字原則：象形、指事、會意、形聲。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-6",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 6,
+  "text": "常用文言文的詞義及語詞結構。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-7",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 7,
+  "text": "常用文言文的字詞、虛字、古今義變。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-8",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 8,
+  "text": "各體書法與名家碑帖的認識與欣賞。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-14",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 14,
+  "text": ",000個常用字的字形、字音和字義。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-23",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 23,
+  "text": ",500個常用字的使用。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-46",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 46,
+  "text": ",500個常用語詞的認念。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅳ-55",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 55,
+  "text": ",000個常用語詞的使用。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "六書的基本原則。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "文言文的詞義及語詞結構。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "文言文的字詞、虛字、古今義變。",
+  "page": 16
+ },
+ {
+  "code": "Ab-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ab",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "各體書法作品與名家碑帖的深入鑑賞。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "常用標點符號。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅰ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 2,
+  "text": "簡單的基本句型。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅰ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 3,
+  "text": "基本文句的語氣與意義。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "各種標點符號的用法。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "各種基本句型。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "基礎複句的意義。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "各類文句的語氣與意義。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "標點符號在文本中的作用。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "基礎句型結構。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "各種複句的意義。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "各類文句表達的情感與意義。",
+  "page": 16
+ },
+ {
+  "code": "Ac-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "標點符號在文本中的不同效果。",
+  "page": 17
+ },
+ {
+  "code": "Ac-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "敘事、有無、判斷、表態等句型。",
+  "page": 17
+ },
+ {
+  "code": "Ac-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "文句表達的邏輯與意義。",
+  "page": 17
+ },
+ {
+  "code": "Ac-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ac",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "文句的深層意涵與象徵意義。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "自然段。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅰ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 2,
+  "text": "篇章的大意。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅰ-3",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 3,
+  "text": "故事、童詩等。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "意義段。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "篇章的大意、主旨與簡單結構。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "故事、童詩、現代散文等。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "意義段與篇章結構。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "篇章的大意、主旨、結構與寓意。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "故事、童詩、現代散文、少年小說、兒童劇等。◎",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "古典詩文。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "篇章的主旨、結構、寓意與分析。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "新詩、現代散文、現代小說、劇本。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "韻文：如古體詩、樂府詩、近體詩、詞、曲等。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "非韻文：如古文、古典小說、語錄體、寓言等。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "篇章的主旨、結構、寓意與評述。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "新詩、現代散文、現代小說、劇本。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "韻文：如辭賦、古體詩、樂府詩、近體詩、詞、散曲、戲曲等。",
+  "page": 17
+ },
+ {
+  "code": "Ad-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Ad",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "非韻文：如古文、古典小說、語錄體、寓言等。◎",
+  "page": 17
+ },
+ {
+  "code": "Ba-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "順敘法。",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "記敘文本的結構。◎",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "順敘與倒敘法。◎",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "順敘與倒敘法。◎",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "順敘、倒敘、插敘與補敘法。",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "各種描寫的作用及呈現的效果。◎",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "順敘、倒敘、插敘與補敘法。",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "人、事、時、地、物的細部描寫。",
+  "page": 18
+ },
+ {
+  "code": "Ba-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ba",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "寫作手法與文學美感的呈現。",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "自我情感的表達。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅰ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 2,
+  "text": "人際交流的情感。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅰ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 3,
+  "text": "對物或自然的感受。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅰ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 4,
+  "text": "直接抒情。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "自我情感的表達。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "人際交流的情感。",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "對物或自然的情懷。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "直接抒情。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅱ-5",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 5,
+  "text": "藉由敘述事件與描寫景物間接抒情。",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅱ-6",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 6,
+  "text": "抒情文本的結構。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "自我情感的表達。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "人際交流的情感。",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "對物或自然的感悟。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "直接抒情。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅲ-5",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 5,
+  "text": "藉由敘述事件與描寫景物間接抒情。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "自我及人際交流的感受。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "對社會群體與家國民族情感的體會。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "對物或自然以及生命的感悟。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅳ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 4,
+  "text": "直接抒情。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅳ-5",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 5,
+  "text": "藉由敘述事件與描寫景物間接抒情。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "自我及人際交流的感受。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "對社會群體與家國民族情感的體會。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "對萬物之情、宇宙之愛的感悟。◎",
+  "page": 18
+ },
+ {
+  "code": "Bb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Bb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "藉由敘述事件與描寫景物間接抒情。◎",
+  "page": 18
+ },
+ {
+  "code": "Bc-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "具邏輯、客觀、理性的說明，如科學知識、產品、環境等文本。",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "描述、列舉、因果等寫作手法。◎",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "數據、圖表、圖片、工具列等輔助說明。",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "具邏輯、客觀、理性的說明，如科學知識、產品、環境等。",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "描述、列舉、因果、問題解決、比較等寫作手法。◎",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "數據、圖表、圖片、工具列等輔助說明。",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅲ-4",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 4,
+  "text": "說明文本的結構。",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "具邏輯、客觀、理性的說明，如科學知識、產品、環境、制度等說明。",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "描述、列舉、因果、問題解決、比較、分類、定義等寫作手法。◎",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "數據、圖表、圖片、工具列等輔助說明。",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "具邏輯、客觀、理性、知識的說明，如人權公約、百科全書、制度演變等。◎",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "描述、列舉、因果、問題解決、比較、定義、引用、問答等寫作手法。◎",
+  "page": 19
+ },
+ {
+  "code": "Bc-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Bc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "數據、圖表、圖片、工具列等輔助說明。",
+  "page": 19
+ },
+ {
+  "code": "Bd-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "以事實、理論為論據，達到說服、建構、批判等目的。",
+  "page": 19
+ },
+ {
+  "code": "Bd-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "論證方式如舉例、正證、反證等。◎◎",
+  "page": 19
+ },
+ {
+  "code": "Bd-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "議論文本的結構。◎",
+  "page": 19
+ },
+ {
+  "code": "Bd-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "以事實、理論為論據，達到說服、建構、批判等目的。2-Ⅴ-6關懷生活環境的變化，同理他人處境，尊重不同社群文化，做出得體的應對。◎",
+  "page": 19
+ },
+ {
+  "code": "Bd-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "論證方式如比較、比喻等。◎",
+  "page": 19
+ },
+ {
+  "code": "Bd-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "以事實、理論為論據，達到說服、建構、批判等目的。2-Ⅲ-7與他人溝通時能尊重不同意見。5-Ⅱ-11閱讀多元文本，以認識議題。5-Ⅲ-11大量閱讀多元文本，辨識文本中題的訊息或觀點。5-IV-5大量閱讀多元文本，理解議題內涵及其與個人生活、社會結構的關聯性。2-Ⅴ-6關懷生活環境的變化，同理他人處境，尊重不同社群文化，做出得體的應對。5-V-3大量閱讀多元文本，探討文本如何反應文化與社會現象中的議題，以拓展閱讀視野與生命意境。融入課程綱要學習重點之示例◎",
+  "page": 19
+ },
+ {
+  "code": "Bd-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Bd",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "論證方式如歸納、演繹、因果論證等。",
+  "page": 19
+ },
+ {
+  "code": "Be-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "在生活應用方面，如自我介紹、日記的格式與寫作方法。",
+  "page": 19
+ },
+ {
+  "code": "Be-Ⅰ-2",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 2,
+  "text": "在人際溝通方面，以書信、卡片等慣用語彙及書寫格式為主。",
+  "page": 19
+ },
+ {
+  "code": "Be-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "在生活應用方面，以日記、海報的格式與寫作方法為主。",
+  "page": 19
+ },
+ {
+  "code": "Be-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "在人際溝通方面，以書信、卡片、便條、啟事等慣用語彙及書寫格式為主。",
+  "page": 19
+ },
+ {
+  "code": "Be-Ⅱ-3",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 3,
+  "text": "在學習應用方面，以心得報告的寫作方法為主。◎",
+  "page": 19
+ },
+ {
+  "code": "Be-Ⅱ-4",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 4,
+  "text": "應用文本的結構。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "在生活應用方面，以說明書、廣告、標語、告示、公約等格式與寫作方法為主。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "在人際溝通方面，以通知、電子郵件便條等慣用語彙及書寫格式為主。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅲ-3",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 3,
+  "text": "在學習應用方面，以簡報、讀書報告、演講稿等格式與寫作方法為主。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "在生活應用方面，以自傳、簡報、新聞稿等格式與寫作方法為主。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "在人際溝通方面，以書信、便條、對聯等之慣用語彙與書寫格式為主。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅳ-3",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 3,
+  "text": "在學習應用方面，以簡報、讀書報告、演講稿、劇本等格式與寫作方法為主。◎",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "在生活應用方面，以自傳、新聞稿、報導、評論、等格式與寫作方法為主。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "在人際溝通方面，以書信、便條、啟事、柬帖、對聯、題辭、慶賀文、祭弔文等慣用語彙與書寫格式為主。",
+  "page": 20
+ },
+ {
+  "code": "Be-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Be",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "在學習應用方面，以簡報、讀書報告、演講稿、會議紀錄、劇本、小論文、計劃書、申請書等格式與寫作方法為主。涵。",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "各類文本中與日常生活相關的文化內涵。",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "各類文本中的飲食、服飾、交通工具、名勝古蹟及休閒娛樂等文化內涵。◎",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "各類文本中的飲食、服飾、建築形式、交通工具、名勝古蹟及休閒娛樂等文化內涵。",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "各類文本中表現科技演進、環境發展的文化內涵。◎",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "各類文本中的飲食、服飾、建築形式、交通工具、名勝古蹟及休閒娛樂等文化內涵。◎",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "各類文本中表現科技文明演進、生存環境發展的文化內涵。5-Ⅳ-4應用閱讀策略增進學習效能，整合跨領域知識轉化為解決問題的能力。5-Ⅳ-5大量閱讀多元文本，理解議題內涵及其與個人生活、社會結構的關聯性。",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "各類文本中的飲食、服飾、建築形式、交通工具、名勝古蹟及休閒娛樂等文化內涵。◎",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "各類文本中表現科技文明演進、生存環境發展的文化內涵。5-Ⅴ-6在閱讀過程中認識多元價值、尊重多元文化，思考生活品質、人類發展及環境永續經營的意義與關係。6-Ⅴ-4掌握各種文學表現手法，適切地敘寫，關懷當代議題，抒發個人情感，說明知識或議論事理。5-Ⅱ-11閱讀多元文本，以認識議題。5-Ⅲ-11大量閱讀多元文本，辨識文本中議題的訊息或觀點。◎",
+  "page": 20
+ },
+ {
+  "code": "Ca-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Ca",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "各類文本中物質形貌樣態的呈現方式與文本脈絡的關聯性。",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "各類文本中的親屬關係、道德倫理、儀式風俗等文化內涵。",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅰ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 2,
+  "text": "各類文本中所反映的個人與家庭、鄉里的關係。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "各類文本中的親屬關係、道德倫理、儀式風俗等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅱ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 2,
+  "text": "各類文本中所反映的個人與家庭、鄉里、國族及其他社群的關係。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "各類文本中的親屬關係、道德倫理、儀式風俗、典章制度等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅲ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 2,
+  "text": "各類文本中所反映的個人與家庭、鄉里、國族及其他社群的關係。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "各類文本中的親屬關係、道德倫理、儀式風俗、典章制度等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅳ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 2,
+  "text": "各類文本中所反映的個人與家庭、鄉里、國族及其他社群的關係。◎映的個人與家庭、鄉里、國族及其他社群的關係。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "各類文本中的親屬關係、道德倫理、儀式風俗、典章制度等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "各類文本中所反映的個人與家庭、鄉里、國族及其他社群的關係。",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅴ-3",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 3,
+  "text": "各類文本中所反映不同社群間的文化差異、交互影響等現象。融入課程綱要學習重點之示例5-Ⅴ-6在閱讀過程中認識多元價值、尊重多元文化，思考生活品質、人類發展及環境永續經營的意義與關係。◎",
+  "page": 21
+ },
+ {
+  "code": "Cb-Ⅴ-4",
+  "kind": "content",
+  "topic_code": "Cb",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 4,
+  "text": "各類文本所呈現社群關係中的性別、權力等文化符碼。5-Ⅲ-12運用圖書館(室)、科技與網路，進行資料蒐集、解讀與判斷，提升多元文本的閱讀和應用能力。◎",
+  "page": 21
+ },
+ {
+  "code": "Cc-Ⅰ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅰ",
+  "stage_label": "第一學習階段",
+  "seq": 1,
+  "text": "各類文本中的藝術、信仰、思想等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cc-Ⅱ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅱ",
+  "stage_label": "第二學習階段",
+  "seq": 1,
+  "text": "各類文本中的藝術、信仰、思想等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cc-Ⅲ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅲ",
+  "stage_label": "第三學習階段",
+  "seq": 1,
+  "text": "各類文本中的藝術、信仰、思想等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cc-Ⅳ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅳ",
+  "stage_label": "第四學習階段",
+  "seq": 1,
+  "text": "各類文本中的藝術、信仰、思想等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cc-Ⅴ-1",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 1,
+  "text": "各類文本中的藝術、信仰、思想等文化內涵。◎",
+  "page": 21
+ },
+ {
+  "code": "Cc-Ⅴ-2",
+  "kind": "content",
+  "topic_code": "Cc",
+  "stage": "Ⅴ",
+  "stage_label": "第五學習階段",
+  "seq": 2,
+  "text": "各類文本中所反映的矛盾衝突、生命態度、天人關係等文化內涵。5-V-3大量閱讀多元文本，探討文本如何反應文化與社會現象中的議題，以拓展閱讀視野與生命意境。◎",
+  "page": 21
+ }
+]
