@@ -1,5 +1,5 @@
 // 由 parsers/build_pwa.py 產生，請勿手改。
-var CACHE = "skilltree-26d2529f1152";
+var CACHE = "skilltree-a084db6ddef9";
 var ASSETS = ["./", "index.html", "manifest.webmanifest", "graph_math.json", "graph_natural.json", "graph_cross.json", "icon-192.png", "icon-512.png", "icon-180.png"];
 
 self.addEventListener("install", function (e) {

@@ -38,7 +38,7 @@ img{max-width:100%}
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#2e8b6f; --t-phy:#3b6ea5; --t-chem:#8d55ad;
   --t-earth:#bd6a34; --t-cross:#78809a;
-  --edge:#c3c9da; --edge-hot:#e0a63a; --grade:#7ea300;
+  --edge:#c3c9da; --edge-hot:#e0a63a; --grade:#ffc400;
   --shadow:0 1px 2px rgba(20,25,45,.06),0 8px 24px rgba(20,25,45,.07);
   --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
   --sans:"PingFang TC","Heiti TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
@@ -56,7 +56,7 @@ img{max-width:100%}
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
   --t-earth:#e0975f; --t-cross:#98a1b8;
-  --edge:#333c52; --edge-hot:#efb44e; --grade:#c3e33f;
+  --edge:#333c52; --edge-hot:#efb44e; --grade:#ffdd4d;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
 }}
 :root[data-theme="dark"]{
@@ -71,7 +71,7 @@ img{max-width:100%}
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
   --t-earth:#e0975f; --t-cross:#98a1b8;
-  --edge:#333c52; --edge-hot:#efb44e; --grade:#c3e33f;
+  --edge:#333c52; --edge-hot:#efb44e; --grade:#ffdd4d;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
 }
 *{box-sizing:border-box}
@@ -776,9 +776,9 @@ ul.about b{color:var(--ink);font-weight:600}
     // 必須在建構 SVG 之前決定，否則 var 提升會讓判斷拿到 undefined
     var bubbleView = state.view === "bubble" && !state.focus;
     var viewSwitch = '<div class="seg" role="group" aria-label="檢視類型">' +
-      '<button id="vw-bubble" aria-pressed="' + (state.view === "bubble") +
+      '<button id="vw-bubble" aria-pressed="' + bubbleView +
       '" title="全部技能聚成泡泡，一眼看完規模與完成度">泡泡總覽</button>' +
-      '<button id="vw-graph" aria-pressed="' + (state.view === "graph") +
+      '<button id="vw-graph" aria-pressed="' + !bubbleView +
       '" title="依賴關係圖，看得出先後順序">技能樹</button></div>';
     var prevBox = document.getElementById("mapbox");
     var sig = dom + "|" + (state.chainOnly ? state.focus : "");
@@ -1402,11 +1402,7 @@ ul.about b{color:var(--ink);font-weight:600}
     if (lpFired) { lpFired = false; return; }   // 長按已顯示速覽，不再觸發聚焦
     if (state.view === "bubble" && !state.focus && ev.target.closest("#mapbox")) {
       var hit = nearestBubble(ev);
-      if (hit) {
-        state.view = "graph";
-        try { localStorage.setItem(VIEW_KEY, "graph"); } catch (e) { /* 略過 */ }
-        return focusNode(state.domain, hit);
-      }
+      if (hit) return focusNode(state.domain, hit);
       return;
     }
     var t = ev.target.closest("button, g.node");
