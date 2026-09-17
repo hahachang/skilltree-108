@@ -38,7 +38,7 @@ img{max-width:100%}
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#2e8b6f; --t-phy:#3b6ea5; --t-chem:#8d55ad;
   --t-earth:#bd6a34; --t-cross:#78809a;
-  --edge:#c3c9da; --edge-hot:#e0a63a;
+  --edge:#c3c9da; --edge-hot:#e0a63a; --grade:#7ea300;
   --shadow:0 1px 2px rgba(20,25,45,.06),0 8px 24px rgba(20,25,45,.07);
   --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
   --sans:"PingFang TC","Heiti TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;
@@ -56,7 +56,7 @@ img{max-width:100%}
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
   --t-earth:#e0975f; --t-cross:#98a1b8;
-  --edge:#333c52; --edge-hot:#efb44e;
+  --edge:#333c52; --edge-hot:#efb44e; --grade:#c3e33f;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
 }}
 :root[data-theme="dark"]{
@@ -71,7 +71,7 @@ img{max-width:100%}
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
   --t-earth:#e0975f; --t-cross:#98a1b8;
-  --edge:#333c52; --edge-hot:#efb44e;
+  --edge:#333c52; --edge-hot:#efb44e; --grade:#c3e33f;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
 }
 *{box-sizing:border-box}
@@ -208,8 +208,9 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
 .tip .pre{margin-top:8px;font-size:11px;line-height:1.55;color:var(--faint)}
 .tip .pre b{font-family:var(--mono);color:var(--muted);font-weight:500}
 /* 泡泡總覽：不畫連線也不放技能名稱，779 個標籤只會糊成一片 */
-.bubble{stroke-width:1.6;cursor:pointer;vector-effect:non-scaling-stroke}
-.gradering{fill:none;stroke:var(--ink);stroke-width:1.8;opacity:.75;
+.bubble{stroke-width:1.6;cursor:pointer;vector-effect:non-scaling-stroke;
+  pointer-events:all}   /* fill:none 的圓只有描邊可命中，要整個圓都能指到 */
+.gradering{fill:none;stroke:var(--grade);stroke-width:2.4;opacity:.95;
   vector-effect:non-scaling-stroke;pointer-events:none}
 .gradebar{display:flex;gap:5px;flex-wrap:wrap;align-items:center;margin:-2px 0 12px}
 .gradebar .lab{font-size:11.5px;color:var(--faint);margin-right:2px}
@@ -824,6 +825,10 @@ ul.about b{color:var(--ink);font-weight:600}
       var fill = kind === "manual" ? "var(--lit-ring)"
         : kind === "base" ? "var(--t-" + groupKey(n) + ")"
         : "none";
+      if (state.gradeSel !== null && matchesGrade(n)) {
+        svg += '<circle class="gradering" cx="' + n.x + '" cy="' + n.y +
+          '" r="' + (rr + 5).toFixed(1) + '"></circle>';
+      }
       svg += '<g class="node' + (keep && !chainMode && !keep[n.id] ? " dim" : "") +
         (state.focus === n.id ? " focus" : "") + '" data-state="' + st +
         '" data-lit="' + (kind === "manual" ? 1 : 0) + '" data-done="' + (kind || "") +
@@ -908,8 +913,7 @@ ul.about b{color:var(--ink);font-weight:600}
           '<b>點任一顆泡泡就以它為中心展開技能樹</b>。長按（或滑鼠停留）可先看它是什麼。</p>'
         : '點任一個節點會把它的整條前置鏈與後續鏈連同線條一起打亮，其餘淡出。</p>') +
       '<div class="hints">' + hints + codeHelp + "</div></details>" +
-      (bubbleView
-        ? '<div class="gradebar"><span class="lab">' +
+      ('<div class="gradebar"><span class="lab">' +
           (dom === "natural" ? "學習階段" : "年級") + "</span>" +
           gradeOptions(dom).map(function (o) {
             return '<button class="gr" data-grade="' + esc(String(o.val)) +
@@ -918,8 +922,7 @@ ul.about b{color:var(--ink);font-weight:600}
           }).join("") +
           (state.gradeSel !== null
             ? '<button class="gr" data-grade="" aria-pressed="false">清除</button>' : "") +
-          "</div>"
-        : "") +
+          "</div>") +
       '<div class="map-bar"><div class="legend">' + legend + "</div>" + viewSwitch +
       (bubbleView ? "" : modeSwitch) + colorSwitch +
       '<div class="zoom"><button id="zo" aria-label="縮小">−</button>' +
