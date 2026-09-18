@@ -544,7 +544,119 @@ body[data-mode="kid"] .top{display:none}
   font-weight:600}
 .ask-out .ans{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);
   font-size:15px;line-height:1.85;white-space:pre-wrap}
+.ask-svg{margin:2px 0 0;background:var(--surface);border:1px solid var(--line);
+  border-radius:10px;padding:10px;color:var(--ink)}
+.ask-svg svg{display:block;width:100%;height:auto;max-height:46vh}
+.ask-note{margin-top:8px;font-size:11px;color:var(--faint);line-height:1.6}
+body[data-skin="arcade"] .ask-svg{background:#0b0f18;border-color:#24354d;color:#e8f6f3}
 .ask-stop{margin-top:10px;font-size:13px;color:var(--accent);font-weight:600}
+
+/* ================= 兒童版的三種外觀 ================= */
+/* 只用形狀與顏色做風格，不載外部字型——PWA 要能離線，而且中文沒有可靠的
+   系統手寫字型（iOS 的 Chalkboard 只有英數）。 */
+
+/* ---- 便利貼：米色紙、格線、卡片微微歪、膠帶 ---- */
+body[data-skin="paper"] .kid{
+  background-image:linear-gradient(var(--pg) 1px,transparent 1px),
+    linear-gradient(90deg,var(--pg) 1px,transparent 1px);
+  background-size:26px 26px;
+  --pg:color-mix(in srgb,var(--line) 45%,transparent);
+  border-radius:18px}
+body[data-skin="paper"] .quest,
+body[data-skin="paper"] .kid-card,
+body[data-skin="paper"] .ach,
+body[data-skin="paper"] .badge{
+  border:2px solid var(--ink);
+  border-radius:255px 14px 225px 14px/14px 225px 14px 255px;
+  box-shadow:3px 3px 0 var(--line)}
+body[data-skin="paper"] .quest:nth-child(odd){transform:rotate(-.7deg)}
+body[data-skin="paper"] .quest:nth-child(even){transform:rotate(.6deg)}
+body[data-skin="paper"] .quest:hover{transform:rotate(0) translateY(-2px)}
+body[data-skin="paper"] .kid-card{position:relative;margin-top:16px}
+body[data-skin="paper"] .kid-card::before{
+  content:"";position:absolute;top:-11px;left:50%;transform:translateX(-50%) rotate(-2deg);
+  width:96px;height:22px;background:color-mix(in srgb,var(--lit-ring) 42%,transparent);
+  border-radius:2px}
+body[data-skin="paper"] .kid-tabs button{
+  border:2px solid var(--ink);border-radius:14px 14px 4px 4px;box-shadow:2px 2px 0 var(--line)}
+body[data-skin="paper"] .kid-lvl .bar{border:2px solid var(--ink);border-radius:99px;height:14px}
+body[data-skin="paper"] .kid-act .big{
+  border:2px solid var(--ink);border-radius:225px 14px 255px 14px/14px 255px 14px 225px;
+  box-shadow:3px 3px 0 var(--ink)}
+body[data-skin="paper"] .kid-top h1::after{content:" ✎";color:var(--faint);font-size:15px}
+/* 便利貼在暗色模式下不強制換底色，只是邊框用 --ink，所以兩種主題都成立 */
+body[data-skin="paper"] .kid-empty{border-style:dashed;border-width:2px}
+
+/* ---- 電玩：深色、霓虹邊、方角、分段血條 ---- */
+body[data-skin="arcade"] .kid{
+  --accent:#2fe6c4; --lit:#ffe45e; --lit-ring:#ffe45e;
+  background:#0b0f18;color:#e8f6f3;border-radius:14px;
+  box-shadow:inset 0 0 0 2px #1d2a3d}
+body[data-skin="arcade"] .kid-top h1,
+body[data-skin="arcade"] .kid-h{color:#e8f6f3;letter-spacing:.06em}
+body[data-skin="arcade"] .kid-sub,
+body[data-skin="arcade"] .kid-lvl .lab{color:#7d93ad}
+/* .lab b 與 .kid-stars small 原本吃 --ink／--muted，在深色底上幾乎看不見 */
+body[data-skin="arcade"] .kid-lvl .lab b{color:#e8f6f3}
+body[data-skin="arcade"] .kid-stars small{color:#7d93ad}
+body[data-skin="arcade"] .kid-card h2,
+body[data-skin="arcade"] .kid-card .d,
+body[data-skin="arcade"] .ach .nm,
+body[data-skin="arcade"] .badge.on .nm{color:#e8f6f3}
+body[data-skin="arcade"] .kid-card .who,
+body[data-skin="arcade"] .kid-card .d b,
+body[data-skin="arcade"] .kid-need h4,
+body[data-skin="arcade"] .badge .nm,
+body[data-skin="arcade"] .ach.on .ds{color:#8fa6bf}
+body[data-skin="arcade"] .kid-need .li{color:#e8f6f3}
+body[data-skin="arcade"] .kid-need{border-top-color:#24354d}
+body[data-skin="arcade"] .kid-ask{border-top-color:#24354d}
+body[data-skin="arcade"] .ask-out{background:#0b0f18;border-color:#24354d}
+body[data-skin="arcade"] .ask-out .body{color:#e8f6f3}
+body[data-skin="arcade"] .ach .pg{background:#0b0f18;border-color:#24354d}
+body[data-skin="arcade"] .kid-stars{color:#ffe45e;text-shadow:0 0 12px #ffe45e88}
+body[data-skin="arcade"] .quest,
+body[data-skin="arcade"] .kid-card,
+body[data-skin="arcade"] .ach,
+body[data-skin="arcade"] .badge,
+body[data-skin="arcade"] .kid-empty{
+  background:#121a29;border:2px solid var(--c,#24354d);border-radius:5px;
+  box-shadow:0 0 0 1px #0b0f18,0 0 14px #00000066;color:#e8f6f3}
+body[data-skin="arcade"] .quest .ds,
+body[data-skin="arcade"] .ach .ds{color:#8fa6bf}
+body[data-skin="arcade"] .quest .tag2{background:#0b0f18;color:#2fe6c4;border:1px solid #24354d}
+body[data-skin="arcade"] .kid-tabs button{
+  background:#121a29;border:2px solid #24354d;border-radius:5px;color:#7d93ad}
+body[data-skin="arcade"] .kid-tabs button[aria-pressed="true"]{
+  background:#2fe6c4;border-color:#2fe6c4;color:#06231d;
+  box-shadow:0 0 16px #2fe6c466}
+body[data-skin="arcade"] .kid-lvl .bar{
+  background:#0b0f18;border:2px solid #24354d;border-radius:4px;height:16px;
+  background-image:repeating-linear-gradient(90deg,transparent 0 12px,#0b0f18 12px 14px)}
+body[data-skin="arcade"] .kid-lvl .fill{
+  background:linear-gradient(90deg,#2fe6c4,#ffe45e);box-shadow:0 0 12px #2fe6c4aa}
+body[data-skin="arcade"] .kid-act .big{
+  background:#ffe45e;color:#221c00;border:2px solid #ffe45e;border-radius:5px;
+  box-shadow:0 0 18px #ffe45e55;letter-spacing:.08em}
+body[data-skin="arcade"] .kid-act .back,
+body[data-skin="arcade"] .ask-btns button,
+body[data-skin="arcade"] .ask-row input{
+  background:#121a29;border:2px solid #24354d;border-radius:5px;color:#e8f6f3}
+body[data-skin="arcade"] .badge.on{border-color:#ffe45e;background:#1d1a0b}
+body[data-skin="arcade"] .ach.on{border-color:#ffe45e;background:#1d1a0b}
+body[data-skin="arcade"] .ach .pf{background:#2fe6c4}
+body[data-skin="arcade"] .pop{background:#ffe45e;color:#221c00;box-shadow:0 0 24px #ffe45e88}
+
+/* ---- 外觀選擇列 ---- */
+.skins{display:flex;gap:8px;margin:0 0 16px;flex-wrap:wrap;align-items:center}
+.skins .lab{font-size:11.5px;color:var(--faint);margin-right:2px}
+.skins button{padding:7px 13px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface);font-size:13px;font-weight:600;color:var(--muted)}
+.skins button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);
+  color:#fff}
+body[data-skin="arcade"] .skins button{background:#121a29;border-color:#24354d;color:#7d93ad}
+body[data-skin="arcade"] .skins button[aria-pressed="true"]{
+  background:#2fe6c4;border-color:#2fe6c4;color:#06231d}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -591,6 +703,20 @@ body[data-mode="kid"] .top{display:none}
   // 成就要算「連續學了幾天」，所以點亮的日期要留下來。只記日期不記時間，
   // 一天之內學幾個都算同一天。
   var LOG_KEY = "skilltree.litlog.kid.v1";
+  var SKIN_KEY = "skilltree.kidskin";
+  // 三種外觀只改兒童版的長相，資料與行為完全一樣。純 CSS，沒有外部字型——
+  // PWA 要能離線，而且中文沒有可靠的系統手寫字型。
+  var SKINS = { clean: "清爽", paper: "便利貼", arcade: "電玩" };
+  function kidSkin() {
+    try {
+      var v = localStorage.getItem(SKIN_KEY);
+      return SKINS[v] ? v : "clean";
+    } catch (e) { return "clean"; }
+  }
+  function setKidSkin(v) {
+    try { localStorage.setItem(SKIN_KEY, v); } catch (e) { /* 略過 */ }
+    render();
+  }
   function today() {
     var d = new Date();
     return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) +
@@ -1463,6 +1589,8 @@ body[data-mode="kid"] .top{display:none}
     "釋例": "手冊的釋例多半配有圖、表或算式版面，這裡只有文字。" +
             "圖請開 PDF 對照。"
   };
+  var ASK_HINT = { draw: "Claude 不能生成圖片，但它可以寫 SVG——" +
+                         "所以這是它當場「畫」出來的示意圖。" };
 
   function hbBlocks(dom, blocks) {
     if (!blocks || !blocks.length) return "";
@@ -1854,6 +1982,7 @@ body[data-mode="kid"] .top{display:none}
     if (!KT) {
       loadKidText(function () { if (isKid()) render(); });
     }
+    document.body.dataset.skin = kidSkin();
     if (state.kidCard) return renderKidCard(state.kidCard);
     var stars = kidStars(), lvl = Math.floor(stars / 5) + 1, into = stars % 5;
     var head =
@@ -1863,6 +1992,11 @@ body[data-mode="kid"] .top{display:none}
       '<div class="kid-lvl"><div class="bar"><div class="fill" style="width:' +
       (into / 5 * 100) + '%"></div></div><div class="lab"><span>等級 <b>' +
       lvl + '</b></span><span>再學 <b>' + (5 - into) + '</b> 個就升級</span></div></div>' +
+      '<div class="skins"><span class="lab">外觀</span>' +
+      Object.keys(SKINS).map(function (k) {
+        return '<button data-skin="' + k + '" aria-pressed="' +
+          (kidSkin() === k) + '">' + esc(SKINS[k]) + "</button>";
+      }).join("") + "</div>" +
       '<div class="kid-tabs">' +
       '<button id="kt-today" aria-pressed="' + (state.kidTab === "today") +
       '">今天學什麼</button>' +
@@ -2091,10 +2225,73 @@ body[data-mode="kid"] .top{display:none}
     deeper: ["再講深一點", "請針對這個技能再講深一點，但仍然要留在他的程度之內。"],
     example: ["舉個生活例子", "請舉一個他生活中真的會遇到的例子，說明這個技能用在哪裡。"],
     quiz: ["出一題考我", "請出一題可以檢驗他學會沒有的題目。先寫題目；" +
-           "最後另起一行，以「答案：」開頭寫出答案，再用一句話說明怎麼想。"]
+           "最後另起一行，以「答案：」開頭寫出答案，再用一句話說明怎麼想。"],
+    draw: ["畫個圖給我看", "請畫一張說明這個技能的簡圖。"]
   };
 
-  function askPrompt(n, ask) {
+  // Claude 不能生成圖片（sample 只回傳文字），但 SVG 本身就是文字，所以改成
+  // 請它輸出 SVG 原始碼，頁面自己畫。適合示意圖、電路圖、受力圖、時間軸、
+  // 幾何圖；不適合寫實的地圖或照片——那種會畫得很糟，提示詞裡也講明了。
+  var DRAW_RULES = [
+    "",
+    "這一題請改用 SVG 回答：",
+    "1. 只輸出一段 <svg>…</svg> 的程式碼，前後不要有任何說明文字或程式碼框。",
+    "2. 根元素要有 viewBox=\"0 0 400 260\"，不要寫 width 或 height。",
+    "3. 只用基本元素：path、line、rect、circle、ellipse、polygon、polyline、text、g。",
+    "4. 不要用 script、foreignObject、image、外部連結或任何事件屬性。",
+    "5. 線條用 stroke=\"currentColor\"，需要區分時才用具體顏色；文字用" +
+      " fill=\"currentColor\"、font-size 介於 11 到 16。",
+    "6. 文字用繁體中文，字數少一點，不要擠在一起。",
+    "7. 畫示意圖、結構圖、關係圖或流程圖就好。不要試圖畫寫實的地圖、" +
+      "國家輪廓或照片般的東西——那種畫出來會很難看，寧可改畫一張說明概念的簡圖。"
+  ].join("\n");
+
+  // AI 產生的 SVG 直接塞進 DOM 等於開一個 XSS 缺口，所以逐一過白名單：
+  // 只留畫圖用得到的元素與屬性，事件屬性與外部連結一律刪掉。
+  var SVG_TAGS = ["svg", "g", "path", "line", "rect", "circle", "ellipse",
+                  "polygon", "polyline", "text", "tspan", "defs", "marker",
+                  "lineargradient", "radialgradient", "stop", "title", "desc"];
+  var SVG_ATTRS = ["viewbox", "d", "points", "x", "y", "x1", "y1", "x2", "y2",
+                   "cx", "cy", "r", "rx", "ry", "width", "height", "dx", "dy",
+                   "fill", "stroke", "stroke-width", "stroke-linecap",
+                   "stroke-linejoin", "stroke-dasharray", "opacity",
+                   "fill-opacity", "stroke-opacity", "transform", "text-anchor",
+                   "dominant-baseline", "font-size", "font-weight", "font-family",
+                   "offset", "stop-color", "stop-opacity", "gradientunits",
+                   "markerwidth", "markerheight", "refx", "refy", "orient",
+                   "marker-end", "marker-start", "preserveaspectratio"];
+
+  function cleanSvg(raw) {
+    var m = raw.match(/<svg[\s\S]*<\/svg>/i);
+    if (!m) return null;
+    var doc;
+    try {
+      doc = new DOMParser().parseFromString(m[0], "image/svg+xml");
+    } catch (e) { return null; }
+    var root = doc.documentElement;
+    if (!root || root.nodeName.toLowerCase() !== "svg") return null;
+    if (doc.getElementsByTagName("parsererror").length) return null;
+    var drop = [];
+    (function walk(el) {
+      if (SVG_TAGS.indexOf(el.nodeName.toLowerCase()) < 0) { drop.push(el); return; }
+      Array.prototype.slice.call(el.attributes).forEach(function (a) {
+        var n = a.name.toLowerCase();
+        // 事件屬性、href、任何帶 : 的（xlink、xml 命名空間）一律不留
+        if (SVG_ATTRS.indexOf(n) < 0 || n.indexOf("on") === 0 ||
+            n.indexOf(":") >= 0 || /javascript:/i.test(a.value)) {
+          el.removeAttribute(a.name);
+        }
+      });
+      Array.prototype.slice.call(el.children).forEach(walk);
+    })(root);
+    drop.forEach(function (el) { if (el.parentNode) el.parentNode.removeChild(el); });
+    if (!root.getAttribute("viewBox")) root.setAttribute("viewBox", "0 0 400 260");
+    root.removeAttribute("width");
+    root.removeAttribute("height");
+    return new XMLSerializer().serializeToString(root);
+  }
+
+  function askPrompt(n, ask, draw) {
     var lvl = gradeWord(kidLevel());
     var ix = IX[n.domain];
     var pre = (ix.pre[n.id] || []).map(function (p) {
@@ -2119,7 +2316,8 @@ body[data-mode="kid"] .top{display:none}
       "4. 不要客套、不要自我介紹、不要說「好問題」，直接回答。",
       "5. 用繁體中文、台灣的用語和說法。",
       "",
-      "【學生的問題】" + ask
+      "【學生的問題】" + ask,
+      draw ? DRAW_RULES : ""
     ].filter(Boolean).join("\n");
   }
 
@@ -2133,7 +2331,7 @@ body[data-mode="kid"] .top{display:none}
   var ASK_HIDE = ["not_granted", "sampling_disabled", "not_declared",
                   "capability_disabled", "capability_removed"];
 
-  function kidAskRun(n, label, ask, fresh) {
+  function kidAskRun(n, label, ask, fresh, draw) {
     var out = document.getElementById("ask-out");
     if (!out || !SAMPLE) return;
     out.hidden = false;
@@ -2154,14 +2352,16 @@ body[data-mode="kid"] .top{display:none}
         b.disabled = false;
       });
     }
-    SAMPLE(askPrompt(n, ask), {
-      modelTier: "quick",                     // 小孩等不了 default 的 5–60 秒思考
+    SAMPLE(askPrompt(n, ask, draw), {
+      // 畫圖要結構正確，quick 畫出來常常是歪的，這一種值得多等幾秒
+      modelTier: draw ? "default" : "quick",
       cache: fresh ? false : undefined,       // 出題要每次不一樣，其他可以重播
       signal: ctl.signal,
       onText: function (u) { if (ctl === askCtl) body.textContent = u.text; }
     }).then(function (r) {
       if (ctl !== askCtl) return;
       done();
+      if (draw) return askShowSvg(body, r.text);
       askShow(body, r.text);
     }).catch(function (e) {
       if (ctl !== askCtl) return;
@@ -2172,6 +2372,25 @@ body[data-mode="kid"] .top{display:none}
       body.className = "body err";
       body.textContent = ASK_ERR[e.code] || "暫時問不到，等一下再試。";
     });
+  }
+
+  function askShowSvg(body, raw) {
+    var svg = cleanSvg(raw);
+    if (!svg) {                      // 沒吐出合法 SVG 就退回顯示文字，不要空白
+      body.textContent = raw.replace(/<[^>]*>/g, "").trim() ||
+        "這次沒畫出來，再按一次試試。";
+      return;
+    }
+    body.textContent = "";
+    var box = document.createElement("div");
+    box.className = "ask-svg";
+    box.innerHTML = svg;             // 已過白名單
+    body.appendChild(box);
+    var note = document.createElement("div");
+    note.className = "ask-note";
+    note.textContent = "這張圖是 Claude 當場畫的示意圖，不是課本插圖，" +
+      "細節不一定精確。";
+    body.appendChild(note);
   }
 
   // 出題的答案先藏起來，按了才看得到——不然一出現就看到答案，考不到人
@@ -2290,6 +2509,7 @@ body[data-mode="kid"] .top{display:none}
     if (!state.mode) return renderGate();
     document.body.dataset.mode = state.mode;
     if (isKid()) return renderKid();
+    document.body.dataset.skin = "";   // 外觀只作用在兒童版
     setTally();
     // 離開地圖去看關於／關鍵／進度／搜尋結果時，左側那張浮在上面的技能卡片
     // 會整個蓋住要看的內容——窄螢幕它是覆蓋式的，不像寬螢幕停靠在旁邊。
@@ -2469,11 +2689,13 @@ body[data-mode="kid"] .top{display:none}
       state.kidCard = null;
       return render();
     }
+    if (t.dataset.skin) return setKidSkin(t.dataset.skin);
     if (t.dataset.ask) {
       var nd = kidCardNode();
-      if (nd) kidAskRun(nd, ASK_PRESET[t.dataset.ask][0],
-                        ASK_PRESET[t.dataset.ask][1],
-                        t.dataset.ask === "quiz");   // 出題每次要不一樣
+      var kind = t.dataset.ask;
+      if (nd) kidAskRun(nd, ASK_PRESET[kind][0], ASK_PRESET[kind][1],
+                        kind === "quiz" || kind === "draw",  // 這兩種每次要不一樣
+                        kind === "draw");
       return;
     }
     if (t.id === "ask-go") {
