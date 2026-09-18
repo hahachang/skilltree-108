@@ -76,6 +76,7 @@ def norm_code(m: re.Match) -> str:
 OFFICIAL: dict[str, str] = {}
 BY_TEXT: dict[str, str] = {}
 FIXED: list[str] = []
+FOLIO: dict[int, int] = {}
 
 
 def load_official() -> None:
@@ -208,9 +209,21 @@ def _cells(row, words) -> list[tuple[float, float, str]]:
 
 # ---------------------------------------------------------------- 五種區塊
 
+def folio_of(page) -> int:
+    """書上印的頁碼（頁尾那個數字）。和 PDF 頁次差十幾頁，因為前面有序與目次。
+    連結要用 PDF 頁次，給人看的要用書上的頁碼，兩個都得留。"""
+    lines = [ln.strip() for ln in norm(page.extract_text() or "").split("\n")]
+    for cand in reversed(lines[-3:]):
+        if re.fullmatch(r"\d{1,3}", cand):
+            return int(cand)
+    return 0
+
+
 def block_rows(pdf, pages, roles, with_cells: bool = False):
     for pno in pages:
-        for rec in role_rows(pdf.pages[pno - 1], roles, with_cells):
+        page = pdf.pages[pno - 1]
+        FOLIO[pno] = FOLIO.get(pno) or folio_of(page)
+        for rec in role_rows(page, roles, with_cells):
             yield pno, rec
 
 
@@ -271,6 +284,7 @@ def section_elective(pdf, add, courses):
     carry = None                       # 課程名稱會跨頁延續到下一張表
     for pno in range(107, 113):
         page = pdf.pages[pno - 1]
+        FOLIO[pno] = FOLIO.get(pno) or folio_of(page)
         # 一頁可能有兩張表、兩個課程名稱，所以要按 y 綁定，不能取整頁最後一個。
         heads = []
         for top, line in _lines_from_words(page.extract_words()):
@@ -360,7 +374,9 @@ def main(pdf_path: str) -> None:
 
     def add(code: str, rec: dict) -> None:
         rec = {k: v for k, v in rec.items() if v not in ("", None)}
-        if len(rec) <= 2:            # 只剩 kind 與 page，沒有內容就不收
+        if rec.get("page"):
+            rec["folio"] = FOLIO.get(rec["page"], 0)
+        if len(rec) <= 3:            # 只剩 kind／page／folio，沒有內容就不收
             return
         entries[code].append(rec)
 
@@ -373,7 +389,13 @@ def main(pdf_path: str) -> None:
         section_earth(pdf, add)
 
     out = {
-        "source": "十二年國教課程綱要國民中小學暨普通型高中 自然科學領域課程手冊（國教院，108.01）",
+        "source": "十二年國教課程綱要國民中小學暨普通型高中 自然科學領域課程手冊（國教院）",
+        "edition": "108 年 1 月定稿版",
+        # 線上定稿版與本機這份逐頁核對過：544 頁，抽出來的 JSON 完全相同，
+        # 所以卡片上的 #page= 連結指到線上版是準的。
+        "url": "https://www.naer.edu.tw/upload/1/16/doc/2064/"
+               "%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F"
+               "%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A(%E5%AE%9A%E7%A8%BF%E7%89%88).pdf",
         "entries": {k: v for k, v in sorted(entries.items())},
         "elective_courses": dict(sorted(courses.items())),
         "chem_order": order,

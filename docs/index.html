@@ -330,7 +330,18 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
 .hbrel{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:7px}
 .hbrel > span:first-child{font-size:11.5px;color:var(--faint);min-width:28px}
 details.hb{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}
-details.hb summary{cursor:pointer;color:var(--accent);font-size:12.5px;font-weight:600}
+details.hb summary{cursor:pointer;color:var(--accent);font-size:12.5px;font-weight:600;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+details.hb summary::-webkit-details-marker{display:none}
+details.hb summary::before{content:"▸";color:var(--faint);font-weight:400}
+details.hb[open] summary::before{content:"▾"}
+.hbpg{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--faint);
+  padding:2px 7px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface-2);text-decoration:none;white-space:nowrap}
+a.hbpg:hover{color:var(--accent);border-color:var(--accent)}
+.hbhint{margin:8px 0 0;font-size:11.5px;color:var(--faint)}
+.hbsrc{margin:10px 0 0;font-size:11px;line-height:1.7;color:var(--faint)}
+.hbsrc a{color:var(--accent)}
 details.hb pre{margin:9px 0 0;white-space:pre-wrap;word-break:break-word;
   font-family:var(--sans);font-size:12.5px;line-height:1.85;color:var(--muted);
   max-height:420px;overflow-y:auto}
@@ -1152,6 +1163,8 @@ ul.about b{color:var(--ink);font-weight:600}
         if (dom === "math") d.sections.forEach(function (x) { m[x.code] = x; });
         else m = d.entries || {};
         m._source = d.source;
+        m._url = d.url || "";
+        m._edition = d.edition || "";
         HB[dom] = m;
         hbLoading[dom] = false;
         if (after) after();
@@ -1174,8 +1187,42 @@ ul.about b{color:var(--ink);font-weight:600}
     return '<div class="d-rel"><h4>課程手冊（國教院）明列的關係</h4>' +
       (codes(h.prior, "先備") + codes(h.linked, "連結") + codes(h.after, "後續") ||
         '<p class="note">這一條手冊沒有列出關係。</p>') +
-      '</div><details class="hb"><summary>課程手冊的教學解析（第 ' + h.page +
-      ' 頁）</summary><pre>' + esc(h.text) + "</pre></details>";
+      "</div>" + hbBlocks("math", h.blocks);
+  }
+
+  // 手冊逐條解析原本是一整片文字塞進 <pre>，讀不下去，也看不出哪一段是什麼。
+  // 改成照手冊自己的小標分塊：備註、基本說明、條目範圍、釋例。
+  // 短的（備註、條目範圍）預設展開，長的收起來，免得卡片一開就是一整屏字。
+  var HB_OPEN = { "備註": 1, "條目範圍": 1, "注意": 1 };
+  var HB_HINT = {
+    "基本說明": "手冊給老師的教學重點：這一條要教到什麼程度、從哪裡切入。",
+    "條目範圍": "這一條的範圍界線：哪些算、哪些不在這一條裡。",
+    "釋例": "手冊的釋例多半配有圖、表或算式版面，這裡只有文字。" +
+            "圖請開 PDF 對照。"
+  };
+
+  function hbBlocks(dom, blocks) {
+    if (!blocks || !blocks.length) return "";
+    return blocks.map(function (b) {
+      return '<details class="hb"' + (HB_OPEN[b.title] ? " open" : "") +
+        "><summary>" + esc(b.title || "解析") +
+        hbPage(dom, b.page, b.folio) + "</summary>" +
+        (HB_HINT[b.title] ? '<p class="note hbhint">' + esc(HB_HINT[b.title]) + "</p>" : "") +
+        "<pre>" + esc(b.text) + "</pre></details>";
+    }).join("");
+  }
+
+  // 跳到手冊 PDF 的對應頁。頁次是 PDF 的頁次（#page= 要的就是這個），
+  // 顯示給人看的是書上印的頁碼——兩者差 12 頁左右（前面有序與目次）。
+  // 抽取用的是本機那份，但兩份手冊都逐條核對過線上版頁次完全一致。
+  function hbPage(dom, page, folio) {
+    var src = HB[dom] && HB[dom]._url;
+    if (!page) return "";
+    var label = "第 " + (folio || page) + " 頁";
+    if (!src) return '<span class="hbpg">' + esc(label) + "</span>";
+    return '<a class="hbpg" href="' + esc(src) + "#page=" + page +
+      '" target="_blank" rel="noopener" title="在新分頁開啟國教院的課程手冊 PDF，' +
+      '並跳到這一段所在的第 ' + page + ' 頁">' + esc(label) + " ↗</a>";
   }
 
   // 自然手冊的一條可能同時出現在好幾張表（新舊對照、99 對照、章節建議…），
@@ -1187,9 +1234,9 @@ ul.about b{color:var(--ink);font-weight:600}
     var by = {};
     rows.forEach(function (r) { (by[r.kind] = by[r.kind] || []).push(r); });
     var out = HB_NAT_ORDER.filter(function (k) { return by[k]; }).map(function (k) {
-      var list = by[k], pages = [], meta = [], text = [];
+      var list = by[k], pages = [], seen = {}, meta = [], text = [];
       list.forEach(function (r) {
-        if (pages.indexOf(r.page) < 0) pages.push(r.page);
+        if (!seen[r.page]) { seen[r.page] = 1; pages.push(r); }
         ["課題", "次主題", "主題", "課程名稱", "單元", "建議章節", "異動", "調移"]
           .forEach(function (f) {
             if (r[f] && meta.indexOf(f + "：" + r[f]) < 0) meta.push(f + "：" + r[f]);
@@ -1201,8 +1248,9 @@ ul.about b{color:var(--ink);font-weight:600}
         }
         if (r["99課綱"]) text.push("〔99 課綱對應〕" + r["99課綱"]);
       });
-      return '<details class="hb"><summary>' + esc(k) + '（第 ' +
-        pages.join("、") + ' 頁）</summary>' +
+      return '<details class="hb"><summary>' + esc(k) +
+        pages.map(function (r) { return hbPage("natural", r.page, r.folio); }).join("") +
+        "</summary>" +
         (meta.length ? '<p class="note">' + esc(meta.join("　")) + "</p>" : "") +
         (text.length ? "<pre>" + esc(text.join("\n\n")) + "</pre>" : "") +
         "</details>";
@@ -1224,7 +1272,19 @@ ul.about b{color:var(--ink);font-weight:600}
     }
     var h = HB[dom][n.src];
     if (!h) return "";
-    return dom === "math" ? handbookMath(h) : handbookNatural(h);
+    return (dom === "math" ? handbookMath(h) : handbookNatural(h)) + hbSource(dom);
+  }
+
+  // 出處寫清楚，順便給一個直接開整本手冊的入口。頁碼是書上印的，
+  // 連結帶的是 PDF 頁次，所以兩個數字不一樣是正常的。
+  function hbSource(dom) {
+    var m = HB[dom] || {};
+    if (!m._source) return "";
+    var name = esc(m._source) + (m._edition ? "，" + esc(m._edition) : "");
+    return '<p class="hbsrc">出處：' +
+      (m._url ? '<a href="' + esc(m._url) + '" target="_blank" rel="noopener">' +
+        name + "</a>" : name) +
+      "。頁碼是手冊上印的頁碼，連結會開 PDF 並跳到對應的頁次。</p>";
   }
 
   function openNode(id) {
@@ -1402,7 +1462,8 @@ ul.about b{color:var(--ink);font-weight:600}
       '所以無法從編碼看出確切年級；各版本教科書的編排順序也不同。</li></ul>' +
 
       '<div class="theme-head"><h2>隱私</h2><span class="rule"></span></div>' +
-      '<ul class="about"><li>沒有伺服器、沒有帳號、沒有分析追蹤，也沒有任何外部連線。</li>' +
+      '<ul class="about"><li>沒有伺服器、沒有帳號、沒有分析追蹤。頁面本身不會對外連線；' +
+      '技能卡片上的手冊頁碼是連到國教院網站的 PDF，<b>點了才會離開這個網站</b>。</li>' +
       '<li>學習進度只存在你自己瀏覽器的 localStorage，不會上傳，換裝置不會同步。' +
       '要搬移請用「進度」裡的匯出／匯入。</li></ul>' +
 
