@@ -22,6 +22,10 @@ DATA = os.path.join(BASE, "data")
 CODE = re.compile(r"^([NSGRAFD]-\d{1,2}-\d{1,2})\s*(.*)$")
 # 頁首頁尾固定出現，逐行剔除
 NOISE = re.compile(r"^(十二年國教課程綱要國民中小學暨普通型高中|數學領域課程手冊|\d{1,3})$")
+# 〈肆、學習內容解析〉這一行是**單數頁的頁首**，整章共出現 259 次，不是章節標題。
+# 它長得和 STOP 的「章名」樣式一模一樣，所以一定要先擋掉：不擋的話，任何橫跨
+# 偶數頁→單數頁的條目都會在翻頁處被砍斷，整章少掉一大半釋例。
+RUNNING_HEAD = re.compile(r"^肆、學習內容解析$")
 # 章節標題：碰到就結束目前這一條。11–12 年級用的編碼不在部定必修的集合裡，
 # 沒有這道終止條件的話，最後一條會一路吞到書末（實測 D-10-4 吃掉 10 萬字）。
 STOP = re.compile(
@@ -47,7 +51,10 @@ def clean_block(lines: list[tuple[int, int, str]]) -> list[tuple[int, int, str]]
 
 # 手冊逐條解析的固定小標。分塊呈現比一整片文字好讀，也才有辦法對「釋例」
 # 這種含圖表、抽不完整的段落單獨做提示與頁碼跳轉。
-MARK = re.compile(r"^(備註|基本說明|條目範圍|釋例|教學提示|說明|注意|補充)"
+# 「錯誤類型」「評量」「探索」原本幾乎抽不到——它們多半排在條目的後半段，
+# 正好落在被頁首截斷的那一截裡。截斷修好之後才看得到它們各有 128／140／17 條。
+MARK = re.compile(r"^(備註|基本說明|條目範圍|釋例|錯誤類型|評量|探索"
+                  r"|教學提示|說明|注意|補充)"
                   r"(?:[：:（(]|$|[^\u4e00-\u9fff])")
 
 
@@ -111,7 +118,13 @@ def main() -> None:
                     sections[cur] = {"code": head, "page": pno, "folio": folio}
                     buf = []
                 elif cur:
-                    if STOP.match(ln.strip()):
+                    # 章名與頁首要先把空白拿掉再比：手冊排版會在數字與中文之間
+                    # 插入空格，「11 年級數學 A 學習內容解析」就是這樣，
+                    # 不拿掉的話這道終止條件形同不存在。
+                    flat = re.sub(r"\s+", "", ln)
+                    if RUNNING_HEAD.match(flat):
+                        continue
+                    if STOP.match(flat):
                         sections[cur]["lines"] = clean_block(buf)
                         cur, buf = None, []
                         continue
