@@ -475,6 +475,22 @@ body[data-mode="kid"] .top{display:none}
 .badge.on{border-color:var(--lit-ring);background:var(--lit-soft)}
 .badge.on .em{opacity:1}
 .badge.on .nm{color:var(--ink);font-weight:600}
+.achs{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.ach{display:flex;gap:12px;align-items:flex-start;background:var(--surface);
+  border:1px solid var(--line);border-radius:14px;padding:13px}
+.ach .e{font-size:26px;line-height:1.1;filter:grayscale(1);opacity:.35}
+.ach.on{border-color:var(--lit-ring);background:var(--lit-soft)}
+.ach.on .e{filter:none;opacity:1}
+.ach .b{min-width:0;flex:1}
+.ach .nm{font-size:14.5px;font-weight:700;color:var(--faint)}
+.ach.on .nm{color:var(--ink)}
+.ach .ds{margin-top:3px;font-size:12px;color:var(--muted);line-height:1.6}
+.ach .pg{margin-top:8px;height:6px;border-radius:99px;background:var(--surface-2);
+  border:1px solid var(--line);overflow:hidden}
+.ach .pf{height:100%;background:var(--accent)}
+.ach .pn{margin-top:4px;font-size:11px;color:var(--faint);
+  font-variant-numeric:tabular-nums}
+.kid-tabs button{font-size:14px;padding:11px 6px}
 .kid-empty{background:var(--surface);border:1px dashed var(--line);border-radius:16px;
   padding:26px;text-align:center;color:var(--muted);font-size:14px;line-height:1.8}
 .pop{position:fixed;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));
@@ -533,6 +549,14 @@ body[data-mode="kid"] .top{display:none}
   var BASE_KEY = "skilltree.basegrade.v1";
   var KID_KEY = "skilltree.progress.kid.v1";
   var KID_BASE_KEY = "skilltree.basegrade.kid.v1";
+  // 成就要算「連續學了幾天」，所以點亮的日期要留下來。只記日期不記時間，
+  // 一天之內學幾個都算同一天。
+  var LOG_KEY = "skilltree.litlog.kid.v1";
+  function today() {
+    var d = new Date();
+    return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) +
+      "-" + ("0" + d.getDate()).slice(-2);
+  }
   function isKid() { return state.mode === "kid"; }
   function progKey() { return isKid() ? KID_KEY : KEY; }
   function baseKey() { return isKid() ? KID_BASE_KEY : BASE_KEY; }
@@ -567,7 +591,7 @@ body[data-mode="kid"] .top{display:none}
   var HB = {}, hbLoading = {};        // 課程手冊（數學 379KB、自然 150KB，延後載入）
   var G = {};        // 領域 -> 圖資料
   var IX = {};       // 領域 -> 索引（節點表、前置、後續、關聯、版面）
-  var state = { mode: null, kidTab: "today", kidCard: null,
+  var state = { mode: null, kidTab: "today", kidCard: null, litAt: {},
                 domain: "math", q: "", panel: null, learned: new Set(),
                 hidden: {}, zoom: 1, focus: null, baseGrade: 4, colorBy: "subject",
                 chainOnly: true, gradeSel: null };
@@ -592,6 +616,10 @@ body[data-mode="kid"] .top{display:none}
 
   function loadProgress() {
     state.learned = new Set();
+    state.litAt = {};
+    try {
+      state.litAt = JSON.parse(localStorage.getItem(LOG_KEY) || "{}");
+    } catch (e) { state.litAt = {}; }
     try {
       var raw = localStorage.getItem(progKey());
       if (raw) JSON.parse(raw).forEach(function (id) { state.learned.add(id); });
@@ -604,6 +632,7 @@ body[data-mode="kid"] .top{display:none}
     try {
       localStorage.setItem(progKey(), JSON.stringify(Array.from(state.learned)));
       localStorage.setItem(baseKey(), String(state.baseGrade));
+      localStorage.setItem(LOG_KEY, JSON.stringify(state.litAt || {}));
     } catch (e) { /* 寫入失敗不影響本次操作 */ }
   }
   function esc(s) {
@@ -1739,9 +1768,12 @@ body[data-mode="kid"] .top{display:none}
       '<button id="kt-today" aria-pressed="' + (state.kidTab === "today") +
       '">今天學什麼</button>' +
       '<button id="kt-done" aria-pressed="' + (state.kidTab === "done") +
-      '">我的收藏</button></div>';
+      '">我的收藏</button>' +
+      '<button id="kt-ach" aria-pressed="' + (state.kidTab === "ach") +
+      '">成就</button></div>';
     main.innerHTML = '<div class="kid">' + head +
-      (state.kidTab === "today" ? kidToday() : kidDone()) + "</div>";
+      (state.kidTab === "today" ? kidToday()
+        : state.kidTab === "ach" ? kidTrophies() : kidDone()) + "</div>";
   }
 
   function kidToday() {
@@ -1785,6 +1817,133 @@ body[data-mode="kid"] .top{display:none}
       }).join("") + "</div>";
   }
 
+
+  /* ---------- 兒童版：成就 ---------- */
+  // 成就要「做得到、看得到進度、而且不是換個說法的星星數」。所以除了里程碑，
+  // 還有三種只有這份資料算得出來的：連續天數、各科的累積、以及「必經關口」
+  // ——那是拿掉就會斷掉一大片的節點，打通它值得記一筆。
+  function litNodes() {
+    var out = [];
+    ["natural", "math"].forEach(function (dom) {
+      if (!G[dom]) return;
+      G[dom].nodes.forEach(function (n) {
+        if (state.learned.has(n.uid)) out.push(n);
+      });
+    });
+    return out;
+  }
+
+  function streakDays() {
+    var days = {};
+    Object.keys(state.litAt || {}).forEach(function (u) { days[state.litAt[u]] = 1; });
+    var list = Object.keys(days).sort();
+    if (!list.length) return { cur: 0, best: 0 };
+    function prev(d) {
+      var t = new Date(d + "T00:00:00");
+      t.setDate(t.getDate() - 1);
+      return t.getFullYear() + "-" + ("0" + (t.getMonth() + 1)).slice(-2) +
+        "-" + ("0" + t.getDate()).slice(-2);
+    }
+    var best = 1, run = 1;
+    for (var i = 1; i < list.length; i++) {
+      run = list[i - 1] === prev(list[i]) ? run + 1 : 1;
+      if (run > best) best = run;
+    }
+    // 目前連續：從今天（或昨天，今天還沒學不算斷）往回數
+    var cur = 0, d = today();
+    if (!days[d]) d = prev(d);
+    while (days[d]) { cur++; d = prev(d); }
+    return { cur: cur, best: best };
+  }
+
+  function achieveCtx() {
+    var lit = litNodes(), st = streakDays();
+    var bySubject = {}, byDay = {};
+    lit.forEach(function (n) {
+      var k = n.domain === "math" ? "math" : n.subject_key;
+      bySubject[k] = (bySubject[k] || 0) + 1;
+      var d = state.litAt[n.uid];
+      if (d) {
+        byDay[d] = byDay[d] || {};
+        byDay[d][n.domain] = 1;
+      }
+    });
+    var bothDay = Object.keys(byDay).some(function (d) {
+      return byDay[d].math && byDay[d].natural;
+    });
+    function allOf(dom, pick) {
+      if (!G[dom]) return { n: 0, of: 1 };
+      var set = G[dom].nodes.filter(pick);
+      return { n: set.filter(function (x) { return doneKind(x); }).length,
+               of: set.length };
+    }
+    return {
+      lit: lit, n: lit.length, streak: st, subj: bySubject, bothDay: bothDay,
+      gates: lit.filter(function (x) { return x.gate >= 50; }).length,
+      deep: lit.filter(function (x) { return x.depth >= 15; }).length,
+      elemNat: allOf("natural", function (x) { return x.stage === "Ⅱ" || x.stage === "Ⅲ"; }),
+      elemMath: allOf("math", function (x) { return x.grade <= 6; })
+    };
+  }
+
+  // [id, 圖示, 名稱, 說明, 目前進度, 目標]
+  function achievements(c) {
+    return [
+      ["first", "👣", "第一步", "點亮第一個技能", Math.min(c.n, 1), 1],
+      ["ten", "⭐", "十顆星", "累積 10 個技能", Math.min(c.n, 10), 10],
+      ["fifty", "🌟", "五十顆星", "累積 50 個技能", Math.min(c.n, 50), 50],
+      ["hundred", "💫", "一百顆星", "累積 100 個技能", Math.min(c.n, 100), 100],
+      ["streak3", "🔥", "三天不間斷", "連續 3 天都有學到東西",
+       Math.min(c.streak.best, 3), 3],
+      ["streak7", "🔥", "一週不間斷", "連續 7 天都有學到東西",
+       Math.min(c.streak.best, 7), 7],
+      ["streak30", "🏆", "一個月不間斷", "連續 30 天都有學到東西",
+       Math.min(c.streak.best, 30), 30],
+      ["both", "🤹", "文武雙全", "同一天學會一個自然和一個數學",
+       c.bothDay ? 1 : 0, 1],
+      ["gate", "🚪", "開路先鋒", "打通 3 個「必經關口」——不學就走不過去的節點",
+       Math.min(c.gates, 3), 3],
+      ["deep", "🧗", "探險家", "學會一個前面壓著 15 層以上的技能",
+       Math.min(c.deep, 1), 1],
+      ["bio", "🌱", "生物學徒", "自己點亮 10 個生物技能",
+       Math.min(c.subj.bio || 0, 10), 10],
+      ["phy", "⚡", "物理學徒", "自己點亮 10 個物理技能",
+       Math.min(c.subj.phy || 0, 10), 10],
+      ["chem", "🧪", "化學學徒", "自己點亮 10 個化學技能",
+       Math.min(c.subj.chem || 0, 10), 10],
+      ["earth", "🌍", "地科學徒", "自己點亮 10 個地球科學技能",
+       Math.min(c.subj.earth || 0, 10), 10],
+      ["math", "🔢", "數學學徒", "自己點亮 20 個數學技能",
+       Math.min(c.subj.math || 0, 20), 20],
+      // 這兩個算的是「完成」，含起始年級以下自動視為完成的部分；
+      // 上面的各科學徒算的是「自己點亮」的，兩者刻意不同，說明要寫清楚
+      ["elemNat", "🏅", "國小自然全通", "國小的自然全部完成（含起始年級以下）",
+       c.elemNat.n, c.elemNat.of],
+      ["elemMath", "🏅", "國小數學全通", "國小的數學全部完成（含起始年級以下）",
+       c.elemMath.n, c.elemMath.of]
+    ];
+  }
+
+  function kidTrophies() {
+    var c = achieveCtx(), list = achievements(c);
+    var got = list.filter(function (a) { return a[4] >= a[5]; }).length;
+    return '<h3 class="kid-h">成就 ' + got + " / " + list.length + "</h3>" +
+      '<p class="kid-sub">目前連續學習 <b>' + c.streak.cur +
+      '</b> 天，最長紀錄 <b>' + c.streak.best + "</b> 天。</p>" +
+      '<div class="achs">' + list.map(function (a) {
+        var done = a[4] >= a[5];
+        return '<div class="ach' + (done ? " on" : "") + '">' +
+          '<div class="e">' + a[1] + "</div>" +
+          '<div class="b"><div class="nm">' + esc(a[2]) +
+          (done ? " ✓" : "") + "</div>" +
+          '<div class="ds">' + esc(a[3]) + "</div>" +
+          (done ? "" : '<div class="pg"><div class="pf" style="width:' +
+            (a[4] / a[5] * 100).toFixed(1) + '%"></div></div>' +
+            '<div class="pn">' + a[4] + " / " + a[5] + "</div>") +
+          "</div></div>";
+      }).join("") + "</div>";
+  }
+
   function renderKidCard(uid) {
     var dom = uid.split(":")[0], id = uid.slice(dom.length + 1);
     var n = IX[dom] && IX[dom].nodes[id];
@@ -1814,7 +1973,7 @@ body[data-mode="kid"] .top{display:none}
   }
 
   // 點亮的回饋。星星從按鈕位置飛出去，再跳一個「解鎖了幾關」的提示。
-  function kidCelebrate(el, opened) {
+  function kidCelebrate(el, opened, fresh) {
     var r = el ? el.getBoundingClientRect() : { left: innerWidth / 2, top: innerHeight / 2,
                                                 width: 0, height: 0 };
     for (var i = 0; i < 8; i++) {
@@ -1834,6 +1993,16 @@ body[data-mode="kid"] .top{display:none}
       : "學會一個，收下一顆星 ⭐";
     document.body.appendChild(pop);
     setTimeout(function () { pop.remove(); }, 2200);
+    // 剛好解鎖成就的話，等第一個提示退場再跳，不要兩個疊在一起
+    (fresh || []).slice(0, 2).forEach(function (a, i) {
+      setTimeout(function () {
+        var p2 = document.createElement("div");
+        p2.className = "pop";
+        p2.textContent = a[1] + " 獲得成就：" + a[2] + "！";
+        document.body.appendChild(p2);
+        setTimeout(function () { p2.remove(); }, 2600);
+      }, 2300 + i * 2700);
+    });
   }
 
   function render() {
@@ -2017,8 +2186,9 @@ body[data-mode="kid"] .top{display:none}
       return render();
     }
     if (t.id === "kid-exit") return setMode("adult");
-    if (t.id === "kt-today" || t.id === "kt-done") {
-      state.kidTab = t.id === "kt-today" ? "today" : "done";
+    if (t.id === "kt-today" || t.id === "kt-done" || t.id === "kt-ach") {
+      state.kidTab = t.id === "kt-today" ? "today"
+        : t.id === "kt-ach" ? "ach" : "done";
       state.kidCard = null;
       return render();
     }
@@ -2027,13 +2197,21 @@ body[data-mode="kid"] .top{display:none}
     if (t.id === "kid-got") {
       var uid = state.kidCard, d = uid.split(":")[0], nid = uid.slice(d.length + 1);
       var was = state.learned.has(uid);
+      var before = was ? [] : achievements(achieveCtx()).filter(function (a) {
+        return a[4] >= a[5];
+      }).map(function (a) { return a[0]; });
       if (was) {
         state.learned.delete(uid);
+        delete state.litAt[uid];
       } else {
         // 先算「這一下會打開幾關」再寫入，寫入之後那些關就不是新開的了
         var opened = pickStats(d, nid).opened;
         state.learned.add(uid);
-        kidCelebrate(t, opened);
+        state.litAt[uid] = today();
+        var fresh = achievements(achieveCtx()).filter(function (a) {
+          return a[4] >= a[5] && before.indexOf(a[0]) < 0;
+        });
+        kidCelebrate(t, opened, fresh);
       }
       saveProgress();
       state.kidCard = was ? uid : null;   // 學會了就回清單看新長出來的
