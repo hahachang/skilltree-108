@@ -711,6 +711,10 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
   // 大人版與兒童版的進度分開存。大人版是拿來盤點與規劃的，點來點去是在
   // 「看看學到這裡會解鎖什麼」；小孩的進度應該只反映他真的學會了什麼。
   var MODE_KEY = "skilltree.mode";
+  // 「只看路徑／看全圖」的記憶。曾經和 MODE_KEY 撞名（都叫 MODE_KEY），
+  // 兩個 var 在同一層作用域，後宣告的值會把前面蓋掉，結果在大人版按一次
+  // 「只看路徑」就會把「上次選兒童版還是大人版」的記憶洗掉。
+  var CHAIN_KEY = "skilltree.chainonly";
   var KEY = "skilltree.progress.v1";
   var BASE_KEY = "skilltree.basegrade.v1";
   var KID_KEY = "skilltree.progress.kid.v1";
@@ -718,6 +722,9 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
   // 成就要算「連續學了幾天」，所以點亮的日期要留下來。只記日期不記時間，
   // 一天之內學幾個都算同一天。
   var LOG_KEY = "skilltree.litlog.kid.v1";
+  // 大人版有自己的一份點亮紀錄，不跟兒童版混在一起。兒童版沿用舊 key，
+  // 已經累積的連續天數才不會歸零。
+  var ADULT_LOG_KEY = "skilltree.litlog.v1";
   var SKIN_KEY = "skilltree.kidskin";
   // 三種外觀只改兒童版的長相，資料與行為完全一樣。純 CSS，沒有外部字型——
   // PWA 要能離線，而且中文沒有可靠的系統手寫字型。
@@ -742,6 +749,7 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
   function isKid() { return state.mode === "kid"; }
   function progKey() { return isKid() ? KID_KEY : KEY; }
   function baseKey() { return isKid() ? KID_BASE_KEY : BASE_KEY; }
+  function logKey() { return isKid() ? LOG_KEY : ADULT_LOG_KEY; }
   // 五個領域。社會科是三棵獨立的樹（歷史／地理／公民），不是一棵——
   // 它們在國中以上幾乎平行，彼此的依賴改由跨領域連結表達。
   var DOMAINS = { math: "數學", natural: "自然", history: "歷史",
@@ -792,7 +800,7 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
   // 大螢幕直接顯示技能樹，因為橫向空間夠。
   state.view = NARROW ? "bubble" : "graph";
   try {
-    var mk = localStorage.getItem(MODE_KEY);
+    var mk = localStorage.getItem(CHAIN_KEY);
     if (mk !== null) state.chainOnly = mk === "1";
     var vk = localStorage.getItem(VIEW_KEY);
     if (vk === "bubble" || vk === "graph") state.view = vk;
@@ -811,7 +819,7 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
     state.learned = new Set();
     state.litAt = {};
     try {
-      state.litAt = JSON.parse(localStorage.getItem(LOG_KEY) || "{}");
+      state.litAt = JSON.parse(localStorage.getItem(logKey()) || "{}");
     } catch (e) { state.litAt = {}; }
     try {
       var raw = localStorage.getItem(progKey());
@@ -825,7 +833,7 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
     try {
       localStorage.setItem(progKey(), JSON.stringify(Array.from(state.learned)));
       localStorage.setItem(baseKey(), String(state.baseGrade));
-      localStorage.setItem(LOG_KEY, JSON.stringify(state.litAt || {}));
+      localStorage.setItem(logKey(), JSON.stringify(state.litAt || {}));
     } catch (e) { /* 寫入失敗不影響本次操作 */ }
   }
   function esc(s) {
@@ -1056,7 +1064,6 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
 
   /* ---------- 地圖 ---------- */
   var VIEW_KEY = "skilltree.view";
-  var MODE_KEY = "skilltree.chainonly";
   var GUIDE_KEY = "skilltree.guide.open";
   function guideOpen() {
     try { return localStorage.getItem(GUIDE_KEY) === "1"; } catch (e) { return false; }
@@ -2785,7 +2792,7 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
     }
     if (t.id === "md-chain" || t.id === "md-map") {
       state.chainOnly = t.id === "md-chain";
-      try { localStorage.setItem(MODE_KEY, state.chainOnly ? "1" : "0"); }
+      try { localStorage.setItem(CHAIN_KEY, state.chainOnly ? "1" : "0"); }
       catch (e) { /* 略過 */ }
       var cur = state.focus;
       render();
