@@ -87,9 +87,32 @@ def main() -> None:
     import collections
     dist = collections.Counter(n["subject"] for n in payload["nodes"])
     print("  科目分布：" + "  ".join(f"{k}:{v}" for k, v in dist.most_common()))
+    attach_notes(payload)
     attach_courses(payload)
     check_chem_order(payload)
     report(payload, spec["prereq"], save("graph_natural.json", payload))
+
+
+def attach_notes(payload) -> None:
+    """把〈附錄四：學習內容說明〉掛到技能上。
+
+    課綱條文常常只有一句（「原子模型的發展。」），真正寫「教到什麼程度、
+    哪些算哪些不算」的是附錄。被合併成別名的條目（BLb-Ⅴa-1→BFc-Ⅴa-1）
+    要一起查，否則那一條的說明會憑空消失。
+    """
+    path = os.path.join(DATA, "notes_natural.json")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        notes = json.load(f)
+    hit = 0
+    for n in payload["nodes"]:
+        for code in [n["src"]] + list(n.get("also") or []):
+            if notes.get(code):
+                n["note"] = notes[code]
+                hit += 1
+                break
+    print(f"  課綱附錄的學習內容說明：{hit} / {len(payload['nodes'])} 個技能")
 
 
 def attach_courses(payload) -> None:
