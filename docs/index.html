@@ -965,6 +965,8 @@ ul.about b{color:var(--ink);font-weight:600}
       '<polygon points="27,3.5 31.8,6.3 31.8,11.7 27,14.5 22.2,11.7 22.2,6.3" ' + ring +
       ' stroke-linejoin="round"></polygon></svg>單一技能／綜合應用</span>' +
       (canHover ? "" : '<span class="hint">長按節點看速覽，點一下看依賴鏈</span>') +
+      // 卡片不再自動彈出，就得講一句它在哪裡，否則沒人知道有這個東西
+      (NARROW ? '<span class="hint">技能說明從左緣往右拉，顯示參數從右緣往左拉</span>' : "") +
       (dom === "natural"
         ? '<span class="hint"><svg width="20" height="18" viewBox="0 0 20 18" aria-hidden="true">' +
           '<circle cx="10" cy="10" r="6" fill="none" stroke="var(--faint)" ' +
@@ -1130,8 +1132,10 @@ ul.about b{color:var(--ink);font-weight:600}
     // 窄螢幕沒有那個空間：詳情原本接在地圖下方，每點一個節點都要往下捲。
     // 改成從左緣抽出來的卡片，和右邊的參數卡片對稱。
     if (NARROW) {
+      // 只把內容備好，**不主動彈出**。點技能的當下要看的是它在圖上的位置與
+      // 依賴鏈，卡片蓋上來反而擋住；想讀再從左緣拉出來就好。
+      // 已經拉開著的話就直接換內容（卡片裡的相關條目可以一路點下去）。
       dPanel.innerHTML = html;
-      openDetailPanel();
       drawer.hidden = true; scrim.hidden = true;
       return;
     }
@@ -1361,12 +1365,17 @@ ul.about b{color:var(--ink);font-weight:600}
       (rel.length ? '<div class="d-rel"><h4>課綱原文點名的關聯條目</h4><div class="rel-list">' + chips(rel) + "</div></div>" : "") +
       crossSection(n) +
       handbookSection(n) +
-      '<div class="d-act">' +
-      (kind === "base"
-        ? '<button class="btn" id="go-base">調整起始年級</button>'
-        : '<button class="btn primary" id="toggle">' +
+      // 起始年級以下的技能沒有可按的動作：它不是「點亮／取消」的對象，
+      // 而「調整起始年級」是設定，屬於頁首的「進度」，不該混在技能卡片裡。
+      // 「關閉」只留給寬螢幕的停靠式側欄——窄螢幕的卡片是抽出來的，
+      // 往左滑、點旁邊的暗底、Esc 都能收，再放一顆按鈕只是佔位置。
+      (kind === "base" && NARROW ? "" :
+        '<div class="d-act">' +
+        (kind === "base" ? "" :
+          '<button class="btn primary" id="toggle">' +
           (kind === "manual" ? "取消點亮" : "點亮這個技能") + "</button>") +
-      '<button class="btn ghost" id="close">關閉</button></div></div>';
+        (NARROW ? "" : '<button class="btn ghost" id="close">關閉</button>') +
+        "</div>") + "</div>";
     drawer.dataset.mid = id;
     showDetail(html);
     centerOn(id);
@@ -1739,7 +1748,6 @@ ul.about b{color:var(--ink);font-weight:600}
     if (t.dataset.mid) return focusNode(state.domain, t.dataset.mid);
     if (t.dataset.goto) return focusNode(state.domain, t.dataset.goto);
     if (t.id === "close") return closeDetail();
-    if (t.id === "go-base") { state.panel = "progress"; state.focus = null; return render(); }
     if (t.id === "toggle") {
       var id = drawer.dataset.mid, uid = IX[state.domain].nodes[id].uid;
       if (state.learned.has(uid)) state.learned.delete(uid); else state.learned.add(uid);
