@@ -187,6 +187,37 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
   pointer-events:all}   /* fill:none 的圓只有描邊可命中，要整個圓都能指到 */
 .gradering{fill:none;stroke:var(--grade);stroke-width:2.4;opacity:.95;
   vector-effect:non-scaling-stroke;pointer-events:none}
+/* 手機把參數收進右側抽出的卡片。這些選項（年級、圖例、檢視、縮放）在 390px
+   寬的螢幕上要佔掉六行，地圖只剩三成高度——收起來之後地圖能拿回整個畫面。
+   寬螢幕不動：那裡橫向空間夠，圖例攤開同時也是篩選器，收起來反而難用。 */
+.ctrl{position:fixed;top:0;right:0;bottom:0;z-index:55;width:min(88vw,340px);
+  background:var(--surface);border-left:1px solid var(--line);
+  box-shadow:-12px 0 40px rgba(10,14,28,.28);
+  padding:calc(16px + env(safe-area-inset-top,0px)) 16px
+          calc(20px + env(safe-area-inset-bottom,0px));
+  overflow-y:auto;overscroll-behavior:contain;
+  /* 收起時只靠 transform 移出畫面，不用 visibility——把 visibility 一起放進
+     transition 會讓 transform 的過渡卡在起點，面板永遠滑不進來。 */
+  transform:translateX(100%);pointer-events:none;touch-action:pan-y;
+  transition:transform .22s ease}
+.ctrl.open{transform:none;pointer-events:auto}
+.ctrl-h{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.ctrl-h h3{margin:0;font-size:16px;font-weight:700;flex:1}
+.ctrl h4{margin:18px 0 8px;font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--faint)}
+.ctrl .seg{width:100%}
+.ctrl .seg button{flex:1;text-align:center}
+.ctrl .legend{margin-right:0}
+.ctrl .zoom{width:100%}
+.ctrl .zoom button{flex:1}
+.ctrl .gradebar,.ctrl .map-bar{margin:0}
+/* 右緣的抓取條：只佔中段高度，避開頁首與底部瀏覽器列，也少擋到節點。
+   touch-action:none 是必要的——不搶下手勢的話，原生的地圖捲動會先接走。 */
+.edgegrab{position:fixed;right:0;top:32%;height:36%;width:20px;z-index:54;
+  touch-action:none;display:flex;align-items:center;justify-content:flex-end;
+  -webkit-tap-highlight-color:transparent}
+.edgegrab::before{content:"";width:4px;height:100%;max-height:96px;border-radius:3px;
+  background:var(--line);margin-right:3px;opacity:.9}
+@media (min-width:561px){.edgegrab,#btn-ctrl{display:none}}
 .gradebar{display:flex;gap:5px;flex-wrap:wrap;align-items:center;margin:-2px 0 12px}
 .gradebar .lab{font-size:11.5px;color:var(--faint);margin-right:2px}
 .gr{padding:5px 11px;border-radius:999px;border:1px solid var(--line);
@@ -323,6 +354,7 @@ ul.about b{color:var(--ink);font-weight:600}
     <button class="icon-btn" id="btn-about">關於</button>
     <button class="icon-btn" id="btn-key">關鍵</button>
     <button class="icon-btn" id="btn-progress">進度</button>
+    <button class="icon-btn" id="btn-ctrl">參數</button>
   </div>
   <div class="top-in" style="padding-top:0">
     <label class="search"><span aria-hidden="true" style="color:var(--faint)">⌕</span>
@@ -334,6 +366,10 @@ ul.about b{color:var(--ink);font-weight:600}
 <div id="tip" class="tip" role="tooltip" hidden></div>
 <div id="scrim" class="scrim" hidden></div>
 <section id="drawer" class="drawer" hidden aria-live="polite"></section>
+<div id="ctrlscrim" class="scrim" hidden></div>
+<aside id="ctrl" class="ctrl" aria-label="顯示參數" aria-hidden="true"></aside>
+<div id="edgegrab" class="edgegrab" role="button" tabindex="-1"
+     aria-label="從右側拉出顯示參數"></div>
 
 <script>
 (function () {
@@ -359,6 +395,9 @@ ul.about b{color:var(--ink);font-weight:600}
   var drawer = document.getElementById("drawer");
   var scrim = document.getElementById("scrim");
   var tip = document.getElementById("tip");
+  var ctrl = document.getElementById("ctrl");
+  var ctrlScrim = document.getElementById("ctrlscrim");
+  var edgeGrab = document.getElementById("edgegrab");
   var canHover = window.matchMedia("(hover:hover) and (pointer:fine)").matches;
 
   var CROSS = { pre: {}, use: {} };   // 自然←數學 的跨領域前置（正向／反向索引）
@@ -881,6 +920,35 @@ ul.about b{color:var(--ink);font-weight:600}
           '科別前綴只有高中有：B生物、P物理、C化學、E地球科學。</p>') +
       "</details>";
 
+    var gradeBar = '<div class="gradebar"><span class="lab">' +
+      (dom === "natural" ? "學習階段" : "年級") + "</span>" +
+      gradeOptions(dom).map(function (o) {
+        return '<button class="gr" data-grade="' + esc(String(o.val)) +
+          '" aria-pressed="' + (state.gradeSel === o.val) + '" title="' +
+          esc(o.title) + '">' + esc(o.label) + "</button>";
+      }).join("") +
+      (state.gradeSel !== null
+        ? '<button class="gr" data-grade="" aria-pressed="false">清除</button>' : "") +
+      "</div>";
+    var zoomBar = '<div class="zoom"><button id="zo" aria-label="縮小">−</button>' +
+      '<button id="zf" aria-label="還原" style="width:auto;padding:0 12px;font-size:13px">適中</button>' +
+      '<button id="zi" aria-label="放大">＋</button></div>';
+    var mapBar = '<div class="map-bar"><div class="legend">' + legend + "</div>" +
+      viewSwitch + (bubbleView ? "" : modeSwitch) + colorSwitch + zoomBar + "</div>";
+    // 窄螢幕：同一批控制項改排進右側抽出的卡片，一組一個標題，直排比較好按。
+    ctrl.innerHTML = !NARROW ? "" :
+      '<div class="ctrl-h"><h3>顯示參數</h3>' +
+      '<button class="icon-btn" id="ctrl-close">收起</button></div>' +
+      '<h4>' + (dom === "natural" ? "學習階段" : "年級") + '</h4>' +
+      gradeBar.replace(/<span class="lab">[^<]*<\/span>/, "") +
+      '<h4>檢視</h4>' + viewSwitch +
+      (bubbleView ? "" : '<h4>點選節點時</h4>' + modeSwitch) +
+      (colorSwitch ? '<h4>著色依據</h4>' + colorSwitch : "") +
+      '<h4>顯示哪些分支</h4><div class="legend">' + legend + "</div>" +
+      '<h4>縮放</h4>' + zoomBar;
+    ctrl.setAttribute("aria-hidden", ctrl.classList.contains("open") ? "false" : "true");
+    if (!NARROW) closeCtrl();
+
     var lit = g.nodes.filter(doneKind).length;
     main.innerHTML =
       '<details class="guide"' + (guideOpen() ? " open" : "") + '>' +
@@ -896,21 +964,7 @@ ul.about b{color:var(--ink);font-weight:600}
           '<b>點任一顆泡泡就以它為中心展開技能樹</b>。長按（或滑鼠停留）可先看它是什麼。</p>'
         : '點任一個節點會把它的整條前置鏈與後續鏈連同線條一起打亮，其餘淡出。</p>') +
       '<div class="hints">' + hints + codeHelp + "</div></details>" +
-      ('<div class="gradebar"><span class="lab">' +
-          (dom === "natural" ? "學習階段" : "年級") + "</span>" +
-          gradeOptions(dom).map(function (o) {
-            return '<button class="gr" data-grade="' + esc(String(o.val)) +
-              '" aria-pressed="' + (state.gradeSel === o.val) + '" title="' +
-              esc(o.title) + '">' + esc(o.label) + "</button>";
-          }).join("") +
-          (state.gradeSel !== null
-            ? '<button class="gr" data-grade="" aria-pressed="false">清除</button>' : "") +
-          "</div>") +
-      '<div class="map-bar"><div class="legend">' + legend + "</div>" + viewSwitch +
-      (bubbleView ? "" : modeSwitch) + colorSwitch +
-      '<div class="zoom"><button id="zo" aria-label="縮小">−</button>' +
-      '<button id="zf" aria-label="還原" style="width:auto;padding:0 12px;font-size:13px">適中</button>' +
-      '<button id="zi" aria-label="放大">＋</button></div></div>' +
+      (NARROW ? "" : gradeBar + mapBar) +
       '<div class="stage" id="stage"><div class="mapwrap" id="mapwrap">' +
       '<div class="mapbox" id="mapbox"><div class="mapinner" id="mapinner">' + svg +
       '</div></div></div><aside class="side" id="side"></aside></div>' +
@@ -1504,6 +1558,8 @@ ul.about b{color:var(--ink);font-weight:600}
     if (t.id === "btn-key") {
       state.panel = state.panel === "key" ? null : "key"; state.focus = null; return render();
     }
+    if (t.id === "btn-ctrl") return ctrlOpen() ? closeCtrl() : openCtrl();
+    if (t.id === "ctrl-close") return closeCtrl();
     if (t.id === "btn-progress") {
       state.panel = state.panel === "progress" ? null : "progress"; return render();
     }
@@ -1597,11 +1653,61 @@ ul.about b{color:var(--ink);font-weight:600}
     saveProgress(); render();
   });
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") closeDetail();
+    if (e.key === "Escape") return ctrlOpen() ? closeCtrl() : closeDetail();
     if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.mid) {
       e.preventDefault(); focusNode(state.domain, e.target.dataset.mid);
     }
   });
+  /* ---------- 右側抽出的參數卡片 ---------- */
+  function openCtrl() {
+    ctrl.classList.add("open");
+    ctrl.setAttribute("aria-hidden", "false");
+    ctrlScrim.hidden = false;
+  }
+  function closeCtrl() {
+    ctrl.classList.remove("open");
+    ctrl.setAttribute("aria-hidden", "true");
+    ctrlScrim.hidden = true;
+  }
+  function ctrlOpen() { return ctrl.classList.contains("open"); }
+
+  // 從右緣往左拉。抓取條自己吃掉手勢（touch-action:none），不然地圖的原生
+  // 捲動會先接走；放開時若幾乎沒移動就當成點一下，一樣打開。
+  (function () {
+    var sx = 0, sy = 0, live = false;
+    edgeGrab.addEventListener("pointerdown", function (ev) {
+      sx = ev.clientX; sy = ev.clientY; live = true;
+      edgeGrab.setPointerCapture(ev.pointerId);
+      ev.preventDefault();
+    });
+    edgeGrab.addEventListener("pointermove", function (ev) {
+      if (!live) return;
+      var dx = ev.clientX - sx, dy = ev.clientY - sy;
+      if (dx < -32 && Math.abs(dx) > Math.abs(dy)) { live = false; openCtrl(); }
+    });
+    edgeGrab.addEventListener("pointerup", function (ev) {
+      if (!live) return;
+      live = false;
+      if (Math.abs(ev.clientX - sx) < 10 && Math.abs(ev.clientY - sy) < 10) openCtrl();
+    });
+    edgeGrab.addEventListener("pointercancel", function () { live = false; });
+
+    // 卡片上往右滑收起。只在水平為主的手勢才算，否則會跟卡片內的捲動打架。
+    var px = 0, py = 0, alive = false;
+    ctrl.addEventListener("pointerdown", function (ev) {
+      px = ev.clientX; py = ev.clientY; alive = true;
+    });
+    ctrl.addEventListener("pointermove", function (ev) {
+      if (!alive) return;
+      var dx = ev.clientX - px, dy = ev.clientY - py;
+      if (dx > 56 && Math.abs(dx) > Math.abs(dy) * 1.5) { alive = false; closeCtrl(); }
+    });
+    ctrl.addEventListener("pointerup", function () { alive = false; });
+    ctrl.addEventListener("pointercancel", function () { alive = false; });
+  })();
+
+  ctrlScrim.addEventListener("click", closeCtrl);
+
   window.addEventListener("resize", function () {
     // 轉螢幕或縮視窗時，欄寬／層高／每行字數都要跟著重算——
     // 這些值原本只在載入時算一次，直放載入後轉橫放會停在直放的版面。
