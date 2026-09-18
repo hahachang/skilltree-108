@@ -235,13 +235,29 @@ details.code-help code{font-family:var(--mono);font-size:12px;color:var(--accent
 .ctrl .zoom{width:100%}
 .ctrl .zoom button{flex:1}
 .ctrl .gradebar,.ctrl .map-bar{margin:0}
-/* 右緣的抓取條：只佔中段高度，避開頁首與底部瀏覽器列，也少擋到節點。
+/* 技能卡片：窄螢幕改成從左緣拉出來，和右邊的參數卡片對稱。
+   原本它排在地圖下方，每點一個節點都要往下捲才看得到。 */
+.dpanel{position:fixed;top:0;left:0;bottom:0;z-index:55;width:min(92vw,380px);
+  background:var(--surface);border-right:1px solid var(--line);
+  box-shadow:12px 0 40px rgba(10,14,28,.28);
+  padding:calc(12px + env(safe-area-inset-top,0px)) 16px
+          calc(20px + env(safe-area-inset-bottom,0px));
+  overflow-y:auto;overscroll-behavior:contain;
+  transform:translateX(-100%);pointer-events:none;touch-action:pan-y;
+  transition:transform .22s ease}
+.dpanel.open{transform:none;pointer-events:auto}
+.dpanel .drawer-in{max-width:none}
+.dpanel .grip{display:none}
+
+/* 邊緣的抓取條：只佔中段高度，避開頁首與底部瀏覽器列，也少擋到節點。
    touch-action:none 是必要的——不搶下手勢的話，原生的地圖捲動會先接走。 */
 .edgegrab{position:fixed;right:0;top:32%;height:36%;width:20px;z-index:54;
   touch-action:none;display:flex;align-items:center;justify-content:flex-end;
   -webkit-tap-highlight-color:transparent}
 .edgegrab::before{content:"";width:4px;height:100%;max-height:96px;border-radius:3px;
   background:var(--line);margin-right:3px;opacity:.9}
+.edgegrab.left{left:0;right:auto;justify-content:flex-start}
+.edgegrab.left::before{margin-right:0;margin-left:3px}
 @media (min-width:561px){.edgegrab,#btn-ctrl{display:none}}
 .gradebar{display:flex;gap:5px;flex-wrap:wrap;align-items:center;margin:-2px 0 12px}
 .gradebar .lab{font-size:11.5px;color:var(--faint);margin-right:2px}
@@ -402,6 +418,10 @@ ul.about b{color:var(--ink);font-weight:600}
 <div id="tip" class="tip" role="tooltip" hidden></div>
 <div id="scrim" class="scrim" hidden></div>
 <section id="drawer" class="drawer" hidden aria-live="polite"></section>
+<div id="dscrim" class="scrim" hidden></div>
+<aside id="detail" class="dpanel" aria-label="技能詳情" aria-hidden="true"></aside>
+<div id="edgegrab-l" class="edgegrab left" role="button" tabindex="-1"
+     aria-label="從左側拉出技能卡片"></div>
 <div id="ctrlscrim" class="scrim" hidden></div>
 <aside id="ctrl" class="ctrl" aria-label="顯示參數" aria-hidden="true"></aside>
 <div id="edgegrab" class="edgegrab" role="button" tabindex="-1"
@@ -434,6 +454,9 @@ ul.about b{color:var(--ink);font-weight:600}
   var ctrl = document.getElementById("ctrl");
   var ctrlScrim = document.getElementById("ctrlscrim");
   var edgeGrab = document.getElementById("edgegrab");
+  var dPanel = document.getElementById("detail");
+  var dScrim = document.getElementById("dscrim");
+  var edgeGrabL = document.getElementById("edgegrab-l");
   var canHover = window.matchMedia("(hover:hover) and (pointer:fine)").matches;
 
   var CROSS = { pre: {}, use: {} };   // 自然←數學 的跨領域前置（正向／反向索引）
@@ -1102,8 +1125,16 @@ ul.about b{color:var(--ink);font-weight:600}
 
   /* ---------- 詳情 ---------- */
   function showDetail(html) {
-    // 詳情一律排進版面流（寬螢幕靠右、窄螢幕接在地圖下方），不用覆蓋式面板——
-    // 蓋住剛剛高亮的依賴鏈等於白高亮。
+    // 寬螢幕把詳情停靠在地圖右側，排進版面流、不覆蓋——蓋住剛剛高亮的
+    // 依賴鏈等於白高亮，而且那裡本來就有橫向空間。
+    // 窄螢幕沒有那個空間：詳情原本接在地圖下方，每點一個節點都要往下捲。
+    // 改成從左緣抽出來的卡片，和右邊的參數卡片對稱。
+    if (NARROW) {
+      dPanel.innerHTML = html;
+      openDetailPanel();
+      drawer.hidden = true; scrim.hidden = true;
+      return;
+    }
     var side = document.getElementById("side");
     if (!side) {
       drawer.innerHTML = html; drawer.hidden = false; scrim.hidden = false;
@@ -1124,6 +1155,7 @@ ul.about b{color:var(--ink);font-weight:600}
   }
   function closeDetail() {
     drawer.hidden = true; scrim.hidden = true;
+    closeDetailPanel();
     var stage = document.getElementById("stage");
     if (stage) stage.classList.remove("has-side");
     if (state.focus) { state.focus = null; render(); }
@@ -1485,6 +1517,9 @@ ul.about b{color:var(--ink);font-weight:600}
     document.getElementById("tab-math").setAttribute("aria-pressed", state.domain === "math");
     document.getElementById("tab-natural").setAttribute("aria-pressed", state.domain === "natural");
     setTally();
+    // 離開地圖去看關於／關鍵／進度／搜尋結果時，左側那張浮在上面的技能卡片
+    // 會整個蓋住要看的內容——窄螢幕它是覆蓋式的，不像寬螢幕停靠在旁邊。
+    if (state.panel || state.q.trim()) closeDetailPanel();
     if (state.panel === "about") return renderAbout();
     if (state.panel === "key") return renderKey();
     if (state.panel === "progress") return renderProgress();
@@ -1628,7 +1663,7 @@ ul.about b{color:var(--ink);font-weight:600}
     if (!t) {
       // 點地圖空白處＝退出聚焦、收起詳情，回到整張圖
       var onMap = ev.target.closest && ev.target.closest("#mapbox");
-      var engaged = state.focus || !drawer.hidden ||
+      var engaged = state.focus || !drawer.hidden || panelOpen(dPanel) ||
                     !!document.querySelector(".stage.has-side");
       if (onMap && engaged) closeDetail();
       return;
@@ -1742,59 +1777,76 @@ ul.about b{color:var(--ink);font-weight:600}
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") return ctrlOpen() ? closeCtrl() : closeDetail();
+
     if ((e.key === "Enter" || e.key === " ") && e.target.dataset && e.target.dataset.mid) {
       e.preventDefault(); focusNode(state.domain, e.target.dataset.mid);
     }
   });
-  /* ---------- 右側抽出的參數卡片 ---------- */
-  function openCtrl() {
-    ctrl.classList.add("open");
-    ctrl.setAttribute("aria-hidden", "false");
-    ctrlScrim.hidden = false;
-  }
-  function closeCtrl() {
-    ctrl.classList.remove("open");
-    ctrl.setAttribute("aria-hidden", "true");
-    ctrlScrim.hidden = true;
-  }
-  function ctrlOpen() { return ctrl.classList.contains("open"); }
+  /* ---------- 兩側抽出的卡片（右＝參數、左＝技能詳情） ---------- */
+  // 兩邊行為對稱，所以共用一份實作：開／關、邊緣拖出、卡片上往回滑收起。
+  function panelOpen(el) { return el.classList.contains("open"); }
 
-  // 從右緣往左拉。抓取條自己吃掉手勢（touch-action:none），不然地圖的原生
+  function openPanel(el, sc, other, otherSc) {
+    if (other && panelOpen(other)) closePanel(other, otherSc);   // 兩張不同時開
+    el.classList.add("open");
+    el.setAttribute("aria-hidden", "false");
+    sc.hidden = false;
+  }
+  function closePanel(el, sc) {
+    el.classList.remove("open");
+    el.setAttribute("aria-hidden", "true");
+    sc.hidden = true;
+  }
+  function openCtrl() { openPanel(ctrl, ctrlScrim, dPanel, dScrim); }
+  function closeCtrl() { closePanel(ctrl, ctrlScrim); }
+  function ctrlOpen() { return panelOpen(ctrl); }
+  function openDetailPanel() { openPanel(dPanel, dScrim, ctrl, ctrlScrim); }
+  function closeDetailPanel() { closePanel(dPanel, dScrim); }
+
+  // 從邊緣往內拉。抓取條自己吃掉手勢（touch-action:none），不然地圖的原生
   // 捲動會先接走；放開時若幾乎沒移動就當成點一下，一樣打開。
-  (function () {
+  // dir 是「拉開」的方向：右側卡片往左拉（-1），左側卡片往右拉（+1）。
+  function edgeDrag(grab, panel, dir, open, close) {
     var sx = 0, sy = 0, live = false;
-    edgeGrab.addEventListener("pointerdown", function (ev) {
+    grab.addEventListener("pointerdown", function (ev) {
       sx = ev.clientX; sy = ev.clientY; live = true;
-      edgeGrab.setPointerCapture(ev.pointerId);
+      grab.setPointerCapture(ev.pointerId);
       ev.preventDefault();
     });
-    edgeGrab.addEventListener("pointermove", function (ev) {
+    grab.addEventListener("pointermove", function (ev) {
       if (!live) return;
       var dx = ev.clientX - sx, dy = ev.clientY - sy;
-      if (dx < -32 && Math.abs(dx) > Math.abs(dy)) { live = false; openCtrl(); }
+      if (dx * dir > 32 && Math.abs(dx) > Math.abs(dy)) { live = false; open(); }
     });
-    edgeGrab.addEventListener("pointerup", function (ev) {
+    grab.addEventListener("pointerup", function (ev) {
       if (!live) return;
       live = false;
-      if (Math.abs(ev.clientX - sx) < 10 && Math.abs(ev.clientY - sy) < 10) openCtrl();
+      if (Math.abs(ev.clientX - sx) < 10 && Math.abs(ev.clientY - sy) < 10) open();
     });
-    edgeGrab.addEventListener("pointercancel", function () { live = false; });
+    grab.addEventListener("pointercancel", function () { live = false; });
 
-    // 卡片上往右滑收起。只在水平為主的手勢才算，否則會跟卡片內的捲動打架。
+    // 卡片上往回滑收起。只在水平為主的手勢才算，否則會跟卡片內的捲動打架。
     var px = 0, py = 0, alive = false;
-    ctrl.addEventListener("pointerdown", function (ev) {
+    panel.addEventListener("pointerdown", function (ev) {
       px = ev.clientX; py = ev.clientY; alive = true;
     });
-    ctrl.addEventListener("pointermove", function (ev) {
+    panel.addEventListener("pointermove", function (ev) {
       if (!alive) return;
       var dx = ev.clientX - px, dy = ev.clientY - py;
-      if (dx > 56 && Math.abs(dx) > Math.abs(dy) * 1.5) { alive = false; closeCtrl(); }
+      if (dx * dir < -56 && Math.abs(dx) > Math.abs(dy) * 1.5) { alive = false; close(); }
     });
-    ctrl.addEventListener("pointerup", function () { alive = false; });
-    ctrl.addEventListener("pointercancel", function () { alive = false; });
-  })();
+    panel.addEventListener("pointerup", function () { alive = false; });
+    panel.addEventListener("pointercancel", function () { alive = false; });
+  }
+
+  edgeDrag(edgeGrab, ctrl, -1, openCtrl, closeCtrl);
+  edgeDrag(edgeGrabL, dPanel, 1, function () {
+    // 左緣拉出來的是「最近看過的那張卡片」。還沒看過任何技能就不用開一張空的。
+    if (dPanel.innerHTML) openDetailPanel();
+  }, closeDetailPanel);
 
   ctrlScrim.addEventListener("click", closeCtrl);
+  dScrim.addEventListener("click", closeDetail);
 
   window.addEventListener("resize", function () {
     // 轉螢幕或縮視窗時，欄寬／層高／每行字數都要跟著重算——
@@ -1807,6 +1859,7 @@ ul.about b{color:var(--ink);font-weight:600}
         IX[d].chain = null;
         IX[d].layout = layout(d);
       });
+      if (!NARROW) closeDetailPanel();   // 回到寬螢幕就改用停靠式的右側欄
       var cur = state.focus;
       render();
       if (cur) openNode(cur);
