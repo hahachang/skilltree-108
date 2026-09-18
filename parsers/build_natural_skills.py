@@ -5,11 +5,12 @@
 """
 from __future__ import annotations
 
+import json
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from skill_builder import build, load, report, save  # noqa: E402
+from skill_builder import DATA, build, load, report, save  # noqa: E402
 
 # 依表三的課題架構，用七大跨科概念當分支色系（國中以上的主題碼對回所屬跨科概念）
 TOPICS = {"INa": "物質與能量", "INb": "構造與功能", "INc": "系統與尺度",
@@ -86,7 +87,60 @@ def main() -> None:
     import collections
     dist = collections.Counter(n["subject"] for n in payload["nodes"])
     print("  科目分布：" + "  ".join(f"{k}:{v}" for k, v in dist.most_common()))
+    attach_courses(payload)
+    check_chem_order(payload)
     report(payload, spec["prereq"], save("graph_natural.json", payload))
+
+
+def attach_courses(payload) -> None:
+    """把手冊列的加深加廣課程名稱掛到技能上。
+
+    手冊只列了生物科四門選修課的條目，物理化學地科沒有對應的表，所以這是
+    局部覆蓋——有就標，沒有就不標，不要為了整齊去猜。
+    """
+    path = os.path.join(DATA, "handbook_natural.json")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        courses = json.load(f).get("elective_courses", {})
+    hit = 0
+    for n in payload["nodes"]:
+        name = courses.get(n["src"])
+        if name:
+            n["course"] = name
+            hit += 1
+    print(f"  加深加廣課程名稱（手冊）：{hit} 個技能")
+
+
+def check_chem_order(payload) -> None:
+    """拿化學課程手冊的建議章節順序，對一次人工標註的前置方向。
+
+    自然科手冊沒有逐條先備，沒辦法像數學那樣「官方優先」直接換掉；手冊裡
+    唯一的官方排序就是化學必修的建議章節表。這裡只當檢核用，不改資料——
+    章節順序是教學順序，未必等於知識依賴，真的衝突要人看過才決定。
+    只比跨「單元」的邊：同一個單元底下的章節（水／大氣／綠色化學）是並列的。
+    """
+    path = os.path.join(DATA, "handbook_natural.json")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        hb = json.load(f)
+    units, order = {}, {}
+    for i, row in enumerate(hb.get("chem_order", [])):
+        for c in row["codes"]:
+            order.setdefault(c, i)
+            units.setdefault(c, row["單元"])
+    ids = {n["id"]: n["src"] for n in payload["nodes"]}
+    bad = []
+    for e in payload["edges"]:
+        a, b = ids.get(e["from"]), ids.get(e["to"])
+        if a in order and b in order and units[a] != units[b] and order[a] > order[b]:
+            bad.append(f"{a}（{units[a]}）→ {b}（{units[b]}）")
+    n = len([1 for e in payload["edges"]
+             if ids.get(e["from"]) in order and ids.get(e["to"]) in order])
+    print(f"  化學建議章節順序核對：{n} 條邊中 {len(bad)} 條與手冊順序相反")
+    for line in bad:
+        print(f"    ⚠ {line}")
 
 
 if __name__ == "__main__":

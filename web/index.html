@@ -362,7 +362,7 @@ ul.about b{color:var(--ink);font-weight:600}
   var canHover = window.matchMedia("(hover:hover) and (pointer:fine)").matches;
 
   var CROSS = { pre: {}, use: {} };   // 自然←數學 的跨領域前置（正向／反向索引）
-  var HB = null, hbLoading = false;   // 數學課程手冊（391KB，延後載入）
+  var HB = {}, hbLoading = {};        // 課程手冊（數學 379KB、自然 150KB，延後載入）
   var G = {};        // 領域 -> 圖資料
   var IX = {};       // 領域 -> 索引（節點表、前置、後續、關聯、版面）
   var state = { domain: "math", q: "", panel: null, learned: new Set(),
@@ -1057,45 +1057,95 @@ ul.about b{color:var(--ink);font-weight:600}
       }).join("") + "</div>";
   }
 
-  // 課程手冊只有數學有，而且檔案不小，等到真的要看才抓。
-  function loadHandbook(after) {
-    if (HB || hbLoading) return after && HB && after();
-    hbLoading = true;
-    fetch("handbook_math.json").then(function (r) { return r.json(); })
+  // 課程手冊檔案不小，等到真的要看才抓。兩本手冊的體例完全不同：
+  // 數學手冊逐條列出先備／連結／後續，自然手冊沒有——它的〈學習重點解析〉
+  // 明講國中小的解析請看領綱附錄，手冊自己只收高中。所以自然這邊能給的是
+  // 官方的逐條註解（新舊課綱異動、與 99 課綱的差異、建議章節與教材教法），
+  // 不是前置關係。
+  var HB_FILE = { math: "handbook_math.json", natural: "handbook_natural.json" };
+
+  function loadHandbook(dom, after) {
+    if (HB[dom] || hbLoading[dom]) return;
+    hbLoading[dom] = true;
+    fetch(HB_FILE[dom]).then(function (r) { return r.json(); })
       .then(function (d) {
-        HB = {};
-        d.sections.forEach(function (x) { HB[x.code] = x; });
-        HB._source = d.source;
-        hbLoading = false;
+        var m = {};
+        if (dom === "math") d.sections.forEach(function (x) { m[x.code] = x; });
+        else m = d.entries || {};
+        m._source = d.source;
+        HB[dom] = m;
+        hbLoading[dom] = false;
         if (after) after();
-      }).catch(function () { hbLoading = false; HB = {}; });
+      }).catch(function () { hbLoading[dom] = false; HB[dom] = {}; });
   }
 
-  function handbookSection(n) {
-    if (n.domain !== "math") return "";
-    if (!HB) {
-      loadHandbook(function () {
-        if (drawer.dataset.mid === n.id) openNode(n.id);   // 載好後補畫
-      });
-      return '<div class="d-rel"><h4>課程手冊</h4>' +
-        '<p class="note">載入中…</p></div>';
-    }
-    var h = HB[n.src];
-    if (!h) return "";
+  function hbCodeBtn(dom, c) {
+    var ix = IX[dom], m = ix.nodes[c] || ix.nodes[c + "a"];
+    return m ? '<button class="rel' + (doneKind(m) ? " lit" : "") +
+      '" data-goto="' + esc(m.id) + '">' + esc(c) + "</button>"
+      : '<span class="rel">' + esc(c) + "</span>";
+  }
+
+  function handbookMath(h) {
     function codes(list, label) {
       if (!list || !list.length) return "";
-      return '<div class="hbrel"><span>' + label + "</span>" + list.map(function (c) {
-        var m = IX.math.nodes[c] || IX.math.nodes[c + "a"];
-        return m ? '<button class="rel' + (doneKind(m) ? " lit" : "") +
-          '" data-goto="' + esc(m.id) + '">' + esc(c) + "</button>"
-          : '<span class="rel">' + esc(c) + "</span>";
-      }).join("") + "</div>";
+      return '<div class="hbrel"><span>' + label + "</span>" +
+        list.map(function (c) { return hbCodeBtn("math", c); }).join("") + "</div>";
     }
     return '<div class="d-rel"><h4>課程手冊（國教院）明列的關係</h4>' +
       (codes(h.prior, "先備") + codes(h.linked, "連結") + codes(h.after, "後續") ||
         '<p class="note">這一條手冊沒有列出關係。</p>') +
       '</div><details class="hb"><summary>課程手冊的教學解析（第 ' + h.page +
       ' 頁）</summary><pre>' + esc(h.text) + "</pre></details>";
+  }
+
+  // 自然手冊的一條可能同時出現在好幾張表（新舊對照、99 對照、章節建議…），
+  // 依 kind 分組後照順序排，續行的段落直接接在同一組後面。
+  var HB_NAT_ORDER = ["國小新舊對照", "高中99對照", "加深加廣課程",
+                      "化學章節建議", "地科教學建議"];
+
+  function handbookNatural(rows) {
+    var by = {};
+    rows.forEach(function (r) { (by[r.kind] = by[r.kind] || []).push(r); });
+    var out = HB_NAT_ORDER.filter(function (k) { return by[k]; }).map(function (k) {
+      var list = by[k], pages = [], meta = [], text = [];
+      list.forEach(function (r) {
+        if (pages.indexOf(r.page) < 0) pages.push(r.page);
+        ["課題", "次主題", "主題", "課程名稱", "單元", "建議章節", "異動", "調移"]
+          .forEach(function (f) {
+            if (r[f] && meta.indexOf(f + "：" + r[f]) < 0) meta.push(f + "：" + r[f]);
+          });
+        // 續行是被頁尾切斷的同一句話，要黏回去，不能當成新的一段。
+        if (r["說明"]) {
+          if (r["續前"] && text.length) text[text.length - 1] += r["說明"];
+          else text.push(r["說明"]);
+        }
+        if (r["99課綱"]) text.push("〔99 課綱對應〕" + r["99課綱"]);
+      });
+      return '<details class="hb"><summary>' + esc(k) + '（第 ' +
+        pages.join("、") + ' 頁）</summary>' +
+        (meta.length ? '<p class="note">' + esc(meta.join("　")) + "</p>" : "") +
+        (text.length ? "<pre>" + esc(text.join("\n\n")) + "</pre>" : "") +
+        "</details>";
+    }).join("");
+    return out ? '<div class="d-rel"><h4>課程手冊（國教院）怎麼說這一條</h4>' +
+      '<p class="note">自然科手冊沒有逐條的先備關係，以下是它提供的官方註解。</p>' +
+      "</div>" + out : "";
+  }
+
+  function handbookSection(n) {
+    var dom = n.domain;
+    if (!HB_FILE[dom]) return "";
+    if (!HB[dom]) {
+      loadHandbook(dom, function () {
+        if (drawer.dataset.mid === n.id) openNode(n.id);   // 載好後補畫
+      });
+      return '<div class="d-rel"><h4>課程手冊</h4>' +
+        '<p class="note">載入中…</p></div>';
+    }
+    var h = HB[dom][n.src];
+    if (!h) return "";
+    return dom === "math" ? handbookMath(h) : handbookNatural(h);
   }
 
   function openNode(id) {
@@ -1121,6 +1171,8 @@ ul.about b{color:var(--ink);font-weight:600}
       (n.subject && n.subject !== "跨科" ? '<span class="tag accent">' + esc(n.subject) + "</span>"
         : n.subject ? '<span class="tag">跨科</span>' : "") +
       '<span class="tag">' + esc(whenLabel(n)) + "</span>" +
+      // 加深加廣選修的課程名稱只有生物科的手冊有列，有就標。
+      (n.course ? '<span class="tag">選修課程：' + esc(n.course) + "</span>" : "") +
       (n.also && n.also.length ? '<span class="tag">同 ' + esc(n.also.join("、")) + "</span>" : "") +
       (n.reach ? '<span class="tag">解鎖 ' + n.reach + ' 個下游技能</span>' : "") +
       (n.gate > 0 ? '<span class="tag">必經關口：擋住 ' + n.gate + ' 個</span>' : "") +
