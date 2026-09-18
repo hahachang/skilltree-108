@@ -503,6 +503,36 @@ body[data-mode="kid"] .top{display:none}
 @keyframes fly{0%{opacity:1;transform:translate(0,0) scale(.6)}
   100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1.4)}}
 @media (prefers-reduced-motion:reduce){.spark{display:none}}
+
+/* ---- 問 Claude（只有在 Artifact 平台上才會出現） ---- */
+.kid-ask{margin-top:20px;border-top:1px solid var(--line);padding-top:16px}
+.kid-ask h4{margin:0 0 4px;font-size:13px;font-weight:700;color:var(--faint);
+  letter-spacing:.04em}
+.kid-ask .lv{margin:0 0 10px;font-size:11.5px;color:var(--faint)}
+.ask-btns{display:flex;gap:8px;flex-wrap:wrap}
+.ask-btns button{flex:1 1 auto;padding:10px 12px;border-radius:11px;
+  border:1px solid var(--line);background:var(--surface-2);
+  font-size:14px;font-weight:600;color:var(--ink);white-space:nowrap}
+.ask-btns button:disabled{opacity:.45}
+.ask-row{display:flex;gap:8px;margin-top:10px}
+.ask-row input{flex:1;min-width:0;padding:11px 13px;border-radius:11px;
+  border:1px solid var(--line);background:var(--surface-2);color:var(--ink);
+  font:inherit;font-size:15px}
+.ask-row input::placeholder{color:var(--faint)}
+.ask-row button{flex:0 0 auto;padding:11px 16px;border-radius:11px;border:none;
+  background:var(--accent);color:#fff;font-size:15px;font-weight:700}
+.ask-out{margin-top:12px;background:var(--surface-2);border:1px solid var(--line);
+  border-radius:13px;padding:14px}
+.ask-out .who{font-size:11px;color:var(--faint);margin-bottom:6px}
+.ask-out .body{font-size:15px;line-height:1.85;white-space:pre-wrap;
+  word-break:break-word}
+.ask-out .err{color:var(--lit)}
+.ask-out .rev{margin-top:10px;padding:9px 14px;border-radius:10px;
+  border:1px solid var(--line);background:var(--surface);font-size:14px;
+  font-weight:600}
+.ask-out .ans{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);
+  font-size:15px;line-height:1.85;white-space:pre-wrap}
+.ask-stop{margin-top:10px;font-size:13px;color:var(--accent);font-weight:600}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -1653,6 +1683,10 @@ body[data-mode="kid"] .top{display:none}
       '<div class="theme-head"><h2>隱私</h2><span class="rule"></span></div>' +
       '<ul class="about"><li>沒有伺服器、沒有帳號、沒有分析追蹤。頁面本身不會對外連線；' +
       '技能卡片上的手冊頁碼是連到國教院網站的 PDF，<b>點了才會離開這個網站</b>。</li>' +
+      '<li>兒童版在 claude.ai 的 Artifact 版本上會多一個「問問題」：' +
+      '按下去才會把<b>那一條的課綱原文與你打的問題</b>送給 Claude，' +
+      '用的是你自己的 Claude 帳號。這個網站（GitHub Pages）沒有這個功能，' +
+      '也不會送出任何東西。</li>' +
       '<li>學習進度只存在你自己瀏覽器的 localStorage，不會上傳，換裝置不會同步。' +
       '要搬移請用「進度」裡的匯出／匯入。</li></ul>' +
 
@@ -1944,6 +1978,178 @@ body[data-mode="kid"] .top{display:none}
       }).join("") + "</div>";
   }
 
+
+  /* ---------- 問 Claude ---------- */
+  // 只有在 claude.ai 的 Artifact 平台上才拿得到 window.claude；GitHub Pages 那份
+  // 是純靜態網站，SAMPLE 會停在 null，整個問答區就不出現。同一份程式碼，
+  // 能力有就亮、沒有就不亮，不必維護兩個版本。
+  var SAMPLE = null, askCtl = null;
+
+  function initSample() {
+    if (!window.claude || typeof window.claude.use !== "function") return;
+    try {
+      window.claude.use("sample").then(function (fn) {
+        SAMPLE = fn || null;
+        // use() 的答案最晚十秒後才到，所以要補畫一次
+        if (SAMPLE && isKid() && state.kidCard) render();
+      }).catch(function () { SAMPLE = null; });
+    } catch (e) { SAMPLE = null; }
+  }
+
+  // 提示詞裡的程度不能寫死。起始年級是「已經完成到幾年級」，所以現在的程度是
+  // 它的下一年級；但如果他已經點亮了更高年級的技能，就以實際走到的為準。
+  // 自然科的條目只綁「學習階段」，一個階段涵蓋 2–3 個年級，所以用階段的
+  // **下緣**估：點亮一條國中自然只代表「至少上國一了」，不代表國三。
+  // 用 tier（上緣）會高估——實測點一條 Bc-Ⅳ-3 就跳成國三。
+  // 數學的年級是逐年精確的，直接採用。
+  var STAGE_FLOOR = { "Ⅱ": 3, "Ⅲ": 5, "Ⅳ": 7, "Ⅴc": 10, "Ⅴa": 11 };
+
+  function kidLevel() {
+    var g = (state.baseGrade || 0) + 1;
+    ["math", "natural"].forEach(function (dom) {
+      if (!G[dom]) return;
+      G[dom].nodes.forEach(function (n) {
+        if (!state.learned.has(n.uid)) return;
+        var lv = n.domain === "math" ? n.grade
+          : (STAGE_FLOOR[n.stage] || 0);
+        if (lv > g) g = lv;
+      });
+    });
+    return Math.max(1, Math.min(12, g));
+  }
+  function gradeWord(g) {
+    return g <= 6 ? "小學" + "一二三四五六".charAt(g - 1) + "年級"
+      : g <= 9 ? "國中" + "一二三".charAt(g - 7) + "年級"
+      : "高中" + "一二三".charAt(g - 10) + "年級";
+  }
+
+  var ASK_PRESET = {
+    deeper: ["再講深一點", "請針對這個技能再講深一點，但仍然要留在他的程度之內。"],
+    example: ["舉個生活例子", "請舉一個他生活中真的會遇到的例子，說明這個技能用在哪裡。"],
+    quiz: ["出一題考我", "請出一題可以檢驗他學會沒有的題目。先寫題目；" +
+           "最後另起一行，以「答案：」開頭寫出答案，再用一句話說明怎麼想。"]
+  };
+
+  function askPrompt(n, ask) {
+    var lvl = gradeWord(kidLevel());
+    var ix = IX[n.domain];
+    var pre = (ix.pre[n.id] || []).map(function (p) {
+      return kidText(ix.nodes[p]).title;
+    }).slice(0, 8);
+    var kt = kidText(n);
+    return [
+      "你是「108課綱技能樹」這個學習 app 裡的解說者，正在回答一個學生的問題。",
+      "",
+      "【學生程度】目前大約是 " + lvl + "。",
+      "【正在學的技能】" + kt.title + "（" +
+        (n.domain === "math" ? "數學" : n.subject || "自然科學") +
+        "，課綱編碼 " + n.src + "，" + whenLabel(n) + "）",
+      "【課綱原文】" + n.text,
+      n.note ? "【課綱附錄的說明】" + n.note : "",
+      pre.length ? "【他已經學過的前置技能】" + pre.join("、") : "",
+      "",
+      "規則：",
+      "1. 用「" + lvl + "」聽得懂的話。不要用他還沒學到的名詞；真的必須用，先用一句話解釋。",
+      "2. 除非是出題，否則最多三句話。",
+      "3. 只講跟這個技能有關的。他問到還沒學到的東西，用一句話帶過並說那是之後會學的。",
+      "4. 不要客套、不要自我介紹、不要說「好問題」，直接回答。",
+      "5. 用繁體中文、台灣的用語和說法。",
+      "",
+      "【學生的問題】" + ask
+    ].filter(Boolean).join("\n");
+  }
+
+  var ASK_ERR = {
+    rate_limited: "問太多次了，休息一下再問。",
+    session_expired: "登入過期了，重新整理頁面再試一次。",
+    refused: "這個問題我沒辦法回答，換個方式問問看。",
+    empty_completion: "這次沒有答案，換個問法試試。",
+    cancelled: ""
+  };
+  var ASK_HIDE = ["not_granted", "sampling_disabled", "not_declared",
+                  "capability_disabled", "capability_removed"];
+
+  function kidAskRun(n, label, ask, fresh) {
+    var out = document.getElementById("ask-out");
+    if (!out || !SAMPLE) return;
+    out.hidden = false;
+    out.innerHTML = '<div class="who">' + esc(label) + "</div>" +
+      '<div class="body" id="ask-body">想一下…</div>' +
+      '<div class="ask-stop" id="ask-stop">停止</div>';
+    var body = document.getElementById("ask-body");
+    document.querySelectorAll(".ask-btns button, #ask-go").forEach(function (b) {
+      b.disabled = true;
+    });
+    if (askCtl) askCtl.abort();
+    askCtl = new AbortController();           // 每次都要新的，abort 過的不能重用
+    var ctl = askCtl;
+    function done() {
+      var stop = document.getElementById("ask-stop");
+      if (stop) stop.remove();
+      document.querySelectorAll(".ask-btns button, #ask-go").forEach(function (b) {
+        b.disabled = false;
+      });
+    }
+    SAMPLE(askPrompt(n, ask), {
+      modelTier: "quick",                     // 小孩等不了 default 的 5–60 秒思考
+      cache: fresh ? false : undefined,       // 出題要每次不一樣，其他可以重播
+      signal: ctl.signal,
+      onText: function (u) { if (ctl === askCtl) body.textContent = u.text; }
+    }).then(function (r) {
+      if (ctl !== askCtl) return;
+      done();
+      askShow(body, r.text);
+    }).catch(function (e) {
+      if (ctl !== askCtl) return;
+      done();
+      if (ASK_HIDE.indexOf(e.code) >= 0) { SAMPLE = null; return render(); }
+      if (e.code === "cancelled") { body.textContent = e.text || ""; return; }
+      if (e.text) { askShow(body, e.text); return; }
+      body.className = "body err";
+      body.textContent = ASK_ERR[e.code] || "暫時問不到，等一下再試。";
+    });
+  }
+
+  // 出題的答案先藏起來，按了才看得到——不然一出現就看到答案，考不到人
+  function askShow(body, text) {
+    var i = text.search(/(^|\n)\s*答案[：:]/);
+    if (i < 0) { body.textContent = text; return; }
+    var ans = text.slice(i).replace(/^\s*\n?/, "");
+    body.textContent = text.slice(0, i).trim();
+    var btn = document.createElement("button");
+    btn.className = "rev";
+    btn.textContent = "看答案";
+    btn.onclick = function () {
+      var d = document.createElement("div");
+      d.className = "ans";
+      d.textContent = ans;
+      btn.replaceWith(d);
+    };
+    body.after(btn);
+  }
+
+  function kidCardNode() {
+    var uid = state.kidCard;
+    if (!uid) return null;
+    var dom = uid.split(":")[0];
+    return (IX[dom] && IX[dom].nodes[uid.slice(dom.length + 1)]) || null;
+  }
+
+  function kidAskBox(n) {
+    if (!SAMPLE) return "";
+    return '<div class="kid-ask"><h4>想知道更多？</h4>' +
+      '<p class="lv">會照你現在的程度（' + esc(gradeWord(kidLevel())) +
+      '）回答。由 Claude 回答，第一次會問你要不要允許。</p>' +
+      '<div class="ask-btns">' +
+      Object.keys(ASK_PRESET).map(function (k) {
+        return '<button data-ask="' + k + '">' + esc(ASK_PRESET[k][0]) + "</button>";
+      }).join("") + "</div>" +
+      '<div class="ask-row"><input id="ask-q" type="text" ' +
+      'placeholder="或者自己問…" maxlength="120">' +
+      '<button id="ask-go">問</button></div>' +
+      '<div class="ask-out" id="ask-out" hidden></div></div>';
+  }
+
   function renderKidCard(uid) {
     var dom = uid.split(":")[0], id = uid.slice(dom.length + 1);
     var n = IX[dom] && IX[dom].nodes[id];
@@ -1965,6 +2171,7 @@ body[data-mode="kid"] .top{display:none}
           return '<div class="li"><i>' + (doneKind(p) ? "✓" : "○") + "</i>" +
             esc(kidText(p).title) + "</div>";
         }).join("") + "</div>" : "") +
+      kidAskBox(n) +
       '<div class="kid-act">' +
       '<button class="big" id="kid-got">' +
       (done ? "取消（其實還沒學會）" : "我學會了！") + "</button>" +
@@ -2192,6 +2399,21 @@ body[data-mode="kid"] .top{display:none}
       state.kidCard = null;
       return render();
     }
+    if (t.dataset.ask) {
+      var nd = kidCardNode();
+      if (nd) kidAskRun(nd, ASK_PRESET[t.dataset.ask][0],
+                        ASK_PRESET[t.dataset.ask][1],
+                        t.dataset.ask === "quiz");   // 出題每次要不一樣
+      return;
+    }
+    if (t.id === "ask-go") {
+      var box = document.getElementById("ask-q");
+      var q = box && box.value.trim();
+      var n2 = kidCardNode();
+      if (q && n2) { kidAskRun(n2, "你問：" + q, q, false); box.value = ""; }
+      return;
+    }
+    if (t.id === "ask-stop") { if (askCtl) askCtl.abort(); return; }
     if (t.dataset.kid) { state.kidCard = t.dataset.kid; return render(); }
     if (t.id === "kid-back") { state.kidCard = null; return render(); }
     if (t.id === "kid-got") {
@@ -2380,6 +2602,15 @@ body[data-mode="kid"] .top{display:none}
     if (dPanel.innerHTML) openDetailPanel();
   }, closeDetailPanel);
 
+  // 輸入框按 Enter 就送出，小孩不會特地去點那顆「問」
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" && e.target && e.target.id === "ask-q") {
+      e.preventDefault();
+      var go = document.getElementById("ask-go");
+      if (go && !go.disabled) go.click();
+    }
+  });
+
   ctrlScrim.addEventListener("click", closeCtrl);
   dScrim.addEventListener("click", closeDetail);
 
@@ -2417,6 +2648,7 @@ body[data-mode="kid"] .top{display:none}
     if (m0 === "kid" || m0 === "adult") state.mode = m0;
   } catch (e) { /* 無痕視窗：每次都先問一次要哪一版 */ }
   document.body.dataset.mode = state.mode || "";
+  initSample();
   loadProgress();
   if (state.mode === "kid") loadKidText(function () { if (isKid()) render(); });
   Promise.all([
