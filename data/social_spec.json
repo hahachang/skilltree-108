@@ -1,0 +1,90 @@
+{
+  "_note": "社會科拆成三棵樹的規格。國小社會不分科，這裡依內容歸到最接近的一科；主題分組是為了上色——歷史光高中就有 22 個主題，直接用主題碼顏色分不開。",
+
+  "elementary_subject": {
+    "_note": "國小 57 條的歸科。依主題軸的內容判斷，不是隨便切的：Ab/Bb/Ca 講的是空間與環境（地理），Cb/Cc 講的是時間與變遷（歷史），其餘偏個人、群體、制度、選擇（公民）。",
+    "Ab": "地理", "Bb": "地理", "Ca": "地理",
+    "Cb": "歷史", "Cc": "歷史",
+    "Aa": "公民與社會", "Ac": "公民與社會", "Ad": "公民與社會",
+    "Ae": "公民與社會", "Af": "公民與社會", "Ba": "公民與社會",
+    "Bc": "公民與社會", "Cd": "公民與社會", "Ce": "公民與社會",
+    "Da": "公民與社會", "Db": "公民與社會", "Dc": "公民與社會"
+  },
+
+  "groups": {
+    "_note": "每一科的分支色系。鍵是 group id，值是顯示名稱。",
+    "歷史": {
+      "hmethod": "歷史方法與考察",
+      "htw": "臺灣史",
+      "heasia": "中國與東亞",
+      "hworld": "世界史",
+      "htopic": "專題探究"
+    },
+    "地理": {
+      "gskill": "地理技能與方法",
+      "gsystem": "地理系統",
+      "gregion": "區域與視野",
+      "gissue": "環境、資源與議題",
+      "ggis": "空間資訊"
+    },
+    "公民與社會": {
+      "cident": "公民身分與社群",
+      "cinst": "社會制度",
+      "cgov": "治理與參與",
+      "cdemo": "民主的理想與現實",
+      "cecon": "經濟",
+      "claw": "法律",
+      "cworld": "世界秩序"
+    }
+  },
+
+  "topic_group": {
+    "_note": "主題 → 分支。鍵是「科目|階段|主題碼」，階段用 Ⅱ/Ⅲ 合併成「國小」。沒列到的會在 build 時報錯，不會無聲漏掉。",
+
+    "歷史|國小|Cb": "htw",
+    "歷史|國小|Cc": "htw",
+
+    "歷史|Ⅳ|A": "hmethod",
+    "歷史|Ⅳ|B": "htw", "歷史|Ⅳ|C": "htw", "歷史|Ⅳ|E": "htw", "歷史|Ⅳ|F": "htw",
+    "歷史|Ⅳ|D": "hmethod", "歷史|Ⅳ|G": "hmethod", "歷史|Ⅳ|J": "hmethod",
+    "歷史|Ⅳ|M": "hmethod", "歷史|Ⅳ|P": "hmethod", "歷史|Ⅳ|R": "hmethod",
+    "歷史|Ⅳ|H": "heasia", "歷史|Ⅳ|I": "heasia", "歷史|Ⅳ|K": "heasia",
+    "歷史|Ⅳ|L": "heasia",
+    "歷史|Ⅳ|N": "hworld", "歷史|Ⅳ|O": "hworld", "歷史|Ⅳ|Q": "hworld",
+
+    "歷史|Ⅴ|A": "hmethod", "歷史|Ⅴ|E": "hmethod", "歷史|Ⅴ|J": "hmethod",
+    "歷史|Ⅴ|O": "hmethod", "歷史|Ⅴ|V": "hmethod",
+    "歷史|Ⅴ|B": "htw", "歷史|Ⅴ|C": "htw", "歷史|Ⅴ|D": "htw", "歷史|Ⅴ|K": "htw",
+    "歷史|Ⅴ|F": "heasia", "歷史|Ⅴ|G": "heasia", "歷史|Ⅴ|H": "heasia",
+    "歷史|Ⅴ|I": "heasia",
+    "歷史|Ⅴ|L": "hworld", "歷史|Ⅴ|M": "hworld", "歷史|Ⅴ|N": "hworld",
+    "歷史|Ⅴ|P": "htopic", "歷史|Ⅴ|Q": "htopic", "歷史|Ⅴ|R": "htopic",
+    "歷史|Ⅴ|S": "htopic", "歷史|Ⅴ|T": "htopic", "歷史|Ⅴ|U": "htopic",
+
+    "地理|國小|Ab": "gregion", "地理|國小|Bb": "gregion", "地理|國小|Ca": "gissue",
+
+    "地理|Ⅳ|A": "gsystem", "地理|Ⅳ|B": "gregion", "地理|Ⅳ|C": "gissue",
+
+    "地理|Ⅴ|A": "gskill", "地理|Ⅴ|B": "gsystem", "地理|Ⅴ|C": "gregion",
+    "地理|Ⅴ|D": "ggis", "地理|Ⅴ|E": "ggis", "地理|Ⅴ|F": "ggis",
+    "地理|Ⅴ|G": "ggis", "地理|Ⅴ|H": "ggis",
+    "地理|Ⅴ|I": "gissue", "地理|Ⅴ|J": "gissue", "地理|Ⅴ|K": "gissue",
+    "地理|Ⅴ|L": "gskill", "地理|Ⅴ|M": "gskill", "地理|Ⅴ|N": "gskill",
+
+    "公民與社會|國小|Aa": "cident", "公民與社會|國小|Ba": "cident",
+    "公民與社會|國小|Bc": "cident", "公民與社會|國小|Af": "cworld",
+    "公民與社會|國小|Ac": "cgov", "公民與社會|國小|Cd": "cgov",
+    "公民與社會|國小|Dc": "cgov",
+    "公民與社會|國小|Ad": "cecon", "公民與社會|國小|Ce": "cecon",
+    "公民與社會|國小|Db": "cecon",
+    "公民與社會|國小|Ae": "cinst", "公民與社會|國小|Da": "cinst",
+
+    "公民與社會|Ⅳ|A": "cident", "公民與社會|Ⅳ|B": "cinst",
+    "公民與社會|Ⅳ|C": "cgov", "公民與社會|Ⅳ|D": "cdemo",
+
+    "公民與社會|Ⅴ|A": "cident", "公民與社會|Ⅴ|B": "cinst",
+    "公民與社會|Ⅴ|C": "cgov", "公民與社會|Ⅴ|D": "cdemo",
+    "公民與社會|Ⅴ|E": "cdemo", "公民與社會|Ⅴ|F": "cecon",
+    "公民與社會|Ⅴ|G": "cworld", "公民與社會|Ⅴ|H": "claw"
+  }
+}

@@ -1,0 +1,58 @@
+{
+"_note": "社會三科對外與彼此的跨領域前置。全部人工判定，每一條都要寫理由。方向是「要先會 from，才學得動 to」。三科分立之後，科與科之間真正存在的依賴改用這裡表達，不再硬塞進同一張圖。",
+"links": [
+
+{"to": "geography:地Aa-Ⅳ-1", "from": "math:G-7-1", "why": "經緯度就是球面上的座標系統，要先有平面直角坐標的概念"},
+{"to": "geography:地Ac-Ⅴ-1", "from": "math:S-6-2", "why": "地圖的比例尺就是數學的比例尺，國小已經學過"},
+{"to": "geography:地Bc-Ⅴ-1", "from": "math:N-8-6", "why": "人口成長是等比數列，人口轉型要看成長率的變化"},
+{"to": "geography:地Ka-Ⅴ-1", "from": "math:N-8-6", "why": "人口倍時是等比成長的倍增時間"},
+{"to": "geography:地Eb-Ⅴ-2", "from": "math:D-10-2", "why": "空間資料分析用的就是平均數、標準差與相關係數"},
+
+{"to": "geography:地Ab-Ⅳ-1", "from": "natural:Ia-Ⅳ-1", "why": "地形怎麼分類，取決於它是內營力還是外營力造出來的"},
+{"to": "geography:地Ab-Ⅳ-4", "from": "natural:Md-Ⅳ-5", "why": "地形災害的成因（山崩、順向坡）在自然科學過"},
+{"to": "geography:地Ac-Ⅳ-1", "from": "natural:Ib-Ⅳ-4", "why": "要分得清天氣與氣候，得先懂氣團與鋒面怎麼造成天氣變化"},
+{"to": "geography:地Ac-Ⅳ-3", "from": "natural:INd-Ⅲ-12", "why": "水資源從哪裡來、為什麼會缺，靠的是水循環"},
+{"to": "geography:地Ac-Ⅳ-4", "from": "natural:Md-Ⅳ-3", "why": "颱風帶來的狂風、豪雨、暴潮是自然科的內容"},
+{"to": "geography:地Ba-Ⅴ-1", "from": "natural:EIb-Ⅴc-1", "why": "氣候要素的核心是氣溫與水氣的關係"},
+{"to": "geography:地Ba-Ⅴ-2", "from": "natural:EIb-Ⅴc-5", "why": "大氣環流是氣壓梯度力、科氏力與摩擦力共同作用的結果"},
+{"to": "geography:地Ba-Ⅴ-2", "from": "natural:EIc-Ⅴc-1", "why": "表面洋流由盛行風驅動，兩者要一起看"},
+{"to": "geography:地Bb-Ⅴ-1", "from": "natural:EIa-Ⅴc-3", "why": "地形營力的源頭是板塊邊界的地質作用與岩漿活動"},
+{"to": "geography:地Ia-Ⅴ-1", "from": "natural:ENb-Ⅴc-3", "why": "氣候變遷的成因要區分自然因素與人為因素，自然科有完整證據討論"},
+{"to": "geography:地Ib-Ⅴ-1", "from": "natural:EMd-Ⅴc-1", "why": "自然災害的定義要從颱風這類災害的形成機制講起"},
+{"to": "geography:地Ja-Ⅴ-3", "from": "natural:EFa-Ⅴc-5", "why": "海洋資源的分布跟海水溫度與深度的結構有關"},
+{"to": "geography:地Jb-Ⅴ-2", "from": "natural:PNc-Ⅴc-2", "why": "核能是否乾淨安全，得先懂核能發電原理與輻射安全"},
+
+{"to": "history:歷A-Ⅳ-1", "from": "math:N-7-3", "why": "西元前是負數，紀年與分期其實是一條有負值的數線"},
+{"to": "history:歷A-Ⅳ-1", "from": "math:N-3-11", "why": "時間軸就是數線，要先會在數線上標點與比大小"},
+{"to": "history:歷Sa-Ⅴ-2", "from": "natural:Gc-Ⅳ-3", "why": "疾疫傳布的歷史，要先知道微生物與人的關係"},
+{"to": "history:歷Sb-Ⅴ-2", "from": "natural:Nc-Ⅳ-3", "why": "能源利用改變生活，前提是知道化石燃料是什麼、怎麼形成"},
+{"to": "history:歷Ta-Ⅴ-1", "from": "natural:Gc-Ⅳ-2", "why": "物種交流的影響要從生物在生態系中的角色來理解"},
+{"to": "history:歷Tb-Ⅴ-3", "from": "natural:Na-Ⅳ-6", "why": "永續發展的省思，自然科已經建立了「發展必須以保護環境為前提」的框架"},
+
+{"to": "civics:公Bl-Ⅳ-2", "from": "math:N-6-5", "why": "算機會成本要會整數、分數、小數的多步驟四則應用"},
+{"to": "civics:公Bp-Ⅳ-4", "from": "math:N-6-6", "why": "匯率就是兩種貨幣的比值"},
+{"to": "civics:公Cc-Ⅳ-3", "from": "math:D-7-2", "why": "談投票的公平，要先會用平均數、中位數、眾數描述一組資料"},
+{"to": "civics:公Bo-Ⅴ-2", "from": "math:F-8-2", "why": "需求線是一次函數的圖形，斜率就是價格與數量的關係"},
+{"to": "civics:公Bq-Ⅴ-1", "from": "math:N-5-10b", "why": "國民所得的比較與成長率都建立在百分率上"},
+{"to": "civics:公Fa-Ⅴ-3", "from": "math:N-5-10b", "why": "物價指數是百分率的應用"},
+{"to": "civics:公Fc-Ⅴ-3", "from": "math:N-5-10b", "why": "失業率是百分率"},
+{"to": "civics:公Fd-Ⅴ-2", "from": "math:N-10-3", "why": "複利與利率的計算是指數的應用"},
+{"to": "civics:公Ea-Ⅴ-2", "from": "math:D-9-1", "why": "資源分配不均要用全距、四分位距這些分散程度的指標才看得出來"},
+{"to": "civics:公Cb-Ⅴ-1", "from": "math:D-10-2", "why": "判讀媒體呈現的數據，要會看散布圖與相關係數，才不會被誤導"},
+{"to": "civics:公De-Ⅴ-2", "from": "natural:Mb-Ⅳ-1", "why": "科技的倫理界線，自然科已經在生物技術上討論過同一個問題"},
+
+{"to": "geography:地Ca-Ⅴ-3", "from": "history:歷Bb-Ⅴ-1", "why": "臺灣的移民社會是誰、什麼時候來的，是歷史的內容"},
+{"to": "geography:地Ca-Ⅴ-2", "from": "history:歷Ba-Ⅴ-1", "why": "原住民族與南島語族的分布，要先有「原住民族如何被界定與分類」"},
+{"to": "geography:地Cf-Ⅴ-2", "from": "history:歷Qa-Ⅳ-2", "why": "工業革命與海外發展的歷史因果在歷史科"},
+{"to": "geography:地Ch-Ⅴ-3", "from": "history:歷Qb-Ⅳ-1", "why": "列強入侵與殖民的過程是歷史科的內容"},
+{"to": "civics:公Ac-Ⅴ-1", "from": "history:歷Da-Ⅴ-2", "why": "國家主權與臺灣地位的爭議，前提是知道這個處境怎麼形成的"},
+{"to": "civics:公Dd-Ⅳ-3", "from": "history:歷Fa-Ⅳ-4", "why": "臺海兩岸關係影響國際參與，歷史科講的是它的來龍去脈"},
+{"to": "civics:公Eb-Ⅴ-2", "from": "history:歷Db-Ⅴ-3", "why": "臺灣有哪些社會運動、造成什麼影響，是歷史科的內容"},
+{"to": "civics:公Gb-Ⅴ-1", "from": "history:歷La-Ⅳ-2", "why": "談中國政治的特性，要先有改革開放後政經發展的歷史"},
+{"to": "civics:公Dc-Ⅴ-1", "from": "history:歷Nb-Ⅴ-3", "why": "文化摩擦的當代形式，歷史科從全球化與多元文化的角度鋪過"},
+{"to": "civics:公Dd-Ⅴ-3", "from": "geography:地Ia-Ⅴ-5", "why": "永續發展的緊張關係，地理科已經談過國家與個人如何調適氣候變遷"},
+{"to": "civics:公Cg-Ⅴ-1", "from": "geography:地Ib-Ⅴ-4", "why": "外部成本最具體的例子就是土地退化與環境破壞的代價"},
+{"to": "history:歷Tb-Ⅴ-1", "from": "geography:地Ib-Ⅴ-2", "why": "環境變遷與消失的文明，要先懂什麼是土地退化"},
+{"to": "history:歷Pb-Ⅴ-1", "from": "geography:地Bc-Ⅴ-2", "why": "人群移動的型態，地理科有人口移動與分布的系統性框架"}
+]
+}

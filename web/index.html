@@ -12,6 +12,16 @@
   --t-INa:var(--t-N); --t-INb:var(--t-S); --t-INc:var(--t-G); --t-INd:var(--t-R);
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#2e8b6f; --t-phy:#3b6ea5; --t-chem:#8d55ad;
+  --t-hmethod:#8a7150; --t-htw:#bd6a34; --t-heasia:#ab4566;
+  --t-hworld:#3b6ea5; --t-htopic:#8d55ad;
+  --t-gskill:#5f6b8a; --t-gsystem:#2e8b6f; --t-gregion:#3b6ea5;
+  --t-gissue:#7a8b2f; --t-ggis:#0f8a94;
+  --t-cident:#8d55ad; --t-cinst:#3b6ea5; --t-cgov:#bd6a34;
+  --t-cdemo:#ab4566; --t-cecon:#7a8b2f; --t-claw:#5f6b8a;
+  --t-cworld:#0f8a94;
+  --hist:#b06a2c; --hist-soft:#f6e6d6;
+  --geo:#0f8a94; --geo-soft:#d6eef0;
+  --civ:#8452b8; --civ-soft:#eae0f7;
   --t-earth:#bd6a34; --t-cross:#78809a;
   --edge:#c3c9da; --edge-hot:#e0a63a; --grade:#ffc400;
   --shadow:0 1px 2px rgba(20,25,45,.06),0 8px 24px rgba(20,25,45,.07);
@@ -30,6 +40,16 @@
   --t-INa:var(--t-N); --t-INb:var(--t-S); --t-INc:var(--t-G); --t-INd:var(--t-R);
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
+  --t-hmethod:#c2a878; --t-htw:#e0975f; --t-heasia:#e0778f;
+  --t-hworld:#6fa6dd; --t-htopic:#bb8ad6;
+  --t-gskill:#94a0c2; --t-gsystem:#4fc39c; --t-gregion:#6fa6dd;
+  --t-gissue:#b3c455; --t-ggis:#45c2cc;
+  --t-cident:#bb8ad6; --t-cinst:#6fa6dd; --t-cgov:#e0975f;
+  --t-cdemo:#e0778f; --t-cecon:#b3c455; --t-claw:#94a0c2;
+  --t-cworld:#45c2cc;
+  --hist:#e0975f; --hist-soft:#3a2413;
+  --geo:#45c2cc; --geo-soft:#0d3335;
+  --civ:#bb8ad6; --civ-soft:#2a1b3d;
   --t-earth:#e0975f; --t-cross:#98a1b8;
   --edge:#333c52; --edge-hot:#efb44e; --grade:#ffdd4d;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
@@ -45,6 +65,16 @@
   --t-INa:var(--t-N); --t-INb:var(--t-S); --t-INc:var(--t-G); --t-INd:var(--t-R);
   --t-INe:var(--t-A); --t-INf:var(--t-F); --t-INg:var(--t-D);
   --t-bio:#4fc39c; --t-phy:#6fa6dd; --t-chem:#bb8ad6;
+  --t-hmethod:#c2a878; --t-htw:#e0975f; --t-heasia:#e0778f;
+  --t-hworld:#6fa6dd; --t-htopic:#bb8ad6;
+  --t-gskill:#94a0c2; --t-gsystem:#4fc39c; --t-gregion:#6fa6dd;
+  --t-gissue:#b3c455; --t-ggis:#45c2cc;
+  --t-cident:#bb8ad6; --t-cinst:#6fa6dd; --t-cgov:#e0975f;
+  --t-cdemo:#e0778f; --t-cecon:#b3c455; --t-claw:#94a0c2;
+  --t-cworld:#45c2cc;
+  --hist:#e0975f; --hist-soft:#3a2413;
+  --geo:#45c2cc; --geo-soft:#0d3335;
+  --civ:#bb8ad6; --civ-soft:#2a1b3d;
   --t-earth:#e0975f; --t-cross:#98a1b8;
   --edge:#333c52; --edge-hot:#efb44e; --grade:#ffdd4d;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
@@ -57,6 +87,13 @@ button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 :focus-visible{outline:2px solid var(--accent,var(--nat));outline-offset:2px;border-radius:6px}
 [data-domain="natural"]{--accent:var(--nat);--accent-soft:var(--nat-soft)}
 [data-domain="math"]{--accent:var(--math);--accent-soft:var(--math-soft)}
+[data-domain="history"]{--accent:var(--hist);--accent-soft:var(--hist-soft)}
+[data-domain="geography"]{--accent:var(--geo);--accent-soft:var(--geo-soft)}
+[data-domain="civics"]{--accent:var(--civ);--accent-soft:var(--civ-soft)}
+/* 五個領域的頁籤在 390px 上塞不下，改成可橫向捲動而不是擠成兩行 */
+.seg.doms{overflow-x:auto;max-width:100%;scrollbar-width:none}
+.seg.doms::-webkit-scrollbar{display:none}
+.seg.doms button{white-space:nowrap;padding:7px 12px}
 
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;
   background:color-mix(in srgb,var(--ground) 90%,transparent);
@@ -514,10 +551,7 @@ body[data-mode="kid"] .top{display:none}
 <header class="top" data-domain="math" id="top">
   <div class="top-in">
     <div class="brand"><h1>108課綱技能樹</h1><span class="sub">SKILL ATLAS</span></div>
-    <div class="seg" role="group" aria-label="切換領域">
-      <button id="tab-math" aria-pressed="true">數學</button>
-      <button id="tab-natural" aria-pressed="false">自然科學</button>
-    </div>
+    <div class="seg doms" role="group" aria-label="切換領域" id="domtabs"></div>
     <div class="tally" title="已點亮的技能"><b id="lit-count">0</b><span id="lit-total">/ 0</span></div>
     <button class="icon-btn" id="btn-about">關於</button>
     <button class="icon-btn" id="btn-key">關鍵</button>
@@ -565,7 +599,14 @@ body[data-mode="kid"] .top{display:none}
   function isKid() { return state.mode === "kid"; }
   function progKey() { return isKid() ? KID_KEY : KEY; }
   function baseKey() { return isKid() ? KID_BASE_KEY : BASE_KEY; }
-  var DOMAINS = { math: "數學", natural: "自然科學" };
+  // 五個領域。社會科是三棵獨立的樹（歷史／地理／公民），不是一棵——
+  // 它們在國中以上幾乎平行，彼此的依賴改由跨領域連結表達。
+  var DOMAINS = { math: "數學", natural: "自然", history: "歷史",
+                  geography: "地理", civics: "公民" };
+  var DOMAIN_FILE = { math: "graph_math.json", natural: "graph_natural.json",
+                      history: "graph_history.json",
+                      geography: "graph_geography.json",
+                      civics: "graph_civics.json" };
   // 不偵測「是什麼裝置」，而是偵測真正影響操作的兩件事：有多少橫向空間、
   // 以及能不能懸停。UA 判型號太脆弱（iPad 會謊報成 Mac），也問錯了問題。
   function isNarrow() { return window.matchMedia("(max-width:560px)").matches; }
@@ -592,7 +633,11 @@ body[data-mode="kid"] .top{display:none}
   var edgeGrabL = document.getElementById("edgegrab-l");
   var canHover = window.matchMedia("(hover:hover) and (pointer:fine)").matches;
 
-  var CROSS = { pre: {}, use: {} };   // 自然←數學 的跨領域前置（正向／反向索引）
+  // 跨領域前置。原本只有「自然←數學」，社會三科加進來之後變成任意兩個領域
+  // 之間都可能有邊，所以索引改用 domain:code 當鍵。
+  //   need[uid] = 這個技能需要的其他領域技能
+  //   used[uid] = 這個技能被哪些其他領域的技能需要
+  var CROSS = { need: {}, used: {} };
   var HB = {}, hbLoading = {};        // 課程手冊（數學 379KB、自然 150KB，延後載入）
   var G = {};        // 領域 -> 圖資料
   var IX = {};       // 領域 -> 索引（節點表、前置、後續、關聯、版面）
@@ -714,10 +759,18 @@ body[data-mode="kid"] .top{display:none}
     if (n.tier <= state.baseGrade) return "base";
     return null;
   }
+  function xnode(uid) {
+    var i = uid.indexOf(":");
+    var ix = IX[uid.slice(0, i)];
+    return ix && ix.nodes[uid.slice(i + 1)];
+  }
   function crossBlocked(n) {
-    var links = CROSS.pre[n.id];
-    if (!links || n.domain !== "natural" || !IX.math) return [];
-    return links.filter(function (l) { return !doneKind(IX.math.nodes[l.math]); });
+    var links = CROSS.need[n.uid];
+    if (!links) return [];
+    return links.filter(function (l) {
+      var o = xnode(l.from);
+      return o && !doneKind(o);        // 對應不到的邊當作不擋，寧可少擋也不要誤擋
+    });
   }
   function nodeState(n) {
     if (doneKind(n)) return "lit";
@@ -728,7 +781,14 @@ body[data-mode="kid"] .top{display:none}
     // 跨領域前置同樣擋住解鎖——「數學會用在自然」要看得見，就不能只當註記
     return crossBlocked(n).length ? "locked" : "open";
   }
-  var NAT_BADGE = { "Ⅱ": "Ⅱ", "Ⅲ": "Ⅲ", "Ⅳ": "Ⅳ", "Ⅴc": "必", "Ⅴa": "選" };
+  var NAT_BADGE = { "Ⅱ": "Ⅱ", "Ⅲ": "Ⅲ", "Ⅳ": "Ⅳ", "Ⅴc": "必", "Ⅴa": "選",
+                    "Ⅴ": "Ⅴ" };
+  // 社會三科只綁學習階段，和自然一樣；但沒有必修／選修之分，所以只有四階
+  var SOC_STAGES = [
+    ["Ⅱ", "中年級", "國小 3–4 年級"], ["Ⅲ", "高年級", "國小 5–6 年級"],
+    ["Ⅳ", "國中", "7–9 年級"], ["Ⅴ", "高中", "10–12 年級"]
+  ];
+  function isStageDomain(dom) { return dom !== "math"; }
   // 自然科綁學習階段（每階涵蓋 2–3 個年級，課綱刻意不綁單一年級），
   // 數學綁年級。兩者不能共用同一組按鈕。
   var NAT_STAGES = [
@@ -737,8 +797,8 @@ body[data-mode="kid"] .top{display:none}
     ["Ⅴa", "高中選修", "加深加廣選修"]
   ];
   function gradeOptions(dom) {
-    if (dom === "natural") {
-      return NAT_STAGES.map(function (r) {
+    if (dom === "natural" || isStageDomain(dom)) {
+      return (dom === "natural" ? NAT_STAGES : SOC_STAGES).map(function (r) {
         return { val: r[0], label: r[1], title: r[2] };
       });
     }
@@ -749,7 +809,8 @@ body[data-mode="kid"] .top{display:none}
   }
   function matchesGrade(n) {
     if (state.gradeSel === null) return true;
-    return n.domain === "natural" ? n.stage === state.gradeSel : n.grade === state.gradeSel;
+    return isStageDomain(n.domain) ? n.stage === state.gradeSel
+      : n.grade === state.gradeSel;
   }
   function badgeOf(n) {
     return n.domain === "math" ? String(n.grade) : (NAT_BADGE[n.stage] || "");
@@ -766,6 +827,8 @@ body[data-mode="kid"] .top{display:none}
   function whenLabel(n) {
     return n.domain === "math" ? "課綱排在 " + n.grade + "年級" : n.stage_label;
   }
+  // 社會三科的高中是單一個 Ⅴ（沒有必修／選修之分），下緣是 10 年級
+  
 
   // 節點大小＝它解鎖的下游技能數（開平方壓縮，否則根節點會大到蓋住鄰居）。
   // 關鍵樞紐因此自己就會浮出來，不必另外標記。
@@ -1108,13 +1171,25 @@ body[data-mode="kid"] .top{display:none}
       (canHover ? "" : '<span class="hint">長按節點看速覽，點一下看依賴鏈</span>') +
       // 卡片不再自動彈出，就得講一句它在哪裡，否則沒人知道有這個東西
       (NARROW ? '<span class="hint">技能說明從左緣往右拉，顯示參數從右緣往左拉</span>' : "") +
-      (dom === "natural"
+      // 虛線只有在這個領域真的有跨領域前置時才需要解釋
+      (G[dom].nodes.some(function (x) { return CROSS.need[x.uid]; })
         ? '<span class="hint"><svg width="20" height="18" viewBox="0 0 20 18" aria-hidden="true">' +
           '<circle cx="10" cy="10" r="6" fill="none" stroke="var(--faint)" ' +
-          'stroke-width="1.8" stroke-dasharray="3.5 2.5"></circle></svg>虛線＝卡在數學前置</span>'
+          'stroke-width="1.8" stroke-dasharray="3.5 2.5"></circle></svg>' +
+          '虛線＝卡在別的領域的前置</span>'
         : "");
+    var SOCIAL_CODE = {
+      history: '<p><code>歷Ea-Ⅳ-1</code> ＝ 歷史・主題E（日本帝國時期的臺灣）' +
+        '・項目a・第1條。開頭的「歷／地／公」是科別，中間的羅馬數字是' +
+        '<b>學習階段</b>：Ⅱ＝3–4年級、Ⅲ＝5–6年級、Ⅳ＝國中、Ⅴ＝高中。' +
+        '國小社會不分科，所以沒有科別前綴。</p>',
+      geography: '<p><code>地Ac-Ⅳ-2</code> ＝ 地理・主題A（基本概念與臺灣）' +
+        '・項目c（氣候）・第2條。階段碼同上。國小社會不分科，沒有前綴。</p>',
+      civics: '<p><code>公Bo-Ⅴ-2</code> ＝ 公民與社會・主題B（社會生活的組織及' +
+        '制度）・項目o（供給與需求）・第2條。階段碼同上。</p>'
+    };
     var codeHelp = '<details class="code-help"><summary>編碼怎麼讀</summary>' +
-      (dom === "math"
+      (SOCIAL_CODE[dom] ? SOCIAL_CODE[dom] : dom === "math"
         ? '<p><code>N-6-7</code> ＝ 數與量・6年級・第7條。中間那碼直接就是年級。</p>'
         : '<p><code>PEb-Ⅴc-4</code> ＝ 物理・力與運動・高中必修・第4條。' +
           '中間的羅馬數字是<b>學習階段</b>不是年級：Ⅱ＝3–4年級、Ⅲ＝5–6年級、' +
@@ -1306,22 +1381,31 @@ body[data-mode="kid"] .top{display:none}
     if (state.focus) { state.focus = null; render(); }
   }
 
-  // 跨領域區塊：自然看「需要哪些數學」，數學看「自然科哪裡會用到」。
-  // 課綱兩份文件互不引用，這些邊全是人工判定，所以每一條都附上理由。
+  // 跨領域區塊。課綱各領域的文件互不引用，這些邊全是人工判定，每一條都附理由。
+  function xlinkList(links, side) {
+    return links.map(function (l) {
+      var uid = l[side], o = xnode(uid);
+      if (!o) return "";
+      return '<div class="xlink"><button class="rel' +
+        (doneKind(o) ? " lit" : "") + '" data-xgoto="' +
+        esc(uid.replace(":", "|")) + '">' +
+        esc(DOMAINS[uid.slice(0, uid.indexOf(":"))]) + "　" + esc(o.id) +
+        '<span class="t">' + esc(o.name) + "</span></button><p>" +
+        esc(l.why) + "</p></div>";
+    }).join("");
+  }
   function crossSection(n) {
-    var links = n.domain === "natural" ? CROSS.pre[n.id] : CROSS.use[n.id];
-    if (!links || !links.length) return "";
-    var toMath = n.domain === "natural";
-    return '<div class="d-rel"><h4>' + (toMath ? "需要的數學" : "自然科哪裡會用到") +
-      "</h4>" + links.map(function (l) {
-        var oid = toMath ? l.math : l.nat;
-        var other = toMath ? IX.math.nodes[l.math] : IX.natural.nodes[l.nat];
-        return '<div class="xlink"><button class="rel' +
-          (other && doneKind(other) ? " lit" : "") + '" data-xgoto="' +
-          esc((toMath ? "math|" : "natural|") + oid) + '">' + esc(oid) +
-          '<span class="t">' + esc(toMath ? l.math_name : l.nat_name) +
-          "</span></button><p>" + esc(l.why) + "</p></div>";
-      }).join("") + "</div>";
+    var need = CROSS.need[n.uid] || [], used = CROSS.used[n.uid] || [];
+    var out = "";
+    if (need.length) {
+      out += '<div class="d-rel"><h4>要先會的其他領域技能</h4>' +
+        xlinkList(need, "from") + "</div>";
+    }
+    if (used.length) {
+      out += '<div class="d-rel"><h4>其他領域哪裡會用到</h4>' +
+        xlinkList(used, "to") + "</div>";
+    }
+    return out;
   }
 
   // 課程手冊檔案不小，等到真的要看才抓。兩本手冊的體例完全不同：
@@ -1507,7 +1591,7 @@ body[data-mode="kid"] .top{display:none}
         : kind === "manual" ? "已點亮"
         : st === "open" ? "可學習"
         : "還差 " + (blocked.length + crossBlocked(n).length) + " 個前置" +
-          (crossBlocked(n).length ? "（其中 " + crossBlocked(n).length + " 個是數學）" : "")) +
+          (crossBlocked(n).length ? "（其中 " + crossBlocked(n).length + " 個在別的領域）" : "")) +
       "</span></div>" +
       (pre.length ? '<div class="d-rel"><h4>前置技能</h4><div class="rel-list">' + chips(pre) + "</div></div>" : "") +
       (next.length ? '<div class="d-rel"><h4>解鎖後續</h4><div class="rel-list">' + chips(next) + "</div></div>" : "") +
@@ -1614,14 +1698,15 @@ body[data-mode="kid"] .top{display:none}
   // 這份資料裡「課綱寫的」與「我判斷的」必須分清楚。整個專案的核心價值
   // （依賴深度、關鍵節點、跨領域連結）全部建立在人工標註上，課綱一個字都沒寫。
   function renderAbout() {
-    var mn = G.math.nodes.length, nn = G.natural.nodes.length;
-    var me = G.math.edges.length, ne = G.natural.edges.length;
-    var xn = 0;
-    Object.keys(CROSS.pre).forEach(function (k) { xn += CROSS.pre[k].length; });
-    var words = 0;
-    [G.math, G.natural].forEach(function (g) {
-      g.nodes.forEach(function (n) { words += n.text.length; });
-    });
+    var doms = Object.keys(DOMAINS).filter(function (d) { return G[d]; });
+    var nodeN = 0, edgeN = 0, words = 0, xn = 0;
+    var byDom = doms.map(function (d) {
+      nodeN += G[d].nodes.length;
+      edgeN += G[d].edges.length;
+      G[d].nodes.forEach(function (n) { words += n.text.length; });
+      return DOMAINS[d] + " " + G[d].edges.length;
+    }).join("、");
+    Object.keys(CROSS.need).forEach(function (k) { xn += CROSS.need[k].length; });
 
     main.innerHTML = '<div class="crumb"><button class="back" id="back">‹ 返回</button></div>' +
       '<h2 class="branch-h">關於這份資料</h2>' +
@@ -1631,15 +1716,18 @@ body[data-mode="kid"] .top{display:none}
       '<div class="theme-head"><h2>課綱寫的</h2><span class="rule"></span></div>' +
       '<ul class="about"><li>每一條技能的<b>原文敘述與編碼</b>，共 ' +
       words.toLocaleString() + ' 字，逐字取自教育部《十二年國民基本教育課程綱要》' +
-      '自然科學領域（107 年 11 月）與數學領域。</li>' +
+      '自然科學領域（107 年 11 月）、數學領域與社會領域。</li>' +
       '<li>主題／次主題／跨科概念的<b>分類架構</b>、學習階段與年級。</li>' +
       '<li>數學課綱自己標示的「對應學習表現」與條目內點名的其他編碼。</li></ul>' +
 
       '<div class="theme-head"><h2>我判斷的（課綱沒有寫）</h2><span class="rule"></span></div>' +
-      '<ul class="about"><li><b>' + (me + ne).toLocaleString() +
-      ' 條前置關係</b>（數學 ' + me + '、自然 ' + ne + '）。課綱只按主題與年級編號，' +
+      '<ul class="about"><li><b>' + edgeN.toLocaleString() +
+      ' 條前置關係</b>（' + esc(byDom) + '）。課綱只按主題與年級編號，' +
       '沒有說明哪個技能是哪個技能的前提，這些連線全部是逐條判定的。</li>' +
-      '<li><b>' + xn + ' 條跨領域連結</b>。課綱兩份文件互不引用。</li>' +
+      '<li><b>' + xn + ' 條跨領域連結</b>。各領域的課綱文件互不引用。</li>' +
+      '<li>把社會領域<b>拆成歷史、地理、公民三棵樹</b>。課綱把它們寫在同一份' +
+      '文件裡，但國中以上幾乎是平行的三科，硬併成一棵只會得到三團互不相連的' +
+      '東西；國小社會不分科的 57 條，也是逐條判定歸到哪一科。</li>' +
       '<li>把少數混合多個概念的條目<b>拆解</b>成子技能，並合併課綱自己標示「同 X」的重複條目。</li>' +
       '<li>國小與國中條目的<b>科目歸屬</b>。課綱只在高中給科別前綴，國中由高中同碼反推，' +
       '國小的跨科概念條目全為人工判定。</li>' +
@@ -1678,7 +1766,8 @@ body[data-mode="kid"] .top{display:none}
 
   /* ================= 開場選擇 + 兒童版 ================= */
   var KT = null, ktLoading = false;      // 兒童版的改寫文字
-  var SUBJ_EM = { bio: "🌱", phy: "⚡", chem: "🧪", earth: "🌍", cross: "🔭" };
+  var SUBJ_EM = { bio: "🌱", phy: "⚡", chem: "🧪", earth: "🌍", cross: "🔭",
+                  history: "🏛️", geography: "🗺️", civics: "⚖️" };
   var MATH_EM = { N: "🔢", S: "📐", G: "📍", R: "🔁", A: "🅰️", F: "📈", D: "📊" };
 
   function kidEmoji(n) {
@@ -1740,19 +1829,20 @@ body[data-mode="kid"] .top{display:none}
   // 依「解鎖多少下游」排序——先學樞紐，後面的路才會一次打開一片。
   function kidPicks() {
     var out = [];
-    ["natural", "math"].forEach(function (dom) {
+    // 五個領域各挑，才不會整頁都是同一科
+    Object.keys(DOMAINS).forEach(function (dom) {
       if (!G[dom]) return;
       out = out.concat(G[dom].nodes
         .filter(function (n) { return nodeState(n) === "open" && !doneKind(n); })
         .sort(function (a, b) { return b.reach - a.reach; })
-        .slice(0, 3));
+        .slice(0, 2));
     });
     return out;
   }
 
   function kidStars() {
     var n = 0;
-    ["math", "natural"].forEach(function (d) {
+    Object.keys(DOMAINS).forEach(function (d) {
       if (G[d]) n += G[d].nodes.filter(function (x) {
         return state.learned.has(x.uid);
       }).length;
@@ -1807,7 +1897,7 @@ body[data-mode="kid"] .top{display:none}
 
   function kidDone() {
     var lit = [];
-    ["natural", "math"].forEach(function (dom) {
+    Object.keys(DOMAINS).forEach(function (dom) {
       if (!G[dom]) return;
       G[dom].nodes.forEach(function (n) {
         if (state.learned.has(n.uid)) lit.push(n);
@@ -1833,7 +1923,7 @@ body[data-mode="kid"] .top{display:none}
   // ——那是拿掉就會斷掉一大片的節點，打通它值得記一筆。
   function litNodes() {
     var out = [];
-    ["natural", "math"].forEach(function (dom) {
+    Object.keys(DOMAINS).forEach(function (dom) {
       if (!G[dom]) return;
       G[dom].nodes.forEach(function (n) {
         if (state.learned.has(n.uid)) out.push(n);
@@ -1977,16 +2067,15 @@ body[data-mode="kid"] .top{display:none}
   // **下緣**估：點亮一條國中自然只代表「至少上國一了」，不代表國三。
   // 用 tier（上緣）會高估——實測點一條 Bc-Ⅳ-3 就跳成國三。
   // 數學的年級是逐年精確的，直接採用。
-  var STAGE_FLOOR = { "Ⅱ": 3, "Ⅲ": 5, "Ⅳ": 7, "Ⅴc": 10, "Ⅴa": 11 };
+  var STAGE_FLOOR = { "Ⅱ": 3, "Ⅲ": 5, "Ⅳ": 7, "Ⅴ": 10, "Ⅴc": 10, "Ⅴa": 11 };
 
   function kidLevel() {
     var g = (state.baseGrade || 0) + 1;
-    ["math", "natural"].forEach(function (dom) {
+    Object.keys(DOMAINS).forEach(function (dom) {
       if (!G[dom]) return;
       G[dom].nodes.forEach(function (n) {
         if (!state.learned.has(n.uid)) return;
-        var lv = n.domain === "math" ? n.grade
-          : (STAGE_FLOOR[n.stage] || 0);
+        var lv = n.domain === "math" ? n.grade : (STAGE_FLOOR[n.stage] || 0);
         if (lv > g) g = lv;
       });
     });
@@ -2190,8 +2279,14 @@ body[data-mode="kid"] .top{display:none}
   function render() {
     topEl.dataset.domain = state.domain;
     main.dataset.domain = state.mode === "kid" ? "natural" : state.domain;
-    document.getElementById("tab-math").setAttribute("aria-pressed", state.domain === "math");
-    document.getElementById("tab-natural").setAttribute("aria-pressed", state.domain === "natural");
+    var tabs = document.getElementById("domtabs");
+    if (tabs) {
+      tabs.innerHTML = Object.keys(DOMAINS).filter(function (d) { return G[d]; })
+        .map(function (d) {
+          return '<button data-dom="' + d + '" aria-pressed="' +
+            (state.domain === d) + '">' + esc(DOMAINS[d]) + "</button>";
+        }).join("");
+    }
     if (!state.mode) return renderGate();
     document.body.dataset.mode = state.mode;
     if (isKid()) return renderKid();
@@ -2347,10 +2442,10 @@ body[data-mode="kid"] .top{display:none}
       if (onMap && engaged) closeDetail();
       return;
     }
-    if (t.id === "tab-math" || t.id === "tab-natural") {
-      state.domain = t.id === "tab-math" ? "math" : "natural";
+    if (t.dataset.dom) {
+      state.domain = t.dataset.dom;
       state.panel = null; state.focus = null; state.q = "";
-      state.gradeSel = null;      // 兩個領域的年級值域不同，不能沿用
+      state.gradeSel = null;      // 各領域的年級／階段值域不同，不能沿用
       document.getElementById("q").value = ""; return render();
     }
     if (t.id === "btn-about") {
@@ -2441,8 +2536,10 @@ body[data-mode="kid"] .top{display:none}
     }
     if (t.dataset.grade !== undefined) {
       var gv = t.dataset.grade;
+      // 階段式領域（自然、社會三科）的值是「Ⅳ」這種羅馬數字，不能 parseInt——
+      // 會變成 NaN，篩選永遠比不中，但又不等於 null，「清除」鈕還是會冒出來。
       var next = gv === "" ? null
-        : (state.domain === "natural" ? gv : parseInt(gv, 10));
+        : (isStageDomain(state.domain) ? gv : parseInt(gv, 10));
       state.gradeSel = (state.gradeSel === next) ? null : next;   // 再點一次取消
       return render();
     }
@@ -2626,17 +2723,31 @@ body[data-mode="kid"] .top{display:none}
   initSample();
   loadProgress();
   if (state.mode === "kid") loadKidText(function () { if (isKid()) render(); });
-  Promise.all([
-    fetch("graph_math.json").then(function (r) { return r.json(); }),
-    fetch("graph_natural.json").then(function (r) { return r.json(); }),
-    fetch("graph_cross.json").then(function (r) { return r.json(); })
-  ]).then(function (res) {
-    G.math = res[0]; G.natural = res[1];
-    res[2].links.forEach(function (l) {
-      (CROSS.pre[l.nat] = CROSS.pre[l.nat] || []).push(l);
-      (CROSS.use[l.math] = CROSS.use[l.math] || []).push(l);
+  var DOM_KEYS = Object.keys(DOMAINS);
+  function getJSON(name) {
+    return fetch(name).then(function (r) { return r.json(); });
+  }
+  function addCross(to, from, why) {
+    if (!to || !from) return;
+    var l = { to: to, from: from, why: why || "" };
+    (CROSS.need[to] = CROSS.need[to] || []).push(l);
+    (CROSS.used[from] = CROSS.used[from] || []).push(l);
+  }
+  Promise.all(DOM_KEYS.map(function (d) { return getJSON(DOMAIN_FILE[d]); })
+    .concat([
+      // 舊格式 {nat, math}：自然←數學，轉成 domain:code 的一般形式
+      getJSON("graph_cross.json").catch(function () { return { links: [] }; }),
+      getJSON("cross_social.json").catch(function () { return { links: [] }; })
+    ])
+  ).then(function (res) {
+    DOM_KEYS.forEach(function (d, i) { G[d] = res[i]; });
+    DOM_KEYS.forEach(index);
+    (res[DOM_KEYS.length].links || []).forEach(function (l) {
+      addCross("natural:" + l.nat, "math:" + l.math, l.why);
     });
-    index("math"); index("natural");
+    (res[DOM_KEYS.length + 1].links || []).forEach(function (l) {
+      addCross(l.to, l.from, l.why);
+    });
     render();
   }).catch(function () {
     main.innerHTML = '<p class="empty">課綱資料載入失敗，請重新整理頁面。</p>';
