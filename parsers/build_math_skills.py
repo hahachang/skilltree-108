@@ -90,6 +90,10 @@ def main() -> None:
     for n in payload["nodes"]:
         n["grade"] = raw[n["src"]]["grade"]
         n["stage_label"] = raw[n["src"]]["stage_label"]
+        # 課綱附錄的「學習內容說明」——條文本身很短，這段才寫了教到什麼程度、
+        # 和哪一條的關係。227 條裡 166 條有，總共才 8 千字，直接帶進圖裡。
+        if raw[n["src"]].get("note"):
+            n["note"] = raw[n["src"]]["note"]
     report(payload, spec["prereq"], save("graph_math.json", payload))
 
 
