@@ -393,7 +393,8 @@ def main(pdf_path: str) -> None:
         "edition": "108 年 1 月定稿版",
         # 線上定稿版與本機這份逐頁核對過：544 頁，抽出來的 JSON 完全相同，
         # 所以卡片上的 #page= 連結指到線上版是準的。
-        "url": "https://www.naer.edu.tw/upload/1/16/doc/2064/"
+        # 國教院同一份檔有兩個路徑，doc/2025 是課程手冊頁現在掛的那個。
+        "url": "https://www.naer.edu.tw/upload/1/16/doc/2025/"
                "%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F"
                "%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A(%E5%AE%9A%E7%A8%BF%E7%89%88).pdf",
         "entries": {k: v for k, v in sorted(entries.items())},

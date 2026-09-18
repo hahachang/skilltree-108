@@ -16,7 +16,7 @@
 技能卡片裡的「課程手冊」段落（教學解析、條目範圍、釋例、新舊課綱異動、
 建議章節與教材教法），同樣逐字取自國家教育研究院發布的課程手冊：
 
-- [《數學領域課程手冊》113 年 3 月更新版](https://www.naer.edu.tw/upload/1/16/doc/2021/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.pdf)
+- [《數學領域課程手冊》114 年 1 月更新版](https://www.naer.edu.tw/upload/1/9/doc/2021/%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A%EF%BC%88114%E5%B9%B41%E6%9C%88%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.pdf)
   ——約 275,000 字，`data/handbook_math.json`
 - [《自然科學領域課程手冊》108 年 1 月定稿版](https://www.naer.edu.tw/upload/1/16/doc/2064/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B%E6%89%8B%E5%86%8A(%E5%AE%9A%E7%A8%BF%E7%89%88).pdf)
   ——約 63,000 字，`data/handbook_natural.json`

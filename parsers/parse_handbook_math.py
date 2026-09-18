@@ -162,14 +162,13 @@ def main() -> None:
     out = os.path.join(DATA, "handbook_math.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump({"source": "十二年國教數學領域課程手冊（國家教育研究院）",
-                   "edition": "113 年 3 月更新版",
-                   # 卡片要能跳到手冊的對應頁。抽取用的是 107 年 12 月版，但
-                   # 已逐條核對過：227 條標題在 107 年 12 月版與線上 113 年 3 月
-                   # 更新版落在**完全相同**的 PDF 頁次（782 頁、0 筆差異），
-                   # 所以 #page= 連到線上最新版是準的。
-                   "url": "https://www.naer.edu.tw/upload/1/16/doc/2021/"
+                   "edition": "114 年 1 月更新版",
+                   # 卡片要能跳到手冊的對應頁，所以抽取用的檔案必須和連結指向的
+                   # 檔案是同一份。這裡兩者 md5 相同（48124083…），不是「版本相近」
+                   # 而是同一個檔，頁次不必再另外核對。
+                   "url": "https://www.naer.edu.tw/upload/1/9/doc/2021/"
                           "%E6%95%B8%E5%AD%B8%E9%A0%98%E5%9F%9F%E8%AA%B2%E7%A8%8B"
-                          "%E6%89%8B%E5%86%8A%EF%BC%88113%E5%B9%B43%E6%9C%88"
+                          "%E6%89%8B%E5%86%8A%EF%BC%88114%E5%B9%B41%E6%9C%88"
                           "%E6%9B%B4%E6%96%B0%E7%89%88%EF%BC%89.pdf",
                    "sections": rows}, f, ensure_ascii=False, separators=(",", ":"))
     print(f"✓ handbook_math.json：{len(rows)} 條解析，{chars:,} 字，"
