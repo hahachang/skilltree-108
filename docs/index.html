@@ -393,6 +393,100 @@ ul.about b{color:var(--ink);font-weight:600}
   .pts{grid-template-columns:repeat(auto-fill,minmax(132px,1fr))}
   .mapbox{height:min(62vh,520px)}
 }
+
+/* ================= 開場選擇 + 兒童版 ================= */
+/* 大人版是盤點與規劃用的：779 個節點、依賴深度、必經關口。對小五生那是勸退。
+   兒童版只回答一個問題：「我現在可以學什麼」，學完再長出下一批。 */
+.gate{position:fixed;inset:0;z-index:70;background:var(--ground);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:22px;padding:24px;text-align:center}
+.gate h1{margin:0;font-size:26px;font-weight:800;letter-spacing:.01em}
+.gate p{margin:0;color:var(--muted);font-size:14px;line-height:1.7;max-width:34ch}
+.gate-pick{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;width:100%;
+  max-width:560px}
+.gate-pick button{flex:1 1 220px;background:var(--surface);border:1px solid var(--line);
+  border-radius:18px;padding:24px 18px;box-shadow:var(--shadow);text-align:center;
+  transition:transform .12s ease,border-color .12s ease}
+.gate-pick button:hover{transform:translateY(-2px);border-color:var(--accent,var(--nat))}
+.gate-pick .em{font-size:40px;line-height:1.1}
+.gate-pick .nm{margin-top:10px;font-size:19px;font-weight:700}
+.gate-pick .ds{margin-top:6px;font-size:12.5px;color:var(--muted);line-height:1.6}
+
+body[data-mode="kid"] .top{display:none}
+.kid{--accent:var(--nat);max-width:760px;margin:0 auto;
+  padding:calc(14px + env(safe-area-inset-top,0px)) 16px
+          calc(24px + env(safe-area-inset-bottom,0px))}
+.kid-top{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.kid-top h1{margin:0;font-size:20px;font-weight:800;flex:1}
+.kid-stars{display:flex;align-items:baseline;gap:4px;font-weight:800;font-size:20px;
+  color:var(--lit)}
+.kid-stars small{font-size:12px;color:var(--muted);font-weight:600}
+.kid-lvl{margin-bottom:18px}
+.kid-lvl .bar{height:12px;border-radius:99px;background:var(--surface-2);
+  border:1px solid var(--line);overflow:hidden}
+.kid-lvl .fill{height:100%;background:linear-gradient(90deg,var(--lit-ring),#ffd76e);
+  transition:width .5s ease}
+.kid-lvl .lab{display:flex;justify-content:space-between;margin-top:6px;
+  font-size:12px;color:var(--muted)}
+.kid-lvl .lab b{color:var(--ink)}
+.kid-tabs{display:flex;gap:8px;margin-bottom:16px}
+.kid-tabs button{flex:1;padding:11px;border-radius:12px;border:1px solid var(--line);
+  background:var(--surface);font-size:15px;font-weight:700;color:var(--muted)}
+.kid-tabs button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);
+  color:#fff}
+.kid-h{margin:0 0 4px;font-size:17px;font-weight:800}
+.kid-sub{margin:0 0 14px;font-size:13px;color:var(--muted);line-height:1.7}
+.quests{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.quest{display:flex;gap:13px;align-items:flex-start;text-align:left;width:100%;
+  background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--c);
+  border-radius:15px;padding:15px;box-shadow:var(--shadow);
+  transition:transform .12s ease}
+.quest:hover{transform:translateY(-2px)}
+.quest .em{font-size:26px;line-height:1}
+.quest .b{min-width:0;flex:1}
+.quest .b{display:flex;flex-direction:column}
+.quest .nm{display:block;font-size:16px;font-weight:700;line-height:1.35}
+.quest .ds{display:block;margin-top:5px;font-size:12.5px;color:var(--muted);line-height:1.6}
+.quest .tag2{align-self:flex-start;margin-top:9px;font-size:11px;padding:3px 8px;
+  border-radius:99px;background:var(--surface-2);color:var(--muted)}
+.kid-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;
+  padding:20px;box-shadow:var(--shadow)}
+.kid-card .em{font-size:44px;line-height:1}
+.kid-card h2{margin:10px 0 0;font-size:24px;font-weight:800;line-height:1.3}
+.kid-card .who{margin-top:6px;font-size:12.5px;color:var(--muted)}
+.kid-card .d{margin:16px 0 0;font-size:16px;line-height:1.9}
+.kid-card .d b{display:block;font-size:12px;color:var(--faint);font-weight:700;
+  letter-spacing:.04em;margin-bottom:4px}
+.kid-card .d + .d{margin-top:16px}
+.kid-need{margin-top:18px;border-top:1px solid var(--line);padding-top:14px}
+.kid-need h4{margin:0 0 8px;font-size:12px;color:var(--faint);letter-spacing:.04em}
+.kid-need .li{display:flex;align-items:center;gap:8px;font-size:14px;padding:4px 0}
+.kid-need .li i{font-style:normal;color:var(--lit)}
+.kid-act{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.kid-act .big{flex:1 1 200px;padding:16px;border-radius:14px;font-size:17px;
+  font-weight:800;background:var(--lit-ring);color:#1d1503;border:none}
+.kid-act .back{flex:0 0 auto;padding:16px 18px;border-radius:14px;font-size:15px;
+  font-weight:700;border:1px solid var(--line);background:var(--surface-2)}
+.badges{display:grid;gap:9px;grid-template-columns:repeat(auto-fill,minmax(112px,1fr))}
+.badge{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:12px 10px;text-align:center}
+.badge .em{font-size:22px;opacity:.28}
+.badge .nm{margin-top:6px;font-size:12px;line-height:1.4;color:var(--faint)}
+.badge.on{border-color:var(--lit-ring);background:var(--lit-soft)}
+.badge.on .em{opacity:1}
+.badge.on .nm{color:var(--ink);font-weight:600}
+.kid-empty{background:var(--surface);border:1px dashed var(--line);border-radius:16px;
+  padding:26px;text-align:center;color:var(--muted);font-size:14px;line-height:1.8}
+.pop{position:fixed;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));
+  transform:translateX(-50%);z-index:80;background:var(--lit-ring);color:#1d1503;
+  font-weight:800;font-size:15px;padding:13px 20px;border-radius:99px;
+  box-shadow:0 8px 28px rgba(0,0,0,.28);animation:popin .35s ease}
+@keyframes popin{from{opacity:0;transform:translate(-50%,16px)}to{opacity:1;transform:translate(-50%,0)}}
+.spark{position:fixed;z-index:81;pointer-events:none;font-size:22px;
+  animation:fly .9s ease-out forwards}
+@keyframes fly{0%{opacity:1;transform:translate(0,0) scale(.6)}
+  100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1.4)}}
+@media (prefers-reduced-motion:reduce){.spark{display:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -408,6 +502,7 @@ ul.about b{color:var(--ink);font-weight:600}
     <button class="icon-btn" id="btn-key">關鍵</button>
     <button class="icon-btn" id="btn-progress">進度</button>
     <button class="icon-btn" id="btn-ctrl">參數</button>
+    <button class="icon-btn" id="btn-mode">切換</button>
   </div>
   <div class="top-in" style="padding-top:0">
     <label class="search"><span aria-hidden="true" style="color:var(--faint)">⌕</span>
@@ -431,8 +526,16 @@ ul.about b{color:var(--ink);font-weight:600}
 <script>
 (function () {
   "use strict";
+  // 大人版與兒童版的進度分開存。大人版是拿來盤點與規劃的，點來點去是在
+  // 「看看學到這裡會解鎖什麼」；小孩的進度應該只反映他真的學會了什麼。
+  var MODE_KEY = "skilltree.mode";
   var KEY = "skilltree.progress.v1";
   var BASE_KEY = "skilltree.basegrade.v1";
+  var KID_KEY = "skilltree.progress.kid.v1";
+  var KID_BASE_KEY = "skilltree.basegrade.kid.v1";
+  function isKid() { return state.mode === "kid"; }
+  function progKey() { return isKid() ? KID_KEY : KEY; }
+  function baseKey() { return isKid() ? KID_BASE_KEY : BASE_KEY; }
   var DOMAINS = { math: "數學", natural: "自然科學" };
   // 不偵測「是什麼裝置」，而是偵測真正影響操作的兩件事：有多少橫向空間、
   // 以及能不能懸停。UA 判型號太脆弱（iPad 會謊報成 Mac），也問錯了問題。
@@ -464,7 +567,8 @@ ul.about b{color:var(--ink);font-weight:600}
   var HB = {}, hbLoading = {};        // 課程手冊（數學 379KB、自然 150KB，延後載入）
   var G = {};        // 領域 -> 圖資料
   var IX = {};       // 領域 -> 索引（節點表、前置、後續、關聯、版面）
-  var state = { domain: "math", q: "", panel: null, learned: new Set(),
+  var state = { mode: null, kidTab: "today", kidCard: null,
+                domain: "math", q: "", panel: null, learned: new Set(),
                 hidden: {}, zoom: 1, focus: null, baseGrade: 4, colorBy: "subject",
                 chainOnly: true, gradeSel: null };
   // 泡泡總覽在小螢幕是更好的起點：一眼看完全貌，再點進去看路徑。
@@ -487,17 +591,19 @@ ul.about b{color:var(--ink);font-weight:600}
   }
 
   function loadProgress() {
+    state.learned = new Set();
     try {
-      var raw = localStorage.getItem(KEY);
+      var raw = localStorage.getItem(progKey());
       if (raw) JSON.parse(raw).forEach(function (id) { state.learned.add(id); });
-      var g = localStorage.getItem(BASE_KEY);
-      if (g !== null) state.baseGrade = Math.max(0, Math.min(12, parseInt(g, 10) || 0));
+      var g = localStorage.getItem(baseKey());
+      state.baseGrade = g === null ? 4
+        : Math.max(0, Math.min(12, parseInt(g, 10) || 0));
     } catch (e) { /* 無痕視窗或封鎖站台資料：以預設值繼續 */ }
   }
   function saveProgress() {
     try {
-      localStorage.setItem(KEY, JSON.stringify(Array.from(state.learned)));
-      localStorage.setItem(BASE_KEY, String(state.baseGrade));
+      localStorage.setItem(progKey(), JSON.stringify(Array.from(state.learned)));
+      localStorage.setItem(baseKey(), String(state.baseGrade));
     } catch (e) { /* 寫入失敗不影響本次操作 */ }
   }
   function esc(s) {
@@ -1531,11 +1637,213 @@ ul.about b{color:var(--ink);font-weight:600}
     document.getElementById("lit-total").textContent = "/ " + g.nodes.length;
   }
 
+
+  /* ================= 開場選擇 + 兒童版 ================= */
+  var KT = null, ktLoading = false;      // 兒童版的改寫文字
+  var SUBJ_EM = { bio: "🌱", phy: "⚡", chem: "🧪", earth: "🌍", cross: "🔭" };
+  var MATH_EM = { N: "🔢", S: "📐", G: "📍", R: "🔁", A: "🅰️", F: "📈", D: "📊" };
+
+  function kidEmoji(n) {
+    return n.domain === "math" ? (MATH_EM[n.id[0]] || "🔢")
+      : (SUBJ_EM[n.subject_key] || "🔭");
+  }
+  function kidColor(n) { return "var(--t-" + groupKey(n) + ")"; }
+
+  // 課綱原文是寫給老師看的（「以符號表示數學公式：國中代數的前置經驗…」），
+  // 小五生看不懂。這裡用改寫過的說法；還沒改寫到的條目退回課綱的短名稱，
+  // 並在卡片上說清楚那不是改寫版，不要假裝。
+  function kidText(n) {
+    var k = (KT && (KT[n.id] || KT[n.src])) || null;
+    return {
+      title: (k && k.t) || n.name,
+      what: (k && k.d) || "",
+      raw: !k
+    };
+  }
+
+  function loadKidText(after) {
+    if (KT || ktLoading) return;
+    ktLoading = true;
+    fetch("kid_text.json").then(function (r) { return r.json(); })
+      .then(function (d) { KT = d; ktLoading = false; if (after) after(); })
+      .catch(function () { ktLoading = false; KT = {}; if (after) after(); });
+  }
+
+  function setMode(m) {
+    state.mode = m;
+    try { localStorage.setItem(MODE_KEY, m); } catch (e) { /* 略過 */ }
+    document.body.dataset.mode = m;
+    state.panel = null; state.focus = null; state.q = "";
+    state.kidTab = "today"; state.kidCard = null;
+    loadProgress();
+    closeDetail();
+    render();
+  }
+
+  function renderGate() {
+    document.body.dataset.mode = "";
+    main.innerHTML =
+      '<div class="gate"><h1>108課綱技能樹</h1>' +
+      '<p>同一套課綱，兩種看法。選錯了隨時可以換，兩邊的進度是分開記的。</p>' +
+      '<div class="gate-pick">' +
+      '<button id="pick-kid"><div class="em">🚀</div>' +
+      '<div class="nm">小朋友</div>' +
+      '<div class="ds">今天可以學什麼、學會了收集星星。' +
+      '課綱的話會換成聽得懂的說法。</div></button>' +
+      '<button id="pick-adult"><div class="em">🗺️</div>' +
+      '<div class="nm">大人</div>' +
+      '<div class="ds">完整的技能樹、依賴關係、關鍵節點，' +
+      '還有課綱原文與國教院課程手冊。</div></button>' +
+      "</div></div>";
+  }
+
+  /* ---------- 兒童版：今天學什麼 ---------- */
+  // 只挑「現在真的可以學」的：前置都完成了的那一圈。兩個領域各挑幾個，
+  // 依「解鎖多少下游」排序——先學樞紐，後面的路才會一次打開一片。
+  function kidPicks() {
+    var out = [];
+    ["natural", "math"].forEach(function (dom) {
+      if (!G[dom]) return;
+      out = out.concat(G[dom].nodes
+        .filter(function (n) { return nodeState(n) === "open" && !doneKind(n); })
+        .sort(function (a, b) { return b.reach - a.reach; })
+        .slice(0, 3));
+    });
+    return out;
+  }
+
+  function kidStars() {
+    var n = 0;
+    ["math", "natural"].forEach(function (d) {
+      if (G[d]) n += G[d].nodes.filter(function (x) {
+        return state.learned.has(x.uid);
+      }).length;
+    });
+    return n;
+  }
+
+  function renderKid() {
+    if (!KT) {
+      loadKidText(function () { if (isKid()) render(); });
+    }
+    if (state.kidCard) return renderKidCard(state.kidCard);
+    var stars = kidStars(), lvl = Math.floor(stars / 5) + 1, into = stars % 5;
+    var head =
+      '<div class="kid-top"><h1>我的技能樹</h1>' +
+      '<div class="kid-stars">⭐ ' + stars + "<small>顆</small></div>" +
+      '<button class="icon-btn" id="kid-exit">大人版</button></div>' +
+      '<div class="kid-lvl"><div class="bar"><div class="fill" style="width:' +
+      (into / 5 * 100) + '%"></div></div><div class="lab"><span>等級 <b>' +
+      lvl + '</b></span><span>再學 <b>' + (5 - into) + '</b> 個就升級</span></div></div>' +
+      '<div class="kid-tabs">' +
+      '<button id="kt-today" aria-pressed="' + (state.kidTab === "today") +
+      '">今天學什麼</button>' +
+      '<button id="kt-done" aria-pressed="' + (state.kidTab === "done") +
+      '">我的收藏</button></div>';
+    main.innerHTML = '<div class="kid">' + head +
+      (state.kidTab === "today" ? kidToday() : kidDone()) + "</div>";
+  }
+
+  function kidToday() {
+    var picks = kidPicks();
+    if (!picks.length) {
+      return '<div class="kid-empty">目前沒有可以開始的關卡。<br>' +
+        '請大人到「大人版 → 進度」把起始年級調到你現在的年級。</div>';
+    }
+    return '<h3 class="kid-h">你現在可以學這些</h3>' +
+      '<p class="kid-sub">這些的前置都完成了，挑一個開始。' +
+      '學會一個，後面就會再長出新的。</p>' +
+      '<div class="quests">' + picks.map(function (n) {
+        var kt = kidText(n);
+        return '<button class="quest" data-kid="' + esc(n.uid) +
+          '" style="--c:' + kidColor(n) + '">' +
+          '<span class="em">' + kidEmoji(n) + "</span>" +
+          '<span class="b"><span class="nm">' + esc(kt.title) + "</span>" +
+          (kt.what ? '<span class="ds">' + esc(kt.what) + "</span>" : "") +
+          '<span class="tag2">學會可以解鎖 ' + n.reach + " 關</span></span></button>";
+      }).join("") + "</div>";
+  }
+
+  function kidDone() {
+    var lit = [];
+    ["natural", "math"].forEach(function (dom) {
+      if (!G[dom]) return;
+      G[dom].nodes.forEach(function (n) {
+        if (state.learned.has(n.uid)) lit.push(n);
+      });
+    });
+    if (!lit.length) {
+      return '<div class="kid-empty">還沒有收藏。<br>' +
+        '到「今天學什麼」挑一個，學會之後按「我學會了！」。</div>';
+    }
+    return '<h3 class="kid-h">已經學會 ' + lit.length + " 個</h3>" +
+      '<p class="kid-sub">點一下可以再看一次它在講什麼。</p>' +
+      '<div class="badges">' + lit.map(function (n) {
+        return '<button class="badge on" data-kid="' + esc(n.uid) + '">' +
+          '<div class="em">' + kidEmoji(n) + "</div>" +
+          '<div class="nm">' + esc(kidText(n).title) + "</div></button>";
+      }).join("") + "</div>";
+  }
+
+  function renderKidCard(uid) {
+    var dom = uid.split(":")[0], id = uid.slice(dom.length + 1);
+    var n = IX[dom] && IX[dom].nodes[id];
+    if (!n) { state.kidCard = null; return renderKid(); }
+    var kt = kidText(n), ix = IX[dom];
+    var pre = (ix.pre[id] || []).map(function (p) { return ix.nodes[p]; });
+    var done = state.learned.has(n.uid);
+    main.innerHTML = '<div class="kid"><div class="kid-card">' +
+      '<div class="em">' + kidEmoji(n) + "</div>" +
+      "<h2>" + esc(kt.title) + "</h2>" +
+      '<div class="who">' + esc(n.domain === "math" ? "數學" : n.subject || "自然科學") +
+      "　" + esc(whenLabel(n)) + "</div>" +
+      (kt.what ? '<p class="d"><b>這是在學什麼</b>' + esc(kt.what) + "</p>"
+        : '<p class="d"><b>課綱原文（還沒換成白話）</b>' + esc(n.text) + "</p>") +
+      (n.reach ? '<p class="d"><b>學會之後</b>會打開 ' + n.reach +
+        " 個新關卡。" + (n.gate > 0 ? "這是一道必經的門，不學就走不過去。" : "") + "</p>" : "") +
+      (pre.length ? '<div class="kid-need"><h4>要先會的</h4>' +
+        pre.map(function (p) {
+          return '<div class="li"><i>' + (doneKind(p) ? "✓" : "○") + "</i>" +
+            esc(kidText(p).title) + "</div>";
+        }).join("") + "</div>" : "") +
+      '<div class="kid-act">' +
+      '<button class="big" id="kid-got">' +
+      (done ? "取消（其實還沒學會）" : "我學會了！") + "</button>" +
+      '<button class="back" id="kid-back">回去</button>' +
+      "</div></div></div>";
+  }
+
+  // 點亮的回饋。星星從按鈕位置飛出去，再跳一個「解鎖了幾關」的提示。
+  function kidCelebrate(el, opened) {
+    var r = el ? el.getBoundingClientRect() : { left: innerWidth / 2, top: innerHeight / 2,
+                                                width: 0, height: 0 };
+    for (var i = 0; i < 8; i++) {
+      var sp = document.createElement("div");
+      sp.className = "spark";
+      sp.textContent = "⭐";
+      sp.style.left = (r.left + r.width / 2) + "px";
+      sp.style.top = (r.top + r.height / 2) + "px";
+      sp.style.setProperty("--dx", (Math.random() * 200 - 100).toFixed(0) + "px");
+      sp.style.setProperty("--dy", (-60 - Math.random() * 120).toFixed(0) + "px");
+      document.body.appendChild(sp);
+      setTimeout(function (e) { return function () { e.remove(); }; }(sp), 950);
+    }
+    var pop = document.createElement("div");
+    pop.className = "pop";
+    pop.textContent = opened > 0 ? "太棒了！又開了 " + opened + " 個新關卡 🎉"
+      : "學會一個，收下一顆星 ⭐";
+    document.body.appendChild(pop);
+    setTimeout(function () { pop.remove(); }, 2200);
+  }
+
   function render() {
     topEl.dataset.domain = state.domain;
-    main.dataset.domain = state.domain;
+    main.dataset.domain = state.mode === "kid" ? "natural" : state.domain;
     document.getElementById("tab-math").setAttribute("aria-pressed", state.domain === "math");
     document.getElementById("tab-natural").setAttribute("aria-pressed", state.domain === "natural");
+    if (!state.mode) return renderGate();
+    document.body.dataset.mode = state.mode;
+    if (isKid()) return renderKid();
     setTally();
     // 離開地圖去看關於／關鍵／進度／搜尋結果時，左側那張浮在上面的技能卡片
     // 會整個蓋住要看的內容——窄螢幕它是覆蓋式的，不像寬螢幕停靠在旁邊。
@@ -1700,6 +2008,36 @@ ul.about b{color:var(--ink);font-weight:600}
     }
     if (t.id === "btn-key") {
       state.panel = state.panel === "key" ? null : "key"; state.focus = null; return render();
+    }
+    if (t.id === "pick-kid") return setMode("kid");
+    if (t.id === "pick-adult") return setMode("adult");
+    if (t.id === "btn-mode") {
+      state.mode = null;
+      try { localStorage.removeItem(MODE_KEY); } catch (e) { /* 略過 */ }
+      return render();
+    }
+    if (t.id === "kid-exit") return setMode("adult");
+    if (t.id === "kt-today" || t.id === "kt-done") {
+      state.kidTab = t.id === "kt-today" ? "today" : "done";
+      state.kidCard = null;
+      return render();
+    }
+    if (t.dataset.kid) { state.kidCard = t.dataset.kid; return render(); }
+    if (t.id === "kid-back") { state.kidCard = null; return render(); }
+    if (t.id === "kid-got") {
+      var uid = state.kidCard, d = uid.split(":")[0], nid = uid.slice(d.length + 1);
+      var was = state.learned.has(uid);
+      if (was) {
+        state.learned.delete(uid);
+      } else {
+        // 先算「這一下會打開幾關」再寫入，寫入之後那些關就不是新開的了
+        var opened = pickStats(d, nid).opened;
+        state.learned.add(uid);
+        kidCelebrate(t, opened);
+      }
+      saveProgress();
+      state.kidCard = was ? uid : null;   // 學會了就回清單看新長出來的
+      return render();
     }
     if (t.id === "btn-ctrl") return ctrlOpen() ? closeCtrl() : openCtrl();
     if (t.id === "ctrl-close") return closeCtrl();
@@ -1896,7 +2234,13 @@ ul.about b{color:var(--ink);font-weight:600}
   });
 
   main.innerHTML = '<p class="empty">載入課綱資料…</p>';
+  try {
+    var m0 = localStorage.getItem(MODE_KEY);
+    if (m0 === "kid" || m0 === "adult") state.mode = m0;
+  } catch (e) { /* 無痕視窗：每次都先問一次要哪一版 */ }
+  document.body.dataset.mode = state.mode || "";
   loadProgress();
+  if (state.mode === "kid") loadKidText(function () { if (isKid()) render(); });
   Promise.all([
     fetch("graph_math.json").then(function (r) { return r.json(); }),
     fetch("graph_natural.json").then(function (r) { return r.json(); }),

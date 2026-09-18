@@ -18,7 +18,7 @@ import shutil
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEB, DIST = os.path.join(BASE, "web"), os.path.join(BASE, "docs")
 DATA_FILES = ["graph_math.json", "graph_natural.json", "graph_cross.json",
-              "handbook_math.json", "handbook_natural.json"]
+              "handbook_math.json", "handbook_natural.json", "kid_text.json"]
 NAME, SHORT = "108課綱技能樹", "技能樹"
 THEME_LIGHT, THEME_DARK = "#eef0f6", "#0d1017"
 
