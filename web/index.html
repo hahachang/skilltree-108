@@ -750,6 +750,71 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
   function progKey() { return isKid() ? KID_KEY : KEY; }
   function baseKey() { return isKid() ? KID_BASE_KEY : BASE_KEY; }
   function logKey() { return isKid() ? LOG_KEY : ADULT_LOG_KEY; }
+
+  // 備份要涵蓋兩版，不能只匯出「當下這一版」——小孩的進度是在兒童版寫的，
+  // 大人在大人版按匯出時 state 裡根本沒有它。所以直接讀 localStorage。
+  var SLOT = {
+    adult: { p: KEY, g: BASE_KEY, l: ADULT_LOG_KEY },
+    kid:   { p: KID_KEY, g: KID_BASE_KEY, l: LOG_KEY }
+  };
+  function readSlot(k) {
+    var s = SLOT[k], o = { g: null, p: [], l: {} };
+    try {
+      var p = localStorage.getItem(s.p);
+      if (p) o.p = JSON.parse(p) || [];
+      var g = localStorage.getItem(s.g);
+      if (g !== null) o.g = Math.max(0, Math.min(12, parseInt(g, 10) || 0));
+      o.l = JSON.parse(localStorage.getItem(s.l) || "{}") || {};
+    } catch (e) { /* 壞掉的那一格當空的，不要讓整份備份掛掉 */ }
+    return o;
+  }
+  function writeSlot(k, o) {
+    var s = SLOT[k];
+    try {
+      localStorage.setItem(s.p, JSON.stringify(o.p || []));
+      if (typeof o.g === "number") localStorage.setItem(s.g, String(o.g));
+      localStorage.setItem(s.l, JSON.stringify(o.l || {}));
+    } catch (e) { /* 無痕視窗：寫不進去就算了 */ }
+  }
+  // 合併規則：學會了就是學會了（聯集），同一個技能取較早的點亮日期，
+  // 起始年級取比較高的。這樣兩台裝置互相匯入幾次結果都一樣，不會打架。
+  // 代價是「取消點亮」傳不過去——那是刪除，聯集救不回來，所以留了「覆蓋」。
+  function mergeSlot(mine, theirs) {
+    var p = {}, l = {};
+    (mine.p || []).forEach(function (u) { p[u] = 1; });
+    (theirs.p || []).forEach(function (u) { p[u] = 1; });
+    [mine.l || {}, theirs.l || {}].forEach(function (src) {
+      Object.keys(src).forEach(function (u) {
+        if (!l[u] || src[u] < l[u]) l[u] = src[u];
+      });
+    });
+    var g = [mine.g, theirs.g].filter(function (x) { return typeof x === "number"; });
+    return { p: Object.keys(p), l: l, g: g.length ? Math.max.apply(null, g) : null };
+  }
+  function exportAll() {
+    return { v: 3, t: Date.now(), adult: readSlot("adult"), kid: readSlot("kid") };
+  }
+  // 舊版備份（v2）只有「當下這一版」的 learned/baseGrade，沒有點亮日期，
+  // 也沒說是哪一版——照匯入當下所在的版本還原。
+  function normalizeBackup(o) {
+    if (!o || typeof o !== "object") throw new Error("bad");
+    if (o.v === 3) return { adult: o.adult || { p: [], l: {}, g: null },
+                            kid: o.kid || { p: [], l: {}, g: null } };
+    if (Array.isArray(o.learned)) {
+      var one = { p: o.learned, l: {},
+                  g: typeof o.baseGrade === "number" ? o.baseGrade : null };
+      var empty = { p: [], l: {}, g: null };
+      return isKid() ? { adult: empty, kid: one } : { adult: one, kid: empty };
+    }
+    throw new Error("bad");
+  }
+  function applyBackup(o, merge) {
+    var b = normalizeBackup(o);
+    ["adult", "kid"].forEach(function (k) {
+      writeSlot(k, merge ? mergeSlot(readSlot(k), b[k]) : b[k]);
+    });
+    loadProgress();   // 目前這一版的 state 要重新讀一次
+  }
   // 五個領域。社會科是三棵獨立的樹（歷史／地理／公民），不是一棵——
   // 它們在國中以上幾乎平行，彼此的依賴改由跨領域連結表達。
   var DOMAINS = { math: "數學", natural: "自然", history: "歷史",
@@ -1801,14 +1866,22 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
         return '<option value="' + g + '"' + (g === state.baseGrade ? " selected" : "") +
           ">" + (g === 0 ? "尚未開始" : g + "年級") + "</option>";
       }).join("") + "</select></label></p>" +
-      '<p class="branch-note">進度存在這台裝置的瀏覽器裡，換裝置不會同步。複製下面這段文字，' +
-      '在另一台裝置貼回同一個欄位後按「匯入」。</p>' +
+      '<div class="theme-head"><h2>搬到另一台裝置</h2><span class="rule"></span></div>' +
+      '<p class="branch-note">進度存在這台裝置的瀏覽器裡，<b>不會自動同步</b>。' +
+      '下面這段文字包含<b>大人版與兒童版兩份</b>進度、起始年級與點亮日期' +
+      '（成就的連續天數靠它），複製後在另一台裝置貼回同一個欄位。</p>' +
       '<textarea id="io" spellcheck="false">' +
-      esc(JSON.stringify({ v: 2, baseGrade: state.baseGrade,
-                           learned: Array.from(state.learned) })) + "</textarea>" +
-      '<div class="d-act"><button class="btn" id="do-import">匯入貼上的進度</button>' +
+      esc(JSON.stringify(exportAll())) + "</textarea>" +
+      '<div class="d-act"><button class="btn" id="do-merge">合併進來</button>' +
+      '<button class="btn ghost" id="do-import">覆蓋這台的進度</button>' +
       '<button class="btn ghost" id="do-reset">全部重設</button></div>' +
-      '<p class="note" id="io-msg">目前手動點亮 ' + state.learned.size + " 個技能。</p>";
+      '<p class="branch-note"><b>合併</b>會把兩邊學會的技能聯集起來、同一個技能取較早的' +
+      '點亮日期，兩台互相貼幾次都不會打架，平常用這個。' +
+      '<b>覆蓋</b>會丟掉這台原有的進度，只有在要把某台的錯誤更正推過去時才用' +
+      '（取消點亮傳不過去，合併救不回已刪掉的紀錄）。</p>' +
+      '<p class="note" id="io-msg">這一版目前手動點亮 ' + state.learned.size +
+      ' 個技能；備份裡另有大人版 ' + readSlot("adult").p.length +
+      ' 個、兒童版 ' + readSlot("kid").p.length + " 個。</p>";
   }
 
   function renderKey() {
@@ -2815,15 +2888,15 @@ body[data-skin="arcade"] .skins button[aria-pressed="true"]{
       if (state.learned.has(uid)) state.learned.delete(uid); else state.learned.add(uid);
       saveProgress(); render(); return openNode(id);
     }
-    if (t.id === "do-import") {
+    if (t.id === "do-import" || t.id === "do-merge") {
+      var merge = t.id === "do-merge";
       var msg = document.getElementById("io-msg");
       try {
-        var parsed = JSON.parse(document.getElementById("io").value);
-        state.learned = new Set(parsed.learned || []);
-        if (typeof parsed.baseGrade === "number") state.baseGrade = parsed.baseGrade;
-        saveProgress(); render();
+        applyBackup(JSON.parse(document.getElementById("io").value), merge);
+        render();
         document.getElementById("io-msg").textContent =
-          "已匯入 " + state.learned.size + " 個手動點亮的技能。";
+          (merge ? "已合併。" : "已覆蓋。") + "大人版 " + readSlot("adult").p.length +
+          " 個、兒童版 " + readSlot("kid").p.length + " 個技能。";
       } catch (e) { msg.textContent = "這段文字不是有效的進度資料，請確認完整複製了整段內容。"; }
       return;
     }
